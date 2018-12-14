@@ -1,0 +1,58 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sqrt{a^{2}}$</annotation>
+<annotation type="UI">2011_IVC_depart_F025_E036</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart025</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msqrt xml:id="_1">
+			<msup>
+				<mi xml:id="a_1">a</mi>
+				<mn xml:id="2_1">2</mn>
+			</msup>
+		</msqrt>
+	</math>
+</annotationXML>
+<trace id="0">
+8.96391 16.1989, 8.95589 16.1788, 8.94786 16.1748, 8.94786 16.1868, 8.94786 16.2069, 8.95187 16.235, 8.9599 16.2952, 8.9599 16.3594, 8.96793 16.4396, 8.97595 16.4918, 8.98799 16.5399, 8.99601 16.564, 9.01206 16.576, 9.03614 16.564, 9.08027 16.5199, 9.14046 16.4517, 9.18059 16.3513, 9.20065 16.2671, 9.19263 16.1949, 9.16454 16.1467, 9.14849 16.1186, 9.12842 16.0986, 9.1204 16.0945, 9.1204 16.0905, 9.12441 16.0905, 9.14447 16.0986, 9.18059 16.1106, 9.23275 16.1186, 9.31701 16.1226, 9.4093 16.1226, 9.53369 16.1026, 9.67412 16.1066, 9.77444 16.1026, 9.87074 16.1026, 9.94296 16.0986, 9.98309 16.0865, 9.99512 16.0745
+</trace>
+<trace id="1">
+9.4093 16.4035, 9.39325 16.4075, 9.38121 16.4155, 9.35714 16.4436, 9.33306 16.4797, 9.32905 16.5118, 9.33306 16.5359, 9.35312 16.556, 9.38924 16.564, 9.43337 16.5439, 9.48554 16.5159, 9.52566 16.4797, 9.54171 16.4517, 9.5377 16.4236, 9.51362 16.4115, 9.46547 16.4035, 9.41732 16.4075, 9.38924 16.4276
+</trace>
+<trace id="2">
+9.50159 16.4316, 9.5056 16.4436, 9.51362 16.4757, 9.51362 16.5159, 9.51764 16.552, 9.52165 16.5921, 9.52967 16.6041, 9.53369 16.6001
+</trace>
+<trace id="3">
+9.51764 16.2671, 9.51764 16.2591, 9.51764 16.251, 9.52566 16.247, 9.54171 16.243, 9.5698 16.239, 9.59789 16.255, 9.60591 16.2631, 9.60591 16.2711, 9.59789 16.2992, 9.58986 16.3273, 9.58585 16.3433, 9.59387 16.3554, 9.61795 16.3674, 9.65807 16.3634, 9.70622 16.3473
+</trace>
+<trace id="4">
+9.96302 16.1066, 9.96704 16.1026, 9.97907 16.1066, 9.9871 16.1106, 10.0031 16.1186, 10.0152 16.1226, 10.0312 16.1387, 10.0393 16.1748, 10.0433 16.227
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

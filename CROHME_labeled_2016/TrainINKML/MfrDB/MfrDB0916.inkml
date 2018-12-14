@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB0916</annotation>
+  <annotation type="truth">$3 + 3$</annotation>
+  <annotation type="writer">User084</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mn xml:id="3_1">3</mn>
+      <mo xml:id="+_1">+</mo>
+      <mn xml:id="3_2">3</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">178 137 36956, 179 137 37012, 185 137 37029, 206 137 37046, 225 137 37062, 248 150 37080, 270 167 37096, 279 181 37112, 285 196 37128, 285 207 37145, 280 214 37162, 268 215 37178, 252 216 37195, 239 216 37211, 231 215 37228, 224 211 37245, 221 209 37261, 220 208 37278, 220 206 37295, 220 205 37311, 229 204 37328, 252 204 37345, 277 204 37361, 315 222 37377, 332 239 37394, 355 278 37411, 356 300 37427, 341 325 37444, 319 337 37460, 292 349 37477, 277 352 37494, 259 353 37511, 251 353 37527, 247 353 37544, 245 353 37560</trace>
+  <trace id="1">423 239 38602, 466 239 38606, 508 239 38623, 551 239 38640, 575 240 38656, 590 242 38673, 597 242 38689, 598 242 38706</trace>
+  <trace id="2">534 216 39596, 534 275 39603, 534 348 39619, 534 399 39636, 534 424 39652, 534 439 39669, 534 443 39685</trace>
+  <trace id="3">748 61 40742, 759 60 40749, 759 61 40831, 759 63 40848, 759 69 40864, 751 69 40898, 745 69 40914, 734 69 40931, 724 69 40948, 722 69 40964, 720 69 40981, 722 68 41014, 732 65 41030, 752 61 41047, 772 60 41064, 787 60 41080, 807 66 41097, 832 84 41114, 843 98 41130, 855 123 41147, 856 149 41163, 856 160 41180, 841 181 41196, 829 191 41213, 815 200 41230, 808 202 41247, 801 205 41263, 796 206 41279, 793 207 41296, 791 207 41313, 790 207 41329, 789 207 41346, 789 206 41762, 793 203 41778, 798 201 41794, 806 197 41810, 817 197 41827, 830 197 41844, 854 199 41861, 877 215 41877, 889 226 41894, 904 244 41910, 914 275 41927, 914 304 41944, 898 352 41960, 871 397 41977, 851 420 41993, 831 437 42010, 814 443 42027, 802 445 42043, 793 445 42060, 788 445 42077, 783 445 42093, 778 445 42110, 776 444 42127, 774 444 42143, 774 443 42160, 774 440 42176</trace>
+  <traceGroup xml:id="4">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="5">
+      <annotation type="truth">3</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="3_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">+</annotation>
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+      <annotationXML href="+_1" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">3</annotation>
+      <traceView traceDataRef="3" />
+      <annotationXML href="3_2" />
+    </traceGroup>
+  </traceGroup>
+</ink>

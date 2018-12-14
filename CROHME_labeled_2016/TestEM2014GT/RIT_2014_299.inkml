@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ 897 $</annotation>
+<annotation type="writer">annot_185</annotation>
+<annotation type="UI">2014_RIT_CROHME_299</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="52:">8</mn>
+            <mrow >
+                <mn  xml:id = "53:" >9</mn>
+                <mn  xml:id = "54:" >7</mn>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+369 200, 365 197, 359 197, 348 197, 334 199, 320 205, 312 211, 308 216, 308 223, 314 235, 325 247, 336 260, 345 273, 349 282, 349 291, 347 299, 337 305, 330 307, 322 307, 319 307, 319 297, 330 277, 345 253, 361 229, 375 210, 382 199, 385 192, 385 189
+</trace>
+
+<trace  id = "1" >
+460 220, 462 208, 462 199, 459 194, 452 191, 440 191, 426 200, 417 212, 413 222, 413 233, 414 239, 422 242, 435 242, 444 235, 451 231, 454 229, 455 229, 450 242, 442 257, 435 272, 433 283, 433 290, 434 292
+</trace>
+
+<trace  id = "2" >
+497 202, 500 203, 508 203, 522 203, 536 203, 547 203, 554 204, 558 207, 559 213, 551 228, 536 246, 523 263, 516 274
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="52:">
+        <annotation type="truth">8</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="52:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="53:">
+        <annotation type="truth">9</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="53:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="54:">
+        <annotation type="truth">7</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="54:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

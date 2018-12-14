@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">122</annotation>
+<annotation type="truth">$\mu Pa$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F122_E343</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="mu_1">\mu</mi>
+			<mrow>
+				<mi xml:id="P_1">P</mi>
+				<mi xml:id="a_1">a</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+275 253, 288 257, 290 256, 292 255, 295 253, 299 252, 302 250, 306 248, 309 245, 313 242, 317 239, 321 235, 326 231, 329 227, 333 222, 337 218, 341 214, 345 209, 349 205, 352 200, 355 196, 358 192, 361 188, 364 185, 367 182, 369 180, 370 178, 371 176, 372 176, 373 175, 373 174, 373 175, 373 176, 372 178, 370 181, 369 184, 366 189, 364 193, 361 198, 360 202, 358 206, 357 210, 357 213, 357 215, 358 218, 358 219, 359 221, 361 222, 363 222, 364 221, 367 220, 369 219, 372 217, 374 214, 377 211, 380 207, 383 203, 386 198, 390 194, 392 191, 395 187, 396 184, 398 182, 400 180, 401 179, 401 178, 402 177, 402 176, 402 177, 401 177, 401 179, 400 181, 399 184, 398 187, 397 190, 396 194, 395 197, 393 201, 392 204, 391 207, 390 209, 389 212, 389 213, 389 215, 389 216, 390 217, 390 216
+</trace>
+<trace id="1">
+449 125, 446 131, 445 136, 444 142, 442 147, 441 154, 440 161, 438 167, 436 174, 435 180, 433 186, 431 191, 430 195, 428 199, 427 202, 426 205, 425 206, 425 208, 424 208, 424 209, 424 208
+</trace>
+<trace id="2">
+437 138, 445 115, 449 114, 454 113, 459 113, 464 114, 469 115, 473 116, 477 119, 480 121, 482 124, 483 126, 484 129, 484 132, 483 134, 481 136, 479 138, 476 140, 473 141, 470 141, 467 142, 465 142, 463 142, 461 141, 459 141, 457 141, 456 142, 454 142, 453 143, 453 144
+</trace>
+<trace id="3">
+524 167, 522 158, 521 157, 518 156, 516 155, 513 155, 511 155, 508 155, 505 156, 503 158, 499 161, 496 164, 493 168, 491 172, 488 177, 487 181, 485 185, 485 189, 485 192, 486 195, 488 197, 489 198, 492 200, 495 200, 497 200, 500 199, 504 198, 507 196, 510 194, 513 192, 516 189, 518 185, 520 181, 521 178, 522 174, 523 171, 524 169, 524 166, 525 165, 525 163, 525 162, 525 161, 525 162, 525 164, 524 165, 524 168, 524 171, 524 174, 524 178, 524 181, 524 185, 524 188, 524 191, 525 194, 525 196, 525 197, 526 199, 527 200, 528 201, 530 201, 532 201, 534 201, 536 200, 538 199, 540 199, 542 199, 543 199, 544 198
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="mu_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="P_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

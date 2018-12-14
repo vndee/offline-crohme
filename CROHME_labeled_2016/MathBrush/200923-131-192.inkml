@@ -1,0 +1,72 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-192.ink"</annotation>
+<annotation type="truth"> { \mbox { o } } ^ { { \theta + \mbox { r } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+            <mi xml:id="0:">o</mi>
+            <mrow>
+                <mi xml:id="1:2:">\theta</mi>
+                <mrow>
+                    <mo xml:id="3:4:">+</mo>
+                    <mi xml:id="5:">r</mi>
+                </mrow>
+            </mrow>
+        </msup>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4715 4049, 4702 4050, 4691 4059, 4675 4072, 4659 4093, 4641 4123, 4621 4156, 4604 4199, 4590 4239, 4584 4284, 4581 4327, 4588 4369, 4602 4402, 4627 4426, 4659 4445, 4698 4453, 4740 4452, 4787 4443, 4832 4425, 4875 4403, 4912 4373, 4942 4339, 4963 4299, 4976 4257, 4976 4214, 4969 4169, 4953 4124, 4928 4084, 4900 4046, 4866 4017, 4832 3997, 4796 3984, 4764 3980, 4736 3984, 4714 3999, 4698 4018, 4689 4040, 4696 4067, 4709 4086
+</trace>
+
+<trace id="1">
+5376 3235, 5363 3237, 5356 3254, 5343 3274, 5331 3299, 5319 3332, 5309 3365, 5305 3402, 5304 3437, 5309 3473, 5320 3503, 5339 3525, 5364 3540, 5395 3548, 5428 3547, 5465 3540, 5500 3525, 5535 3505, 5563 3476, 5588 3442, 5604 3406, 5611 3369, 5611 3334, 5603 3298, 5587 3268, 5563 3245, 5534 3229, 5501 3218, 5471 3218, 5443 3224, 5415 3227, 5397 3236, 5379 3242
+</trace>
+
+<trace id="2">
+5285 3321, 5281 3329, 5278 3329, 5286 3334, 5297 3338, 5316 3339, 5347 3344, 5386 3347, 5433 3353, 5485 3358, 5544 3366, 5597 3369, 5653 3379, 5700 3382
+</trace>
+
+<trace id="3">
+6266 3244, 6262 3249, 6262 3267, 6259 3289, 6257 3313, 6259 3347, 6260 3379, 6262 3417, 6264 3456, 6269 3496, 6267 3522, 6272 3552, 6267 3570
+</trace>
+
+<trace id="4">
+6084 3441, 6089 3436, 6095 3426, 6113 3426, 6136 3424, 6164 3420, 6202 3418, 6246 3416, 6297 3417, 6345 3409, 6396 3407, 6442 3396
+</trace>
+
+<trace id="5">
+6660 3270, 6659 3276, 6664 3290, 6664 3305, 6665 3323, 6671 3349, 6676 3373, 6683 3400, 6688 3424, 6693 3449, 6697 3464, 6701 3479, 6704 3485, 6706 3486, 6708 3480, 6712 3465, 6716 3445, 6724 3419, 6732 3390, 6743 3358, 6756 3328, 6773 3298, 6793 3274, 6813 3254, 6835 3240, 6858 3232, 6884 3229, 6911 3232, 6930 3235, 6953 3243
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">o</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">r</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

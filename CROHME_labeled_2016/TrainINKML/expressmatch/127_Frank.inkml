@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_Frank</annotation>
+<annotation type="writer">Frank</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+689 119, 688 116, 685 146, 685 148, 685 149, 684 150, 684 151, 684 150, 684 149, 685 147, 685 145, 687 137, 688 134, 690 131, 691 127, 693 124, 694 121, 696 119, 699 114, 700 112, 701 111, 702 110, 703 109, 705 109, 706 109, 707 110, 709 113, 710 115, 710 118, 711 121, 711 124, 711 128, 710 131, 710 134, 709 138, 708 141, 708 146, 708 148, 708 150, 708 151, 709 152, 709 153, 710 153
+</trace>
+<trace id="1">
+745 103, 743 103, 741 140, 741 144, 742 148, 743 150, 743 151
+</trace>
+<trace id="2">
+746 166, 745 168
+</trace>
+<trace id="3">
+796 142, 793 142, 813 144, 823 144, 825 144, 825 145, 824 145
+</trace>
+<trace id="4">
+865 118, 865 125, 865 132, 865 136, 865 140, 865 146, 865 149, 866 151, 866 153, 867 154, 869 157, 870 157, 871 157, 871 156, 872 155, 872 154
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

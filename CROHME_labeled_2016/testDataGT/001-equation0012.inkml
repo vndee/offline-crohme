@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$A\times B$</annotation>
+<annotation type="UI">2012_IVC_CROHME_F01_E0012</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CROHME01</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="A_1">A</mi>
+			<mrow>
+				<mo xml:id="\times_1">\times</mo>
+				<mi xml:id="B_1">B</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1.10641 6.55641, 1.10641 6.55598, 1.10641 6.55555, 1.10683 6.55427, 1.10897 6.55214, 1.11067 6.54958, 1.11323 6.54702, 1.1175 6.54233, 1.12005 6.53764, 1.12517 6.53167, 1.13114 6.52484, 1.13584 6.51887, 1.1384 6.51247, 1.13882 6.50906, 1.13925 6.50693, 1.13925 6.50736, 1.13967 6.51119, 1.14095 6.51845, 1.14309 6.52911, 1.14479 6.53977, 1.14735 6.54958, 1.14948 6.55555, 1.15076 6.55811, 1.15119 6.55811, 1.15119 6.55726, 1.15034 6.55598
+</trace>
+<trace id="1">
+1.11536 6.54233, 1.12432 6.53636, 1.13413 6.53636, 1.14394 6.53764, 1.1529 6.53849
+</trace>
+<trace id="2">
+1.19128 6.52015, 1.19299 6.52228, 1.19598 6.52655, 1.20067 6.53252, 1.20579 6.53764, 1.2092 6.5419, 1.21218 6.54489, 1.21474 6.54617
+</trace>
+<trace id="3">
+1.21474 6.52527, 1.21218 6.52612, 1.20877 6.52825, 1.20536 6.53209, 1.20109 6.53764, 1.19811 6.5419, 1.19726 6.54532, 1.19768 6.54617
+</trace>
+<trace id="4">
+1.24119 6.51759, 1.24076 6.51759, 1.23991 6.51972, 1.24033 6.52527, 1.24161 6.5338, 1.24204 6.54318, 1.24204 6.55001, 1.24289 6.55427, 1.24332 6.55513, 1.24417 6.55385
+</trace>
+<trace id="5">
+1.23863 6.51972, 1.24076 6.51546, 1.24332 6.5129, 1.24801 6.50949, 1.25313 6.50693, 1.25782 6.50565, 1.26251 6.50522, 1.26422 6.50565, 1.26465 6.50778, 1.26337 6.51119, 1.25825 6.51503, 1.25228 6.51887, 1.24887 6.521, 1.24801 6.52186, 1.24929 6.52228, 1.2527 6.52399, 1.25825 6.52698, 1.26379 6.53167, 1.26806 6.53551, 1.26976 6.53934, 1.26891 6.54233, 1.26593 6.54574, 1.26251 6.54745, 1.25569 6.55001, 1.25014 6.55043, 1.24503 6.55129, 1.24204 6.55086, 1.24204 6.55043, 1.2446 6.54873
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="A_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="B_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

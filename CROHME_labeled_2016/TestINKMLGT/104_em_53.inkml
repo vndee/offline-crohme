@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">23</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">104</annotation>
+<annotation type="truth">$L_0$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F104_E53</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="L_1">L</mi>
+			<mn xml:id="0_1">0</mn>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+548 94, 543 113, 542 118, 539 123, 537 128, 534 135, 531 143, 528 151, 525 161, 522 171, 518 181, 514 192, 510 204, 507 215, 504 225, 500 236, 497 246, 494 254, 491 262, 489 269, 487 275, 486 280, 486 284, 486 287, 487 290, 489 293, 491 295, 494 296, 498 297, 502 297, 508 296, 514 295, 521 294, 528 293, 535 292, 543 291, 551 291, 559 290, 567 290, 574 290, 582 289, 590 289, 596 289, 603 289, 608 289, 614 289, 615 289
+</trace>
+<trace id="1">
+677 309, 679 298, 679 296, 680 292, 680 289, 680 286, 681 282, 680 279, 678 276, 676 274, 674 272, 672 270, 668 270, 665 270, 661 270, 657 272, 653 275, 649 278, 646 282, 643 287, 641 292, 639 297, 639 302, 640 306, 642 309, 645 312, 647 313, 651 314, 655 313, 659 312, 663 309, 666 306, 668 302, 670 297, 671 291, 671 287, 671 285
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">L</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="L_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,79 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {\alpha + \beta} {2} $</annotation>
+<annotation type="writer">423.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_ritm_423_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="54:">
+            <mrow>
+                <mi xml:id="55:">\alpha</mi>
+                <mrow>
+                    <mo xml:id="56:57:">+</mo>
+                    <mi xml:id="58:">\beta</mi>
+                </mrow>
+            </mrow>
+            <mn xml:id="60:">2</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+273 252, 278 251, 727 247, 728 247, 729 247
+</trace>
+
+<trace id="1">
+419 88, 414 93, 304 171, 302 169, 301 168, 300 167, 295 158, 294 156, 293 149, 293 146, 294 139, 296 136, 299 131, 304 127, 312 121, 320 119, 332 118, 336 117, 341 117, 358 117, 362 117, 373 121, 376 123, 382 129, 389 134, 398 144, 408 157, 419 168, 426 178, 428 180, 428 183, 431 186, 433 186, 435 185
+</trace>
+
+<trace id="2">
+487 112, 488 117, 497 183, 498 184, 499 188, 500 188, 501 191, 501 192, 501 193, 501 194, 501 195, 501 196, 502 196, 503 196, 504 196, 506 196
+</trace>
+
+<trace id="3">
+449 139, 453 141, 533 149, 535 149, 536 149, 537 149
+</trace>
+
+<trace id="4">
+579 60, 578 65, 584 213, 584 214, 584 213, 584 211, 584 202, 579 178, 579 170, 575 150, 573 132, 572 125, 571 111, 571 106, 571 91, 571 86, 574 75, 586 63, 590 61, 606 60, 612 60, 622 61, 632 71, 635 86, 635 90, 628 104, 623 108, 591 119, 583 120, 570 121, 569 121, 576 120, 584 119, 602 118, 628 120, 649 129, 654 132, 661 140, 662 143, 658 149, 654 149, 633 152, 625 153, 603 154, 595 154, 576 154, 569 154, 555 152, 552 152, 550 151
+</trace>
+
+<trace id="5">
+424 353, 420 348, 470 305, 473 304, 480 304, 489 304, 498 304, 501 304, 509 306, 511 307, 516 309, 518 310, 522 314, 524 314, 526 319, 527 320, 528 324, 528 327, 528 333, 528 334, 527 343, 526 345, 520 352, 517 354, 506 363, 503 366, 491 373, 487 376, 473 385, 469 388, 457 398, 453 402, 433 416, 429 420, 419 427, 418 429, 418 431, 421 431, 440 431, 449 429, 477 427, 486 427, 508 427, 514 427, 531 427, 534 427, 540 427, 541 427, 543 428
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="54:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="54:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="55:">
+        <annotation type="truth">\alpha</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="55:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="56:57:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="56:57:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="58:">
+        <annotation type="truth">\beta</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="58:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="60:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="60:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

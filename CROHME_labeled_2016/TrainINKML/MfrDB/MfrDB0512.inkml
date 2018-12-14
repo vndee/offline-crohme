@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB0512</annotation>
+  <annotation type="truth">$1 - 1$</annotation>
+  <annotation type="writer">User044</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mn xml:id="1_1">1</mn>
+      <mo xml:id="-_1">-</mo>
+      <mn xml:id="1_2">1</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">162 166 70894, 163 166 70901, 164 166 70925, 164 165 70933, 167 163 70942, 169 161 70950, 173 158 70958, 176 153 70966, 181 148 70973, 184 143 70981, 190 136 70989, 195 129 70997, 200 122 71005, 205 113 71013, 208 106 71021, 210 100 71029, 212 95 71037, 214 93 71045, 215 92 71053, 216 91 71061, 216 92 71117, 215 97 71125, 215 103 71133, 214 111 71141, 212 120 71149, 211 129 71157, 210 140 71165, 210 150 71173, 210 159 71181, 209 168 71189, 208 176 71197, 208 183 71205, 208 190 71213, 207 196 71221, 206 203 71229, 206 207 71237, 206 212 71245, 206 217 71253, 206 219 71261, 206 221 71269, 206 223 71277, 206 224 71285, 206 226 71293, 206 227 71301, 206 228 71309, 206 231 71317</trace>
+  <trace id="1">284 166 71854, 286 166 71901, 291 166 71909, 298 166 71918, 305 166 71926, 313 166 71933, 323 166 71941, 332 166 71949, 342 166 71957, 349 166 71965, 355 166 71973, 358 166 71981, 360 166 71989</trace>
+  <trace id="2">434 189 72430, 434 188 72437, 434 187 72445, 433 186 72461, 433 184 72485, 433 183 72565, 436 181 72582, 439 178 72590, 446 173 72597, 452 167 72605, 458 163 72613, 465 155 72622, 470 149 72629, 475 143 72637, 480 137 72645, 483 131 72653, 485 126 72661, 487 121 72669, 489 118 72677, 490 116 72685, 490 113 72693, 491 112 72701, 492 111 72709, 492 112 72806, 492 115 72818, 492 122 72831, 492 129 72838, 491 137 72845, 490 146 72853, 488 156 72861, 487 167 72869, 485 177 72877, 483 188 72885, 481 199 72893, 481 208 72901, 481 218 72909, 481 228 72917, 483 236 72925, 484 242 72933, 485 248 72943, 485 251 72950, 486 253 72957, 486 255 72973, 486 256 72981, 486 257 73102</trace>
+  <traceGroup xml:id="3">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="4">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="1_1" />
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="-_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href="1_2" />
+    </traceGroup>
+  </traceGroup>
+</ink>

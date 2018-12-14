@@ -1,0 +1,75 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sin(1)$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F53_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL53</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">\sin</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mn xml:id="1_1">1</mn>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2418 1753, 2418 1753, 2432 1749, 2438 1746, 2461 1729, 2467 1718, 2468 1713, 2473 1689, 2473 1689, 2487 1729, 2490 1748, 2482 1762, 2466 1760
+</trace>
+<trace id="1">
+2481 1760, 2481 1760, 2490 1760, 2499 1755, 2526 1741, 2536 1731, 2538 1727, 2545 1710, 2544 1714, 2542 1730, 2544 1735, 2550 1742, 2554 1744
+</trace>
+<trace id="2">
+2560 1666, 2560 1666, 2559 1662, 2558 1662, 2558 1663
+</trace>
+<trace id="3">
+2557 1678, 2557 1678, 2558 1671, 2561 1664, 2561 1664, 2561 1664, 2554 1685, 2554 1680, 2555 1677, 2556 1675
+</trace>
+<trace id="4">
+2545 1745, 2545 1745, 2551 1751, 2554 1751, 2571 1749, 2585 1736, 2618 1703, 2621 1719, 2614 1747, 2645 1709, 2661 1696, 2668 1709, 2666 1736, 2667 1738, 2669 1740
+</trace>
+<trace id="5">
+2768 1622, 2768 1622, 2739 1662, 2718 1715, 2718 1734, 2722 1741, 2729 1749, 2738 1753
+</trace>
+<trace id="6">
+2765 1696, 2765 1696, 2765 1698, 2766 1698, 2767 1698, 2770 1696, 2793 1683, 2835 1646, 2810 1706, 2810 1709, 2809 1710, 2810 1712
+</trace>
+<trace id="7">
+2859 1610, 2859 1610, 2858 1618, 2860 1629, 2874 1671, 2873 1686, 2860 1719, 2851 1731, 2842 1743, 2833 1751
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

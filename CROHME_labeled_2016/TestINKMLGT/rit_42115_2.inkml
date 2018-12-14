@@ -1,0 +1,138 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ x ! ^ y \times y ! ^ x $</annotation>
+<annotation type="writer">42115.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42115_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="32:33:">x</mi>
+            <mrow>
+                <msup>
+                    <mo xml:id="34:35:">!</mo>
+                    <mi xml:id="36:37:">y</mi>
+                </msup>
+                <mrow>
+                    <mo xml:id="38:39:">\times</mo>
+                    <mrow>
+                        <mi xml:id="40:41:">y</mi>
+                        <msup>
+                            <mo xml:id="42:43:">!</mo>
+                            <mi xml:id="44:45:">x</mi>
+                        </msup>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+138 219, 142 215, 180 176, 181 174, 182 173, 182 172, 183 171, 184 169, 184 168, 185 168, 185 167
+</trace>
+
+<trace id="1">
+155 163, 156 165, 178 193, 179 194, 181 197, 181 198, 184 202, 185 203, 185 205, 185 206, 186 207, 187 208, 187 209, 188 209, 188 210, 188 211
+</trace>
+
+<trace id="2">
+229 138, 228 139, 226 188, 226 190, 226 192, 226 193, 225 196, 225 197, 225 198, 225 199, 225 200, 225 201, 225 202, 225 203, 225 202
+</trace>
+
+<trace id="3">
+230 217, 229 215, 228 215, 229 215, 229 214, 229 213, 230 213, 230 214, 230 215
+</trace>
+
+<trace id="4">
+253 64, 256 66, 266 91, 267 92, 267 94, 268 95, 268 96
+</trace>
+
+<trace id="5">
+306 56, 302 60, 252 112, 251 113, 250 114, 249 115, 248 115
+</trace>
+
+<trace id="6">
+315 179, 317 179, 340 158, 341 158
+</trace>
+
+<trace id="7">
+326 150, 326 152, 338 175, 339 176, 339 177, 340 177, 340 178, 340 179
+</trace>
+
+<trace id="8">
+410 141, 412 142, 427 170
+</trace>
+
+<trace id="9">
+461 128, 457 133, 405 213, 404 213
+</trace>
+
+<trace id="10">
+496 126, 496 129, 496 186, 496 187, 496 188, 495 188, 494 189, 494 190, 493 191, 493 192, 493 193, 492 194, 492 195, 492 196
+</trace>
+
+<trace id="11">
+494 222, 490 220, 489 219, 488 219, 491 218
+</trace>
+
+<trace id="12">
+526 120, 525 122, 560 91
+</trace>
+
+<trace id="13">
+542 76, 543 78, 560 115
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="32:33:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="32:33:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="34:35:">
+        <annotation type="truth">!</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="34:35:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="36:37:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="36:37:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="38:39:">
+        <annotation type="truth">\times</annotation>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="38:39:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="40:41:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="8"/>
+        <traceView traceDataRef="9"/>
+        <annotationXML href="40:41:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="42:43:">
+        <annotation type="truth">!</annotation>
+        <traceView traceDataRef="10"/>
+        <traceView traceDataRef="11"/>
+        <annotationXML href="42:43:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="44:45:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="12"/>
+        <traceView traceDataRef="13"/>
+        <annotationXML href="44:45:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

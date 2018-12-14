@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\log_ca$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F12_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL12</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="log_1">\log</mi>
+				<mi xml:id="c_1">c</mi>
+			</msub>
+			<mi xml:id="a_1">a</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3685 3015, 3685 3015, 3685 3009, 3685 3007, 3684 3030, 3686 3051, 3688 3074, 3688 3097, 3687 3113, 3689 3125, 3688 3128, 3688 3123, 3688 3116
+</trace>
+<trace id="1">
+3741 3085, 3741 3085, 3740 3083, 3736 3079, 3732 3079, 3715 3093, 3711 3103, 3718 3120, 3730 3125, 3741 3124, 3757 3118, 3765 3108, 3768 3098, 3762 3089, 3753 3083, 3744 3081, 3741 3081, 3741 3083
+</trace>
+<trace id="2">
+3802 3075, 3802 3075, 3805 3072, 3804 3072, 3794 3072, 3790 3071, 3781 3076, 3775 3089, 3776 3107, 3789 3117, 3806 3109, 3810 3090, 3806 3075, 3828 3130, 3826 3167, 3816 3183, 3803 3194, 3788 3197, 3776 3194, 3770 3186
+</trace>
+<trace id="3">
+3880 3104, 3880 3104, 3880 3102, 3879 3101, 3877 3099, 3874 3098, 3864 3103, 3854 3119, 3856 3127, 3864 3135, 3888 3141, 3904 3137, 3906 3135, 3900 3133, 3900 3133
+</trace>
+<trace id="4">
+3943 3074, 3943 3074, 3945 3072, 3969 3067, 3983 3076, 3998 3122, 3995 3111, 3989 3106, 3982 3104, 3962 3108, 3957 3113, 3956 3125, 3961 3130, 3971 3132, 3994 3126
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\log</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="log_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_465</annotation>
+<annotation type="truth">$f \times f$</annotation>
+<annotation type="UI">CROHME_2016_em_950</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="f_1">f</mi>
+			<mrow>
+				<mo xml:id="times_1">times</mo>
+				<mi xml:id="f_2">f</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+474 182, 473 181, 477 176, 480 172, 483 168, 487 164, 490 159, 493 154, 495 150, 497 146, 498 143, 497 141, 497 139, 495 139, 496 138, 488 143, 486 145, 485 148, 484 152, 483 156, 483 160, 483 169, 483 174, 484 179, 485 184, 485 189, 485 195, 485 201, 484 207, 484 213, 483 219, 480 230, 478 235, 476 239, 474 243, 470 246, 471 246, 470 246, 467 241, 468 230, 469 226, 471 222, 479 208, 482 204, 485 200, 489 196, 491 192, 494 189, 496 187, 497 185, 498 186, 498 185, 500 183
+</trace>
+<trace id="1">
+585 162, 587 161, 587 160, 587 161, 582 165, 578 168, 575 170, 572 174, 569 177, 567 180, 565 183, 563 185, 561 188
+</trace>
+<trace id="2">
+563 156, 564 157, 565 157, 570 164, 573 168, 575 171, 578 175, 583 182, 585 185, 587 188, 588 190, 589 192
+</trace>
+<trace id="3">
+654 182, 662 177, 664 174, 667 170, 670 167, 672 162, 674 159, 674 155, 674 153, 673 151, 672 150, 669 150, 667 151, 665 153, 663 156, 662 160, 661 165, 660 171, 660 176, 661 182, 662 189, 662 194, 663 209, 662 213, 661 216, 659 218, 657 219, 655 220, 653 219, 650 218, 649 217, 648 214, 648 211, 649 208, 650 204, 659 193, 662 189, 666 186, 676 179, 679 177
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="f_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="f_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

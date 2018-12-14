@@ -1,0 +1,33 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"2009212-952-100.ink"</annotation>
+<annotation type="truth"> \pi </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:2:">\pi</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+12284 5646, 12281 5646, 12284 5646, 12290 5643, 12301 5646, 12312 5646, 12332 5648, 12351 5648, 12376 5648, 12404 5646, 12435 5643, 12469 5634, 12505 5632, 12544 5623, 12584 5618, 12623 5612, 12659 5606, 12693 5604, 12721 5604, 12743 5604, 12754 5606, 12757 5612, 12752 5618, 12738 5626, 12718 5634, 12690 5643
+</trace>
+
+<trace id="1">
+12474 5730, 12472 5738, 12472 5752, 12474 5777, 12472 5805, 12472 5844, 12463 5892, 12458 5948, 12444 6007, 12430 6068, 12416 6127, 12402 6180, 12390 6225, 12376 6262, 12374 6287, 12368 6292, 12371 6290, 12379 6273, 12388 6239, 12402 6203
+</trace>
+
+<trace id="2">
+12665 5738, 12673 5752, 12679 5774, 12690 5808, 12693 5847, 12704 5898, 12710 5951, 12724 6015, 12729 6077, 12743 6138, 12752 6197, 12760 6253, 12774 6306, 12782 6357, 12785 6393, 12788 6427
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:2:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="0:1:2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

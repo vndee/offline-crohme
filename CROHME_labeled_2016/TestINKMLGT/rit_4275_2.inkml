@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {3} {4} $</annotation>
+<annotation type="writer">4275.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4275_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="12:">
+            <mn xml:id="11:">3</mn>
+            <mn xml:id="13:14:">4</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+481 64, 480 58, 558 37, 570 37, 580 42, 586 51, 587 60, 584 76, 569 92, 549 108, 526 121, 503 133, 475 140, 468 140, 466 140, 470 138, 488 138, 510 138, 533 139, 555 142, 572 149, 584 157, 591 164, 595 171, 595 180, 593 189, 576 202, 555 212, 531 220, 508 222, 486 222, 468 217, 455 208, 448 202, 444 197, 443 195
+</trace>
+
+<trace id="1">
+368 294, 370 287, 443 272, 462 270, 484 267, 510 264, 535 260, 560 256, 584 252, 608 249, 631 245, 648 242, 662 241, 672 241, 679 240, 684 240, 684 241
+</trace>
+
+<trace id="2">
+485 292, 487 297, 474 387, 473 391, 473 392, 473 393, 476 393, 484 389, 496 385, 511 381, 526 377, 540 377, 553 376, 563 376, 573 376, 580 375, 588 372, 598 363
+</trace>
+
+<trace id="3">
+547 305, 545 305, 538 464, 537 474, 537 483, 537 489, 537 492
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="11:">
+        <annotation type="truth">3</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="11:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="12:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="12:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="13:14:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="13:14:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

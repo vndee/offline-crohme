@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \sqrt {91} $</annotation>
+<annotation type="writer">annot_55</annotation>
+<annotation type="UI">2014_RIT_CROHME_131</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt xml:id="41:">
+            <mrow>
+                <mn xml:id="42:">9</mn>
+                <mn  xml:id = "43:" >1</mn>
+            </mrow>
+        </msqrt>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+235 240, 234 247, 235 253, 237 259, 242 265, 246 267, 251 267, 258 267, 263 262, 268 256, 273 250, 278 241, 283 233, 286 223, 289 214, 291 205, 291 198, 291 191, 291 184, 291 178, 291 172, 291 167, 292 163, 293 160, 295 157, 297 155, 300 154, 303 153, 308 153, 313 152, 320 152, 330 150, 340 149, 352 148, 362 146, 373 145, 383 145, 396 144, 408 143, 422 143, 435 143, 448 142, 459 142, 471 141, 483 140, 495 139, 508 138, 518 138, 529 138, 538 138, 547 137, 555 136, 562 136, 568 135, 573 135, 579 135, 584 135, 587 135, 590 134
+</trace>
+
+<trace  id = "1" >
+407 177, 411 172, 411 170, 411 169, 409 168, 404 168, 397 168, 391 170, 384 175, 378 183, 375 191, 373 200, 373 208, 373 216, 377 218, 383 220, 389 220, 395 219, 401 214, 405 209, 408 205, 410 199, 412 195, 412 190, 413 185, 413 181, 414 177, 415 174, 416 172, 416 170, 417 169, 417 172, 417 179, 417 190, 416 202, 413 216, 410 228, 408 240, 407 248, 406 255, 405 260, 405 265, 404 269, 404 271, 404 273, 403 274, 403 275, 403 273
+</trace>
+
+<trace  id = "2" >
+488 158, 485 165, 485 171, 485 180, 485 193, 484 204, 483 215, 483 225, 482 234, 482 241, 482 247, 482 251, 482 255, 482 257, 483 258
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="41:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="41:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="42:">
+        <annotation type="truth">9</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="42:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="43:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="43:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

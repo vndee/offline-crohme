@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2^{2^{2^2}}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F899_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL899</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mn xml:id="2_1">2</mn>
+			<msup>
+				<mn xml:id="2_2">2</mn>
+				<msup>
+					<mn xml:id="2_3">2</mn>
+					<mn xml:id="2_4">2</mn>
+				</msup>
+			</msup>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+1422 3117, 1422 3117, 1417 3116, 1415 3111, 1415 3104, 1418 3095, 1442 3079, 1453 3079, 1460 3086, 1463 3100, 1452 3121, 1433 3144, 1392 3183, 1411 3188, 1443 3186, 1498 3168
+</trace>
+<trace id="1">
+1498 3041, 1498 3041, 1492 3040, 1496 3035, 1513 3026, 1521 3027, 1523 3041, 1488 3086, 1502 3088, 1536 3082
+</trace>
+<trace id="2">
+1561 2999, 1561 2999, 1559 2997, 1561 2986, 1573 2979, 1579 2980, 1584 2988, 1582 2998, 1559 3029, 1544 3041, 1561 3040, 1593 3035
+</trace>
+<trace id="3">
+1615 2955, 1615 2955, 1613 2952, 1625 2944, 1634 2943, 1642 2944, 1642 2957, 1624 2982, 1629 2988, 1634 2990, 1653 2988, 1676 2984
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="2_3"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_4"/>
+	</traceGroup>
+</traceGroup>
+</ink>

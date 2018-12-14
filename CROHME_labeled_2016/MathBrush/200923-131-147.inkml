@@ -1,0 +1,69 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-147.ink"</annotation>
+<annotation type="truth"> \frac { z } { { \mbox { i } } _ { \mbox { m } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="2:">
+            <mi xml:id="0:1:">z</mi>
+            <msub>
+                <mi xml:id="3:4:">i</mi>
+                <mi xml:id="5:">m</mi>
+            </msub>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5608 2925, 5595 2920, 5591 2918, 5589 2912, 5595 2906, 5611 2904, 5626 2901, 5651 2902, 5677 2904, 5709 2910, 5740 2917, 5770 2929, 5797 2945, 5817 2965, 5833 2986, 5842 3011, 5840 3035, 5832 3061, 5817 3085, 5799 3111, 5776 3133, 5754 3152, 5731 3169, 5710 3184, 5692 3197, 5683 3209, 5678 3217, 5679 3225, 5690 3229, 5706 3232, 5733 3233, 5761 3234, 5796 3232, 5834 3228, 5873 3225, 5911 3216, 5945 3214, 5973 3212, 5992 3205, 6008 3201, 6011 3194
+</trace>
+
+<trace id="1">
+5622 3073, 5615 3072, 5611 3069, 5621 3068, 5631 3068, 5652 3065, 5682 3066, 5716 3068, 5754 3071, 5796 3073, 5843 3081, 5885 3084
+</trace>
+
+<trace id="2">
+4355 3691, 4334 3691, 4327 3697, 4325 3694, 4336 3694, 4361 3697, 4401 3698, 4455 3702, 4523 3702, 4611 3704, 4714 3700, 4835 3697, 4970 3688, 5125 3679, 5289 3664, 5468 3649, 5652 3630, 5837 3613, 6021 3598, 6202 3585, 6371 3574, 6525 3564, 6662 3561, 6778 3564, 6864 3566, 6928 3576
+</trace>
+
+<trace id="3">
+5380 4182, 5377 4199, 5380 4229, 5376 4263, 5373 4301, 5372 4346, 5369 4386, 5368 4429, 5367 4466, 5366 4496, 5368 4517, 5372 4532, 5372 4530, 5376 4525
+</trace>
+
+<trace id="4">
+5358 3998, 5364 3992, 5361 3982, 5368 3979, 5378 3981, 5383 3976, 5398 3982
+</trace>
+
+<trace id="5">
+5700 4439, 5703 4450, 5704 4467, 5706 4490, 5706 4514, 5706 4542, 5704 4567, 5704 4593, 5700 4613, 5700 4628, 5700 4636, 5703 4636, 5706 4626, 5712 4609, 5719 4587, 5727 4561, 5740 4534, 5754 4506, 5769 4480, 5786 4458, 5802 4445, 5816 4439, 5830 4439, 5842 4449, 5849 4463, 5857 4482, 5862 4501, 5866 4521, 5871 4538, 5878 4553, 5885 4562, 5895 4564, 5906 4558, 5919 4547, 5935 4534, 5952 4517, 5970 4498, 5987 4478, 6002 4463, 6015 4453, 6029 4448, 6041 4447, 6052 4451, 6063 4460, 6072 4477, 6082 4496, 6091 4519, 6101 4541, 6109 4566, 6115 4584, 6123 4600, 6130 4618, 6131 4626, 6136 4636
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

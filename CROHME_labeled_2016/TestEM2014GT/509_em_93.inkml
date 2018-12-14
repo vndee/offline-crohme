@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">509</annotation>
+<annotation type="truth">$\left|S\right|$</annotation>
+<annotation type="UI">IVC_2014_F509_E93</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="|_1">|</mo>
+			<mrow>
+				<mi xml:id="S_1">S</mi>
+			</mrow>
+			<mo xml:id="|_2">|</mo>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+354 100, 354 105, 354 108, 354 112, 354 116, 355 121, 355 126, 356 132, 356 138, 356 145, 355 153, 355 161, 354 169, 353 177, 352 199, 352 205, 351 210, 351 214, 352 216, 352 218, 352 219
+</trace>
+<trace id="1">
+452 129, 452 127, 449 125, 446 123, 444 122, 441 121, 437 121, 433 121, 428 121, 421 124, 418 127, 417 129, 418 132, 419 135, 422 138, 426 141, 431 145, 435 149, 440 154, 444 159, 450 170, 452 175, 453 180, 454 185, 453 193, 451 196, 448 198, 445 200, 440 201, 436 201, 430 201, 425 201, 420 200, 416 200, 414 199, 412 198
+</trace>
+<trace id="2">
+490 107, 490 105, 490 104, 491 104, 491 108, 491 111, 491 115, 492 119, 493 137, 493 145, 493 153, 494 161, 494 170, 494 178, 494 187, 495 195, 496 202, 497 208, 500 217
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">|</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="|_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">S</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="S_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">|</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="|_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

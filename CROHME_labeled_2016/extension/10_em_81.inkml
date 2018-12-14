@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">31</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">10</annotation>
+<annotation type="truth">$\Delta H_I$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F10_E81</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="Delta_1">Delta</mi>
+			<msub>
+				<mi xml:id="H_1">H</mi>
+				<mi xml:id="I_1">I</mi>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+506 146, 503 154, 501 158, 499 163, 497 169, 494 176, 490 183, 487 191, 484 198, 481 204, 479 211, 477 216, 475 220, 474 224, 473 226, 472 228, 471 229, 471 230, 470 231, 470 232, 471 231, 472 231, 473 231, 475 230, 477 230, 479 229, 482 229, 485 228, 488 228, 492 227, 496 227, 499 226, 503 226, 507 225, 511 225, 515 225, 518 224, 522 223, 526 223, 530 222, 533 221, 536 220, 539 219, 541 218, 542 217, 543 217, 544 216, 544 214, 544 213, 545 211, 545 209, 545 206, 544 203, 544 200, 544 196, 543 192, 541 188, 539 183, 537 179, 534 175, 531 170, 529 167, 526 163, 524 161, 521 158, 518 155, 516 153, 513 152, 511 150, 509 149, 507 149, 506 148, 505 147, 504 147, 505 147, 505 148, 506 149, 508 150, 509 152, 511 154, 512 157, 515 160, 517 163, 519 168, 521 171, 524 176, 527 181, 529 186, 531 190, 534 194, 536 198, 539 202, 540 206, 542 210, 543 213, 544 215, 545 216
+</trace>
+<trace id="1">
+613 142, 610 150, 609 153, 609 158, 608 164, 607 170, 607 177, 606 184, 606 190, 605 196, 605 201, 606 206, 606 210, 606 214, 607 216, 607 218, 607 220
+</trace>
+<trace id="2">
+605 186, 617 188, 620 187, 623 186, 625 184, 626 184
+</trace>
+<trace id="3">
+638 149, 635 169, 634 174, 634 180, 634 185, 634 190, 634 195, 634 199, 635 203, 635 207, 635 210, 635 213, 636 214
+</trace>
+<trace id="4">
+660 213, 669 211, 672 211, 674 211, 675 211
+</trace>
+<trace id="5">
+667 215, 669 227, 669 229, 669 230
+</trace>
+<trace id="6">
+659 239, 667 236, 669 236, 671 236, 672 235
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\Delta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="Delta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">H</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="H_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">I</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="I_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

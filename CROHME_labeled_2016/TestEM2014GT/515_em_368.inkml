@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">29</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">515</annotation>
+<annotation type="truth">$\mathrm{Im}$</annotation>
+<annotation type="UI">IVC_2014_F515_E368</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="I_1">I</mi>
+			<mi xml:id="m_1">m</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+526 265, 540 268, 545 268, 550 268, 556 268, 561 268, 567 268, 573 268, 577 268, 581 268, 585 268, 588 268, 590 268, 592 268, 594 268
+</trace>
+<trace id="1">
+564 273, 564 280, 564 284, 564 288, 564 292, 565 296, 565 300, 565 304, 565 307, 566 311, 566 314, 567 316, 567 318, 567 319, 567 320, 567 321
+</trace>
+<trace id="2">
+538 330, 546 329, 550 329, 555 329, 559 329, 563 328, 568 328, 572 328, 576 328, 579 328, 582 328, 584 328, 585 328, 586 328, 587 328
+</trace>
+<trace id="3">
+610 305, 609 312, 610 315, 610 317, 611 320, 611 322, 612 324, 612 326, 612 327, 613 328, 613 329, 613 328, 612 325, 612 324, 612 321, 613 319, 613 316, 614 314, 615 313, 616 311, 617 310, 618 309, 620 309, 621 309, 623 309, 625 310, 626 311, 627 313, 629 314, 630 316, 631 317, 631 319, 632 319, 632 320, 632 321, 633 321, 633 320, 633 318, 634 316, 636 314, 637 313, 638 312, 639 311, 640 311, 642 311, 643 311, 645 313, 646 314, 647 317, 648 318, 649 320, 650 322, 651 324, 651 325, 652 326, 652 327, 652 328, 653 328, 653 327
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">m</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="m_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">I</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="I_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

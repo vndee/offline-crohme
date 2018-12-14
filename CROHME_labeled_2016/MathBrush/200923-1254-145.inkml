@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-145.ink"</annotation>
+<annotation type="truth"> { \mbox { X } - Y } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">X</mi>
+            <mrow>
+                <mo xml:id="2:">-</mo>
+                <mi xml:id="3:4:">Y</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5760 2137, 5805 2111, 5858 2100, 5908 2103, 5961 2123, 6017 2168, 6073 2235, 6138 2333, 6208 2456, 6292 2604, 6376 2781, 6468 2968, 6563 3170, 6659 3377, 6754 3579, 6852 3764, 6939 3929, 7023 4077, 7098 4195, 7168 4299, 7230 4380, 7277 4433, 7319 4469, 7353 4489, 7359 4486
+</trace>
+
+<trace id="1">
+7501 2148, 7510 2125, 7507 2111, 7501 2117, 7490 2142, 7471 2184, 7434 2249, 7384 2344, 7311 2470, 7219 2630, 7104 2820, 6961 3036, 6801 3279, 6628 3531, 6446 3786, 6264 4033, 6087 4265, 5919 4464, 5774 4637, 5651 4775, 5550 4873, 5469 4940, 5424 4982, 5396 4976
+</trace>
+
+<trace id="2">
+7459 3414, 7459 3419, 7454 3414, 7454 3411, 7459 3408, 7473 3397, 7510 3391, 7569 3386, 7650 3383, 7745 3380, 7854 3377, 7978 3374, 8115 3372, 8258 3366, 8406 3352, 8552 3338, 8683 3310, 8820 3282, 8952 3257, 9070 3220, 9179 3190
+</trace>
+
+<trace id="3">
+9660 2341, 9660 2336, 9660 2327, 9669 2330, 9694 2347, 9733 2380, 9786 2434, 9854 2495, 9929 2571, 10010 2649, 10094 2733, 10181 2823, 10265 2904, 10349 2982, 10433 3055, 10509 3103
+</trace>
+
+<trace id="4">
+11374 2257, 11388 2252, 11385 2240, 11368 2243, 11346 2260, 11315 2285, 11279 2322, 11231 2378, 11172 2445, 11102 2526, 11024 2616, 10940 2708, 10853 2800, 10772 2884, 10696 2963, 10626 3024, 10570 3069, 10523 3100, 10492 3120, 10472 3128, 10458 3131, 10453 3128, 10453 3122, 10456 3117, 10461 3114, 10470 3117, 10484 3128, 10500 3148, 10520 3178, 10542 3226, 10568 3290, 10590 3372, 10607 3472, 10615 3599, 10612 3739, 10598 3895, 10579 4061, 10540 4229, 10500 4399
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">X</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">Y</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

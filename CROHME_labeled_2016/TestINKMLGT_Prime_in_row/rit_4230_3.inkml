@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {6} {3} $</annotation>
+<annotation type="writer">4230.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4230_3</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="47:">
+            <mn xml:id="46:">6</mn>
+            <mn xml:id="48:">3</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+550 53, 548 54, 487 118, 485 124, 483 131, 483 137, 483 155, 486 159, 491 165, 494 168, 501 172, 506 173, 513 174, 517 175, 529 173, 534 170, 541 165, 544 163, 550 155, 551 152, 553 144, 553 141, 552 134, 549 131, 541 128, 536 126, 523 126, 518 125, 503 126, 497 127, 492 128
+</trace>
+
+<trace id="1">
+450 200, 453 200, 584 196, 593 196, 600 196, 613 196, 621 196, 626 196
+</trace>
+
+<trace id="2">
+521 237, 529 231, 565 265, 564 268, 561 270, 560 271, 558 273, 555 274, 550 278, 535 283, 533 284, 531 285, 528 285, 527 285, 528 285, 533 285, 536 285, 545 285, 549 285, 553 285, 557 285, 564 290, 569 297, 570 302, 570 307, 569 311, 562 319, 555 321, 547 324, 539 326, 527 329, 522 330
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="46:">
+        <annotation type="truth">6</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="46:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="47:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="47:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="48:">
+        <annotation type="truth">3</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="48:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

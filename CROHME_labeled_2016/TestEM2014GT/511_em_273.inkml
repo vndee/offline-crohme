@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">511</annotation>
+<annotation type="truth">$\ x = \beta$</annotation>
+<annotation type="UI">IVC_2014_F511_E273</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mrow>
+				<mi xml:id="x_1">x</mi>
+				<mrow>
+					<mo xml:id="=_1">=</mo>
+					<mi xml:id="beta_1">beta</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+495 169, 501 176, 503 179, 507 182, 510 186, 513 189, 516 192, 519 195, 521 197, 524 200, 527 201, 530 203, 533 204
+</trace>
+<trace id="1">
+552 162, 538 175, 534 179, 529 184, 523 189, 517 195, 512 201, 506 207, 501 213, 497 218, 494 222, 492 226, 491 227
+</trace>
+<trace id="2">
+589 181, 599 179, 602 179, 604 178, 607 178, 611 177, 613 176, 615 176, 617 176, 618 176
+</trace>
+<trace id="3">
+584 198, 599 197, 601 197, 604 197, 606 197, 609 198, 613 198, 614 198
+</trace>
+<trace id="4">
+658 236, 653 222, 652 218, 651 213, 651 208, 651 202, 650 196, 650 189, 650 182, 651 175, 652 168, 654 162, 656 155, 658 148, 662 141, 665 135, 668 129, 672 125, 677 120, 681 117, 685 114, 688 112, 691 111, 694 111, 696 112, 698 113, 698 115, 698 117, 698 120, 697 123, 695 126, 694 129, 692 132, 690 136, 689 138, 687 140, 686 142, 685 143, 685 144, 685 145, 687 146, 688 146, 689 146, 691 146, 694 147, 697 148, 700 149, 703 150, 705 152, 706 153, 706 156, 706 159, 705 161, 702 164, 699 167, 697 170, 694 172, 690 174, 686 175, 682 176, 678 176, 674 177, 671 177, 669 176
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

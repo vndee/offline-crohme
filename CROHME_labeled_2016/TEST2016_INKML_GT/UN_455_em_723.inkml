@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_455</annotation>
+<annotation type="truth">$\pi\pi$</annotation>
+<annotation type="UI">CROHME_2016_em_723</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="pi_1">pi</mi>
+			<mi xml:id="pi_2">pi</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+462 163, 462 164, 462 165, 462 168, 460 189, 459 197, 459 202, 459 206, 461 207, 460 208, 460 207, 466 199, 470 193, 473 186, 476 180, 479 176, 481 173, 483 172, 485 173, 486 175, 487 180, 488 186, 489 192, 490 198, 490 203, 491 206, 491 207
+</trace>
+<trace id="1">
+437 170, 438 170, 449 169, 456 168, 465 167, 473 166, 483 165, 494 163, 505 161, 515 158, 526 156, 535 154, 543 152, 551 150, 557 149, 560 148, 563 148, 562 147, 563 148, 564 150
+</trace>
+<trace id="2">
+600 172, 599 176, 599 181, 599 186, 599 192, 599 198, 600 202, 601 204, 602 204, 604 202, 607 199, 610 194, 613 189, 616 183, 619 179, 621 175, 624 173, 626 173, 628 177, 629 182, 630 187, 632 192, 633 196, 635 200, 637 203, 638 203, 639 203, 639 204
+</trace>
+<trace id="3">
+569 178, 581 175, 590 172, 601 169, 612 165, 624 161, 636 158, 648 156, 660 153, 670 152, 678 151, 684 150, 688 149, 689 148, 690 148, 689 148
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="pi_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

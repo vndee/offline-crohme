@@ -1,0 +1,89 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$-2ab \cos\gamma$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F153_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL153</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<mrow>
+				<mn xml:id="2_1">2</mn>
+				<mrow>
+					<mi xml:id="a_1">a</mi>
+					<mrow>
+						<mi xml:id="b_1">b</mi>
+						<mrow>
+							<mi xml:id="cos_1">\cos</mi>
+							<mi xml:id="gamma_1">\gamma</mi>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3457 3123, 3457 3123, 3460 3123, 3493 3120, 3549 3118, 3564 3114, 3557 3113
+</trace>
+<trace id="1">
+3669 3055, 3669 3055, 3669 3061, 3667 3062, 3663 3060, 3653 3055, 3643 3035, 3644 3019, 3650 3003, 3658 2994, 3669 2993, 3679 3002, 3687 3019, 3687 3043, 3679 3070, 3630 3140, 3628 3160, 3632 3166, 3639 3168, 3666 3164, 3685 3158
+</trace>
+<trace id="2">
+3799 3111, 3799 3111, 3791 3107, 3782 3107, 3769 3115, 3756 3129, 3748 3145, 3749 3154, 3755 3160, 3766 3160, 3796 3141, 3805 3129, 3804 3119, 3807 3140, 3812 3148, 3823 3155, 3853 3153
+</trace>
+<trace id="3">
+3862 2980, 3862 2980, 3859 2979, 3861 3010, 3874 3084, 3881 3143, 3880 3160, 3880 3146, 3878 3110, 3886 3096, 3896 3092, 3909 3099, 3936 3134, 3936 3147, 3932 3155, 3919 3159, 3902 3159, 3893 3154, 3888 3148, 3888 3141
+</trace>
+<trace id="4">
+4072 3082, 4072 3082, 4069 3080, 4062 3081, 4049 3090, 4026 3119, 4022 3132, 4023 3141, 4027 3151, 4039 3153, 4063 3150
+</trace>
+<trace id="5">
+4109 3123, 4109 3123, 4104 3115, 4098 3119, 4097 3137, 4105 3144, 4125 3147, 4167 3135, 4181 3127, 4187 3117, 4182 3102, 4164 3092, 4141 3088, 4122 3088, 4118 3090
+</trace>
+<trace id="6">
+4231 3085, 4231 3085, 4234 3082, 4231 3082, 4219 3086, 4207 3092, 4199 3106, 4205 3116, 4241 3147, 4243 3153, 4235 3156, 4223 3155, 4211 3153, 4206 3147
+</trace>
+<trace id="7">
+4328 3051, 4328 3051, 4325 3047, 4325 3047, 4353 3050, 4355 3054, 4367 3079, 4390 3146, 4388 3188, 4383 3202, 4376 3203, 4361 3197, 4353 3187, 4345 3171, 4343 3144, 4350 3134, 4400 3094, 4416 3074, 4425 3052
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\gamma</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="gamma_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2013_RIT_CROHME_rit_4275_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotation type="writer">4275.json</annotation>
+<annotation type="truth">$ \int ^ {b} _ {a} \phi $</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msubsup>
+				<mo xml:id="6:">\int</mo>
+				<mi xml:id="8:">a</mi>
+				<mi xml:id="7:">b</mi>
+			</msubsup>
+			<mi xml:id="10:9:">\phi</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+310 34, 304 33, 270 47, 257 55, 245 61, 237 69, 229 77, 223 85, 219 92, 217 103, 215 111, 215 122, 215 134, 219 144, 224 154, 230 163, 238 173, 246 183, 253 192, 262 203, 269 214, 276 227, 282 240, 288 253, 292 268, 297 283, 298 295, 300 310, 300 324, 298 342, 292 358, 284 376, 273 397, 261 413, 249 427, 237 438, 224 448, 213 455, 204 459, 195 461, 189 463, 179 465
+</trace>
+<trace id="1">
+353 16, 350 17, 352 62, 352 76, 351 87, 351 96, 348 105, 346 112, 345 115, 344 118, 343 119, 342 119, 342 117, 342 111, 342 103, 345 95, 349 86, 355 76, 362 69, 368 65, 375 62, 383 61, 391 61, 400 63, 407 68, 411 74, 412 79, 412 86, 405 93, 391 102, 380 108, 368 113, 359 115, 352 115, 348 116, 346 116
+</trace>
+<trace id="2">
+361 389, 351 383, 310 398, 300 408, 292 421, 288 431, 285 442, 284 450, 284 459, 286 466, 291 471, 297 475, 305 476, 319 475, 331 465, 343 455, 349 445, 352 439, 354 432, 355 426, 355 419, 355 410, 355 404, 355 400, 354 398, 354 397, 354 404, 359 415, 365 426, 372 437, 380 445, 388 453, 398 458, 410 462, 424 464, 438 464, 453 464, 465 464
+</trace>
+<trace id="3">
+561 159, 555 153, 501 173, 491 185, 474 212, 470 227, 468 241, 468 256, 471 270, 478 283, 488 294, 501 301, 517 306, 535 309, 552 310, 569 310, 586 307, 602 302, 616 295, 629 286, 640 276, 647 268, 652 258, 653 251, 653 242, 652 232, 649 222, 643 212, 635 199, 627 190, 618 181, 608 174, 599 169, 588 165, 576 163, 567 161, 557 161, 550 160, 543 160, 538 160
+</trace>
+<trace id="4">
+575 50, 569 51, 560 188, 560 217, 559 243, 558 265, 557 286, 557 305, 557 324, 557 343, 558 363, 558 382, 560 402, 561 415, 565 427
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="10:9:"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\int</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="6:"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="7:"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="8:"/>
+	</traceGroup>
+</traceGroup>
+</ink>

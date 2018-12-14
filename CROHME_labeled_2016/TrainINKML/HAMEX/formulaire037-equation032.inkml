@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\theta(t)$</annotation>
+<annotation type="UI">2011_IVC_depart_F037_E032</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart037</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="\theta_1">\theta</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="t_1">t</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.5439 20.9617, 11.5399 20.9256, 11.5359 20.9055, 11.5038 20.9015, 11.4958 20.9015, 11.4878 20.9055, 11.4557 20.9216, 11.4155 20.9497, 11.3674 20.9858, 11.3112 21.046, 11.2631 21.1222, 11.2149 21.2185, 11.1949 21.3068, 11.1748 21.391, 11.1908 21.4593, 11.235 21.5114, 11.2952 21.5395, 11.3634 21.5435, 11.4396 21.5074, 11.5199 21.4472, 11.568 21.3589, 11.6001 21.2506, 11.5881 21.1503, 11.568 21.07, 11.5199 21.0179, 11.4677 20.9858, 11.4075 20.9697, 11.3634 20.9657, 11.3393 20.9858, 11.2912 21.0259, 11.2631 21.0901, 11.255 21.1543, 11.2912 21.1944, 11.3433 21.2225, 11.4396 21.2265, 11.5159 21.1864, 11.576 21.1423
+</trace>
+<trace id="1">
+12.19 20.9497, 12.198 20.9657, 12.202 20.9778, 12.194 21.0018, 12.1699 21.0379, 12.1217 21.1021, 12.0736 21.2065, 12.0375 21.3228, 12.0415 21.4071, 12.0616 21.4593, 12.1097 21.4753, 12.1779 21.4593, 12.2461 21.4231, 12.2943 21.375
+</trace>
+<trace id="2">
+12.2582 21.2185, 12.2461 21.2225, 12.2221 21.2225, 12.1619 21.2225, 12.0977 21.2386, 12.0295 21.2466, 11.9733 21.2506
+</trace>
+<trace id="3">
+12.5431 21.3349, 12.5591 21.2626, 12.5551 21.1623, 12.519 21.0339, 12.4347 20.9216, 12.3384 20.8453
+</trace>
+<trace id="4">
+11.8609 21.5716, 11.8288 21.5395, 11.8128 21.4873, 11.7847 21.3951, 11.7887 21.2667, 11.8088 21.1302, 11.8609 21.0179, 11.9291 20.9296, 11.9933 20.8534, 12.0254 20.8213, 12.0335 20.8253
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

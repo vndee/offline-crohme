@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ x + y $</annotation>
+<annotation type="writer">4265.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4265_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="10:11:">x</mi>
+            <mrow>
+                <mo xml:id="12:13:">+</mo>
+                <mi xml:id="14:">y</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+223 286, 221 280, 316 234, 328 235, 337 241, 342 251, 346 266, 350 280, 353 295, 359 309, 365 320, 375 330, 387 338, 402 345, 416 350, 428 353, 440 354
+</trace>
+
+<trace id="1">
+400 221, 396 221, 323 326, 311 347, 302 363, 297 377, 293 387, 292 397
+</trace>
+
+<trace id="2">
+525 139, 520 149, 511 265, 511 287, 510 306, 509 320, 508 333, 507 345
+</trace>
+
+<trace id="3">
+441 241, 451 238, 562 243, 577 244
+</trace>
+
+<trace id="4">
+648 134, 642 138, 649 222, 654 234, 661 242, 668 248, 676 251, 685 251, 696 251, 710 245, 720 236, 726 229, 730 222, 735 210, 739 196, 741 183, 742 170, 742 160, 742 150, 742 144, 742 141, 741 138, 741 139, 741 144, 741 155, 742 168, 744 182, 745 197, 745 214, 745 233, 745 250, 744 267, 740 285, 733 302, 725 318, 716 333, 706 348, 693 362, 679 373, 665 382, 655 387, 646 388, 638 388, 628 385, 624 380, 623 376, 623 367, 623 354, 628 342, 636 327, 643 314, 653 302, 665 291, 679 280, 694 271, 710 263, 726 256, 741 251, 758 246, 783 232
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:11:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="10:11:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="12:13:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="12:13:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="14:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="14:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

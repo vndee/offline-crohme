@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2656</annotation>
+  <annotation type="truth">$\frac{2}{4}$</annotation>
+  <annotation type="writer">User170</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mfrac xml:id="\frac_1">
+        <mrow>
+          <mn xml:id="2_1">2</mn>
+        </mrow>
+        <mrow>
+          <mn xml:id="4_1">4</mn>
+        </mrow>
+      </mfrac>
+    </math>
+  </annotationXML>
+  <trace id="0">336 132 42005, 337 131 42081, 339 130 42093, 344 128 42106, 354 126 42118, 364 125 42129, 371 125 42146, 374 125 42161, 376 127 42173, 381 129 42184, 382 133 42196, 382 135 42209, 382 138 42222, 382 143 42234, 377 151 42246, 368 158 42258, 362 162 42273, 354 165 42286, 336 173 42299, 331 175 42313, 329 177 42327, 323 179 42339, 320 181 42351, 319 182 42377, 320 183 42433, 321 183 42445, 326 186 42457, 338 188 42470, 353 193 42482, 361 195 42497, 370 197 42509, 387 200 42521, 402 201 42534, 417 203 42549, 430 203 42562, 434 203 42577, 437 203 42589, 440 203 42601</trace>
+  <trace id="1">303 239 42954, 304 239 42966, 307 239 42978, 314 240 42990, 323 240 43002, 330 241 43017, 338 241 43029, 358 243 43041, 385 245 43052, 400 246 43065, 414 247 43077, 444 251 43090, 466 253 43104, 478 253 43118, 482 253 43129, 484 253 43141, 482 253 43185</trace>
+  <trace id="2">372 290 43482, 372 291 43494, 370 295 43506, 367 303 43517, 366 307 43529, 364 313 43541, 361 323 43553, 359 335 43565, 359 341 43577, 359 346 43589, 360 356 43601, 366 366 43613, 369 369 43625, 372 372 43637, 379 375 43649, 386 377 43661, 389 377 43674, 392 376 43685, 398 373 43697, 401 369 43709, 403 367 43721, 404 366 43733, 405 365 43745, 406 364 43757, 405 364 43921, 404 364 43933, 403 364 43945, 403 363 43957, 402 362 43969, 401 361 43981, 401 360 43993, 401 358 44005, 401 362 44106, 401 365 44122, 401 369 44133, 401 377 44145, 400 387 44156, 399 391 44169, 399 396 44181, 399 407 44193, 398 413 44205, 398 416 44217, 398 418 44229, 398 422 44241, 397 424 44252, 397 425 44302, 398 426 44353, 399 426 44365, 405 426 44377</trace>
+  <traceGroup xml:id="3">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="4">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="\frac_1" />
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">4</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href="4_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

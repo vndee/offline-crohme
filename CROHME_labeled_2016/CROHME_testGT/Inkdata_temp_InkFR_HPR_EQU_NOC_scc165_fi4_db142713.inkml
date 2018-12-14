@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2i\pi$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F165_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL165</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="2_1">2</mn>
+			<mrow>
+				<mi xml:id="i_1">i</mi>
+				<mi xml:id="pi_1">\pi</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2670 1552, 2670 1552, 2665 1551, 2664 1547, 2666 1538, 2684 1517, 2702 1518, 2713 1527, 2714 1541, 2686 1585, 2669 1602, 2656 1611, 2649 1612, 2682 1623, 2727 1632, 2731 1623, 2731 1612, 2731 1605
+</trace>
+<trace id="1">
+2792 1574, 2792 1574, 2791 1572, 2784 1582, 2785 1590, 2786 1602, 2787 1616, 2791 1626, 2796 1632, 2804 1633, 2818 1621
+</trace>
+<trace id="2">
+2808 1537, 2808 1537, 2799 1534, 2797 1530, 2797 1528, 2800 1532
+</trace>
+<trace id="3">
+2873 1564, 2873 1564, 2867 1572, 2864 1583, 2862 1594, 2863 1622, 2865 1626, 2867 1627, 2871 1621
+</trace>
+<trace id="4">
+2902 1548, 2902 1548, 2901 1550, 2901 1554, 2902 1581, 2906 1599, 2912 1617, 2914 1622
+</trace>
+<trace id="5">
+2849 1568, 2849 1568, 2843 1568, 2840 1569, 2891 1559, 2955 1543, 2970 1538
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

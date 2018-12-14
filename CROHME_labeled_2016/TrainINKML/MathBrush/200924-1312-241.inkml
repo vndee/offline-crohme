@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200924-1312-241.ink"</annotation>
+<annotation type="truth"> { X } ^ { \mbox { Y } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+            <mi xml:id="0:1:">X</mi>
+            <mi xml:id="2:3:">Y</mi>
+        </msup>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11867 3652, 11870 3655, 11870 3652, 11861 3652, 11853 3666, 11839 3685, 11822 3719, 11797 3764, 11766 3823, 11727 3893, 11682 3971, 11637 4055, 11592 4133, 11550 4203, 11514 4265, 11486 4313, 11466 4341, 11461 4352, 11458 4346, 11466 4321, 11478 4282, 11483 4234
+</trace>
+
+<trace id="1">
+11394 3727, 11377 3694, 11371 3671, 11377 3663, 11394 3666, 11419 3680, 11447 3702, 11480 3736, 11511 3778, 11548 3828, 11578 3884, 11606 3946, 11632 4007, 11657 4069, 11679 4125, 11704 4181, 11730 4229, 11755 4271, 11780 4304, 11802 4327, 11825 4346, 11844 4355, 11856 4355, 11872 4346
+</trace>
+
+<trace id="2">
+12102 3293, 12102 3282, 12102 3282, 12108 3288, 12108 3304, 12116 3330, 12122 3355, 12133 3391, 12147 3430, 12164 3475, 12180 3517, 12200 3559, 12220 3593, 12242 3627, 12259 3649, 12278 3666, 12298 3674, 12315 3674, 12332 3663, 12346 3646, 12357 3624, 12368 3596, 12376 3562, 12385 3523, 12390 3484, 12393 3450, 12396 3422, 12396 3397, 12399 3386, 12396 3377, 12396 3380, 12399 3394, 12393 3405
+</trace>
+
+<trace id="3">
+12270 3719, 12276 3733, 12278 3750, 12278 3769, 12284 3795, 12287 3823, 12292 3856, 12301 3890, 12309 3926, 12315 3954, 12326 3985
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">X</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">Y</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

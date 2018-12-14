@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ a \geq b $</annotation>
+<annotation type="writer">annot_325</annotation>
+<annotation type="UI">2014_RIT_CROHME_100</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:">a</mi>
+            <mrow >
+                <mi  xml:id = "1:2:" >\geq</mi>
+                <mi  xml:id = "3:" >b</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+217 222, 221 216, 221 212, 220 207, 217 201, 210 196, 200 193, 186 192, 170 192, 153 195, 138 202, 124 214, 115 226, 109 240, 106 253, 106 268, 109 282, 116 292, 125 299, 138 303, 150 303, 167 302, 180 293, 195 278, 207 263, 216 248, 225 233, 230 218, 232 207, 233 200, 233 195, 232 193, 229 192, 227 192, 225 192, 223 194, 222 197, 221 204, 221 210, 221 219, 221 232, 221 243, 221 257, 224 273, 230 287, 238 301, 249 311, 265 317, 284 319, 305 319
+</trace>
+
+<trace  id = "1" >
+358 154, 365 156, 377 163, 393 168, 411 174, 431 180, 452 186, 471 191, 487 196, 499 200, 510 204, 516 206, 519 208, 520 209, 511 211, 491 214, 463 219, 441 220, 414 223, 394 226, 375 229, 363 230, 356 232, 352 234, 352 236
+</trace>
+
+<trace  id = "2" >
+357 279, 361 276, 370 275, 381 274, 401 273, 420 270, 442 268, 464 266, 488 264, 509 263, 529 263, 542 262, 554 262, 561 263
+</trace>
+
+<trace  id = "3" >
+582 68, 581 68, 582 76, 584 86, 587 98, 591 114, 596 131, 600 147, 603 166, 606 186, 610 206, 611 227, 612 246, 613 264, 614 275, 614 283, 614 287, 614 289, 614 282, 614 273, 614 263, 614 252, 614 239, 614 227, 615 214, 620 203, 624 197, 630 191, 638 188, 648 186, 658 185, 668 185, 678 189, 684 193, 691 200, 694 207, 697 216, 698 224, 698 234, 698 246, 694 258, 688 268, 680 277, 668 285, 654 290, 639 290, 625 290, 613 289, 605 288
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">\geq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">b</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ n \neq a $</annotation>
+<annotation type="writer">annot_95</annotation>
+<annotation type="UI">2014_RIT_CROHME_236</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="46:">n</mi>
+            <mrow >
+                <mi  xml:id = "47:48:49:" >\neq</mi>
+                <mi  xml:id = "50:" >a</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+293 130, 292 124, 299 123, 306 123, 314 123, 322 128, 325 137, 326 145, 326 159, 324 170, 320 178, 316 185, 314 188, 313 190, 313 188, 315 179, 325 167, 335 155, 347 144, 356 137, 362 132, 367 131, 374 131, 378 134, 381 142, 381 155, 381 170, 376 185, 375 197, 375 206, 376 213, 382 214, 392 214, 400 208, 411 198
+</trace>
+
+<trace  id = "1" >
+459 129, 462 128, 477 127, 496 125, 516 125, 534 124, 546 124, 551 124, 553 124, 552 124
+</trace>
+
+<trace  id = "2" >
+457 165, 468 169, 488 166, 507 163, 525 161, 536 159, 541 158, 544 156
+</trace>
+
+<trace  id = "3" >
+524 98, 522 100, 520 110, 515 124, 511 140, 506 157, 502 174, 500 187, 499 197, 499 203, 501 205
+</trace>
+
+<trace  id = "4" >
+657 129, 659 121, 659 118, 659 116, 651 115, 640 115, 629 117, 616 125, 605 134, 597 143, 593 152, 592 160, 592 166, 593 168, 599 168, 609 166, 620 157, 633 149, 645 140, 653 134, 657 131, 658 130, 659 129, 659 130, 658 136, 657 144, 657 150, 657 158, 663 162, 675 162, 687 162, 699 158, 710 152, 718 145
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="46:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="46:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="47:48:49:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="47:48:49:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="50:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="50:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

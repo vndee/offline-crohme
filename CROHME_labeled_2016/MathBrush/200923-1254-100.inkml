@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-100.ink"</annotation>
+<annotation type="truth"> \mbox { TC } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">T</mi>
+            <mi xml:id="2:">C</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4015 3697, 4071 3669, 4133 3635, 4217 3604, 4321 3571, 4458 3540, 4629 3509, 4827 3475, 5063 3442, 5317 3408, 5597 3374, 5889 3338, 6197 3307, 6502 3271, 6810 3237, 7118 3204, 7412 3170, 7700 3136, 7966 3106, 8213 3083, 8428 3058, 8622 3041, 8781 3030, 8899 3019, 8991 3016
+</trace>
+
+<trace id="1">
+6457 3677, 6421 3697, 6404 3730, 6390 3769, 6384 3831, 6390 3921, 6398 4038, 6407 4192, 6409 4371, 6407 4581, 6390 4817, 6365 5063, 6325 5318, 6281 5576, 6233 5825, 6180 6057, 6127 6273, 6079 6463, 6040 6626, 6006 6760, 5995 6850, 5998 6903, 6023 6909
+</trace>
+
+<trace id="2">
+11492 3514, 11648 3447, 11772 3388, 11853 3321, 11898 3260, 11912 3195, 11898 3142, 11853 3094, 11780 3055, 11674 3022, 11542 3005, 11374 3008, 11178 3030, 10957 3083, 10716 3164, 10464 3268, 10206 3400, 9949 3562, 9697 3747, 9464 3960, 9246 4189, 9047 4425, 8882 4677, 8748 4937, 8650 5195, 8588 5450, 8568 5688, 8588 5909, 8650 6102, 8756 6273, 8904 6402, 9086 6505, 9305 6575, 9543 6612, 9809 6623, 10083 6612, 10366 6581, 10646 6533, 10920 6483, 11175 6413, 11408 6340, 11626 6267, 11794 6197
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">T</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">C</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

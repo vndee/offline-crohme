@@ -1,0 +1,47 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2^{\sqrt{2}}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F93_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL93</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mn xml:id="2_1">2</mn>
+			<msqrt xml:id="_1">
+				<mn xml:id="2_2">2</mn>
+			</msqrt>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+2492 1707, 2492 1707, 2495 1705, 2504 1696, 2508 1696, 2514 1699, 2530 1716, 2538 1733, 2538 1756, 2529 1784, 2506 1825, 2498 1832, 2492 1836, 2490 1837, 2542 1835, 2597 1823, 2616 1820
+</trace>
+<trace id="1">
+2593 1643, 2593 1643, 2593 1641, 2594 1638, 2595 1638, 2598 1642, 2623 1688, 2635 1701, 2637 1689, 2628 1649, 2631 1625, 2648 1612, 2662 1607, 2679 1604, 2693 1603, 2702 1604
+</trace>
+<trace id="2">
+2685 1642, 2685 1642, 2690 1643, 2695 1643, 2700 1646, 2706 1656, 2700 1685, 2694 1696, 2691 1697, 2691 1698, 2708 1694, 2718 1691, 2730 1690
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,87 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Arithmetic</annotation>
+<annotation type="expression">65</annotation>
+ <annotation type="UI">65_carlos</annotation>
+<annotation type="writer">carlos</annotation>
+<annotation type="truth">$x = r \cos \theta$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="r_1">r</mi>
+					<mrow>
+						<mi xml:id="cos_1">cos</mi>
+						<mi xml:id="theta_1">\theta</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+486 88, 507 83, 511 86, 516 95, 516 97, 517 99, 516 104, 514 110, 512 114, 508 117, 505 119, 503 120, 499 121, 495 122, 492 122, 491 122, 490 121, 489 120, 490 119, 490 118, 491 116, 492 115
+</trace>
+<trace id="1">
+538 87, 536 85, 519 102, 518 107, 518 109, 518 111, 519 112, 519 114, 520 115, 522 117, 523 118, 526 119, 529 120, 533 120, 538 120, 540 120, 544 120, 547 119, 549 119
+</trace>
+<trace id="2">
+605 103, 602 103, 608 102, 613 102, 621 102, 625 102, 628 103, 629 103, 629 104, 628 105
+</trace>
+<trace id="3">
+607 116, 605 115, 617 114, 625 114, 629 114, 632 114, 633 114, 635 113, 636 113, 635 113
+</trace>
+<trace id="4">
+704 94, 702 91, 704 109, 705 113, 706 117, 707 121, 707 122, 708 122, 708 121, 708 120, 708 118, 707 115, 707 114, 706 110, 706 106, 704 103, 704 101, 704 100, 702 96, 702 95, 702 93, 702 91, 703 90, 704 90, 707 89, 708 89, 710 90, 712 90, 716 90, 717 91, 718 91, 719 92
+</trace>
+<trace id="5">
+790 88, 792 89, 771 104, 770 106, 769 109, 770 112, 770 113, 771 115, 772 116, 777 120, 780 121, 782 122, 786 123, 788 123, 792 123, 793 123, 794 122, 796 121
+</trace>
+<trace id="6">
+827 93, 825 93, 816 114, 817 117, 819 120, 824 122, 826 122, 829 121, 833 119, 836 117, 839 113, 841 109, 841 108, 841 106, 841 104, 841 102, 841 101, 840 99, 839 97, 838 96, 837 95, 834 93, 833 93, 832 92, 829 93, 828 93, 826 94, 824 96
+</trace>
+<trace id="7">
+876 93, 877 92, 856 100, 856 101, 856 102, 859 104, 861 104, 866 104, 870 104, 874 105, 877 106, 878 106, 881 108, 883 111, 883 112, 883 114, 883 115, 883 116, 882 117, 881 117, 880 118, 879 119, 878 120, 877 120, 876 121, 874 121, 873 122, 870 122, 869 121, 867 121, 866 121, 865 120, 863 119, 862 119
+</trace>
+<trace id="8">
+933 69, 932 66, 923 92, 923 97, 923 102, 924 109, 925 113, 928 116, 930 117, 935 117, 938 116, 940 115, 941 114, 944 112, 945 111, 947 108, 949 106, 950 104, 952 100, 952 97, 954 92, 954 89, 954 87, 953 82, 952 80, 952 78, 951 77, 949 75, 948 74, 945 73, 943 72, 942 72, 938 72, 936 73, 933 75, 931 76, 929 78, 926 82, 923 86, 922 88, 921 90, 920 92, 919 95, 919 96, 919 97, 920 99, 922 100, 924 100, 926 100, 928 100, 930 100, 932 99, 937 99, 939 99, 942 99, 944 99, 948 99, 949 98, 951 98, 953 98, 954 98, 955 98
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

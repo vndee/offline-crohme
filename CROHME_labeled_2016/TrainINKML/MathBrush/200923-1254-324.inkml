@@ -1,0 +1,80 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-324.ink"</annotation>
+<annotation type="truth"> \left ( { \gamma + z } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="5:">(</mo>
+            <mrow>
+                <mi xml:id="0:">\gamma</mi>
+                <mrow>
+                    <mo xml:id="1:2:">+</mo>
+                    <mrow>
+                        <mi xml:id="3:">z</mi>
+                        <mo xml:id="4:">)</mo>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+2481 8617, 2517 8586, 2565 8583, 2615 8597, 2663 8648, 2725 8726, 2786 8841, 2845 8986, 2898 9160, 2932 9353, 2949 9566, 2946 9790, 2929 10006, 2895 10216, 2845 10409, 2795 10580, 2739 10720, 2683 10840, 2629 10922, 2582 10975, 2537 11000, 2500 10992, 2475 10952, 2464 10880, 2478 10768, 2514 10627, 2584 10462, 2685 10275, 2817 10079, 2971 9885, 3145 9703, 3321 9538, 3489 9407, 3643 9303, 3766 9227, 3867 9191
+</trace>
+
+<trace id="1">
+3705 9510, 3646 9575, 3595 9633, 3562 9687, 3556 9734, 3576 9768, 3623 9793, 3691 9799, 3775 9790, 3878 9768, 3987 9731, 4105 9684, 4223 9633, 4321 9569
+</trace>
+
+<trace id="2">
+4545 9096, 4519 9163, 4503 9267, 4475 9401, 4441 9561, 4413 9740, 4388 9930, 4368 10121, 4354 10289, 4357 10448
+</trace>
+
+<trace id="3">
+4878 9726, 4939 9636, 5004 9555, 5074 9485, 5149 9426, 5231 9379, 5315 9337, 5399 9303, 5477 9275, 5553 9253, 5614 9241, 5665 9244, 5693 9264, 5701 9306, 5684 9367, 5642 9457, 5583 9563, 5499 9687, 5407 9824, 5306 9967, 5217 10109, 5133 10244, 5065 10361, 5018 10457, 4995 10541, 5004 10594, 5043 10627, 5110 10630, 5197 10608, 5315 10560, 5446 10493, 5595 10417, 5737 10328, 5886 10233, 6023 10140, 6141 10042, 6253 9953
+</trace>
+
+<trace id="4">
+6250 8636, 6283 8650, 6314 8676, 6356 8732, 6395 8807, 6435 8902, 6468 9020, 6493 9163, 6499 9325, 6488 9502, 6451 9684, 6395 9874, 6328 10065, 6227 10238
+</trace>
+
+<trace id="5">
+1823 8432, 1756 8454, 1677 8519, 1579 8617, 1484 8762, 1378 8964, 1271 9210, 1176 9493, 1103 9799, 1050 10121, 1030 10437, 1039 10734, 1086 11011, 1176 11260, 1294 11465
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">\gamma</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200926-1617-162.ink"</annotation>
+<annotation type="truth"> { - { \mbox { A } \mbox { c } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">-</mo>
+            <mrow>
+                <mi xml:id="1:2:">A</mi>
+                <mi xml:id="3:">c</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11637 10437, 11620 10429, 11615 10426, 11606 10415, 11606 10409, 11626 10409, 11654 10415, 11699 10420, 11752 10426, 11814 10431, 11884 10440, 11959 10451, 12024 10448, 12088 10451
+</trace>
+
+<trace id="1">
+12645 10023, 12631 10037, 12614 10067, 12598 10118, 12572 10185, 12550 10272, 12522 10364, 12494 10468, 12463 10571, 12435 10669, 12410 10754, 12390 10824, 12371 10866, 12362 10888, 12357 10880, 12365 10854, 12376 10798, 12402 10717, 12435 10613, 12477 10490, 12528 10353, 12589 10207, 12654 10065, 12715 9933, 12780 9824, 12836 9745, 12886 9706, 12931 9701, 12964 9734, 12990 9801, 13006 9902, 13020 10023, 13032 10154, 13040 10286, 13048 10406, 13057 10515, 13065 10611, 13071 10681, 13082 10728, 13085 10754, 13082 10754, 13074 10740
+</trace>
+
+<trace id="2">
+12710 10440, 12668 10437, 12642 10440, 12626 10443, 12623 10443, 12642 10445, 12682 10440, 12735 10431, 12799 10417, 12875 10412, 12948 10401, 13029 10395
+</trace>
+
+<trace id="3">
+13970 10339, 13956 10322, 13942 10311, 13919 10311, 13880 10314, 13844 10336, 13788 10359, 13735 10401, 13673 10445, 13620 10501, 13575 10557, 13544 10616, 13536 10672, 13550 10720, 13586 10754, 13642 10779, 13715 10793, 13796 10793, 13891 10787, 13981 10773, 14051 10751, 14110 10726
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">A</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">c</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

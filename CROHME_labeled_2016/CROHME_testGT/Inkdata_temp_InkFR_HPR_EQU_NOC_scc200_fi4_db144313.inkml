@@ -1,0 +1,123 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$(-i)^2 = -1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F200_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL200</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<mo xml:id="-_1">-</mo>
+				<mrow>
+					<mi xml:id="i_1">i</mi>
+					<mrow>
+						<msup>
+							<mo xml:id=")_1">)</mo>
+							<mn xml:id="2_1">2</mn>
+						</msup>
+						<mrow>
+							<mo xml:id="=_1">=</mo>
+							<mrow>
+								<mo xml:id="-_2">-</mo>
+								<mn xml:id="1_1">1</mn>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2209 1504, 2209 1504
+</trace>
+<trace id="1">
+2209 1502, 2209 1502, 2208 1500, 2205 1497, 2204 1497, 2203 1499, 2189 1541, 2186 1601, 2196 1647
+</trace>
+<trace id="2">
+2236 1591, 2236 1591, 2233 1592, 2230 1591, 2262 1591, 2300 1585, 2301 1585
+</trace>
+<trace id="3">
+2347 1612, 2347 1612, 2344 1613, 2342 1614, 2371 1595, 2383 1582, 2382 1582, 2381 1582, 2376 1586
+</trace>
+<trace id="4">
+2352 1605, 2352 1605
+</trace>
+<trace id="5">
+2347 1609, 2347 1609, 2341 1614, 2339 1616, 2339 1617, 2350 1612, 2372 1592, 2384 1576, 2388 1560, 2388 1606, 2397 1623, 2403 1623
+</trace>
+<trace id="6">
+2388 1505, 2388 1505, 2386 1502, 2385 1501, 2385 1501, 2389 1510, 2393 1512, 2406 1511, 2411 1501, 2404 1494, 2400 1494, 2396 1495, 2395 1500
+</trace>
+<trace id="7">
+2458 1468, 2458 1468, 2454 1463, 2451 1462, 2467 1511, 2473 1577, 2466 1636, 2461 1652, 2458 1660, 2456 1661, 2456 1658, 2457 1647
+</trace>
+<trace id="8">
+2538 1467, 2538 1467, 2541 1469, 2541 1472, 2539 1478, 2532 1481, 2525 1480, 2525 1460, 2533 1447, 2549 1445, 2555 1449, 2558 1472, 2555 1487, 2541 1511, 2515 1528, 2517 1525, 2529 1526, 2573 1538, 2587 1529, 2588 1515, 2587 1517
+</trace>
+<trace id="9">
+2684 1589, 2684 1589, 2681 1591, 2676 1592, 2672 1593, 2672 1593, 2682 1594, 2752 1587, 2750 1587, 2746 1590
+</trace>
+<trace id="10">
+2676 1634, 2676 1634, 2675 1636, 2677 1637, 2681 1638, 2727 1639, 2736 1636, 2747 1631
+</trace>
+<trace id="11">
+2822 1598, 2822 1598, 2817 1598, 2839 1601, 2879 1598
+</trace>
+<trace id="12">
+2948 1601, 2948 1601, 2945 1604, 2943 1603, 2941 1604, 2942 1604, 2948 1603, 2971 1577, 2989 1547, 2999 1506, 3021 1617, 3007 1615, 2967 1623, 3051 1612
+</trace>
+<traceGroup xml:id="13">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="14">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="-_2"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="12"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

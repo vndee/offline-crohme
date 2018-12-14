@@ -1,0 +1,76 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_Nina</annotation>
+<annotation type="writer">Nina</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+281 140
+</trace>
+<trace id="1">
+281 140, 282 140, 283 140, 284 140, 285 140, 286 139, 288 139, 290 139, 291 139, 293 139, 294 139, 296 139, 297 140, 298 142, 298 144, 298 146, 298 149, 298 151, 297 155, 297 158, 297 161, 296 163, 296 165, 296 167, 295 169, 295 170, 296 169, 296 168, 296 167, 296 166, 296 165, 296 163, 296 162, 296 160, 297 158, 297 156, 298 154, 298 151, 299 149, 300 147, 301 145, 301 143, 302 142, 303 140, 304 139, 305 139, 306 138, 307 138, 308 138, 309 138, 310 139, 311 139, 312 140, 313 140, 314 141, 315 142, 315 144, 316 146, 316 147, 317 150, 317 152, 317 154, 318 157, 318 159, 318 162, 318 164, 318 165, 319 167, 319 168, 319 169, 320 169, 321 169, 322 169, 323 169, 325 168, 327 167, 329 166
+</trace>
+<trace id="2">
+351 104
+</trace>
+<trace id="3">
+351 104, 351 103, 351 104, 350 104, 350 105, 350 106, 351 108, 351 109, 351 111, 351 113, 351 116, 351 120, 351 123, 351 127, 351 131, 351 135, 352 139, 352 142, 353 145, 353 148, 354 150, 354 152, 355 154
+</trace>
+<trace id="4">
+354 167, 353 168, 355 167
+</trace>
+<trace id="5">
+383 151, 384 151, 385 152, 410 150, 411 150
+</trace>
+<trace id="6">
+437 143
+</trace>
+<trace id="7">
+437 143, 436 143, 437 142, 437 141, 437 140, 438 139, 438 137, 439 136, 439 135, 440 133, 440 132, 440 131, 441 130, 441 129, 441 128, 441 127, 442 128, 442 129, 442 130, 443 132, 443 134, 443 137, 444 140, 444 143, 445 146, 445 150, 445 154, 446 157, 446 160, 446 163, 447 165, 447 168, 447 169, 447 170, 447 171, 448 172, 449 171, 449 170
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

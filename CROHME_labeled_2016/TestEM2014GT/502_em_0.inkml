@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">L</annotation>
+<annotation type="writer">502</annotation>
+<annotation type="truth">$63$</annotation>
+<annotation type="UI">IVC_2014_F502_E0</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="6_1">6</mn>
+			<mn xml:id="3_1">3</mn>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+435 90, 435 89, 433 87, 429 87, 426 88, 423 89, 419 91, 416 93, 411 95, 407 99, 403 103, 399 108, 394 114, 391 121, 388 128, 385 136, 383 145, 381 154, 381 164, 381 175, 382 185, 384 195, 387 204, 391 213, 396 222, 403 229, 409 235, 417 239, 424 242, 431 243, 439 243, 445 242, 452 239, 458 235, 463 230, 470 219, 472 213, 474 206, 474 200, 471 189, 468 184, 464 180, 459 176, 454 174, 448 172, 441 171, 427 171, 420 173, 413 175, 406 178, 394 186, 388 191, 384 195, 381 200, 378 205, 376 208, 374 212
+</trace>
+<trace id="1">
+520 102, 517 102, 517 101, 518 98, 521 96, 524 94, 528 93, 533 92, 538 92, 544 93, 549 95, 554 98, 557 102, 559 107, 559 113, 558 118, 555 124, 551 129, 546 134, 542 139, 538 142, 534 144, 532 145, 533 145, 534 145, 551 145, 557 145, 568 150, 573 153, 576 159, 578 165, 579 181, 578 191, 575 200, 565 214, 559 218, 552 220, 545 220, 532 217, 528 214, 525 212, 524 211, 523 211, 524 211
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

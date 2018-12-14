@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_103</annotation>
+<annotation type="truth">$\mbox{C}^2$</annotation>
+<annotation type="UI">CROHME_2016_em_72</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="C_1">C</mi>
+			<mn xml:id="2_1">2</mn>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+386 239, 386 229, 385 227, 383 225, 381 224, 379 224, 375 224, 371 225, 367 227, 363 230, 360 233, 356 236, 352 240, 350 244, 347 249, 344 254, 343 259, 341 264, 341 270, 341 275, 342 279, 343 283, 345 286, 348 289, 351 291, 354 293, 359 293, 363 294, 367 293, 371 293, 375 292, 378 291, 381 291, 383 290, 384 290
+</trace>
+<trace id="1">
+404 221, 417 216, 420 217, 422 217, 424 217, 424 219, 424 221, 422 224, 420 228, 418 232, 414 235, 411 238, 407 241, 405 243, 403 245, 401 246, 401 247, 403 248, 404 248, 407 248, 409 248, 412 249, 414 249, 415 250, 417 251, 418 252, 418 253
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">C</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="C_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

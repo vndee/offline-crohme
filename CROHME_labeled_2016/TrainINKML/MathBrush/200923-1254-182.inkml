@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-182.ink"</annotation>
+<annotation type="truth"> \left ( { \mbox { C } } _ { \theta } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="4:">(</mo>
+            <mrow>
+                <msub>
+                    <mi xml:id="0:">C</mi>
+                    <mi xml:id="1:2:">\theta</mi>
+                </msub>
+                <mo xml:id="3:">)</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+10909 5279, 10951 5200, 10974 5136, 10971 5088, 10934 5055, 10878 5044, 10800 5049, 10705 5080, 10593 5142, 10470 5231, 10341 5349, 10212 5489, 10097 5648, 10002 5816, 9924 5984, 9870 6144, 9842 6287, 9851 6407, 9896 6508, 9963 6581, 10066 6629, 10184 6648, 10332 6648, 10492 6629, 10657 6589, 10825 6533
+</trace>
+
+<trace id="1">
+11570 6099, 11620 6071, 11643 6071, 11643 6096, 11618 6150, 11576 6222, 11522 6309, 11464 6407, 11408 6517, 11354 6620, 11312 6721, 11284 6811, 11282 6883, 11304 6937, 11343 6967, 11399 6973, 11466 6953, 11536 6917, 11604 6864, 11665 6802, 11713 6735, 11749 6665, 11772 6603, 11786 6553, 11788 6514, 11783 6489, 11774 6477, 11755 6483, 11735 6500, 11704 6525, 11674 6553, 11640 6584, 11606 6612, 11581 6637, 11567 6654, 11564 6665, 11576 6665, 11601 6659, 11632 6648, 11668 6637, 11707 6626, 11738 6615
+</trace>
+
+<trace id="2">
+11676 6645, 11676 6651, 11682 6651, 11704 6645, 11735 6637, 11780 6620, 11842 6606, 11903 6570
+</trace>
+
+<trace id="3">
+12528 5200, 12561 5091, 12595 5004, 12631 4957, 12673 4945, 12721 4962, 12780 5013, 12838 5094, 12906 5203, 12973 5335, 13040 5492, 13093 5668, 13138 5853, 13158 6052, 13158 6253, 13130 6447, 13074 6626, 12992 6791, 12889 6923, 12757 7021, 12606 7096
+</trace>
+
+<trace id="4">
+9585 5027, 9526 4895, 9464 4763, 9408 4660, 9361 4579, 9319 4525, 9280 4520, 9235 4559, 9190 4643, 9137 4769, 9081 4940, 9022 5150, 8963 5394, 8916 5660, 8879 5940, 8862 6214, 8868 6475, 8899 6713, 8958 6923, 9050 7102, 9159 7239, 9288 7357, 9425 7455, 9557 7525, 9688 7597
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">C</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

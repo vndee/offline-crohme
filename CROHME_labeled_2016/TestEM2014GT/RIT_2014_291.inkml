@@ -1,0 +1,42 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \mu m $</annotation>
+<annotation type="writer">annot_100</annotation>
+<annotation type="UI">2014_RIT_CROHME_291</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="17:">\mu</mi>
+            <mi  xml:id = "18:" >m</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+286 315, 291 313, 303 303, 320 289, 337 274, 353 256, 366 239, 379 222, 391 204, 403 187, 412 173, 419 161, 423 154, 425 151, 425 150, 420 158, 412 171, 403 186, 395 202, 390 220, 389 234, 389 248, 395 257, 401 261, 409 262, 421 261, 434 251, 450 236, 463 222, 472 210, 477 199, 480 190, 481 183, 482 179, 482 177, 476 183, 467 194, 462 205, 460 219, 460 232, 464 243, 472 249, 480 251, 486 251, 497 248, 505 240, 511 234, 515 230, 519 227
+</trace>
+
+<trace  id = "1" >
+570 176, 568 193, 568 201, 568 211, 567 222, 567 231, 566 239, 566 244, 566 247, 566 249, 566 240, 566 229, 570 218, 575 207, 581 198, 589 189, 597 183, 604 179, 610 178, 617 178, 621 183, 623 192, 623 203, 623 216, 622 224, 620 231, 619 235, 618 237, 617 238, 617 236, 617 228, 618 217, 626 205, 635 195, 643 187, 650 183, 655 181, 660 181, 666 185, 669 195, 670 207, 670 220, 671 232, 673 241, 678 248, 685 251, 693 251, 701 251
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="17:">
+        <annotation type="truth">\mu</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="17:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="18:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="18:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

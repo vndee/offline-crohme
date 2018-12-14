@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$x+k$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F458_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL458</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mi xml:id="k_1">k</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3680 3093, 3680 3093, 3676 3089, 3678 3079, 3690 3066, 3704 3062, 3713 3070, 3713 3088, 3704 3113, 3691 3118, 3689 3108
+</trace>
+<trace id="1">
+3768 3069, 3768 3069, 3764 3067, 3748 3066, 3735 3086, 3734 3093, 3734 3099, 3742 3107, 3748 3108, 3776 3099
+</trace>
+<trace id="2">
+3876 3078, 3876 3078, 3876 3077, 3882 3077, 3899 3078, 3920 3076
+</trace>
+<trace id="3">
+3895 3047, 3895 3047, 3894 3046, 3895 3046, 3898 3052, 3900 3058, 3900 3073, 3899 3086, 3900 3101, 3902 3112, 3902 3121, 3901 3126, 3901 3126, 3901 3126, 3902 3122
+</trace>
+<trace id="4">
+4006 3065, 4006 3065, 4005 3069, 4011 3068, 4028 3054, 4034 3045, 4037 3038, 4032 3020, 4026 3017, 4022 3019, 4018 3025, 4012 3069, 4013 3086, 4019 3122, 4022 3125, 4024 3124, 4030 3118, 4060 3074, 4069 3067, 4049 3087, 4038 3109, 4043 3115, 4070 3121, 4091 3124, 4086 3124
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="k_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

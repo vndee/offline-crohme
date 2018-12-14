@@ -1,0 +1,63 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">23</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_466</annotation>
+<annotation type="truth">$Y \times Y$</annotation>
+<annotation type="UI">CROHME_2016_em_982</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="Y_1">Y</mi>
+			<mrow>
+				<mo xml:id="times_1">times</mo>
+				<mi xml:id="Y_2">Y</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+454 217, 453 217, 453 218, 454 221, 455 224, 456 226, 457 228, 459 230, 460 232, 461 235, 461 237, 462 240, 463 244, 464 245, 465 246, 465 247, 465 246, 466 246
+</trace>
+<trace id="1">
+492 220, 491 221, 480 229, 478 231, 475 233, 473 235, 471 237, 468 240, 467 241, 465 242, 465 243, 465 244, 464 248, 464 250, 463 252, 462 255, 462 257, 461 260, 460 263, 460 267, 459 270, 458 273, 457 276, 457 279, 456 282, 455 285, 454 289, 453 291, 453 292
+</trace>
+<trace id="2">
+525 245, 524 246, 520 250, 517 252, 515 254, 512 256, 510 258, 509 260, 507 262, 505 265
+</trace>
+<trace id="3">
+510 244, 510 245, 511 245, 511 246, 513 251, 517 257, 518 258, 520 260, 524 265, 525 266, 525 265, 527 266, 526 266
+</trace>
+<trace id="4">
+559 226, 560 226, 562 228, 563 230, 563 231, 563 233, 564 235, 565 237, 565 239, 566 241, 569 247, 571 250, 572 250, 572 251
+</trace>
+<trace id="5">
+596 232, 596 233, 595 233, 589 239, 586 241, 584 243, 581 245, 579 247, 576 249, 574 251, 572 252, 571 253, 571 254, 570 259, 569 261, 568 263, 567 266, 567 269, 566 271, 565 274, 563 278, 561 284, 560 287, 559 290, 558 293, 558 295, 557 297, 557 299, 556 301, 556 300, 556 301, 557 303
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">Y</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="Y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">Y</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="Y_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

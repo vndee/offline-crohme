@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_123</annotation>
+<annotation type="truth">$\frac {7}{ 9}$</annotation>
+<annotation type="UI">CROHME_2016_em_509</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mn xml:id="7_1">7</mn>
+			<mn xml:id="9_1">9</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+439 105, 440 117, 440 121, 440 125, 441 130, 440 135, 440 140, 439 145, 439 150, 438 155, 437 160, 437 165, 436 170, 435 174, 435 178, 435 181, 435 184, 434 185, 434 187, 434 188, 433 187, 431 186, 430 184, 430 181, 429 178, 429 174, 429 170, 428 166, 428 161, 428 157, 428 152, 428 147, 429 143, 429 137, 429 132, 429 126, 429 121, 429 116, 430 112, 431 107, 431 103, 432 99, 433 96, 434 94, 434 92, 435 90, 435 89, 435 88, 435 90, 435 91, 434 93, 433 95, 431 97, 429 100, 426 104, 423 107, 420 110, 416 113, 411 117, 407 120, 403 123, 398 126, 394 129, 390 131, 386 132, 383 134, 380 134, 378 134, 377 135, 376 134, 375 134, 374 134, 374 135, 375 135
+</trace>
+<trace id="1">
+399 147, 430 143, 436 142, 443 141, 444 141
+</trace>
+<trace id="2">
+366 214, 394 214, 402 214, 409 214, 418 213, 425 213, 433 213, 441 212, 448 212, 455 211, 461 211, 466 211, 471 211, 475 211, 478 211, 482 211, 485 211, 487 211, 490 212, 491 212, 492 213
+</trace>
+<trace id="3">
+408 239, 401 253, 400 257, 401 260, 402 263, 404 266, 406 267, 410 268, 413 268, 416 267, 419 265, 422 263, 425 261, 427 258, 429 255, 431 251, 431 248, 431 245, 430 242, 429 240, 428 238, 426 236, 424 234, 423 233, 421 232, 420 231, 420 232, 421 234, 422 235, 424 238, 425 241, 428 243, 431 246, 434 249, 436 252, 439 255, 442 257, 445 260, 448 263, 451 266, 453 268, 455 271, 456 274, 457 277, 457 280, 457 283, 457 285, 455 287, 453 290, 450 292, 447 293, 445 295, 442 296, 440 297, 438 297, 435 298, 433 298, 430 299, 427 300, 424 301, 420 302, 416 304, 412 305, 409 306, 406 307, 404 307, 402 307, 401 308, 401 307, 403 307, 405 306
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">9</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="9_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="7_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

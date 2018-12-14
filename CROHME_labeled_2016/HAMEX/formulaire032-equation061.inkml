@@ -1,0 +1,62 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\alpha(c)$</annotation>
+<annotation type="UI">2011_IVC_depart_F032_E061</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart032</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="\alpha_1">\alpha</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="c_1">c</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.3875 16.1507, 11.4155 16.1427, 11.4316 16.1427, 11.4396 16.1628, 11.4517 16.1949, 11.4517 16.235, 11.4356 16.2751, 11.3834 16.3313, 11.3233 16.3915, 11.2831 16.4276, 11.255 16.4356, 11.2109 16.4276, 11.1868 16.3995, 11.1628 16.3513, 11.1668 16.2912, 11.1908 16.251, 11.2109 16.235, 11.251 16.239, 11.2992 16.2591, 11.3594 16.2952, 11.4155 16.3473, 11.4557 16.3995, 11.4838 16.4396, 11.5199 16.4717, 11.5439 16.4998, 11.556 16.5118, 11.56 16.5199, 11.556 16.5239, 11.552 16.5199
+</trace>
+<trace id="1">
+11.9853 15.8939, 11.9893 15.8779, 11.9853 15.8779, 11.9653 15.8979, 11.9412 15.9421, 11.9171 16.0023, 11.8649 16.1066, 11.8369 16.1989, 11.8328 16.2912, 11.8288 16.3754, 11.8409 16.4236, 11.8569 16.4557, 11.873 16.4918, 11.881 16.5078, 11.897 16.5118, 11.9171 16.5118
+</trace>
+<trace id="2">
+12.202 16.1347, 12.1859 16.1427, 12.1619 16.1628, 12.1217 16.2069, 12.0896 16.2711, 12.0736 16.3353, 12.0856 16.3794, 12.1177 16.4155, 12.1659 16.4356, 12.218 16.4356, 12.2863 16.4075
+</trace>
+<trace id="3">
+12.3545 15.9019, 12.3745 15.91, 12.4307 15.9461, 12.4829 16.0223, 12.535 16.1467, 12.5471 16.2711, 12.523 16.3794, 12.4789 16.4557, 12.4387 16.5159, 12.3906 16.552
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\alpha_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

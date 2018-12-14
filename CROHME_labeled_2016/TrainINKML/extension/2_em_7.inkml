@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">31</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">2</annotation>
+<annotation type="truth">$\{u\}$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F2_E7</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="{_1">{</mo>
+			<mrow>
+				<mi xml:id="u_1">u</mi>
+				<mo xml:id="}_1">}</mo>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+315 64, 318 69, 319 72, 319 76, 319 80, 318 85, 318 89, 316 94, 315 99, 313 103, 311 108, 309 112, 307 115, 305 119, 302 121, 300 123, 298 125, 296 126, 295 126, 293 126, 292 126, 292 125, 292 124, 293 123, 294 121, 295 120, 297 119, 298 118, 300 118, 302 118, 303 118, 305 119, 306 121, 307 123, 309 126, 310 130, 311 134, 312 138, 313 143, 314 147, 315 152, 315 157, 315 162, 315 167, 315 172, 315 176, 315 180, 315 183, 315 187, 315 190, 315 193, 316 195, 316 197, 317 197
+</trace>
+<trace id="1">
+351 151, 357 148, 359 147, 361 146, 363 144, 365 142, 366 140, 368 137, 369 134, 370 132, 372 129, 373 127, 375 125, 376 123, 377 121, 377 119, 378 118, 379 117, 378 119, 378 120, 377 122, 377 124, 377 127, 377 130, 376 132, 377 135, 377 138, 377 141, 378 143, 379 146, 380 148, 381 150, 382 151, 384 152, 386 153, 387 153, 388 153, 389 152, 391 151, 392 150, 393 148, 395 145, 396 143, 398 140, 399 137, 399 134, 400 132, 401 129, 402 127, 402 125, 403 124, 403 122, 404 122, 404 121, 404 120, 404 121, 404 122, 404 123, 404 125, 404 126, 404 128, 404 130, 404 133, 404 135, 405 137, 405 139, 405 142, 406 143, 407 145, 407 147, 408 148, 409 149, 410 150, 411 151, 412 151, 413 152, 415 151, 417 151, 418 150
+</trace>
+<trace id="2">
+464 74, 457 84, 456 88, 455 91, 454 95, 454 99, 454 103, 453 106, 453 110, 454 113, 454 115, 455 117, 456 119, 457 120, 458 121, 460 121, 461 121, 463 120, 464 120, 465 119, 466 118, 466 117, 467 116, 467 115, 466 115, 465 115, 464 115, 463 116, 462 117, 460 119, 459 121, 458 123, 456 126, 455 129, 455 132, 454 136, 454 140, 453 143, 453 147, 453 151, 453 155, 453 158, 452 161, 452 164, 452 167, 452 169, 452 171, 452 173, 452 174, 451 175, 451 176
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">\{</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="{_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">u</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="u_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\}</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="}_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

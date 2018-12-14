@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \int d x $</annotation>
+<annotation type="writer">42180.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42180_0</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">\int</mo>
+            <mrow>
+                <mi xml:id="1:">d</mi>
+                <mi xml:id="2:3:">x</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+412 98, 409 92, 402 86, 399 86, 398 85, 395 84, 393 84, 390 84, 388 84, 385 84, 383 85, 380 87, 378 88, 377 90, 376 93, 375 95, 374 99, 373 103, 372 106, 372 110, 372 114, 371 118, 371 122, 371 127, 371 132, 371 137, 371 141, 371 146, 371 151, 371 156, 371 160, 371 166, 371 171, 371 177, 371 183, 371 189, 371 195, 371 202, 371 210, 371 217, 371 223, 371 232, 371 239, 371 246, 370 254, 370 261, 367 268, 364 275, 361 280, 358 285, 354 290, 350 293, 346 295, 341 298, 336 299, 332 299, 327 299, 323 299, 318 299, 314 297, 310 295, 307 292, 305 290, 302 286, 301 283, 300 280, 299 277, 298 275, 298 272, 298 271, 297 268
+</trace>
+
+<trace id="1">
+464 212, 463 209, 463 202, 461 200, 458 196, 456 193, 453 191, 450 189, 447 188, 443 188, 440 188, 437 188, 433 188, 430 189, 427 192, 424 197, 423 202, 421 209, 419 213, 419 219, 418 223, 418 227, 418 231, 419 233, 421 236, 423 237, 425 237, 427 237, 429 237, 431 237, 433 236, 435 233, 438 230, 440 226, 443 222, 445 217, 448 212, 452 207, 453 202, 455 196, 458 189, 460 182, 463 174, 464 168, 466 161, 467 152, 468 146, 470 140, 472 133, 472 127, 472 123, 472 120, 472 118, 472 117, 472 118, 471 121, 469 126, 468 133, 467 140, 467 149, 465 158, 463 167, 463 177, 462 185, 461 193, 461 202, 461 210, 463 217, 466 223, 469 227, 475 232, 480 235, 486 237, 490 238, 496 238, 502 236
+</trace>
+
+<trace id="2">
+507 169, 511 173, 525 181, 531 183, 538 185, 545 187, 552 188, 557 188, 562 189, 566 190, 569 191, 571 192, 572 193, 572 195, 572 197, 572 201, 570 206, 568 211, 565 214, 564 217, 561 221, 560 223, 559 225, 558 226, 557 227, 556 227, 555 227
+</trace>
+
+<trace id="3">
+551 163, 547 167, 540 183, 535 190, 532 197, 529 206, 526 210, 525 214, 524 217, 523 219, 522 220, 521 220
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">\int</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">d</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

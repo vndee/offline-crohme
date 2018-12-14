@@ -1,0 +1,86 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">29</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">515</annotation>
+<annotation type="truth">$\sin (\beta)  $</annotation>
+<annotation type="UI">IVC_2014_F515_E350</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">sin</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="beta_1">beta</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+511 190, 490 182, 487 183, 485 184, 482 186, 480 187, 478 189, 476 191, 475 193, 475 195, 475 196, 475 198, 477 199, 478 201, 480 203, 482 204, 486 206, 490 207, 494 209, 497 211, 501 213, 504 215, 507 217, 510 218, 512 221, 515 222, 516 224, 517 225, 517 227, 517 228, 516 229, 515 230, 513 230, 510 231, 507 231, 504 232, 501 232, 497 231, 494 231, 491 231, 488 230, 486 230, 485 230, 484 230
+</trace>
+<trace id="1">
+544 196, 547 205, 548 208, 549 211, 549 214, 550 216, 550 219, 551 221, 551 224, 551 226, 552 227, 553 228, 553 229, 554 229, 554 230
+</trace>
+<trace id="2">
+544 188
+</trace>
+<trace id="3">
+578 205, 579 210, 579 212, 580 214, 580 216, 581 218, 581 220, 582 222, 583 223, 583 224, 584 225
+</trace>
+<trace id="4">
+579 198, 593 206, 596 208, 600 210, 603 213, 606 215, 610 216, 613 218, 616 219, 619 220, 621 221, 623 221, 624 221
+</trace>
+<trace id="5">
+609 197, 617 213, 618 215, 620 217, 621 218, 622 220, 623 221, 624 222
+</trace>
+<trace id="6">
+683 160, 669 185, 666 191, 664 197, 662 202, 661 208, 660 213, 660 218, 661 223, 663 227, 665 231, 667 234, 669 237, 672 239, 675 241, 677 242, 679 244, 681 244, 682 245, 683 245, 684 245
+</trace>
+<trace id="7">
+713 185, 714 198, 714 202, 714 206, 714 210, 714 215, 714 221, 713 226, 713 230, 712 234, 711 239, 710 242, 709 246, 707 248, 705 251, 704 252, 701 253
+</trace>
+<trace id="8">
+712 190, 725 186, 727 187, 729 189, 730 191, 731 193, 732 195, 733 197, 733 199, 732 201, 731 203, 730 204, 729 205, 728 206, 727 206, 726 207, 725 207, 726 207, 727 207, 729 207, 730 207, 731 208, 733 209, 734 210, 735 212, 735 214, 736 216, 735 218, 735 221, 734 223, 732 225, 730 226, 727 227, 725 227, 722 228, 720 227, 719 227, 717 226, 716 225, 715 224, 715 223, 715 222, 714 222
+</trace>
+<trace id="9">
+740 168, 747 177, 750 181, 752 185, 755 189, 757 194, 760 199, 761 205, 762 210, 763 216, 763 221, 762 226, 761 230, 759 234, 758 238, 756 241, 755 244, 754 246, 753 248, 752 249, 752 250
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

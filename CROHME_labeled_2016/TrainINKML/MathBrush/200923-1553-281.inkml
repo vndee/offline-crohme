@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1553-281.ink"</annotation>
+<annotation type="truth"> \left ( \sqrt { \mbox { i } } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="3:">(</mo>
+            <mrow>
+                <msqrt xml:id="0:">
+                    <mi xml:id="1:2:">i</mi>
+                </msqrt>
+                <mo xml:id="4:">)</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+13528 10329, 13529 10320, 13541 10324, 13549 10329, 13565 10350, 13588 10382, 13615 10421, 13649 10464, 13684 10509, 13718 10552, 13754 10594, 13786 10629, 13817 10657, 13842 10680, 13866 10693, 13882 10700, 13896 10694, 13904 10679, 13909 10650, 13908 10611, 13902 10562, 13891 10498, 13878 10425, 13863 10341, 13848 10253, 13833 10163, 13820 10076, 13814 9999, 13814 9929, 13821 9873, 13838 9827, 13865 9796, 13902 9775, 13950 9764, 14007 9758, 14077 9755, 14155 9753, 14240 9753, 14330 9755, 14421 9755, 14509 9761, 14587 9766, 14653 9770, 14709 9784, 14745 9796
+</trace>
+
+<trace id="1">
+14286 10254, 14281 10293, 14269 10330, 14266 10376, 14256 10422, 14252 10474, 14253 10527, 14259 10575, 14270 10618, 14282 10651, 14298 10679, 14317 10699, 14340 10709, 14365 10709, 14393 10699, 14421 10683, 14448 10656, 14470 10620, 14494 10581, 14506 10533, 14516 10485
+</trace>
+
+<trace id="2">
+14316 10023, 14296 10009, 14285 10008, 14270 10002, 14264 10005, 14256 10010, 14252 10015, 14256 10028, 14254 10030, 14257 10043
+</trace>
+
+<trace id="3">
+13300 9864, 13262 9900, 13226 9940, 13203 10001, 13189 10074, 13176 10163, 13176 10259, 13185 10359, 13212 10458, 13247 10549, 13300 10630, 13365 10699, 13445 10756, 13531 10791, 13636 10816, 13738 10817
+</trace>
+
+<trace id="4">
+15096 9751, 15123 9766, 15142 9791, 15163 9835, 15175 9892, 15192 9964, 15210 10049, 15228 10142, 15240 10241, 15246 10342, 15243 10442, 15231 10542, 15208 10637, 15172 10724, 15127 10809, 15068 10885
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

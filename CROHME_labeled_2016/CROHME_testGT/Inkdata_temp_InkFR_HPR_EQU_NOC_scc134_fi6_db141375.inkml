@@ -1,0 +1,90 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$e^{ix}\neq 1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F134_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL134</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="e_1">e</mi>
+				<mrow>
+					<mi xml:id="i_1">i</mi>
+					<mi xml:id="x_1">x</mi>
+				</mrow>
+			</msup>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3462 3057, 3462 3057, 3457 3062, 3452 3069, 3461 3069, 3487 3057, 3498 3045, 3499 3028, 3490 3026, 3482 3029, 3469 3044, 3464 3085, 3471 3093, 3486 3095, 3526 3093
+</trace>
+<trace id="1">
+3559 2952, 3559 2952, 3553 2939, 3552 2939, 3541 2952, 3542 2984, 3546 2987, 3565 2987, 3576 2981, 3578 2978
+</trace>
+<trace id="2">
+3566 2909, 3566 2909, 3566 2914, 3567 2913, 3572 2903
+</trace>
+<trace id="3">
+3525 2978, 3525 2978, 3525 2977, 3526 2976, 3541 2959, 3548 2945, 3547 2945
+</trace>
+<trace id="4">
+3608 2934, 3608 2934, 3607 2929, 3612 2926, 3626 2923, 3630 2923, 3635 2930, 3632 2951, 3617 2966, 3612 2968, 3604 2966, 3604 2962
+</trace>
+<trace id="5">
+3669 2923, 3669 2923, 3669 2921, 3668 2920, 3656 2921, 3642 2932, 3638 2943, 3641 2959, 3660 2970, 3678 2969, 3690 2964
+</trace>
+<trace id="6">
+3848 3029, 3848 3029, 3854 3032, 3859 3035, 3741 3047, 3742 3050
+</trace>
+<trace id="7">
+3835 3077, 3835 3077, 3842 3082, 3847 3085, 3848 3085, 3816 3084, 3723 3096, 3722 3097
+</trace>
+<trace id="8">
+3823 2987, 3823 2987, 3824 2987, 3788 3092, 3773 3124, 3773 3124
+</trace>
+<trace id="9">
+3938 3039, 3938 3039, 3935 3044, 3932 3047, 3932 3043, 3955 3026, 3996 2983, 3979 3027, 3973 3089, 3972 3089, 3972 3087, 3968 3084
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_103</annotation>
+<annotation type="truth">$\int d E$</annotation>
+<annotation type="UI">CROHME_2016_em_69</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="int_1">int</mo>
+			<mrow>
+				<mi xml:id="d_1">d</mi>
+				<mi xml:id="E_1">E</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+231 358, 229 364, 229 368, 229 372, 228 376, 228 381, 228 385, 228 389, 228 392, 229 394, 229 396, 230 397, 231 398, 232 398, 234 398, 236 398, 238 397, 240 397, 242 396, 244 395, 246 393, 247 391, 249 388, 250 386, 251 382, 253 378, 255 373, 257 369, 258 364, 260 360, 262 356, 264 351, 266 347, 267 343, 268 338, 269 332, 271 327, 272 322, 274 315, 276 309, 278 302, 280 294, 283 287, 285 280, 288 273, 290 266, 292 259, 295 252, 297 245, 301 237, 304 229, 308 221, 311 213, 315 206, 319 199, 324 192, 327 187, 330 182, 333 178, 335 175, 337 173, 338 172, 339 170, 340 170, 341 170, 343 170, 343 171, 344 172, 345 174, 346 176, 347 180, 347 183, 348 186, 348 190, 348 193, 348 196, 347 199, 346 202, 346 203
+</trace>
+<trace id="1">
+378 297, 362 315, 362 318, 362 322, 363 325, 364 327, 366 328, 368 330, 370 330, 372 330, 374 329, 376 327, 378 325, 379 322, 381 319, 383 315, 384 310, 385 305, 386 300, 386 294, 386 289, 386 283, 386 276, 387 270, 388 265, 389 260, 390 255, 391 252, 392 250, 392 249, 393 248, 394 250, 393 252, 393 255, 393 259, 392 264, 392 269, 391 274, 391 279, 390 285, 390 291, 390 296, 391 301, 391 305, 392 308, 392 311, 393 314, 393 315, 394 317, 394 318, 394 319, 394 320
+</trace>
+<trace id="2">
+418 281, 419 288, 419 292, 419 296, 419 300, 419 304, 419 307, 420 310, 420 312, 421 314, 422 316, 423 317, 424 318, 426 319, 427 320, 429 320, 430 320, 432 320, 433 319, 434 319
+</trace>
+<trace id="3">
+428 275, 444 273
+</trace>
+<trace id="4">
+415 304, 430 300, 434 299, 437 298, 439 297
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\int</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="int_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="d_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">E</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="E_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

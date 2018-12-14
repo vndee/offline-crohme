@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">511</annotation>
+<annotation type="truth">$Hz$</annotation>
+<annotation type="UI">IVC_2014_F511_E257</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="H_1">H</mi>
+			<mi xml:id="z_1">z</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+461 152, 469 156, 469 159, 470 163, 470 168, 470 173, 470 178, 470 183, 470 188, 470 192, 470 195, 470 199, 470 202, 470 205, 471 208, 471 211, 471 213, 471 214, 471 215
+</trace>
+<trace id="1">
+494 152, 497 157, 497 161, 497 164, 497 169, 498 173, 498 177, 499 182, 499 186, 500 190, 501 193, 501 197, 501 199, 502 202, 502 204, 503 206, 503 207, 503 208
+</trace>
+<trace id="2">
+470 196, 480 194, 483 194, 487 193, 491 193, 495 192, 496 192
+</trace>
+<trace id="3">
+518 196, 534 190, 536 190, 538 190, 540 191, 541 191, 542 192, 542 193, 541 195, 539 196, 536 198, 533 201, 530 203, 528 205, 526 207, 524 209, 523 212, 521 214, 521 215, 520 217, 520 219, 521 221, 521 223, 522 224, 523 226, 524 227, 525 228, 527 228, 528 229, 530 229, 531 229, 532 228, 533 228
+</trace>
+<trace id="4">
+512 218, 528 215, 532 214, 533 214
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="z_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">H</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="H_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

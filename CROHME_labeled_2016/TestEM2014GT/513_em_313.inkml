@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">513</annotation>
+<annotation type="truth">$\mathrm{P_1}\!$</annotation>
+<annotation type="UI">IVC_2014_F513_E313</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="P_1">P</mi>
+				<mn xml:id="1_1">1</mn>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+505 136, 506 144, 506 148, 506 154, 506 161, 506 169, 506 177, 506 186, 506 195, 506 205, 505 215, 505 224, 505 233, 505 242, 505 250, 505 258, 505 265, 505 271, 505 276, 505 278
+</trace>
+<trace id="1">
+491 135, 510 130, 515 131, 520 132, 525 134, 529 136, 534 140, 537 145, 540 149, 542 155, 544 160, 545 166, 545 173, 545 179, 543 185, 540 189, 535 194, 530 198, 524 201, 517 203, 512 205, 508 205, 504 206, 501 206, 500 206
+</trace>
+<trace id="2">
+528 301, 535 291, 537 287, 539 284, 540 280, 542 277, 543 273, 544 270, 545 267, 547 265, 548 263, 550 261, 552 260, 552 259, 553 259, 554 260, 554 262, 554 265, 554 269, 554 272, 553 277, 553 282, 552 286, 552 291, 551 295, 551 298, 551 301, 550 304, 550 305, 550 306, 550 307, 550 308
+</trace>
+<trace id="3">
+526 314, 543 316, 547 316, 549 316
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="P_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

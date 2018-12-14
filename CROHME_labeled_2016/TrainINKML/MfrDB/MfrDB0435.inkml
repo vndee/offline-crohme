@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB0435</annotation>
+  <annotation type="truth">$1 - 3$</annotation>
+  <annotation type="writer">User037</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mn xml:id="1_1">1</mn>
+      <mo xml:id="-_1">-</mo>
+      <mn xml:id="3_1">3</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">5 17 71143, 6 17 71367, 7 17 71391, 8 17 71399, 9 17 71415, 10 17 71447, 10 18 71551, 10 19 71575, 10 20 71583, 10 21 71591, 10 22 71599, 10 23 71607, 10 24 71615, 10 26 71623, 10 27 71631, 10 29 71647, 10 30 71663, 10 31 71679, 10 32 71687, 9 32 71839, 8 32 71855, 7 32 71895, 6 32 71919, 5 32 71943, 4 32 71951, 3 32 71975, 2 32 71983, 1 32 72007, 2 32 72167, 3 32 72183, 5 32 72199, 6 32 72215, 7 32 72231, 9 32 72239, 11 32 72255, 12 32 72271, 13 32 72279, 14 32 72303, 15 32 72327, 16 32 72415, 17 32 72439, 18 32 72519, 19 32 72535, 18 32 72695</trace>
+  <trace id="1">38 24 73391, 39 24 73607, 40 24 73639, 41 24 73671, 42 24 73695, 43 24 73703, 44 24 73719, 45 24 73743, 46 24 73775, 47 24 73791, 48 24 73823, 49 24 73855, 50 24 73935, 49 24 74111, 48 24 74127</trace>
+  <trace id="2">72 19 75135, 72 18 75143, 72 17 75159, 73 17 75343, 74 17 75367, 75 17 75399, 76 17 75423, 77 17 75431, 78 17 75463, 79 18 75495, 80 18 75519, 80 19 75551, 81 19 75567, 81 20 75583, 81 21 75615, 80 22 75647, 79 22 75655, 78 22 75671, 77 22 75687, 76 22 75703, 75 22 75711, 74 22 75735, 73 22 75751, 72 22 75775, 73 22 75911, 74 22 75943, 75 22 75967, 76 22 75983, 77 22 75991, 78 22 76007, 79 22 76023, 79 23 76031, 80 23 76039, 80 24 76055, 81 24 76063, 81 25 76071, 82 25 76079, 83 26 76095, 84 26 76103, 85 27 76111, 85 28 76127, 85 29 76135, 85 30 76167, 85 31 76191, 84 31 76207, 83 32 76215, 82 32 76231, 81 32 76247, 80 33 76255, 79 33 76263, 78 33 76279, 77 33 76295, 76 33 76303, 75 33 76319, 74 33 76383, 73 33 76527, 72 33 76543, 71 33 76567, 72 33 76783</trace>
+  <traceGroup xml:id="3">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="4">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="1_1" />
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="-_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">3</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href="3_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

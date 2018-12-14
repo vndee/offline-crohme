@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">508</annotation>
+<annotation type="truth">$\mathrm{M}_2$</annotation>
+<annotation type="UI">IVC_2014_F508_E80</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="M_1">M</mi>
+			<mn xml:id="2_1">2</mn>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+355 164, 355 163, 355 162, 357 154, 358 150, 359 145, 360 141, 361 135, 362 130, 364 112, 365 106, 365 100, 366 94, 367 88, 368 83, 369 78, 369 73, 370 68, 370 64, 371 61, 372 54, 372 52, 373 50, 373 48, 374 46, 374 47, 374 46, 375 45, 377 47, 379 49, 380 51, 381 53, 382 56, 383 59, 384 62, 385 65, 386 69, 388 72, 389 76, 390 79, 391 82, 392 85, 394 90, 394 93, 395 94, 395 96, 396 96, 400 88, 402 85, 403 81, 405 77, 407 73, 412 61, 413 58, 414 55, 417 50, 418 48, 419 47, 420 46, 422 46, 422 45, 423 49, 423 51, 424 57, 424 60, 425 64, 425 68, 426 77, 427 82, 427 87, 428 92, 429 98, 429 103, 430 120, 431 126, 431 131, 432 136, 433 144, 433 148, 433 153, 433 155, 433 156
+</trace>
+<trace id="1">
+455 130, 455 128, 457 126, 459 125, 462 123, 465 122, 469 121, 477 123, 478 125, 479 127, 475 138, 472 143, 469 147, 466 152, 463 156, 461 160, 461 163, 462 165, 464 166, 467 167, 470 167, 480 167, 484 167, 489 167, 495 168, 496 168, 497 169
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">M</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="M_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

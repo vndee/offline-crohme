@@ -1,0 +1,82 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-241.ink"</annotation>
+<annotation type="truth"> { \left ( \pi \right ) } ^ { \mbox { I } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="4:">(</mo>
+            <mrow>
+                <mi xml:id="0:1:2:">\pi</mi>
+                <msup>
+                    <mo xml:id="3:">)</mo>
+                    <mi xml:id="5:6:7:">I</mi>
+                </msup>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+6919 1574, 6883 1557, 6857 1540, 6841 1526, 6841 1509, 6855 1493, 6885 1479, 6944 1462, 7023 1442, 7132 1423, 7275 1400, 7451 1375, 7655 1344, 7891 1311, 8143 1274, 8403 1235, 8672 1199, 8930 1162, 9165 1131, 9375 1109, 9543 1089
+</trace>
+
+<trace id="1">
+7978 1400, 7922 1414, 7882 1439, 7837 1462, 7798 1495, 7762 1546, 7731 1613, 7703 1691, 7675 1775, 7653 1862, 7636 1949, 7619 2030, 7613 2106, 7613 2165, 7622 2204, 7650 2232
+</trace>
+
+<trace id="2">
+8319 1577, 8370 1515, 8403 1465, 8431 1428, 8454 1409, 8462 1403, 8470 1417, 8462 1448, 8451 1493, 8431 1557, 8406 1638, 8378 1733, 8350 1834, 8319 1941, 8294 2036, 8280 2125, 8283 2201, 8294 2252
+</trace>
+
+<trace id="3">
+9792 815, 9845 807, 9879 804, 9912 821, 9946 854, 9977 910, 10008 991, 10030 1089, 10041 1210, 10027 1355, 9996 1521, 9938 1700, 9851 1885, 9739 2075, 9599 2252, 9445 2422, 9280 2576, 9098 2688
+</trace>
+
+<trace id="4">
+7261 980, 7227 938, 7174 907, 7112 893, 7031 902, 6936 944, 6832 1017, 6723 1120, 6611 1260, 6499 1428, 6390 1621, 6289 1831, 6208 2050, 6149 2260, 6121 2453, 6135 2627, 6191 2767, 6289 2879, 6426 2957, 6603 2994, 6815 3002
+</trace>
+
+<trace id="5">
+10705 742, 10691 728, 10677 708, 10677 683, 10694 669, 10716 658, 10764 650, 10822 638, 10901 633, 10993 624, 11102 616, 11217 610, 11326 602, 11438 602, 11539 594, 11629 591, 11713 594
+</trace>
+
+<trace id="6">
+11534 728, 11511 753, 11480 770, 11458 798, 11430 832, 11405 871, 11377 916, 11346 966, 11321 1019, 11284 1067
+</trace>
+
+<trace id="7">
+10993 1291, 10974 1291, 10957 1285, 10951 1277, 10957 1274, 10974 1263, 11004 1263, 11046 1255, 11108 1252, 11189 1246, 11284 1243, 11396 1241, 11522 1235, 11665 1238, 11814 1235, 11968 1241, 12119 1257, 12259 1277
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:2:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="0:1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:6:7:">
+        <annotation type="truth">I</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="5:6:7:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

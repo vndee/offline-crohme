@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\log_ca$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F762_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL762</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="log_1">\log</mi>
+				<mi xml:id="c_1">c</mi>
+			</msub>
+			<mi xml:id="a_1">a</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1069 3043, 1069 3043, 1072 3041, 1090 3028, 1120 2998, 1138 2972, 1156 2935, 1170 2893, 1173 2859, 1171 2842, 1166 2837, 1134 2858, 1126 2871, 1114 2913, 1111 2961, 1117 3022, 1115 3078, 1118 3091, 1129 3099, 1152 3094, 1162 3079, 1162 3073, 1161 3074
+</trace>
+<trace id="1">
+1220 3041, 1220 3041, 1221 3040, 1220 3036, 1201 3029, 1182 3041, 1168 3062, 1167 3071, 1178 3094, 1204 3108, 1221 3109, 1235 3106, 1247 3097, 1255 3087, 1256 3073, 1249 3054, 1237 3037, 1204 3031, 1222 3037, 1244 3037, 1255 3035, 1285 3029
+</trace>
+<trace id="2">
+1354 3031, 1354 3031, 1355 3027, 1355 3026, 1350 3019, 1344 3014, 1339 3011, 1332 3011, 1324 3017, 1312 3039, 1311 3050, 1314 3062, 1328 3082, 1355 3085, 1367 3073, 1371 3061, 1372 3046, 1368 3028, 1366 3025, 1360 3056, 1372 3156, 1364 3189, 1357 3199, 1350 3201, 1339 3199, 1324 3190, 1311 3177, 1307 3166, 1309 3157, 1317 3149, 1346 3131, 1360 3124
+</trace>
+<trace id="3">
+1446 3075, 1446 3075, 1450 3074, 1451 3072, 1448 3070, 1433 3068, 1415 3087, 1415 3105, 1421 3112, 1440 3121, 1463 3114, 1473 3107, 1475 3102
+</trace>
+<trace id="4">
+1636 3035, 1636 3035, 1639 3033, 1640 3030, 1635 3025, 1627 3019, 1616 3017, 1596 3024, 1581 3045, 1577 3061, 1583 3093, 1593 3105, 1606 3110, 1619 3110, 1628 3104, 1644 3077, 1652 3024, 1649 3065, 1653 3081, 1668 3102, 1679 3106, 1682 3104
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\log</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="log_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">9</annotation>
+<annotation type="truth">$T^{\mu}_{\mu}$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F9_E71</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msubsup>
+			<mi xml:id="T_1">T</mi>
+			<mi xml:id="mu_1">mu</mi>
+			<mi xml:id="mu_2">mu</mi>
+		</msubsup>
+	</math>
+</annotationXML>
+<trace id="0">
+566 107, 565 114, 565 117, 565 121, 565 125, 565 129, 564 133, 564 137, 564 141, 563 146, 562 150, 561 153, 561 156, 560 159, 559 162, 559 163, 559 165, 559 166, 558 167
+</trace>
+<trace id="1">
+540 109, 554 110, 558 110, 561 110, 564 109, 568 109, 572 108, 575 108, 578 107, 581 107, 583 107, 585 107, 587 107, 588 107, 589 107, 590 107, 591 107
+</trace>
+<trace id="2">
+599 131
+</trace>
+<trace id="3">
+599 131, 600 130, 601 130, 602 128, 603 127, 605 125, 606 123, 607 121, 609 118, 611 116, 613 113, 615 110, 617 108, 619 105, 621 102, 622 100, 623 99, 623 97, 624 97, 624 96, 623 97, 622 98, 621 99, 620 101, 620 103, 619 105, 619 107, 618 108, 618 110, 618 111, 619 111, 619 112, 620 112, 622 112, 623 111, 625 110, 626 109, 627 108, 628 106, 629 105, 630 103, 631 101, 632 100, 633 100, 633 99, 633 100, 632 100, 632 102, 632 103, 632 104, 632 105, 633 105
+</trace>
+<trace id="4">
+565 202, 574 190, 577 187, 579 183, 581 180, 583 177, 585 173, 587 170, 588 167, 590 164, 591 162, 592 160, 593 159, 594 158, 594 157, 593 157, 592 158, 591 160, 591 161, 591 163, 590 164, 590 165, 591 166, 591 167, 592 167, 593 167, 594 167, 595 167, 596 166, 597 165, 599 164, 601 162, 602 161, 603 159, 604 158, 605 158, 605 157, 605 158, 604 159, 604 160, 605 162, 605 163, 606 164, 607 164
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">T</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="T_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="mu_2"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="mu_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

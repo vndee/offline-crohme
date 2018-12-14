@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">500</annotation>
+<annotation type="truth">$b_\mathrm{L}$</annotation>
+<annotation type="UI">IVC_2014_F500_E109</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="b_1">b</mi>
+			<mi xml:id="L_1">L</mi>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+426 84, 426 83, 425 81, 424 81, 425 81, 426 81, 426 84, 426 86, 426 88, 427 91, 427 93, 427 96, 426 103, 427 106, 427 110, 427 114, 427 118, 427 122, 427 125, 427 129, 427 133, 427 136, 427 140, 426 146, 425 149, 425 152, 423 158, 423 159, 423 160
+</trace>
+<trace id="1">
+430 135, 431 135, 431 134, 434 133, 433 133, 434 133, 438 132, 442 132, 444 132, 446 132, 450 133, 452 134, 453 135, 455 135, 457 136, 459 137, 458 137, 459 137, 461 140, 462 142, 463 143, 463 148, 463 150, 462 151, 461 153, 460 154, 459 156, 458 157, 456 158, 455 160, 454 161, 448 163, 446 163, 445 164, 443 164, 441 164, 439 164, 438 164, 435 164, 433 164, 432 164, 429 164, 429 163, 424 164, 422 164, 421 164
+</trace>
+<trace id="2">
+469 156, 470 157, 470 165, 470 167, 471 169, 471 171, 471 173, 470 175, 470 177, 470 179, 469 181, 469 182, 468 184, 467 188, 467 190, 467 191, 466 190, 466 191, 467 192, 468 192, 470 192, 473 192, 475 191, 477 191, 478 191, 484 191, 485 192, 487 192, 487 192, 489 192, 490 192, 492 193, 492 194
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">L</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="L_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

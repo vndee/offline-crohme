@@ -1,0 +1,68 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \int y d x $</annotation>
+<annotation type="writer">annot_20</annotation>
+<annotation type="UI">2014_RIT_CROHME_311</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="4:">\int</mo>
+            <mrow >
+                <mi  xml:id = "5:" >y</mi>
+                <mrow >
+                    <mi  xml:id = "6:" >d</mi>
+                    <mi  xml:id = "7:" >x</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+353 121, 351 121, 349 125, 346 132, 342 139, 339 147, 337 156, 335 165, 335 174, 335 184, 335 193, 335 201, 335 208, 335 216, 334 221, 332 225, 329 228, 327 230, 324 231, 320 231, 317 231, 315 231, 313 231, 312 231, 310 230
+</trace>
+
+<trace  id = "1" >
+360 155, 359 157, 359 161, 359 166, 361 171, 363 174, 367 178, 370 179, 373 180, 377 180, 380 177, 384 173, 387 167, 389 163, 391 160, 392 157, 392 155, 393 154, 394 156, 394 161, 394 166, 394 171, 394 178, 393 185, 392 191, 391 198, 390 204, 390 209, 389 213, 389 216, 388 219, 387 222, 386 224, 385 226, 384 227, 382 227, 380 227, 378 227, 375 227, 373 227, 371 225, 370 222, 369 218, 368 215, 368 211, 368 206, 368 202, 369 199, 373 196, 377 194, 381 193, 386 191, 391 191, 396 190, 400 190, 403 190, 405 190, 406 190, 407 190
+</trace>
+
+<trace  id = "2" >
+455 175, 451 172, 446 172, 441 172, 437 172, 434 173, 431 176, 430 180, 429 184, 428 188, 427 191, 427 192, 428 194, 430 194, 434 194, 439 194, 445 191, 450 186, 455 179, 458 171, 460 162, 460 155, 460 148, 460 143, 460 137, 460 133, 460 130, 460 128, 460 132, 460 138, 460 144, 459 152, 458 161, 458 167, 458 173, 458 178, 458 182, 458 186, 460 188, 462 190
+</trace>
+
+<trace  id = "3" >
+471 166, 474 162, 477 162, 480 162, 482 162, 486 162, 489 162, 491 165, 492 170, 492 175, 492 179, 492 183, 490 186, 488 187, 487 189, 486 189, 488 186, 491 182, 494 178, 499 172, 502 169, 504 165, 507 162, 509 159, 509 157, 509 158, 507 161, 504 165, 502 168, 500 172, 498 176, 497 180, 497 184, 497 186, 500 189, 504 191, 508 193, 512 194, 517 196, 521 196, 524 196
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">\int</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:">
+        <annotation type="truth">d</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="6:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="7:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

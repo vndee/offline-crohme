@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-222.ink"</annotation>
+<annotation type="truth"> \mbox { tX } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">t</mi>
+            <mi xml:id="2:3:">X</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11189 5433, 11184 5427, 11186 5424, 11195 5427, 11212 5427, 11240 5427, 11284 5419, 11346 5413, 11413 5399, 11500 5382, 11604 5366, 11710 5346, 11822 5321, 11934 5307, 12026 5284
+</trace>
+
+<trace id="1">
+11870 5044, 11833 5055, 11808 5083, 11777 5119, 11746 5175, 11721 5251, 11696 5340, 11674 5438, 11651 5542, 11632 5646, 11609 5749, 11595 5844, 11581 5923, 11578 5987, 11584 6038, 11598 6077, 11620 6096, 11654 6105, 11699 6096, 11758 6077, 11833 6040, 11914 5987, 12010 5923, 12105 5844, 12206 5749, 12309 5651
+</trace>
+
+<trace id="2">
+12589 4481, 12589 4495, 12595 4520, 12612 4570, 12645 4646, 12693 4735, 12752 4845, 12816 4968, 12889 5100, 12967 5231, 13048 5357, 13130 5469, 13214 5576, 13298 5674, 13379 5758, 13452 5828, 13527 5895, 13589 5945
+</trace>
+
+<trace id="3">
+13721 5080, 13695 5091, 13656 5102, 13617 5133, 13575 5175, 13519 5237, 13463 5324, 13399 5424, 13337 5545, 13264 5676, 13191 5825, 13119 5973, 13051 6116, 12990 6248, 12936 6362, 12900 6466, 12869 6547, 12861 6615, 12866 6662, 12872 6687, 12889 6704
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">X</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

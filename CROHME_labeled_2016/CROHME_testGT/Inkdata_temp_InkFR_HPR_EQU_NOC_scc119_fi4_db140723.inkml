@@ -1,0 +1,112 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\cos(\pi) = - 1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F119_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL119</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="cos_1">\cos</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="pi_1">\pi</mi>
+					<mrow>
+						<mo xml:id=")_1">)</mo>
+						<mrow>
+							<mo xml:id="=_1">=</mo>
+							<mrow>
+								<mo xml:id="-_1">-</mo>
+								<mn xml:id="1_1">1</mn>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1910 1722, 1910 1722, 1914 1719, 1894 1728, 1878 1740, 1866 1751, 1862 1762, 1865 1771, 1881 1777, 1895 1774, 1908 1769, 1924 1762
+</trace>
+<trace id="1">
+1987 1734, 1987 1734, 1977 1731, 1960 1738, 1948 1747, 1937 1759, 1935 1769, 1941 1777, 1955 1781, 1989 1771, 1998 1764, 2006 1749, 2006 1743, 2004 1740, 2000 1739
+</trace>
+<trace id="2">
+2087 1735, 2087 1735, 2087 1731, 2081 1728, 2057 1735, 2046 1745, 2048 1756, 2082 1768, 2089 1774, 2087 1781, 2062 1787, 2048 1788, 2039 1787
+</trace>
+<trace id="3">
+2201 1686, 2201 1686, 2197 1682, 2192 1684, 2184 1691, 2164 1720, 2156 1740, 2155 1774, 2170 1803, 2171 1803, 2174 1800
+</trace>
+<trace id="4">
+2247 1747, 2247 1747, 2247 1746, 2250 1766, 2249 1775, 2250 1781, 2251 1783
+</trace>
+<trace id="5">
+2290 1752, 2290 1752, 2284 1763, 2285 1776, 2287 1780, 2294 1777
+</trace>
+<trace id="6">
+2198 1750, 2198 1750, 2201 1749, 2224 1747, 2314 1744, 2326 1742, 2332 1741, 2331 1740, 2324 1736
+</trace>
+<trace id="7">
+2379 1701, 2379 1701, 2378 1697, 2378 1695, 2383 1704, 2392 1716, 2401 1736, 2403 1756, 2389 1805, 2385 1812, 2384 1812, 2384 1812, 2386 1808
+</trace>
+<trace id="8">
+2467 1758, 2467 1758, 2468 1757, 2471 1755, 2479 1753, 2489 1752, 2499 1752, 2511 1753
+</trace>
+<trace id="9">
+2472 1777, 2472 1777, 2471 1777, 2472 1778, 2489 1781, 2504 1780, 2518 1777, 2529 1774
+</trace>
+<trace id="10">
+2575 1764, 2575 1764, 2606 1759, 2621 1756, 2635 1752
+</trace>
+<trace id="11">
+2711 1694, 2711 1694, 2712 1693, 2712 1695, 2721 1767, 2719 1786, 2719 1787, 2719 1784, 2721 1778
+</trace>
+<traceGroup xml:id="12">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

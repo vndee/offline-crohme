@@ -1,0 +1,75 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1251-254.ink"</annotation>
+<annotation type="truth"> \left ( \left ( \mbox { V } \right ) \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">(</mo>
+            <mrow>
+                <mo xml:id="1:">(</mo>
+                <mrow>
+                    <mi xml:id="2:">V</mi>
+                    <mrow>
+                        <mo xml:id="3:">)</mo>
+                        <mo xml:id="4:">)</mo>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+10817 4891, 10802 4926, 10786 4980, 10762 5045, 10740 5132, 10717 5239, 10697 5359, 10678 5496, 10664 5639, 10654 5788, 10649 5933, 10653 6077, 10659 6209, 10674 6329, 10695 6436, 10720 6521, 10754 6588, 10797 6636, 10836 6654, 10884 6656
+</trace>
+
+<trace id="1">
+11150 5001, 11128 4990, 11117 5002, 11095 5023, 11075 5063, 11055 5133, 11038 5214, 11019 5323, 11002 5448, 10992 5593, 10984 5744, 10986 5899, 10993 6048, 11010 6184, 11034 6308, 11066 6412, 11110 6501, 11158 6567, 11207 6605, 11266 6626, 11320 6623
+</trace>
+
+<trace id="2">
+11764 5232, 11764 5232, 11765 5282, 11773 5340, 11787 5413, 11814 5507, 11843 5611, 11885 5733, 11926 5851, 11973 5965, 12019 6064, 12068 6155, 12115 6225, 12161 6282, 12199 6314, 12236 6324, 12268 6308, 12301 6271, 12332 6213, 12362 6139, 12387 6047, 12409 5937, 12428 5813, 12438 5676, 12449 5549, 12445 5417, 12442 5295, 12440 5187, 12438 5089
+</trace>
+
+<trace id="3">
+12880 4934, 12901 4996, 12913 5065, 12930 5153, 12945 5251, 12961 5357, 12981 5478, 12995 5603, 13010 5737, 13015 5868, 13014 6001, 13004 6125, 12992 6242, 12977 6348, 12958 6432, 12943 6497, 12932 6537, 12916 6550, 12912 6539
+</trace>
+
+<trace id="4">
+13038 4760, 13090 4768, 13137 4790, 13187 4841, 13236 4917, 13281 5011, 13332 5127, 13370 5254, 13404 5399, 13424 5546, 13434 5701, 13435 5846, 13425 5986, 13407 6112, 13379 6223, 13350 6322, 13315 6402, 13279 6455, 13248 6494, 13212 6512
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">V</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

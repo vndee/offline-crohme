@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ x \leq y $</annotation>
+<annotation type="writer">4270.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4270_0</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">x</mi>
+            <mrow>
+                <mi xml:id="2:3:">\leq</mi>
+                <mi xml:id="4:">y</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+134 191, 136 187, 167 196, 176 206, 185 217, 194 229, 205 243, 218 259, 232 272, 248 285, 263 298, 279 309, 293 319, 308 328, 322 336, 336 345, 348 353
+</trace>
+
+<trace id="1">
+269 164, 264 170, 248 196, 234 217, 222 238, 209 260, 196 280, 185 299, 176 318, 171 331, 166 343, 162 353, 156 367
+</trace>
+
+<trace id="2">
+537 157, 533 162, 526 163, 521 165, 514 168, 506 172, 495 178, 484 183, 472 188, 459 195, 448 202, 437 208, 428 214, 414 222, 404 231, 395 236, 390 241, 385 244, 381 246, 380 248, 379 249, 379 250, 380 250, 383 250, 390 250, 400 250, 412 249, 426 248, 441 247, 456 247, 472 246, 487 246, 503 246, 518 245, 531 245, 542 245, 550 245, 555 245, 556 246
+</trace>
+
+<trace id="3">
+383 298, 384 299, 408 299, 422 299, 435 298, 451 297, 467 295, 482 295, 498 294, 514 294, 529 294, 541 294, 552 294, 563 294, 572 293, 579 293, 584 292, 586 292
+</trace>
+
+<trace id="4">
+642 117, 638 120, 630 165, 629 178, 629 192, 629 204, 632 216, 636 226, 642 234, 649 241, 658 244, 667 246, 681 246, 695 241, 709 231, 720 221, 728 210, 735 197, 744 182, 750 167, 756 151, 760 137, 763 125, 763 117, 763 110, 763 106, 762 103, 761 103, 759 103, 759 105, 758 114, 756 125, 754 139, 753 158, 751 176, 749 195, 749 216, 745 237, 742 262, 736 285, 730 309, 721 329, 714 349, 704 368, 696 382, 685 397, 674 409, 662 419, 652 425, 641 431, 631 433, 623 434, 616 434, 611 432, 608 427, 606 421, 605 411, 607 397, 612 381, 620 361, 630 343, 640 326, 650 312, 662 299, 675 287, 689 278, 705 270, 723 262, 741 256, 764 248, 788 239
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">\leq</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

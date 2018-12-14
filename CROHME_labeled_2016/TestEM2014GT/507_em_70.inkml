@@ -1,0 +1,96 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">21</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">507</annotation>
+<annotation type="truth">$-\infty \leq x \leq \infty$</annotation>
+<annotation type="UI">IVC_2014_F507_E70</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<mrow>
+				<mi xml:id="\infty_1">\infty</mi>
+				<mrow>
+					<mo xml:id="le_1">le</mo>
+					<mrow>
+						<mi xml:id="x_1">x</mi>
+						<mrow>
+							<mo xml:id="le_2">le</mo>
+							<mi xml:id="\infty_2">\infty</mi>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+68 165, 69 165, 77 164, 82 164, 88 164, 95 164, 104 165, 111 165, 118 165, 128 165
+</trace>
+<trace id="1">
+291 122, 287 124, 285 126, 283 128, 281 131, 272 142, 267 147, 262 151, 257 155, 252 159, 246 162, 239 165, 233 167, 226 169, 220 169, 214 168, 209 167, 204 164, 200 161, 197 156, 192 141, 193 136, 194 131, 196 126, 199 122, 204 119, 208 117, 213 116, 218 117, 224 119, 230 123, 236 127, 243 132, 249 138, 256 144, 277 159, 284 162, 292 165, 308 167, 314 167, 320 165, 325 162, 328 158, 330 154, 331 149, 330 145, 325 137, 322 134, 313 130, 307 129, 302 128, 293 128, 289 129, 287 129
+</trace>
+<trace id="2">
+453 102, 451 102, 449 102, 446 102, 443 102, 429 106, 423 107, 417 109, 411 111, 406 113, 401 114, 396 116, 393 117, 390 119, 388 120, 388 123, 389 125, 392 127, 395 129, 405 134, 411 137, 418 140, 425 144, 434 148, 442 152, 450 156, 458 161, 465 165, 471 169, 475 173, 478 176
+</trace>
+<trace id="3">
+389 137, 392 138, 405 145, 411 149, 417 153, 423 157, 429 160, 435 164, 441 167, 447 169, 450 170
+</trace>
+<trace id="4">
+511 115, 516 113, 521 112, 525 111, 531 112, 535 113, 539 114, 541 117, 543 120, 543 124, 538 135, 534 139, 530 143, 525 145, 520 149
+</trace>
+<trace id="5">
+560 109, 555 113, 552 117, 552 121, 552 125, 553 130, 555 135, 557 140, 560 145, 563 148, 568 151, 573 153, 575 153
+</trace>
+<trace id="6">
+687 106, 681 106, 676 107, 671 107, 659 110, 654 112, 648 115, 644 118, 636 123, 635 126, 635 128, 636 130, 639 132, 642 134, 647 135, 653 137, 659 139, 666 141, 673 143, 694 150, 700 151, 706 153, 707 153
+</trace>
+<trace id="7">
+636 145, 641 145, 645 146, 649 148, 654 150, 659 153, 665 156, 671 159, 677 162, 694 170
+</trace>
+<trace id="8">
+823 107, 820 108, 817 111, 814 115, 811 120, 807 126, 803 132, 797 138, 791 143, 784 147, 776 150, 769 152, 756 153, 750 150, 745 147, 741 143, 738 138, 737 132, 741 116, 743 112, 747 111, 755 113, 759 116, 765 120, 770 125, 775 131, 780 136, 783 142, 786 148, 789 154, 792 158, 794 160, 802 160, 807 157, 811 154, 822 142, 824 138, 826 133, 827 124, 827 120, 826 115, 823 112, 817 108, 813 108, 808 108, 807 109
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\infty_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="\infty_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="le_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="le_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

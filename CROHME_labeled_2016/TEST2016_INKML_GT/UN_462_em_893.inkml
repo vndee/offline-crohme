@@ -1,0 +1,115 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">46</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_462</annotation>
+<annotation type="truth">$\sin \frac{k_1 \times k_2}{2}$</annotation>
+<annotation type="UI">CROHME_2016_em_893</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">sin</mi>
+			<mfrac xml:id="_1">
+				<mrow>
+					<msub>
+						<mi xml:id="k_1">k</mi>
+						<mn xml:id="1_1">1</mn>
+					</msub>
+					<mrow>
+						<mo xml:id="times_1">times</mo>
+						<msub>
+							<mi xml:id="k_2">k</mi>
+							<mn xml:id="2_1">2</mn>
+						</msub>
+					</mrow>
+				</mrow>
+				<mn xml:id="2_2">2</mn>
+			</mfrac>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+584 285, 584 286, 585 286, 589 283, 591 281, 592 274, 592 269, 592 265, 592 261, 592 257, 592 255, 592 253, 592 254, 593 255, 595 257, 603 268, 605 273, 605 276, 604 279, 602 282, 600 284, 597 286, 596 287, 597 286, 605 273, 608 269, 610 265, 611 262, 612 262, 612 261, 613 270, 613 276, 613 281, 614 284, 614 286, 615 287, 619 277
+</trace>
+<trace id="1">
+620 244
+</trace>
+<trace id="2">
+631 258, 632 261, 632 282, 631 284, 631 285, 631 284, 633 274, 634 269, 636 266, 638 264, 640 262, 643 264, 644 267, 644 271, 644 276, 643 280, 644 283, 645 286, 647 286, 649 286, 655 282, 656 281
+</trace>
+<trace id="3">
+714 188, 714 189, 714 190, 712 201, 710 214, 709 221, 708 227, 707 232, 706 237, 704 240, 703 242, 702 242, 702 243, 701 238, 701 234, 702 231, 704 225, 706 222, 708 222, 715 226, 717 230, 719 234, 721 237, 723 240, 724 242, 724 243, 724 244, 724 243, 723 243, 718 241, 713 236, 713 234, 714 232, 723 221, 726 218, 729 215, 732 214, 734 213
+</trace>
+<trace id="4">
+739 241, 743 235, 745 232, 746 230, 747 228, 748 225, 749 223, 750 223, 752 230, 752 234, 753 240, 753 243, 753 246, 753 249, 753 250, 751 252, 752 251
+</trace>
+<trace id="5">
+801 221, 801 222, 796 230, 793 234, 790 238, 787 241, 784 245, 783 244
+</trace>
+<trace id="6">
+785 222, 785 223, 790 225, 794 227, 796 229, 799 231, 803 236, 805 238, 806 240, 807 241
+</trace>
+<trace id="7">
+846 190, 846 191, 845 196, 844 201, 843 206, 842 212, 841 218, 840 223, 839 229, 838 234, 837 239, 836 243, 835 245, 834 246, 835 247, 834 246, 832 241, 831 238, 832 234, 834 231, 835 230, 840 235, 843 238, 849 247, 851 249, 851 250, 850 249, 843 244, 841 241, 840 239, 840 236, 842 233, 845 230, 848 227, 852 224, 859 219, 864 216
+</trace>
+<trace id="8">
+862 246, 865 242, 868 243, 869 244, 868 246, 867 248, 865 251, 863 253, 861 256, 862 262, 868 263, 871 263, 873 263, 874 263
+</trace>
+<trace id="9">
+707 269, 708 269, 714 269, 718 269, 722 269, 727 269, 731 269, 737 269, 744 269, 752 269, 760 269, 768 269, 776 270, 785 270, 805 271, 814 271, 824 272, 834 272, 843 273, 852 273, 860 274, 866 274, 872 275, 876 275, 878 276, 879 276
+</trace>
+<trace id="10">
+780 295, 777 294, 774 293, 773 291, 772 290, 773 288, 775 287, 778 286, 781 286, 784 288, 784 290, 784 293, 782 297, 774 306, 771 310, 771 312, 772 314, 777 316, 780 315, 784 313, 787 311, 789 309, 789 307, 789 308, 789 307
+</trace>
+<traceGroup xml:id="11">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="12">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="k_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="k_2"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

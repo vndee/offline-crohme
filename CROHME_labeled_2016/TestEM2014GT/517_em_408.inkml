@@ -1,0 +1,103 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">517</annotation>
+<annotation type="truth">$\theta_1, \ldots,   \theta_n$</annotation>
+<annotation type="UI">IVC_2014_F517_E408</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="theta_1">theta</mi>
+				<mn xml:id="1_1">1</mn>
+			</msub>
+			<mrow>
+				<mo xml:id=",_1">,</mo>
+				<mrow>
+					<mo xml:id="hellip_1">hellip</mo>
+					<mrow>
+						<mo xml:id=",_2">,</mo>
+						<msub>
+							<mi xml:id="theta_2">theta</mi>
+							<mi xml:id="n_1">n</mi>
+						</msub>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+339 205, 336 214, 336 218, 336 221, 336 224, 336 228, 336 230, 336 233, 336 235, 337 236, 337 237, 338 238, 339 238, 341 239, 342 238, 343 237, 345 236, 347 234, 348 232, 350 229, 351 225, 352 222, 353 218, 353 214, 354 211, 354 208, 354 206, 354 203, 353 201, 352 200, 351 199, 350 198, 348 198, 347 198, 345 198, 344 198, 341 198, 339 199, 338 201, 336 202, 335 204, 334 206, 334 208, 333 210, 333 212, 334 214, 334 216, 335 218, 335 219, 337 221, 338 222, 340 222, 342 222, 345 222, 348 221, 351 218, 356 215, 358 213
+</trace>
+<trace id="1">
+367 233, 369 247, 369 250, 369 253, 369 255, 369 256
+</trace>
+<trace id="2">
+399 223, 400 234, 401 236, 401 238, 401 240
+</trace>
+<trace id="3">
+440 218
+</trace>
+<trace id="4">
+460 222
+</trace>
+<trace id="5">
+489 218
+</trace>
+<trace id="6">
+515 220, 516 225, 516 228, 516 230, 516 233, 516 234
+</trace>
+<trace id="7">
+555 205, 551 220, 550 223, 550 226, 550 228, 551 230, 551 232, 552 233, 553 234, 553 235, 554 235, 555 235, 557 234, 558 234, 560 232, 561 230, 563 228, 564 225, 565 221, 566 218, 567 215, 567 212, 568 209, 568 207, 568 204, 568 202, 568 201, 567 200, 567 199, 566 198, 566 197, 565 196, 564 196, 563 196, 562 196, 560 197, 559 197, 557 198, 556 199, 555 201, 554 203, 554 205, 553 207, 553 209, 553 212, 553 213, 554 215, 554 216, 554 217, 556 217, 558 218, 560 217, 563 215, 566 213, 568 211
+</trace>
+<trace id="8">
+583 222, 580 230, 579 232, 578 234, 578 236, 578 237, 577 238, 577 239, 578 238, 579 236, 580 234, 581 232, 583 230, 584 228, 585 226, 586 225, 587 223, 588 222, 588 221, 589 221, 589 222, 589 223, 589 225, 589 227, 589 229, 589 232, 589 234, 589 236, 589 237, 589 238, 590 239, 590 240, 591 240, 592 240, 593 240, 594 240, 596 239, 599 236, 600 235
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="theta_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href=",_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\ldots</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="hellip_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=",_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

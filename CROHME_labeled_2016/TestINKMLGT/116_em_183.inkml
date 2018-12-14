@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">116</annotation>
+<annotation type="truth">$E(P)$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F116_E183</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="E_1">E</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="P_1">P</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+545 178, 537 205, 535 210, 533 216, 531 221, 529 225, 529 229, 528 233, 528 235, 528 237, 529 239, 530 241, 532 242, 535 243, 538 243, 541 242, 544 241, 547 241, 551 240, 555 239, 559 237
+</trace>
+<trace id="1">
+537 223, 549 215, 553 214, 556 213, 559 212, 560 211
+</trace>
+<trace id="2">
+544 190, 560 181, 565 179, 571 177, 572 177
+</trace>
+<trace id="3">
+622 173, 611 183, 609 187, 605 192, 603 198, 600 204, 597 211, 595 218, 594 224, 594 229, 595 234, 597 238, 599 242, 601 245, 604 247, 607 249, 611 249, 612 249
+</trace>
+<trace id="4">
+645 191, 642 196, 642 199, 642 203, 641 208, 642 213, 642 218, 642 222, 642 226, 643 230, 643 232, 643 234, 643 236, 643 237, 643 238, 643 237, 644 235, 644 233, 643 229, 643 224, 643 218, 643 213, 643 209, 643 205, 643 202, 644 199, 644 197, 645 195, 646 194, 647 192, 648 192, 649 191, 651 191, 654 191, 656 192, 658 193, 660 195, 662 196, 663 198, 664 200, 664 201, 664 203, 664 204, 662 205, 661 206, 658 207, 655 208, 653 209, 651 210, 649 210, 648 210
+</trace>
+<trace id="5">
+671 168, 685 176, 687 180, 689 185, 691 190, 692 196, 693 202, 694 209, 694 216, 694 222, 693 228, 692 234, 691 240, 689 245, 689 247
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="P_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">E</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="E_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

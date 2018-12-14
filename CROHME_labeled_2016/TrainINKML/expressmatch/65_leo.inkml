@@ -1,0 +1,91 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Arithmetic</annotation>
+<annotation type="expression">65</annotation>
+ <annotation type="UI">65_leo</annotation>
+<annotation type="writer">leo</annotation>
+<annotation type="truth">$x = r \cos \theta$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="r_1">r</mi>
+					<mrow>
+						<mi xml:id="cos_1">cos</mi>
+						<mi xml:id="theta_1">\theta</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+419 100, 419 99, 420 98, 364 162, 362 165, 361 165, 360 165, 359 164, 359 163, 359 162, 360 160, 360 159
+</trace>
+<trace id="1">
+376 108, 376 107, 405 137, 407 141, 408 144, 410 147, 411 149, 413 152, 414 153, 415 155, 416 156, 417 156, 417 157, 418 157, 418 158, 419 158
+</trace>
+<trace id="2">
+460 134, 459 134, 466 136, 475 135, 495 134, 497 134, 499 134, 501 134, 502 134, 503 134, 504 135, 503 135, 502 135
+</trace>
+<trace id="3">
+458 118, 484 116, 486 116, 488 116, 490 116, 492 116, 493 116, 494 115, 495 115, 495 116, 495 117
+</trace>
+<trace id="4">
+565 126, 565 124, 564 119, 567 125, 568 132, 569 136, 569 140, 569 144, 569 148, 569 151, 569 154, 569 156, 569 158, 568 158, 568 157, 568 155, 568 153, 568 150, 568 147, 569 143, 569 139, 569 135, 570 131, 571 127, 572 123, 573 120, 574 116, 576 114, 578 111, 580 109, 582 108, 585 106, 587 105, 590 105, 592 104, 594 104, 596 104, 597 105, 597 106, 598 107, 598 108, 598 109, 598 110
+</trace>
+<trace id="5">
+657 120, 642 135, 640 142, 639 146, 639 149, 639 152, 640 154, 642 156, 644 157, 646 158, 649 159, 652 159, 655 159, 657 159, 660 159, 662 158, 664 158, 665 158, 666 158, 667 157, 667 156
+</trace>
+<trace id="6">
+681 131, 680 157, 681 159, 683 160, 685 160, 690 158, 693 157, 696 154, 699 151, 701 148, 703 145, 705 138, 705 135, 705 132, 704 129, 702 127, 700 126, 697 125, 695 125, 692 126, 689 127, 686 128, 684 130, 682 132, 680 134, 678 136, 678 138
+</trace>
+<trace id="7">
+729 130, 729 127, 725 127, 723 128, 717 135, 717 136, 717 137, 718 138, 719 139, 720 139, 722 139, 723 140, 724 140, 726 140, 727 141, 729 141, 730 142, 732 143, 733 145, 734 146, 735 148, 736 149, 736 151, 736 153, 736 155, 735 156, 734 158, 732 159, 731 161, 728 162, 726 163, 724 163, 722 163, 720 163, 718 163, 717 163, 716 162, 716 161
+</trace>
+<trace id="8">
+801 126, 801 122, 797 120, 794 121, 783 141, 782 145, 782 148, 781 152, 781 155, 782 158, 783 160, 785 161, 787 162, 790 162, 792 162, 795 161, 798 160, 801 158, 804 156, 807 153, 810 149, 812 146, 814 142, 815 137, 816 133, 817 128, 817 124, 816 120, 815 117, 813 114, 811 112, 809 111, 806 110, 804 110, 801 111, 799 112, 797 113, 795 115, 793 117, 792 119, 791 121, 790 123
+</trace>
+<trace id="9">
+789 138, 789 138, 810 136, 811 136, 812 136, 813 136, 814 136, 815 136, 814 135
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ z \lt p $</annotation>
+<annotation type="writer">annot_250</annotation>
+<annotation type="UI">2014_RIT_CROHME_54</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="24:">z</mi>
+            <mrow >
+                <mo  xml:id = "25:" >\lt</mo>
+                <mi  xml:id = "26:27:" >p</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+190 234, 189 229, 196 229, 204 229, 216 229, 229 229, 243 230, 256 232, 268 234, 276 236, 281 238, 284 239, 284 241, 283 245, 271 252, 257 260, 242 269, 229 277, 218 287, 211 295, 206 302, 204 309, 204 315, 209 320, 220 323, 233 325, 247 326, 258 326, 269 327, 280 327, 286 328, 291 329, 293 329, 293 330
+</trace>
+
+<trace  id = "1" >
+446 224, 441 226, 436 227, 427 230, 417 236, 406 240, 395 245, 386 249, 378 252, 372 257, 366 261, 363 264, 360 266, 359 269, 359 270, 359 272, 362 274, 369 276, 378 279, 388 282, 398 287, 408 292, 420 297, 432 303, 442 308, 452 313, 461 317, 468 320, 475 324, 480 326, 483 328, 485 330
+</trace>
+
+<trace  id = "2" >
+563 219, 563 223, 563 228, 563 235, 563 242, 563 252, 563 262, 562 272, 560 285, 558 296, 557 309, 556 322, 556 335, 555 345, 555 356, 554 366, 553 374, 551 381, 550 388, 550 393, 549 396, 549 398, 549 399
+</trace>
+
+<trace  id = "3" >
+571 250, 567 243, 567 240, 569 234, 573 229, 579 224, 586 220, 593 216, 602 212, 610 211, 617 211, 626 211, 634 211, 641 214, 648 218, 654 225, 659 233, 662 241, 664 250, 664 259, 664 267, 662 273, 657 279, 649 287, 640 295, 631 302, 621 308, 612 313, 604 315, 597 316, 590 316, 581 316, 574 314, 568 312, 562 310, 558 309, 554 308, 553 308, 552 308, 553 308
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="24:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="24:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="25:">
+        <annotation type="truth">\lt</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="25:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="26:27:">
+        <annotation type="truth">p</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="26:27:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

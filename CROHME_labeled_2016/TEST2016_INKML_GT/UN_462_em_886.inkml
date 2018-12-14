@@ -1,0 +1,85 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">46</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_462</annotation>
+<annotation type="truth">$q^2 = \tan \theta$</annotation>
+<annotation type="UI">CROHME_2016_em_886</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="q_1">q</mi>
+				<mn xml:id="2_1">2</mn>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="tan_1">tan</mi>
+					<mi xml:id="theta_1">theta</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+597 251, 597 250, 596 250, 592 246, 591 246, 584 248, 582 251, 581 254, 581 258, 582 262, 586 266, 589 265, 592 264, 594 261, 596 258, 598 254, 598 250, 598 246, 599 244, 598 243, 598 244, 598 246, 598 258, 598 265, 598 277, 598 284, 597 290, 597 295, 597 304, 596 307, 597 308, 596 308
+</trace>
+<trace id="1">
+608 216, 604 213, 603 212, 604 211, 606 210, 609 210, 611 211, 613 213, 613 216, 613 218, 613 221, 611 224, 610 227, 609 230, 609 232, 610 234, 611 234, 613 235, 622 234, 623 234
+</trace>
+<trace id="2">
+643 248, 644 248, 645 248, 652 248, 655 248, 657 249, 658 249
+</trace>
+<trace id="3">
+639 260, 649 259, 655 259, 656 259, 661 259, 662 259, 662 260
+</trace>
+<trace id="4">
+713 266, 715 265, 719 259, 721 255, 722 250, 723 246, 724 240, 724 235, 725 230, 725 227, 725 224, 725 222, 724 220, 725 220, 723 235, 723 241, 724 247, 725 253, 725 257, 727 263, 727 262
+</trace>
+<trace id="5">
+722 245, 724 244, 726 244, 732 244
+</trace>
+<trace id="6">
+753 256, 752 253, 750 252, 748 252, 746 253, 744 256, 743 260, 744 265, 746 266, 749 264, 751 262, 751 260, 752 257, 752 255, 752 256, 752 257, 752 258, 753 259, 758 265, 759 264, 759 265, 759 264, 762 258, 763 256, 764 255, 766 261, 767 263, 768 265, 770 263, 771 261, 772 259, 773 256, 774 257, 777 262, 778 264, 779 265, 780 267, 781 268, 783 267
+</trace>
+<trace id="7">
+810 238, 811 235, 811 234, 812 234, 811 233, 807 236, 804 239, 802 243, 800 249, 799 255, 799 260, 800 264, 806 269, 810 270, 815 269, 825 261, 827 252, 827 248, 825 244, 823 240, 820 238, 816 235, 812 234, 807 234, 804 234, 800 235, 797 236, 796 239, 797 240, 800 242, 803 242, 808 243, 812 243, 817 243, 820 243, 822 243, 823 243, 824 243
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\tan</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="tan_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">q</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="q_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

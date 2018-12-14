@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_danilo</annotation>
+<annotation type="writer">danilo</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+507 69, 506 71, 502 76, 502 75, 502 71, 506 61, 507 58, 508 56, 509 54, 511 53, 512 52, 513 52, 514 52, 515 53, 516 54, 518 56, 519 58, 519 60, 520 63, 521 65, 521 68, 521 70, 521 72, 521 74, 522 73, 523 72, 523 70, 524 67, 525 64, 527 62, 528 59, 530 57, 531 55, 533 53, 534 53, 536 53, 537 53, 539 55, 540 56, 542 58, 543 61, 544 63, 545 66, 546 68, 546 70, 547 73, 547 74, 547 76, 548 77, 548 78, 549 77, 549 76
+</trace>
+<trace id="1">
+576 25, 577 22, 577 20, 577 21, 578 32, 578 35, 577 54, 577 55, 577 56, 578 57
+</trace>
+<trace id="2">
+576 72, 576 73, 577 71
+</trace>
+<trace id="3">
+624 62, 657 59, 660 58, 661 58, 662 58
+</trace>
+<trace id="4">
+705 50, 708 45, 715 33, 715 33, 713 45, 713 48, 713 52, 712 55, 712 58, 712 61, 711 64, 711 66, 710 68, 709 70, 708 72, 707 73, 706 74, 705 75, 704 75, 703 75, 702 76, 701 76, 699 76, 698 76, 697 76, 696 76, 695 76, 694 76, 695 75, 697 75, 698 75, 700 74, 703 74, 706 74, 710 74, 714 74, 718 74, 722 74, 725 74, 729 74, 731 73, 733 73, 734 73, 734 72, 735 72, 735 71, 736 71
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

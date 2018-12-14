@@ -1,0 +1,88 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$v(y)=y$</annotation>
+<annotation type="UI">2011_IVC_depart_F001_E067</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart001</annotation>
+<annotation type="age">25</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="v_1">v</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="y_1">y</mi>
+					<mrow>
+						<mo xml:id=")_1">)</mo>
+						<mrow>
+							<mo xml:id="=_1">=</mo>
+							<mi xml:id="y_2">y</mi>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.81055 21.2506, 9.81055 21.2546, 9.81857 21.2506, 9.84265 21.2305, 9.87475 21.1744, 9.91889 21.1142, 9.94697 21.046, 9.96704 20.9938, 9.97907 20.9818, 9.98309 20.9818, 9.98309 20.9898, 10.0031 21.0339, 10.0272 21.1262, 10.0473 21.2105, 10.0714 21.2827, 10.0874 21.3028, 10.0954 21.2988, 10.1155 21.2827, 10.1556 21.2145, 10.1877 21.1302, 10.2038 21.05, 10.1917 20.9697, 10.1677 20.9416, 10.1275 20.9296, 10.0874 20.9336, 10.0754 20.9497, 10.0714 20.9697, 10.0994 21.0099, 10.1596 21.0781, 10.2359 21.1222, 10.292 21.1222, 10.3562 21.1062
+</trace>
+<trace id="1">
+10.6291 20.6728, 10.6211 20.6487, 10.6171 20.6447, 10.6171 20.6608, 10.601 20.6848, 10.5689 20.7731, 10.5248 20.8935, 10.5047 21.0379, 10.5087 21.1583, 10.5328 21.2667, 10.5609 21.3268, 10.585 21.3389, 10.605 21.3429, 10.6291 21.3228
+</trace>
+<trace id="2">
+10.8056 20.9657, 10.8056 20.9978, 10.8056 21.058, 10.8217 21.1302, 10.8377 21.1864, 10.8498 21.2025, 10.8658 21.2065, 10.8979 21.1784, 10.93 21.1423, 10.9461 21.1021, 10.9581 21.0781, 10.9581 21.0821, 10.9621 21.0981, 10.9621 21.1423, 10.9742 21.2466, 10.9862 21.375, 10.9902 21.5275, 10.9661 21.6318, 10.922 21.7241, 10.8618 21.7883, 10.8217 21.8083, 10.7776 21.7883, 10.7254 21.7, 10.7013 21.5636, 10.7294 21.4111
+</trace>
+<trace id="3">
+11.1628 20.6568, 11.1708 20.6206, 11.1748 20.6206, 11.1828 20.6287, 11.2109 20.6688, 11.2631 20.7611, 11.3273 20.9136, 11.3473 21.0741, 11.3433 21.2145, 11.3112 21.3028, 11.2871 21.3509, 11.2751 21.3589
+</trace>
+<trace id="4">
+11.869 21.0941, 11.8529 21.0781, 11.8449 21.066, 11.8529 21.07, 11.8649 21.07, 11.889 21.0821, 11.9291 21.0821, 11.9612 21.0781, 11.9813 21.07, 11.9933 21.0741, 12.0014 21.0781
+</trace>
+<trace id="5">
+11.8128 21.2947, 11.8168 21.2947, 11.8288 21.2827, 11.869 21.2707, 11.9251 21.2546, 11.9933 21.2145, 12.0696 21.1944
+</trace>
+<trace id="6">
+12.5912 20.9256, 12.5872 20.9176, 12.5792 20.9095, 12.5752 20.9095, 12.5752 20.9457, 12.5752 21.0058, 12.5832 21.0861, 12.6032 21.1463, 12.6353 21.1864, 12.6755 21.2025, 12.7156 21.1904, 12.7678 21.1342, 12.7999 21.062, 12.8159 21.0099, 12.8199 20.9657, 12.8159 20.9577, 12.8119 20.9577, 12.7999 20.9778, 12.7838 21.0379, 12.7718 21.1383, 12.7557 21.2707, 12.7597 21.4312, 12.7678 21.5957, 12.7718 21.7241, 12.7517 21.8043, 12.6955 21.8324, 12.6273 21.8404, 12.5511 21.8164, 12.5029 21.7682, 12.4949 21.696, 12.531 21.6077, 12.6394 21.4552, 12.7958 21.3389, 12.9283 21.2707
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">v</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="v_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="y_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

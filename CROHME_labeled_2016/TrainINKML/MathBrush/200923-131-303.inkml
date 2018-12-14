@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-303.ink"</annotation>
+<annotation type="truth"> \mbox { p } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:">p</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4025 4270, 4024 4288, 4028 4326, 4029 4366, 4033 4418, 4040 4482, 4045 4552, 4055 4632, 4062 4711, 4071 4794, 4076 4873, 4080 4942, 4086 5007, 4087 5062, 4088 5098, 4090 5124, 4087 5133
+</trace>
+
+<trace id="1">
+3989 4418, 4001 4360, 4014 4305, 4040 4263, 4071 4231, 4103 4202, 4142 4187, 4182 4180, 4222 4185, 4256 4199, 4288 4225, 4309 4258, 4324 4301, 4326 4344, 4323 4393, 4308 4438, 4287 4481, 4259 4520, 4227 4552, 4193 4581, 4157 4597, 4126 4613, 4102 4622, 4076 4622, 4061 4621, 4050 4611
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">p</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

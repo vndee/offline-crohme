@@ -1,0 +1,92 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$( k , -k )$</annotation>
+<annotation type="UI">2011_IVC_depart_F002_E044</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart002</annotation>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<mi xml:id="k_1">k</mi>
+				<mrow>
+					<mo xml:id=",_1">,</mo>
+					<mrow>
+						<mo xml:id="-_1">-</mo>
+						<mrow>
+							<mi xml:id="k_2">k</mi>
+							<mo xml:id=")_1">)</mo>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.227 30.3148, 11.2229 30.3108, 11.2069 30.3188, 11.1908 30.3429, 11.1628 30.383, 11.1226 30.4553, 11.0865 30.5516, 11.0584 30.6479, 11.0504 30.7482, 11.0624 30.8565, 11.0945 30.9528, 11.1186 31.001, 11.1547 31.0291, 11.1708 31.0411, 11.1828 31.0451
+</trace>
+<trace id="1">
+11.4196 30.3951, 11.4236 30.3951, 11.4236 30.4071, 11.4236 30.4312, 11.4236 30.4753, 11.4155 30.5435, 11.4035 30.6358, 11.4075 30.7161, 11.3995 30.7803, 11.3995 30.8204, 11.3995 30.8405, 11.4075 30.8445, 11.4196 30.8405
+</trace>
+<trace id="2">
+11.56 30.6559, 11.556 30.6559, 11.5359 30.6639, 11.5038 30.676, 11.4677 30.696, 11.4155 30.7161, 11.3995 30.7361, 11.3955 30.7402, 11.4035 30.7522, 11.4276 30.7682, 11.4557 30.7803, 11.5118 30.8003, 11.5399 30.8124, 11.564 30.8204, 11.5841 30.8324, 11.5961 30.8485, 11.6041 30.8726
+</trace>
+<trace id="3">
+11.877 30.8003, 11.881 30.8124, 11.869 30.8324, 11.8489 30.8726, 11.8248 30.9328, 11.8007 30.9849, 11.7887 31.017
+</trace>
+<trace id="4">
+12.3585 30.7201, 12.3545 30.7201, 12.3384 30.7201, 12.2903 30.7161, 12.2421 30.7201, 12.1819 30.7201, 12.1338 30.7201, 12.1217 30.7121
+</trace>
+<trace id="5">
+12.5591 30.3229, 12.5671 30.3309, 12.5631 30.3469, 12.5551 30.3871, 12.5471 30.4673, 12.5431 30.5516, 12.531 30.6519, 12.511 30.7402, 12.4989 30.8003, 12.4869 30.8324, 12.4789 30.8525, 12.4869 30.8525
+</trace>
+<trace id="6">
+12.7076 30.6158, 12.6875 30.6278, 12.6514 30.6439, 12.6073 30.6599, 12.5711 30.676, 12.527 30.692, 12.511 30.7121, 12.4989 30.7241, 12.5069 30.7402, 12.519 30.7482, 12.5511 30.7602, 12.6032 30.7803, 12.6634 30.8044, 12.6955 30.8284, 12.7156 30.8485, 12.7316 30.8686, 12.7437 30.8846, 12.7477 30.8926
+</trace>
+<trace id="7">
+12.8881 30.3911, 12.9122 30.3991, 12.9443 30.4192, 12.9523 30.4713, 12.9604 30.5476, 12.9042 30.8405, 12.7517 31.1735, 12.7637 31.1735
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="k_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=",_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="k_2"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

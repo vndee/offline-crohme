@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">32</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_107</annotation>
+<annotation type="truth">$x \geq c$</annotation>
+<annotation type="UI">CROHME_2016_em_167</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="ge_1">ge</mo>
+				<mi xml:id="c_1">c</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+469 155, 464 174, 461 182, 457 191, 453 202, 448 211, 445 220, 442 228, 439 234
+</trace>
+<trace id="1">
+419 177, 434 192, 439 196, 445 200, 451 204, 457 209, 463 213, 469 218, 475 222, 481 226, 487 230, 492 233, 496 235, 500 236, 503 238, 506 238, 507 238
+</trace>
+<trace id="2">
+591 164, 596 164, 601 165, 607 165, 613 166, 619 166, 625 166, 631 166, 636 166, 640 167, 643 167, 645 168, 647 169, 648 171, 649 173, 648 178, 645 184, 641 192, 635 202, 627 212, 620 222, 611 232, 603 241, 594 250, 585 258, 578 266, 572 272, 566 277, 562 281, 560 284, 558 286, 557 287, 556 287, 557 285, 558 284
+</trace>
+<trace id="3">
+681 190, 653 218, 645 229, 637 242, 629 254, 621 264, 615 273, 610 281, 606 287, 602 293, 600 297, 598 300, 597 302
+</trace>
+<trace id="4">
+797 172, 782 168, 775 171, 768 176, 761 182, 754 189, 747 196, 742 203, 738 211, 736 217, 734 224, 734 229, 734 235, 737 239, 743 243, 750 245, 759 246, 771 245, 775 244
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="ge_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \times \rightarrow \infty $</annotation>
+<annotation type="writer">42135.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42135_0</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:1:">\times</mo>
+            <mrow>
+                <mo xml:id="2:3:">\rightarrow</mo>
+                <mi xml:id="4:">\infty</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+361 155, 355 158, 349 167, 341 178, 333 190, 325 201, 317 212, 309 223, 300 236, 291 251, 281 268, 273 285, 267 299, 261 310, 257 321, 253 327, 253 333, 252 334
+</trace>
+
+<trace id="1">
+237 175, 239 173, 246 180, 253 190, 262 202, 270 214, 280 227, 291 241, 303 255, 315 266, 326 279, 344 301, 351 309, 356 318, 360 324, 363 329, 366 333, 369 337, 371 338
+</trace>
+
+<trace id="2">
+411 241, 418 242, 427 242, 437 242, 451 243, 464 244, 479 244, 494 245, 509 246, 522 246, 533 246, 545 247, 553 248, 560 248, 565 248, 570 249, 573 249, 575 249, 577 249, 577 247
+</trace>
+
+<trace id="3">
+574 220, 583 225, 589 229, 596 233, 604 236, 610 241, 615 243, 621 246, 624 249, 628 251, 629 252, 630 253, 630 254, 630 255, 628 256, 626 256, 623 258, 618 261, 615 264, 610 268, 600 276, 595 281, 591 285, 587 289, 584 293, 580 297, 578 300, 576 303, 574 305, 574 308, 574 309, 574 310
+</trace>
+
+<trace id="4">
+773 227, 774 230, 772 237, 767 245, 760 252, 754 259, 746 264, 738 269, 729 273, 720 276, 713 279, 707 280, 701 280, 696 279, 692 275, 690 269, 688 261, 687 253, 688 236, 691 230, 694 225, 698 221, 702 218, 708 218, 714 218, 721 219, 728 224, 735 231, 740 238, 747 247, 754 256, 760 265, 766 272, 773 280, 779 286, 785 292, 792 295, 799 299, 806 299, 812 299, 817 299, 822 296, 827 292, 829 286, 832 280, 834 271, 834 264, 835 256, 835 251, 835 246, 835 241, 834 237, 832 235, 828 231, 825 230, 822 227, 820 226, 817 225, 814 224, 809 224, 804 224, 799 224, 795 224, 790 223, 786 223, 779 223, 774 223, 772 225
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\times</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">\rightarrow</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">\infty</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

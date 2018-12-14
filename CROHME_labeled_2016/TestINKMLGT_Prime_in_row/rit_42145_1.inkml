@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \cos ^ {n} \theta $</annotation>
+<annotation type="writer">42145.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42145_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <msup>
+                <mi xml:id="3:4:">\cos</mi>
+                <mi xml:id="5:">n</mi>
+            </msup>
+            <mi xml:id="6:7:">\theta</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+394 186, 383 178, 377 178, 370 178, 360 178, 348 181, 334 188, 322 197, 312 209, 304 222, 300 235, 297 251, 296 264, 296 278, 300 294, 309 305, 321 313, 336 316, 351 316, 365 312, 378 301, 390 290, 400 279, 409 267, 414 258, 419 248, 420 241, 421 238, 421 237, 420 238, 419 244, 419 251, 419 264, 419 275, 424 285, 430 294, 438 300, 446 303, 454 304, 464 300, 472 292, 478 282, 481 270, 481 258, 479 242, 474 231, 465 220, 458 215, 449 212, 441 212, 433 212, 426 219, 422 227, 419 236, 419 246, 421 255, 428 261
+</trace>
+
+<trace id="1">
+550 204, 536 199, 531 200, 524 204, 516 209, 511 214, 508 219, 507 223, 508 230, 529 242, 541 250, 550 256, 559 263, 564 270, 567 277, 567 283, 566 290, 560 295, 550 299, 542 301, 535 302, 528 302, 522 300, 519 295, 517 290, 517 280
+</trace>
+
+<trace id="2">
+560 163, 565 168, 565 174, 565 179, 566 184, 567 189, 567 190, 567 189, 567 185, 567 178, 568 172, 569 166, 573 161, 576 157, 582 155, 589 155, 599 158, 606 165, 609 170, 612 176, 613 183, 613 191, 613 197, 613 203
+</trace>
+
+<trace id="3">
+689 173, 683 178, 679 187, 673 197, 669 207, 666 218, 664 227, 663 239, 662 251, 662 263, 664 274, 667 284, 672 292, 676 297, 682 301, 689 304, 695 305, 701 306, 707 306, 714 304, 719 299, 723 292, 730 275, 732 266, 735 258, 735 250, 736 241, 736 231, 736 221, 736 214, 736 207, 735 202, 733 197, 730 192, 728 188, 725 184, 722 180, 719 178, 715 175, 712 173, 708 172, 704 171, 701 171, 699 170, 696 170, 694 170, 693 170, 692 170, 691 171
+</trace>
+
+<trace id="4">
+667 241, 672 241, 676 241, 680 241, 685 241, 690 241, 696 240, 701 240, 706 240, 710 240, 717 239, 720 239, 723 239, 726 239, 730 239, 735 239, 740 239, 745 239
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">\cos</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:7:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="6:7:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

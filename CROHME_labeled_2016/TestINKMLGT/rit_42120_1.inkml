@@ -1,0 +1,89 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {1} {\cos ^ {2} \times} $</annotation>
+<annotation type="writer">42120.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42120_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="8:">
+            <mn xml:id="7:">1</mn>
+            <mrow>
+                <msup>
+                    <mi xml:id="10:11:9:">\cos</mi>
+                    <mn xml:id="12:">2</mn>
+                </msup>
+                <mo xml:id="13:14:">\times</mo>
+            </mrow>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+494 42, 497 48, 497 52, 497 57, 497 63, 496 70, 494 76, 493 83, 492 90, 492 96, 491 104, 491 109, 491 115, 491 120, 491 124, 492 129, 492 132, 492 135, 492 137, 492 139, 493 141, 493 142, 494 142
+</trace>
+
+<trace id="1">
+259 182, 266 179, 273 179, 281 179, 291 179, 304 179, 317 179, 331 178, 346 178, 363 178, 384 178, 402 176, 420 175, 439 175, 457 175, 476 175, 492 175, 507 175, 522 176, 537 176, 550 177, 565 178, 578 178, 592 178, 605 178, 618 178, 628 178, 642 178, 652 178, 662 178, 672 178, 682 178, 690 178, 697 178, 703 178, 708 178, 711 179, 715 179, 716 180, 718 180, 719 181, 719 182
+</trace>
+
+<trace id="2">
+323 256, 314 253, 309 253, 304 253, 297 254, 292 257, 286 262, 282 267, 278 274, 276 280, 274 286, 273 293, 273 299, 276 306, 281 311, 288 313, 295 314, 302 314, 312 314, 321 311, 330 307, 336 304, 341 299, 344 297, 347 295, 349 293, 350 291, 351 290
+</trace>
+
+<trace id="3">
+391 253, 382 261, 380 266, 378 273, 376 292, 377 298, 380 304, 385 307, 390 309, 394 310, 400 310, 407 309, 410 304, 414 298, 416 291, 418 285, 418 280, 418 273, 418 269, 416 264, 412 261, 406 259, 402 257, 398 256, 394 256, 392 256, 390 259, 390 262
+</trace>
+
+<trace id="4">
+488 244, 482 242, 477 242, 470 242, 464 243, 458 245, 453 247, 448 249, 445 251, 443 254, 443 256, 443 260, 445 262, 450 265, 455 268, 461 270, 468 273, 472 275, 476 278, 479 282, 482 286, 482 291, 483 296, 483 301, 483 304, 481 308, 477 309, 474 310, 470 311, 465 311, 460 311, 455 310, 451 309, 448 308, 445 306, 443 305, 442 303, 441 302, 440 299, 440 298, 440 295, 440 292, 441 290, 443 287
+</trace>
+
+<trace id="5">
+512 205, 526 199, 528 201, 530 205, 531 209, 531 213, 531 217, 531 221, 527 226, 524 227, 516 229, 513 230, 511 230, 510 230, 510 229, 510 227, 511 225, 512 223, 515 222, 517 220, 520 220, 523 220, 526 220, 528 221, 531 222, 533 222, 535 223, 536 225, 538 226, 539 227, 541 228, 542 228, 544 228, 549 228
+</trace>
+
+<trace id="6">
+613 247, 605 252, 603 253, 599 256, 594 260, 591 264, 587 268, 583 273, 579 277, 570 285, 568 289, 565 293, 558 301, 555 304, 553 308, 547 314, 545 316, 543 319, 542 321, 541 322
+</trace>
+
+<trace id="7">
+544 253, 550 257, 554 261, 559 265, 562 270, 566 275, 571 280, 580 294, 588 309, 589 313, 591 315, 592 317, 593 319, 594 320, 594 321
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:11:9:">
+        <annotation type="truth">\cos</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="10:11:9:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="12:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="12:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="13:14:">
+        <annotation type="truth">\times</annotation>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="13:14:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="7:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="8:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

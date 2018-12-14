@@ -1,0 +1,226 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Arithmetic</annotation>
+<annotation type="expression">89</annotation>
+ <annotation type="UI">89_Nina</annotation>
+<annotation type="writer">Nina</annotation>
+<annotation type="truth">$x^\prime = x \cos \theta + y \sin \theta$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="x_1">x</mi>
+				<mo xml:id="prime_1">\prime</mo>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="x_2">x</mi>
+					<mrow>
+						<mi xml:id="cos_1">cos</mi>
+						<mrow>
+							<mi xml:id="theta_1">\theta</mi>
+							<mrow>
+								<mo xml:id="+_1">+</mo>
+								<mrow>
+									<mi xml:id="y_1">y</mi>
+									<mrow>
+										<mi xml:id="sin_1">sin</mi>
+										<mi xml:id="theta_2">\theta</mi>
+									</mrow>
+								</mrow>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+155 283
+</trace>
+<trace id="1">
+155 283, 162 276, 166 282, 167 284, 164 300, 161 304, 164 294, 176 280, 184 274, 180 279, 178 281, 171 292, 170 294, 175 302, 187 302, 192 302
+</trace>
+<trace id="2">
+193 249
+</trace>
+<trace id="3">
+193 249, 195 252, 198 258, 196 266
+</trace>
+<trace id="4">
+230 292
+</trace>
+<trace id="5">
+230 292, 240 290, 250 290, 250 291
+</trace>
+<trace id="6">
+230 302, 244 300, 254 300
+</trace>
+<trace id="7">
+294 286
+</trace>
+<trace id="8">
+294 286, 295 281, 303 281, 303 295, 296 308, 298 303, 306 292, 308 290, 319 280, 320 279, 314 286, 309 297, 309 299, 314 306, 328 303
+</trace>
+<trace id="9">
+376 286
+</trace>
+<trace id="10">
+376 286, 377 287, 381 286, 386 276, 379 271, 364 283, 359 306, 374 311, 387 306
+</trace>
+<trace id="11">
+409 278
+</trace>
+<trace id="12">
+409 278, 408 278, 404 281, 400 289, 400 290, 400 302, 410 308, 420 301, 421 284, 412 274, 410 275, 405 282
+</trace>
+<trace id="13">
+451 277
+</trace>
+<trace id="14">
+451 277, 450 275, 447 272, 437 274, 435 283, 441 290, 449 298, 449 307, 439 309, 434 305
+</trace>
+<trace id="15">
+493 253
+</trace>
+<trace id="16">
+493 253, 490 255, 483 264, 477 279, 475 300, 481 311, 494 312, 506 298, 511 271, 504 255, 493 256
+</trace>
+<trace id="17">
+477 284, 492 283, 503 282
+</trace>
+<trace id="18">
+543 286
+</trace>
+<trace id="19">
+543 286, 544 286, 564 284, 573 284, 571 283
+</trace>
+<trace id="20">
+558 272
+</trace>
+<trace id="21">
+558 272, 556 271, 556 289, 554 302, 554 303
+</trace>
+<trace id="22">
+602 276
+</trace>
+<trace id="23">
+602 276, 604 274, 612 271, 610 284, 613 289, 621 279, 625 273, 626 272, 625 276, 625 291, 625 319, 620 339, 610 343, 601 330, 616 309, 634 298
+</trace>
+<trace id="24">
+677 274
+</trace>
+<trace id="25">
+677 274, 676 270, 667 268, 661 273, 667 283, 674 295, 663 302, 652 293, 652 290
+</trace>
+<trace id="26">
+713 273
+</trace>
+<trace id="27">
+713 273, 713 272, 716 272, 716 274, 712 292, 712 299, 712 292, 712 291, 717 278, 727 268, 730 273, 729 287, 729 289, 736 295, 747 288
+</trace>
+<trace id="28">
+786 238
+</trace>
+<trace id="29">
+786 238, 783 239, 772 260, 770 288, 788 296, 801 278, 804 254, 796 239, 780 245, 777 252
+</trace>
+<trace id="30">
+774 268
+</trace>
+<trace id="31">
+774 268, 773 266, 791 267, 803 270, 804 270, 804 269
+</trace>
+<trace id="32">
+690 270, 689 270, 690 268, 691 267, 694 297, 699 290, 700 284
+</trace>
+<trace id="33">
+689 251
+</trace>
+<trace id="34">
+689 251, 693 252
+</trace>
+<traceGroup xml:id="35">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="36">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="37">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="prime_1"/>
+	</traceGroup>
+	<traceGroup xml:id="38">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="39">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="x_2"/>
+	</traceGroup>
+	<traceGroup xml:id="40">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="15"/>
+		<traceView traceDataRef="16"/>
+		<traceView traceDataRef="17"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="41">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="18"/>
+		<traceView traceDataRef="19"/>
+		<traceView traceDataRef="20"/>
+		<traceView traceDataRef="21"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="42">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="22"/>
+		<traceView traceDataRef="23"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="43">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="28"/>
+		<traceView traceDataRef="29"/>
+		<traceView traceDataRef="30"/>
+		<traceView traceDataRef="31"/>
+		<annotationXML href="theta_2"/>
+	</traceGroup>
+	<traceGroup xml:id="44">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="13"/>
+		<traceView traceDataRef="14"/>
+		<traceView traceDataRef="11"/>
+		<traceView traceDataRef="12"/>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="45">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="34"/>
+		<traceView traceDataRef="33"/>
+		<traceView traceDataRef="24"/>
+		<traceView traceDataRef="25"/>
+		<traceView traceDataRef="32"/>
+		<traceView traceDataRef="26"/>
+		<traceView traceDataRef="27"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

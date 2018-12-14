@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">24</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">501</annotation>
+<annotation type="truth">$ \mu \pm \sigma $</annotation>
+<annotation type="UI">IVC_2014_F501_E17</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="mu_1">mu</mi>
+			<mrow>
+				<mo xml:id="pm_1">pm</mo>
+				<mi xml:id="sigma_1">sigma</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+93 332, 94 333, 96 332, 98 330, 101 327, 103 322, 105 316, 107 309, 109 302, 111 292, 113 282, 115 272, 121 251, 124 243, 126 237, 129 232, 128 239, 128 244, 128 250, 128 255, 129 260, 131 263, 132 265, 135 266, 142 259, 145 254, 148 249, 150 244, 152 240, 153 238, 153 237, 154 238, 154 239, 163 248
+</trace>
+<trace id="1">
+228 238, 227 238, 208 240, 202 241, 198 241, 197 240
+</trace>
+<trace id="2">
+213 227, 214 231, 213 235, 213 240, 212 245, 213 247
+</trace>
+<trace id="3">
+195 261, 197 261, 202 261, 208 261, 214 260, 222 259, 228 259, 238 258
+</trace>
+<trace id="4">
+294 201, 289 203, 286 205, 282 208, 278 212, 274 216, 271 221, 268 226, 265 236, 265 241, 265 245, 266 249, 268 251, 269 253, 272 254, 279 251, 281 248, 283 246, 285 242, 285 239, 285 236, 284 229, 282 226, 280 223, 277 221, 271 218
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="sigma_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="mu_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\pm</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="pm_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

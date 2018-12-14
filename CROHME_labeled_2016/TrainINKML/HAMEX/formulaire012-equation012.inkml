@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\phi_{1,2}$</annotation>
+<annotation type="UI">2011_IVC_depart_F012_E012</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart012</annotation>
+<annotation type="age">39</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="\phi_1">\phi</mi>
+			<mrow>
+				<mn xml:id="1_1">1</mn>
+				<mrow>
+					<mo xml:id=",_1">,</mo>
+					<mn xml:id="2_1">2</mn>
+				</mrow>
+			</mrow>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+11.5199 20.5404, 11.572 20.5284, 11.572 20.5404, 11.5118 20.5524, 11.4557 20.5484, 11.3955 20.5765, 11.3393 20.6327, 11.3192 20.7049, 11.3152 20.7651, 11.3634 20.8173, 11.4637 20.8333, 11.568 20.8132, 11.6443 20.7771, 11.6884 20.741, 11.6964 20.7009, 11.6964 20.6648, 11.6844 20.6287, 11.6563 20.5926, 11.6202 20.5605
+</trace>
+<trace id="1">
+11.548 20.6889, 11.4918 20.7892, 11.4396 20.8815, 11.4075 20.9416, 11.3995 20.9617, 11.4115 20.9657
+</trace>
+<trace id="2">
+11.877 20.7531, 11.893 20.745, 11.9011 20.7571, 11.9051 20.7892, 11.9051 20.8333, 11.893 20.8774, 11.897 20.9216, 11.889 20.9497, 11.885 20.9577
+</trace>
+<trace id="3">
+12.0696 20.8774, 12.0696 20.8895, 12.0736 20.9136, 12.0656 20.9336, 12.0616 20.9617, 12.0575 20.9858, 12.0616 20.9978
+</trace>
+<trace id="4">
+12.218 20.7691, 12.214 20.7571, 12.218 20.741, 12.2341 20.725, 12.2622 20.7089, 12.3063 20.6969, 12.3505 20.7049, 12.3745 20.737, 12.3625 20.7811, 12.3063 20.8453, 12.2542 20.9136, 12.2341 20.9497, 12.2542 20.9737, 12.3184 20.9778, 12.4668 20.9296
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\phi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=",_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

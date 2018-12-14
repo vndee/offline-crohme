@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">31</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">10</annotation>
+<annotation type="truth">$\sigma \in X$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F10_E87</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sigma_1">sigma</mi>
+			<mrow>
+				<mo xml:id="in_1">in</mo>
+				<mi xml:id="X_1">X</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+485 216, 496 212, 499 213, 501 214, 504 215, 507 216, 509 219, 510 222, 511 224, 512 227, 512 230, 513 234, 512 236, 512 238, 510 240, 509 242, 507 244, 505 245, 502 246, 499 246, 495 246, 491 246, 487 244, 484 242, 481 241, 479 239, 476 237, 474 235, 473 233, 472 231, 472 229, 472 227, 474 224, 477 222, 479 220, 484 218, 489 215, 494 213, 499 211, 505 210, 510 208, 514 207, 518 206, 521 206, 524 206, 525 206, 527 206, 528 206, 529 206, 530 207, 531 207, 532 208, 532 209
+</trace>
+<trace id="1">
+677 179, 659 179, 655 181, 651 183, 647 185, 641 188, 637 190, 632 193, 627 195, 623 198, 618 200, 615 203, 612 206, 610 209, 608 212, 606 216, 605 219, 604 223, 603 226, 604 228, 604 232, 605 234, 606 236, 608 237, 611 239, 614 240, 619 242, 622 243, 627 244, 631 244, 635 245, 640 245, 644 245, 649 245, 654 245, 658 245, 662 244, 665 244, 668 244, 671 243, 674 243, 676 243, 678 243, 680 242, 682 242, 684 241, 685 241
+</trace>
+<trace id="2">
+599 208, 621 209, 627 209, 632 209, 638 208, 643 208, 649 208, 655 208, 661 208, 665 208, 670 208, 673 208, 677 208, 680 209, 683 209, 685 210, 686 210
+</trace>
+<trace id="3">
+809 172, 788 195, 784 200, 779 206, 775 212, 771 218, 767 222, 764 227, 762 231, 760 234, 758 237, 757 239, 756 241, 755 243, 754 244, 754 245, 753 246
+</trace>
+<trace id="4">
+742 156, 752 171, 756 175, 760 180, 764 184, 768 189, 772 194, 776 198, 781 203, 785 208, 788 213, 791 218, 794 223, 797 226, 800 230, 802 233, 804 235, 806 237, 808 237, 809 238, 810 238, 811 239, 812 239
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\in</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="in_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sigma_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">X</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="X_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

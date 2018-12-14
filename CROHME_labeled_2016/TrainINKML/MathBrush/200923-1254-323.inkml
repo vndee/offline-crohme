@@ -1,0 +1,53 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-323.ink"</annotation>
+<annotation type="truth"> \sum { \sqrt { C } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:1:">\sum</mo>
+            <msqrt xml:id="2:">
+                <mi xml:id="3:">C</mi>
+            </msqrt>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+2234 8897, 2296 8900, 2394 8897, 2523 8880, 2652 8855, 2839 8830, 3052 8807, 3273 8785, 3500 8760, 3727 8732, 3940 8704, 4130 8678, 4295 8659, 4430 8639, 4536 8628, 4612 8620, 4645 8614, 4651 8622
+</trace>
+
+<trace id="1">
+2545 9096, 2537 9104, 2531 9110, 2542 9126, 2562 9143, 2596 9163, 2649 9185, 2725 9208, 2817 9233, 2929 9255, 3055 9275, 3198 9289, 3346 9297, 3497 9309, 3637 9317, 3763 9328, 3873 9342, 3962 9362, 4027 9384, 4063 9421, 4074 9457, 4063 9510, 4032 9569, 3976 9639, 3903 9715, 3811 9796, 3713 9883, 3609 9969, 3503 10056, 3397 10140, 3301 10213, 3217 10277, 3156 10328, 3105 10367, 3072 10395, 3049 10417, 3044 10434, 3049 10443, 3069 10454, 3097 10462, 3133 10476, 3187 10487, 3265 10496, 3360 10493, 3478 10479, 3612 10451, 3763 10409, 3934 10364, 4108 10305, 4276 10238, 4441 10171
+</trace>
+
+<trace id="2">
+5189 9474, 5180 9549, 5161 9622, 5152 9701, 5152 9790, 5161 9877, 5186 9958, 5219 10020, 5270 10062, 5329 10073, 5399 10062, 5480 10023, 5567 9955, 5653 9871, 5737 9768, 5813 9659, 5875 9541, 5919 9423, 5947 9309, 5956 9202, 5950 9112, 5928 9034, 5903 8967, 5875 8914, 5852 8869, 5841 8832, 5847 8802, 5872 8765, 5931 8732, 6023 8684, 6155 8625, 6323 8550, 6524 8466, 6757 8373, 7009 8275, 7269 8183, 7518 8102, 7737 8029, 7930 7978
+</trace>
+
+<trace id="3">
+7224 8928, 7151 8947, 7065 8964, 6975 8981, 6877 9023, 6779 9079, 6695 9149, 6628 9227, 6580 9309, 6558 9390, 6561 9463, 6600 9519, 6675 9555, 6790 9575, 6933 9566, 7115 9538, 7319 9496, 7529 9435, 7742 9376
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">C</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

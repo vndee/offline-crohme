@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {\sqrt {3}} {4} $</annotation>
+<annotation type="writer">4240.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4240_4</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="45:">
+            <msqrt xml:id="43:">
+                <mn xml:id="44:">3</mn>
+            </msqrt>
+            <mn xml:id="46:47:">4</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+307 173, 307 178, 346 229, 346 222, 346 212, 346 197, 344 186, 342 178, 341 168, 341 147, 340 135, 339 125, 338 118, 338 110, 338 101, 338 94, 338 83, 338 76, 341 71, 342 65, 343 64, 347 61, 349 61, 357 60, 365 58, 383 56, 392 56, 411 56, 421 56, 441 56, 451 56, 468 55, 477 55, 492 55, 499 55, 511 55, 517 55, 529 56, 535 56, 556 56, 563 56, 579 57, 584 57, 596 58, 601 59, 608 60, 610 61, 610 62
+</trace>
+
+<trace id="1">
+465 118, 460 112, 525 112, 524 118, 501 139, 492 144, 485 148, 471 151, 471 150, 473 149, 482 146, 506 143, 520 143, 540 145, 547 149, 560 158, 564 161, 567 169, 567 175, 560 188, 550 195, 530 205, 520 207, 497 207, 487 207, 464 203, 458 200, 451 196, 448 192, 447 189
+</trace>
+
+<trace id="2">
+294 278, 301 270, 533 271, 548 271, 562 271, 588 271, 608 271, 634 271, 642 271, 651 271, 654 270, 658 270, 659 270, 663 270
+</trace>
+
+<trace id="3">
+409 325, 409 326, 431 381, 440 381, 449 380, 465 380, 472 380, 487 380, 509 380, 512 380, 518 378, 520 378, 521 378, 522 378, 523 375
+</trace>
+
+<trace id="4">
+504 304, 501 304, 480 458, 480 459, 479 459, 478 460, 478 461, 477 462, 477 463, 477 465, 476 465
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="43:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="43:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="44:">
+        <annotation type="truth">3</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="44:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="45:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="45:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="46:47:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="46:47:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

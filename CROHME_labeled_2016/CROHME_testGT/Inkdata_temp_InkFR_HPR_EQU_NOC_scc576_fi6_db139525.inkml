@@ -1,0 +1,62 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2+\sqrt{2}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F576_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL576</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="2_1">2</mn>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<msqrt xml:id="_1">
+					<mn xml:id="2_2">2</mn>
+				</msqrt>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3420 3002, 3420 3002, 3422 2997, 3431 2992, 3462 2989, 3494 2997, 3507 3004, 3512 3011, 3509 3020, 3493 3035, 3468 3053, 3440 3075, 3420 3097, 3419 3110, 3426 3120, 3440 3130, 3459 3137, 3481 3138, 3531 3125
+</trace>
+<trace id="1">
+3664 3019, 3664 3019, 3664 3021, 3656 3121, 3656 3134, 3657 3132
+</trace>
+<trace id="2">
+3598 3071, 3598 3071, 3607 3067, 3624 3068, 3658 3069, 3684 3067, 3715 3061
+</trace>
+<trace id="3">
+3853 3059, 3853 3059, 3857 3054, 3869 3050, 3884 3050, 3907 3060, 3909 3071, 3905 3082, 3854 3136, 3854 3147, 3862 3155, 3906 3160, 3932 3155, 3945 3150, 3950 3145
+</trace>
+<trace id="4">
+3710 3098, 3710 3098, 3709 3100, 3710 3141, 3712 3168, 3717 3191, 3719 3188, 3731 3116, 3727 3033, 3729 2991, 3738 2972, 3750 2966, 3812 2982, 3846 2985, 3889 2981, 3977 2964, 4003 2963, 4014 2969, 4016 2977, 4014 3051, 4014 3056
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

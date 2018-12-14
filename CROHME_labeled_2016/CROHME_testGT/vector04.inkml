@@ -1,0 +1,87 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_CVPRU_ISI_VECTOR04</annotation>
+<annotation type="copyright">CVPRU/ISI</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="truth">$(A \times B)$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<mi xml:id="A_1">A</mi>
+				<mrow>
+					<mo xml:id="times_1">\times</mo>
+					<mrow>
+						<mi xml:id="B_1">B</mi>
+						<mo xml:id=")_1">)</mo>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+-221 -18, -221 -18, -221 -18, -221 -18, -221 -18, -221 -18, -221 -18, -224 -19, -225 -18, -225 -17, -226 -15, -227 -13, -228 -11, -228 -9, -228 -8, -228 -6, -227 -5, -226 -3, -225 -2, -224 -1, -223 -1, -221 0, -220 0, -219 0
+</trace>
+<trace id="1">
+-208 -15, -208 -15, -207 -16, -207 -17, -207 -17, -207 -17, -207 -17, -207 -17, -207 -17, -208 -15, -209 -14, -209 -12, -210 -11, -210 -10, -211 -8, -211 -7, -211 -6, -212 -6, -212 -6, -212 -6
+</trace>
+<trace id="2">
+-208 -15, -208 -15, -208 -15, -208 -15, -208 -15, -208 -15, -208 -15, -208 -15, -206 -15, -205 -15, -205 -14, -205 -12, -204 -11, -204 -10, -203 -9, -203 -8, -202 -7, -202 -7, -202 -6, -202 -6, -202 -6, -202 -6
+</trace>
+<trace id="3">
+-209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -209 -9, -206 -10
+</trace>
+<trace id="4">
+-191 -16, -191 -16, -191 -16, -191 -16, -191 -16, -191 -16, -191 -16, -191 -16, -191 -16, -189 -14, -188 -13, -187 -12, -185 -11, -184 -10, -183 -9, -182 -9, -181 -8, -181 -8, -181 -8
+</trace>
+<trace id="5">
+-181 -15, -181 -15, -181 -15, -181 -16, -181 -16, -181 -16, -182 -15, -182 -15, -183 -14, -184 -13, -185 -12, -186 -11, -187 -10, -188 -9, -188 -8, -189 -8, -189 -7, -189 -7
+</trace>
+<trace id="6">
+-169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -17, -169 -15, -169 -14, -169 -13, -169 -11, -169 -10, -169 -10, -169 -9, -169 -8, -169 -8
+</trace>
+<trace id="7">
+-170 -15, -169 -16, -169 -17, -169 -17, -169 -18, -169 -18, -168 -18, -168 -18, -168 -18, -168 -18, -166 -18, -165 -17, -165 -17, -164 -16, -164 -16, -164 -15, -165 -14, -166 -13, -166 -13, -167 -12, -168 -12, -168 -12, -168 -12, -168 -12, -168 -12, -168 -12, -167 -12, -167 -12, -166 -12, -165 -12, -164 -12, -163 -12, -162 -11, -162 -11, -161 -10, -161 -10, -161 -9, -162 -8, -163 -8, -163 -7, -165 -7, -165 -7, -166 -7, -168 -7, -168 -7, -169 -7, -169 -7
+</trace>
+<trace id="8">
+-161 -21, -161 -21, -161 -21, -161 -21, -158 -22, -158 -22, -157 -21, -156 -20, -154 -18, -153 -16, -152 -14, -152 -12, -151 -10, -152 -8, -152 -7, -153 -5, -154 -4, -156 -2, -157 -1, -158 -1, -159 -1, -160 -1
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">A</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="A_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="B_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

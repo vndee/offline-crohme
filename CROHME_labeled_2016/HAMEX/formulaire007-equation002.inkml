@@ -1,0 +1,77 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$10^{6,5}$</annotation>
+<annotation type="UI">2011_IVC_depart_F007_E002</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart007</annotation>
+<annotation type="age">25</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="1_1">1</mn>
+			<msup>
+				<mn xml:id="0_1">0</mn>
+				<mrow>
+					<mn xml:id="6_1">6</mn>
+					<mrow>
+						<mo xml:id=",_1">,</mo>
+						<mn xml:id="5_1">5</mn>
+					</mrow>
+				</mrow>
+			</msup>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.6041 21.4111, 11.6001 21.4191, 11.6001 21.4151, 11.6081 21.4071, 11.6202 21.3991, 11.6563 21.375, 11.7044 21.3349, 11.7446 21.2867, 11.8088 21.2185, 11.8449 21.1623, 11.885 21.1383, 11.897 21.1262, 11.9011 21.1262, 11.889 21.1383, 11.873 21.1824, 11.869 21.2185, 11.869 21.2707, 11.8609 21.3509, 11.869 21.3991, 11.869 21.4352, 11.869 21.4713, 11.873 21.4954, 11.873 21.5074
+</trace>
+<trace id="1">
+12.3264 21.1583, 12.3224 21.1503, 12.3184 21.1423, 12.3184 21.1383, 12.3063 21.1342, 12.2983 21.1262, 12.2822 21.1222, 12.2622 21.1222, 12.2501 21.1262, 12.2421 21.1302, 12.2341 21.1342, 12.2221 21.1423, 12.214 21.1543, 12.19 21.1864, 12.1699 21.2265, 12.1579 21.2667, 12.1378 21.3148, 12.1298 21.363, 12.1217 21.4071, 12.1137 21.4633, 12.1177 21.4994, 12.1258 21.5194, 12.1298 21.5315, 12.1418 21.5395, 12.1659 21.5435, 12.19 21.5355, 12.2341 21.5034, 12.2742 21.4713, 12.3184 21.4272, 12.3625 21.379, 12.3906 21.3469, 12.3986 21.3108, 12.3946 21.2787, 12.3826 21.2386, 12.3585 21.1944, 12.3304 21.1663, 12.2863 21.1463, 12.2341 21.1663, 12.1779 21.1944, 12.1538 21.2506
+</trace>
+<trace id="2">
+12.7918 20.7651, 12.7958 20.7531, 12.7958 20.749, 12.7918 20.749, 12.7878 20.7531, 12.7718 20.7611, 12.7597 20.7731, 12.7316 20.7892, 12.6995 20.8253, 12.6594 20.8815, 12.6353 20.9336, 12.6313 20.9778, 12.6273 21.0259, 12.6273 21.058, 12.6394 21.07, 12.6634 21.0861, 12.6835 21.0861, 12.7116 21.066, 12.7397 21.042, 12.7557 21.0219, 12.7597 21.0058, 12.7557 20.9978, 12.7397 20.9858, 12.7196 20.9778, 12.6875 20.9898, 12.6394 21.0058, 12.6153 21.0259, 12.5912 21.046, 12.5711 21.0741, 12.5631 21.1021
+</trace>
+<trace id="3">
+12.9323 21.0981, 12.9202 21.1142, 12.9042 21.1342, 12.8681 21.1503, 12.848 21.1623, 12.8199 21.1824, 12.7838 21.2025, 12.7678 21.2185
+</trace>
+<trace id="4">
+13.0968 20.8333, 13.0767 20.8373, 13.0607 20.8453, 13.0526 20.8654, 13.0526 20.8855, 13.0567 20.9015, 13.0647 20.9136, 13.0847 20.9296, 13.1088 20.9457, 13.1289 20.9617, 13.1489 20.9858, 13.153 21.0018, 13.153 21.0179, 13.1409 21.042, 13.1209 21.062, 13.0888 21.0741, 13.0406 21.0941, 13.0045 21.0981, 12.9684 21.0981, 12.9523 21.0861
+</trace>
+<trace id="5">
+13.0767 20.8734, 13.0968 20.8574, 13.1088 20.8413, 13.161 20.8213, 13.2051 20.7932, 13.2412 20.7731, 13.2573 20.7651, 13.2613 20.7611, 13.2573 20.7651
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">,</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=",_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

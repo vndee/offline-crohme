@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-261.ink"</annotation>
+<annotation type="truth"> { S } _ { { \mbox { C } } _ { \mbox { z } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+            <msub>
+                <mi xml:id="0:">S</mi>
+                <mi xml:id="1:">C</mi>
+            </msub>
+            <mi xml:id="2:">z</mi>
+        </msub>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4533 5060, 4522 5038, 4491 5013, 4463 4985, 4424 4959, 4377 4934, 4323 4917, 4253 4909, 4169 4912, 4066 4929, 3948 4959, 3822 5007, 3696 5074, 3565 5158, 3444 5254, 3335 5354, 3248 5452, 3198 5553, 3178 5643, 3198 5727, 3257 5794, 3360 5847, 3492 5889, 3657 5920, 3836 5951, 4018 5982, 4195 6012, 4343 6049, 4469 6088, 4553 6133, 4603 6183, 4603 6234, 4561 6284, 4477 6326, 4365 6368, 4225 6399, 4057 6427, 3881 6447, 3693 6461, 3514 6469, 3343 6472, 3201 6475, 3086 6475, 3002 6461, 2968 6444
+</trace>
+
+<trace id="1">
+6429 5620, 6457 5609, 6449 5601, 6409 5604, 6351 5620, 6255 5651, 6141 5699, 6012 5772, 5880 5861, 5751 5968, 5631 6077, 5533 6183, 5455 6290, 5410 6382, 5407 6466, 5446 6522, 5522 6559, 5637 6581, 5777 6587, 5939 6575, 6124 6559
+</trace>
+
+<trace id="2">
+6597 6567, 6625 6561, 6664 6547, 6729 6536, 6807 6522, 6908 6503, 7023 6480, 7151 6466, 7280 6455, 7401 6449, 7507 6449, 7594 6458, 7650 6475, 7675 6508, 7678 6553, 7653 6615, 7605 6690, 7541 6777, 7462 6869, 7378 6965, 7297 7060, 7224 7147, 7165 7228, 7129 7289, 7123 7340, 7151 7368, 7216 7376, 7319 7368, 7459 7345, 7630 7315, 7812 7273, 8011 7228, 8210 7194, 8389 7166
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">S</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">C</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

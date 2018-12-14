@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ 18 z $</annotation>
+<annotation type="writer">annot_115</annotation>
+<annotation type="UI">2014_RIT_CROHME_122</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="24:">1</mn>
+            <mrow >
+                <mn  xml:id = "25:" >8</mn>
+                <mi  xml:id = "26:" >z</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+444 130, 444 134, 445 143, 446 158, 447 173, 447 194, 447 215, 448 234, 451 252, 454 265, 456 274, 458 280, 460 284, 465 284
+</trace>
+
+<trace  id = "1" >
+546 159, 546 152, 546 148, 543 143, 538 138, 529 133, 521 131, 512 131, 502 131, 496 136, 495 142, 495 151, 498 161, 507 171, 518 182, 529 194, 535 204, 541 214, 543 221, 544 226, 544 230, 541 232, 532 232, 520 231, 510 225, 503 217, 500 210, 498 202, 498 190, 505 178, 517 168, 530 158, 539 153, 544 149, 545 148, 548 147, 549 146
+</trace>
+
+<trace  id = "2" >
+585 178, 586 179, 596 179, 605 179, 616 179, 621 179, 624 179, 627 179, 628 181, 628 185, 625 190, 619 198, 609 209, 601 217, 596 224, 593 230, 592 235, 592 240, 603 242, 618 243, 638 243, 655 242, 666 240, 673 239, 676 239, 677 238
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="24:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="24:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="25:">
+        <annotation type="truth">8</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="25:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="26:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="26:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

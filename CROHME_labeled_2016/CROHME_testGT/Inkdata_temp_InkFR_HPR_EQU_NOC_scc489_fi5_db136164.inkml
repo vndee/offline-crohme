@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$y = b$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F489_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL489</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="y_1">y</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mi xml:id="b_1">b</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1350 3037, 1350 3037, 1351 3025, 1351 3023, 1351 3025, 1350 3055, 1354 3070, 1362 3081, 1372 3087, 1380 3087, 1400 3076, 1407 3066, 1411 3039, 1408 3020, 1404 3017, 1418 3053, 1430 3102, 1432 3128, 1427 3164, 1421 3170, 1413 3167, 1395 3134, 1394 3119, 1401 3108, 1413 3098, 1434 3090
+</trace>
+<trace id="1">
+1481 3042, 1481 3042, 1481 3040, 1523 3038, 1527 3038, 1529 3038
+</trace>
+<trace id="2">
+1484 3071, 1484 3071, 1486 3072, 1495 3074, 1505 3072, 1516 3069, 1528 3065
+</trace>
+<trace id="3">
+1583 3009, 1583 3009, 1583 2994, 1585 2985, 1585 2984, 1585 2984, 1586 2987, 1594 3035, 1594 3055, 1600 3077, 1600 3061, 1606 3049, 1627 3034, 1650 3033, 1665 3048, 1665 3080, 1659 3095, 1651 3102, 1622 3099, 1613 3090
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,92 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2^7=128$</annotation>
+<annotation type="UI">2011_IVC_depart_F033_E061</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart033</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mn xml:id="2_1">2</mn>
+				<mn xml:id="7_1">7</mn>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mn xml:id="1_1">1</mn>
+					<mrow>
+						<mn xml:id="2_2">2</mn>
+						<mn xml:id="8_1">8</mn>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.59789 16.2671, 9.60591 16.235, 9.64202 16.1908, 9.70622 16.1547, 9.77042 16.1347, 9.81857 16.1387, 9.83864 16.1547, 9.81857 16.1908, 9.75036 16.2831, 9.64604 16.3875, 9.57782 16.4757, 9.54974 16.5319, 9.54974 16.56, 9.5698 16.572, 9.634 16.5881, 9.69017 16.5841, 9.75839 16.552, 9.8266 16.5159
+</trace>
+<trace id="1">
+9.9871 15.9019, 9.99512 15.906, 10.0072 15.8859, 10.0553 15.8538, 10.1195 15.8137, 10.1998 15.7695, 10.2399 15.7535, 10.268 15.7535, 10.268 15.7495, 10.2559 15.7575, 10.2118 15.7896, 10.1677 15.8618, 10.1476 15.9621, 10.1356 16.0384, 10.1356 16.0865, 10.1436 16.1026
+</trace>
+<trace id="2">
+10.0673 15.9621, 10.0714 15.9902, 10.0874 16.0103, 10.1115 16.0063, 10.1556 15.9942, 10.2038 15.9541
+</trace>
+<trace id="3">
+11.4797 16.3754, 11.4757 16.3754, 11.4838 16.3754, 11.5038 16.3714, 11.5399 16.3634, 11.6242 16.3513, 11.7205 16.3233, 11.8048 16.3072, 11.8409 16.3192, 11.8248 16.3313
+</trace>
+<trace id="4">
+11.5118 16.552, 11.5239 16.5319, 11.5801 16.5239, 11.6242 16.5078, 11.6804 16.5078, 11.7245 16.5159, 11.7606 16.5199, 11.8007 16.5239
+</trace>
+<trace id="5">
+12.3023 16.4637, 12.3424 16.4797, 12.3866 16.4557, 12.4708 16.4115, 12.5711 16.3473, 12.6634 16.2591, 12.7276 16.1708, 12.7637 16.1186, 12.7678 16.1106, 12.7557 16.1186, 12.7276 16.1628, 12.6915 16.255, 12.6755 16.3513, 12.6594 16.4236, 12.6755 16.4637, 12.7156 16.4597
+</trace>
+<trace id="6">
+12.9242 16.1507, 12.9563 16.1226, 12.9884 16.0905, 13.0165 16.0825, 13.0326 16.0945, 13.0326 16.1186, 13.0045 16.1748, 12.9644 16.247, 12.9042 16.3313, 12.8681 16.4075, 12.86 16.4677, 12.8801 16.4958, 12.9323 16.4998, 12.9804 16.4838, 13.0406 16.4597, 13.0767 16.4356, 13.0968 16.4075
+</trace>
+<trace id="7">
+13.482 16.0624, 13.478 16.0705, 13.4378 16.0945, 13.3817 16.1507, 13.3135 16.2069, 13.2894 16.2631, 13.2934 16.2992, 13.3295 16.3473, 13.3736 16.4035, 13.4057 16.4517, 13.4098 16.4878, 13.3777 16.5038, 13.3135 16.5118, 13.2613 16.5038, 13.2252 16.4757, 13.2172 16.4396, 13.2412 16.3995, 13.3255 16.3554, 13.4258 16.2992, 13.49 16.231, 13.5141 16.1507, 13.5101 16.0945
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">7</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="7_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">8</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="8_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

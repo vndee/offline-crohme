@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\cos(\alpha)$</annotation>
+<annotation type="UI">2011_IVC_depart_F010_E072</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart010</annotation>
+<annotation type="age">29</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="\cos_1">\cos</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="\alpha_1">\alpha</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.0986 21.0741, 11.0584 21.05, 10.9862 21.042, 10.8739 21.062, 10.7655 21.1342, 10.6893 21.2105, 10.6612 21.2787, 10.6853 21.3228, 10.7735 21.3429, 10.9019 21.3188, 11.0063 21.2586, 11.0745 21.2065, 11.1026 21.1784, 11.0986 21.1704, 11.0865 21.1623, 11.0705 21.1623, 11.0464 21.1663, 11.0303 21.1944, 11.0183 21.2225, 11.0183 21.2586, 11.0344 21.2988, 11.0705 21.3309, 11.1226 21.3509, 11.1708 21.3509, 11.2149 21.3148, 11.235 21.2747, 11.251 21.2185, 11.243 21.1704, 11.2109 21.1302, 11.1628 21.1182, 11.1347 21.1222, 11.0905 21.1423, 11.0624 21.1904, 11.0584 21.2386
+</trace>
+<trace id="1">
+11.5439 21.1784, 11.5359 21.1423, 11.5159 21.1021, 11.4958 21.0781, 11.4637 21.0741, 11.4436 21.0861, 11.4155 21.1102, 11.3875 21.1423, 11.3955 21.1824, 11.4115 21.2225, 11.4436 21.2546, 11.4717 21.2787, 11.5038 21.3108, 11.5239 21.3469, 11.5199 21.375, 11.4998 21.3991, 11.4637 21.4191, 11.4115 21.4312, 11.3513 21.4191, 11.3032 21.3991, 11.2871 21.3589
+</trace>
+<trace id="2">
+12.0856 20.8574, 12.0816 20.8413, 12.0656 20.8253, 12.0254 20.8293, 11.9492 20.8574, 11.869 20.9095, 11.8048 21.0219, 11.7807 21.1583, 11.7767 21.2867, 11.8007 21.379, 11.869 21.4352, 11.9612 21.4673, 12.0736 21.4593
+</trace>
+<trace id="3">
+12.535 21.0901, 12.515 21.0781, 12.4909 21.0901, 12.4508 21.1262, 12.4147 21.1744, 12.3505 21.2426, 12.2863 21.3148, 12.2261 21.3589, 12.1859 21.379, 12.1739 21.367, 12.1699 21.3268, 12.206 21.2466, 12.2421 21.1704, 12.2863 21.1583, 12.3103 21.1623, 12.3424 21.2065, 12.3625 21.2546, 12.3826 21.2907, 12.4066 21.3188, 12.4227 21.3228, 12.4387 21.3148, 12.4468 21.2827
+</trace>
+<trace id="4">
+12.7276 20.7892, 12.7397 20.8173, 12.7397 20.8935, 12.7316 20.9737, 12.7156 21.1021, 12.7276 21.2346, 12.7236 21.3188, 12.7036 21.3991, 12.6434 21.4512
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\alpha_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

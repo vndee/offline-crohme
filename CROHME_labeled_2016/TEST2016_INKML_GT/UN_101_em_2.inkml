@@ -1,0 +1,88 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_101</annotation>
+<annotation type="truth">$\sum_{l} x^{(l)}$</annotation>
+<annotation type="UI">CROHME_2016_em_2</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<munder>
+				<mo xml:id="sum_1">sum</mo>
+				<mi xml:id="l_1">l</mi>
+			</munder>
+			<msup>
+				<mi xml:id="x_1">x</mi>
+				<mrow>
+					<mo xml:id="(_1">(</mo>
+					<mrow>
+						<mi xml:id="l_2">l</mi>
+						<mo xml:id=")_1">)</mo>
+					</mrow>
+				</mrow>
+			</msup>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+538 148, 537 150, 534 151, 530 152, 528 153, 524 154, 520 155, 517 155, 512 156, 508 157, 503 158, 497 159, 491 161, 485 162, 479 164, 473 165, 468 167, 462 168, 456 170, 451 172, 446 174, 443 175, 440 176, 437 176, 436 177, 435 177, 435 178, 435 180, 436 181, 437 183, 439 184, 443 186, 449 187, 454 188, 459 189, 465 191, 471 193, 477 194, 484 196, 490 196, 495 197, 501 199, 505 200, 509 202, 513 204, 516 206, 518 207, 519 210, 520 212, 521 214, 521 215, 520 219, 518 222, 517 225, 514 229, 510 232, 507 234, 502 237, 498 240, 493 242, 488 245, 483 247, 478 250, 472 253, 467 255, 461 258, 455 260, 449 263, 445 265, 440 268, 436 270, 433 272, 431 274, 429 275, 429 276, 428 277, 428 278, 429 279, 431 279, 433 279, 436 279, 441 279, 447 278, 453 278, 460 278, 467 278, 475 277, 484 277, 492 277, 501 277, 509 277, 518 278, 527 278, 536 279, 544 279, 551 279, 557 280, 563 280, 569 281, 573 282, 576 283, 577 284, 579 284, 578 284, 577 284, 575 285, 572 285, 569 285, 568 285
+</trace>
+<trace id="1">
+493 319, 505 317, 507 315, 509 313, 511 311, 511 309, 512 306, 513 304, 513 303, 514 301, 513 299, 513 297, 513 295, 512 294, 511 293, 509 293, 508 292, 506 292, 505 293, 503 295, 502 296, 501 298, 500 298, 499 301, 497 304, 495 307, 494 310, 494 313, 493 316, 493 318, 493 321, 492 324, 492 327, 492 330, 492 333, 492 336, 492 338, 492 341, 492 343, 492 345, 492 346, 492 347, 492 348, 492 347, 492 345, 492 344, 492 343
+</trace>
+<trace id="2">
+606 264, 614 259, 616 261, 618 262, 620 264, 621 265, 623 267, 624 268, 624 270, 625 272, 625 274, 625 276, 624 277, 622 278, 621 279, 619 280, 617 281, 614 282, 612 283, 610 284, 609 284, 608 284, 607 284, 606 284, 605 284, 605 283
+</trace>
+<trace id="3">
+636 266, 631 267, 630 268, 629 270, 628 272, 627 273, 627 275, 627 277, 627 278, 627 279, 628 280, 629 281, 631 282, 634 282, 637 282, 639 282, 642 281, 645 280, 646 280
+</trace>
+<trace id="4">
+670 217, 662 220, 661 223, 660 225, 659 228, 659 231, 658 233, 657 236, 657 239, 657 241, 658 244, 659 247, 659 249, 661 252, 663 254, 664 256, 666 257, 667 258, 668 258, 669 258
+</trace>
+<trace id="5">
+689 230, 701 223, 704 222, 705 221, 707 219, 708 218, 708 216, 709 215, 709 213, 708 211, 708 210, 707 209, 705 208, 704 207, 702 207, 700 206, 698 206, 696 206, 695 206, 693 207, 692 208, 691 210, 690 212, 689 214, 688 217, 687 220, 687 224, 686 227, 686 231, 686 233, 686 236, 686 238, 687 241, 688 243, 688 245, 689 246, 689 247, 689 248, 689 249, 690 249, 689 249, 689 248, 689 247
+</trace>
+<trace id="6">
+718 209, 725 214, 726 219, 728 223, 728 228, 729 232, 729 236, 728 240, 727 244, 726 247, 725 250, 723 253, 721 255, 720 257, 718 258
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">l</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="l_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">l</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="l_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

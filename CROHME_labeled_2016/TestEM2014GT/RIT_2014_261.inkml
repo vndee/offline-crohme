@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ d \neq 0 $</annotation>
+<annotation type="writer">annot_145</annotation>
+<annotation type="UI">2014_RIT_CROHME_261</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="73:">d</mi>
+            <mrow >
+                <mi  xml:id = "74:75:76:" >\neq</mi>
+                <mn  xml:id = "77:" >0</mn>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+292 167, 293 166, 294 171, 296 180, 300 192, 304 205, 307 217, 309 227, 310 234, 311 243, 312 248, 313 252, 314 254, 314 253, 314 248, 312 243, 309 237, 304 232, 299 227, 295 222, 291 220, 286 219, 280 219, 272 223, 267 228, 265 233, 265 237, 265 240, 267 245, 275 248, 289 248, 308 248, 321 248, 333 247, 345 243
+</trace>
+
+<trace  id = "1" >
+408 196, 415 197, 425 197, 437 197, 448 198, 458 198, 464 198, 469 198, 474 200, 474 205
+</trace>
+
+<trace  id = "2" >
+402 243, 409 241, 422 241, 442 239, 464 236, 484 234, 500 231, 512 229, 520 224
+</trace>
+
+<trace  id = "3" >
+469 146, 464 147, 458 156, 453 167, 450 185, 446 205, 443 227, 437 248, 432 268, 428 290, 426 313
+</trace>
+
+<trace  id = "4" >
+612 149, 605 152, 595 161, 583 173, 575 189, 569 205, 567 216, 567 228, 567 236, 572 243, 581 248, 590 249, 601 249, 611 245, 619 236, 625 224, 628 210, 629 197, 629 186, 625 176, 617 168, 612 161, 608 157, 603 153
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="73:">
+        <annotation type="truth">d</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="73:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="74:75:76:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="74:75:76:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="77:">
+        <annotation type="truth">0</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="77:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

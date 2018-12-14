@@ -1,0 +1,79 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_CVPRU_ISI_VECTOR09</annotation>
+<annotation type="copyright">CVPRU/ISI</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="truth">$(B\times C)$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<mi xml:id="B_1">B</mi>
+				<mrow>
+					<mo xml:id="times_1">\times</mo>
+					<mrow>
+						<mi xml:id="C_1">C</mi>
+						<mo xml:id=")_1">)</mo>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+386 -13, 386 -13, 386 -13, 386 -13, 386 -13, 386 -13, 386 -13, 383 -12, 381 -9, 379 -8, 378 -6, 377 -4, 377 -2, 377 0, 378 2, 380 3, 382 3, 383 4
+</trace>
+<trace id="1">
+393 -9, 393 -9, 393 -9, 393 -9, 393 -9, 393 -9, 393 -9, 392 -6, 392 -5, 392 -4, 391 -3, 391 -2, 391 -2
+</trace>
+<trace id="2">
+392 -9, 392 -9, 392 -9, 392 -9, 392 -9, 394 -10, 395 -10, 396 -10, 397 -10, 398 -10, 399 -10, 399 -9, 398 -8, 398 -7, 398 -7, 398 -7, 395 -6, 394 -5, 394 -5, 394 -5, 394 -5, 394 -5, 395 -5, 396 -5, 397 -5, 398 -5, 399 -4, 400 -3, 400 -3, 400 -2, 399 -1, 398 -1, 397 0, 396 0, 395 0, 394 0, 393 0, 393 0, 392 -1
+</trace>
+<trace id="3">
+410 -7, 410 -8, 410 -8, 410 -8, 410 -8, 410 -8, 411 -8, 411 -8, 413 -7, 414 -6, 415 -5, 416 -3, 417 -2, 418 -1, 418 -1, 419 1, 420 1, 420 1
+</trace>
+<trace id="4">
+420 -6, 420 -7, 420 -7, 420 -7, 420 -7, 419 -7, 418 -6, 417 -5, 415 -4, 413 -3, 412 -2, 411 -1, 410 -1
+</trace>
+<trace id="5">
+434 -6, 434 -6, 434 -6, 435 -7, 434 -8, 433 -8, 432 -8, 431 -7, 430 -6, 429 -6, 428 -5, 428 -3, 428 -2, 428 -1, 429 0, 430 0, 431 1, 431 1, 434 1, 436 0
+</trace>
+<trace id="6">
+440 -14, 440 -14, 440 -14, 440 -14, 440 -14, 440 -14, 442 -13, 444 -12, 445 -11, 447 -9, 448 -7, 448 -4, 448 -1, 446 1, 444 4, 442 5, 440 7, 439 8, 438 8
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="B_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">C</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="C_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

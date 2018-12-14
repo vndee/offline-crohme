@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotation type="writer">UN_463</annotation>
+<annotation type="truth">$w_\infty^\infty$</annotation>
+<annotation type="UI">CROHME_2016_em_902</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msubsup>
+			<mi xml:id="w_1">w</mi>
+			<mi xml:id="infin_1">infin</mi>
+			<mi xml:id="infin_2">infin</mi>
+		</msubsup>
+	</math>
+</annotationXML>
+<trace id="0">
+480 81, 479 82, 478 83, 477 92, 477 97, 478 102, 478 106, 480 114, 482 118, 483 122, 486 125, 488 127, 490 129, 492 130, 496 130, 499 129, 501 127, 503 124, 505 121, 507 118, 508 114, 509 110, 510 106, 511 102, 513 98, 514 91, 514 89, 514 87, 514 86, 513 86, 513 87, 513 88, 515 104, 516 108, 517 113, 517 117, 520 125, 522 131, 524 133, 525 135, 527 135, 530 135, 532 134, 535 133, 538 131, 542 124, 544 121, 546 117, 547 113, 548 109, 549 105, 550 97, 549 90, 548 87, 547 85, 545 82, 542 78, 539 76, 540 76, 546 76, 549 77, 556 77, 558 77, 559 76, 559 77, 559 76
+</trace>
+<trace id="1">
+614 51, 613 51, 613 50, 612 50, 604 49, 601 48, 598 49, 596 49, 593 50, 591 51, 589 53, 587 54, 586 56, 585 61, 586 64, 586 66, 587 68, 590 73, 592 74, 595 76, 597 77, 600 78, 603 78, 607 78, 610 78, 613 77, 616 75, 619 73, 621 71, 624 68, 626 65, 628 62, 631 59, 634 57, 636 54, 643 50, 646 49, 649 49, 657 49, 661 50, 664 52, 670 57, 673 59, 674 62, 676 68, 676 71, 675 73, 674 75, 672 76, 666 77, 663 76, 660 75, 652 71, 648 69, 645 67, 641 65, 633 61, 623 55, 620 53, 617 52, 614 50, 609 48, 605 47
+</trace>
+<trace id="2">
+669 113, 668 113, 669 113, 669 112, 668 112, 662 108, 659 107, 653 105, 650 105, 647 105, 643 105, 640 105, 637 105, 634 105, 631 106, 628 107, 625 108, 622 108, 619 109, 617 111, 612 116, 611 117, 610 119, 609 124, 609 126, 609 127, 609 126, 609 127, 606 130, 606 131, 605 132, 604 133, 600 133, 601 133, 600 133, 596 131, 595 130, 594 130, 593 127, 593 126, 592 122, 592 120, 592 119, 592 116, 593 114, 593 113, 595 111, 599 109, 599 109, 604 110, 607 110, 610 112, 614 115, 616 116, 619 118, 621 120, 623 122, 625 124, 630 129, 632 130, 634 132, 637 133, 639 134, 645 133, 647 133, 651 131, 660 123, 660 121, 661 116, 661 113, 663 109
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">w</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="w_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="infin_2"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="infin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

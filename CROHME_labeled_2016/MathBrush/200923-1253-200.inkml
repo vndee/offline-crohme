@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1253-200.ink"</annotation>
+<annotation type="truth"> 15 </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="0:">1</mn>
+            <mn xml:id="1:2:">5</mn>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11027 6236, 11004 6284, 10988 6346, 10965 6419, 10929 6503, 10909 6606, 10884 6718, 10862 6836, 10834 6951, 10806 7074, 10775 7200, 10741 7326, 10713 7449, 10682 7561, 10657 7665, 10638 7757, 10626 7830
+</trace>
+
+<trace id="1">
+11721 6419, 11760 6430, 11797 6444, 11836 6452, 11889 6466, 11945 6469, 12012 6475, 12080 6475, 12150 6472, 12222 6466, 12290 6455, 12351 6441, 12410 6435, 12455 6419
+</trace>
+
+<trace id="2">
+11889 6612, 11844 6662, 11805 6707, 11788 6757, 11786 6808, 11797 6853, 11819 6897, 11853 6937, 11892 6979, 11940 7009, 11984 7046, 12029 7077, 12074 7110, 12110 7144, 12144 7183, 12164 7225, 12175 7278, 12172 7337, 12161 7410, 12133 7485, 12096 7567, 12046 7648, 11984 7732, 11909 7807, 11822 7878, 11730 7936, 11629 7978, 11531 8015, 11436 8034, 11343 8040, 11262 8037
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">5</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

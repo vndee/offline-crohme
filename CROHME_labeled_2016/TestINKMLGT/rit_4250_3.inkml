@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \sqrt {18} $</annotation>
+<annotation type="writer">4250.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4250_3</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt xml:id="12:">
+            <mrow>
+                <mn xml:id="13:">1</mn>
+                <mn xml:id="14:">8</mn>
+            </mrow>
+        </msqrt>
+    </math>
+</annotationXML>
+
+<trace id="0">
+341 305, 343 309, 372 358, 376 362, 380 363, 384 365, 387 366, 390 366, 393 362, 394 355, 394 348, 394 339, 394 331, 389 309, 385 295, 382 277, 380 261, 379 243, 378 229, 377 214, 377 203, 377 192, 377 185, 377 178, 379 171, 381 164, 386 155, 394 145, 405 135, 419 129, 433 124, 450 120, 468 117, 487 115, 510 113, 535 110, 558 109, 585 107, 611 104, 636 101, 657 100, 681 98, 703 98, 722 96, 735 96, 744 96, 752 96, 758 96
+</trace>
+
+<trace id="1">
+457 187, 458 188, 472 267, 473 280, 474 291, 475 300, 477 311, 477 320, 482 338, 485 340, 490 341
+</trace>
+
+<trace id="2">
+649 170, 645 167, 543 190, 538 196, 537 201, 537 206, 541 212, 550 219, 565 227, 581 235, 599 242, 614 249, 627 256, 636 264, 642 271, 647 279, 648 287, 648 295, 645 305, 636 315, 624 324, 611 329, 599 333, 589 334, 578 334, 571 333, 565 329, 560 321, 559 313, 559 301, 562 286, 568 271, 575 256, 586 237, 594 224, 601 212, 606 202, 612 193, 617 185, 622 178, 625 173
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="12:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="12:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="13:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="13:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="14:">
+        <annotation type="truth">8</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="14:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

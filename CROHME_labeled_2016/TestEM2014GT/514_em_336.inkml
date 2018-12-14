@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">514</annotation>
+<annotation type="truth">$\mathrm{d}s$</annotation>
+<annotation type="UI">IVC_2014_F514_E336</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="d_1">d</mi>
+			<mi xml:id="s_1">s</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+493 210, 483 203, 481 203, 478 203, 476 204, 473 205, 470 207, 468 208, 466 211, 464 213, 463 215, 462 217, 461 220, 462 222, 462 224, 463 225, 464 226, 466 227, 468 227, 471 226, 474 223, 477 221, 480 218, 484 214, 487 210, 490 206, 492 202, 495 197, 496 191, 497 186, 498 180, 498 174, 498 168, 498 165, 497 162, 497 160, 496 159, 496 158, 495 158, 495 160, 495 162, 495 166, 495 169, 495 173, 495 178, 496 182, 496 185, 497 190, 497 193, 498 197, 498 201, 499 204, 499 207, 500 210, 500 212, 500 214, 499 216, 499 217, 499 218, 499 219
+</trace>
+<trace id="1">
+536 204
+</trace>
+<trace id="2">
+536 204, 535 202, 535 201, 534 200, 534 199, 533 199, 531 199, 529 200, 528 200, 527 201, 526 202, 525 203, 524 204, 524 205, 523 206, 523 207, 524 208, 524 209, 526 210, 528 211, 530 213, 532 215, 535 216, 537 218, 539 219, 540 221, 541 222, 541 224, 540 225, 538 226, 536 227, 534 228, 531 228, 529 228, 527 228, 525 228, 524 227, 523 227, 522 227, 521 226, 521 227
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="d_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">s</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="s_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

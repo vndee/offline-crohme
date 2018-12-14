@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1253-135.ink"</annotation>
+<annotation type="truth"> { \mu } _ { o } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+            <mi xml:id="0:1:">\mu</mi>
+            <mi xml:id="2:">o</mi>
+        </msub>
+    </math>
+</annotationXML>
+
+<trace id="0">
+13872 6180, 13908 6096, 13936 5996, 13978 5906, 14017 5822, 14057 5746, 14096 5696, 14124 5668, 14141 5668, 14141 5702, 14124 5774, 14085 5884, 14037 6021, 13975 6186, 13908 6371, 13830 6564, 13751 6763, 13679 6945, 13611 7113, 13555 7261, 13502 7393, 13463 7497, 13429 7575, 13410 7637, 13399 7679, 13387 7695, 13390 7695
+</trace>
+
+<trace id="1">
+13984 6329, 13984 6360, 13989 6393, 14001 6430, 14015 6458, 14031 6483, 14054 6500, 14082 6508, 14113 6508, 14149 6500, 14188 6480, 14233 6449, 14278 6402, 14328 6343, 14379 6270, 14435 6186, 14488 6096, 14538 6010, 14583 5928, 14619 5861, 14645 5811, 14656 5791, 14653 5797, 14639 5830, 14611 5892, 14580 5973, 14544 6063, 14516 6161, 14493 6259, 14485 6351, 14488 6433, 14505 6497, 14538 6545, 14591 6578, 14647 6595, 14717 6606
+</trace>
+
+<trace id="2">
+15053 6713, 15067 6693, 15079 6668, 15095 6657, 15112 6651, 15129 6657, 15146 6673, 15157 6693, 15163 6724, 15157 6760, 15149 6797, 15132 6833, 15109 6867, 15079 6892, 15048 6911, 15011 6923, 14975 6923, 14939 6909, 14911 6889, 14885 6858, 14871 6825, 14871 6791, 14888 6763, 14916 6727, 14958 6704, 15006 6679
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\mu</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">o</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

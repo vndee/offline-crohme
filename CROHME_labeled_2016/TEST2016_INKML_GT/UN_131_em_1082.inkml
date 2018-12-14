@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">42</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_131</annotation>
+<annotation type="truth">$\frac {0}{0}$</annotation>
+<annotation type="UI">CROHME_2016_em_1082</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mn xml:id="0_1">0</mn>
+			<mn xml:id="0_2">0</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+486 95, 481 103, 482 107, 482 111, 482 116, 483 121, 483 126, 484 131, 486 135, 488 138, 490 141, 493 142, 496 142, 499 140, 503 137, 507 133, 512 127, 516 121, 520 113, 524 104, 527 96, 530 87, 531 79, 531 73, 529 67, 527 63, 523 61, 517 61, 512 63, 507 66, 502 71, 497 76, 492 82, 489 89, 487 95, 486 100, 487 106, 489 110, 491 111
+</trace>
+<trace id="1">
+460 176, 474 177, 481 177, 488 177, 496 177, 505 177, 514 176, 524 176, 534 175, 544 175, 553 175, 562 175, 570 174, 578 174, 585 174, 591 174, 593 174
+</trace>
+<trace id="2">
+490 255, 493 276, 495 281, 497 286, 499 291, 500 296, 502 300, 504 303, 507 305, 509 306, 512 307, 515 306, 518 304, 520 300, 523 295, 526 290, 530 283, 532 275, 535 266, 537 257, 538 249, 537 241, 536 235, 534 229, 531 225, 527 222, 522 221, 516 221, 511 222, 505 225, 499 228, 494 232, 490 236, 487 240, 486 245, 486 249, 489 252, 493 256, 497 258, 500 259
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="0_2"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

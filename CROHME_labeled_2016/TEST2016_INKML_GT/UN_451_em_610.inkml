@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_451</annotation>
+<annotation type="truth">$\mbox{M}_5$</annotation>
+<annotation type="UI">CROHME_2016_em_610</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="M_1">M</mi>
+			<mn xml:id="5_1">5</mn>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+520 318, 520 317, 520 315, 520 301, 520 294, 520 287, 520 280, 521 273, 522 265, 522 259, 523 252, 523 247, 524 241, 525 237, 527 234, 528 232, 529 231, 528 230, 529 230, 534 234, 536 238, 538 242, 540 247, 542 253, 544 258, 545 264, 547 269, 548 273, 550 276, 551 278, 552 279, 551 280, 552 280, 556 275, 558 271, 560 267, 562 262, 564 257, 567 253, 569 248, 572 243, 574 239, 576 236, 579 234, 581 232, 585 232, 586 234, 587 236, 588 241, 588 247, 588 256, 588 271, 588 278, 588 293, 588 299, 589 303, 589 306, 589 308, 589 310
+</trace>
+<trace id="1">
+619 295, 619 296, 619 297, 619 305, 619 308, 619 310, 620 311, 621 312, 620 312, 621 312, 627 312, 630 312, 632 313, 634 314, 635 315, 636 317, 636 320, 634 322, 633 324, 631 325, 629 327, 627 327, 625 328, 624 328, 622 326
+</trace>
+<trace id="2">
+621 304, 627 302, 630 301, 634 300, 638 300, 639 300
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">M</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="M_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

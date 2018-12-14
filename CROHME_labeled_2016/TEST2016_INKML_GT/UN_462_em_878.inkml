@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">46</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_462</annotation>
+<annotation type="truth">$h\times h$</annotation>
+<annotation type="UI">CROHME_2016_em_878</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="h_1">h</mi>
+			<mrow>
+				<mo xml:id="times_1">times</mo>
+				<mi xml:id="h_2">h</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+860 309, 861 310, 868 310, 872 308, 876 305, 879 301, 884 295, 888 289, 895 273, 898 265, 900 248, 900 240, 899 233, 898 226, 893 216, 890 213, 888 211, 885 211, 883 212, 881 214, 880 218, 878 222, 878 228, 877 235, 878 260, 878 270, 878 280, 879 301, 879 311, 879 321, 879 330, 878 338, 878 345, 878 355, 878 356, 878 354, 881 341, 883 335, 884 329, 886 324, 888 319, 891 315, 893 312, 900 309, 902 310, 904 313, 909 325, 911 336, 912 342, 912 347, 913 355, 913 359, 914 361, 915 362, 914 362
+</trace>
+<trace id="1">
+994 304, 993 306, 993 307, 986 314, 974 328, 970 333, 967 338, 963 343, 960 348, 958 353, 954 362, 954 363, 953 363, 954 361
+</trace>
+<trace id="2">
+956 309, 958 310, 960 311, 962 312, 964 315, 967 317, 969 320, 973 324, 976 327, 980 331, 987 338, 990 342, 993 346, 999 355, 1001 357, 1002 359, 1002 360
+</trace>
+<trace id="3">
+1048 318, 1049 318, 1050 318, 1059 311, 1062 306, 1065 302, 1066 296, 1067 291, 1068 284, 1068 278, 1068 264, 1066 257, 1065 251, 1064 246, 1058 234, 1056 232, 1054 232, 1052 232, 1050 233, 1049 235, 1048 243, 1047 248, 1047 253, 1048 260, 1048 267, 1049 275, 1049 283, 1050 292, 1050 301, 1050 311, 1052 338, 1053 354, 1053 359, 1054 363, 1054 366, 1054 361, 1055 347, 1056 341, 1060 331, 1062 328, 1065 325, 1068 324, 1070 323, 1073 323, 1077 326, 1078 329, 1079 333, 1079 337, 1080 347, 1080 356, 1081 360, 1081 364, 1082 366, 1085 369, 1084 369, 1085 369, 1095 362, 1097 360, 1101 354, 1101 353
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">h</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="h_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">h</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="h_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

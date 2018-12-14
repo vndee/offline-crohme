@@ -1,0 +1,62 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$1 + \sqrt{2}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F194_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL194</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="1_1">1</mn>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<msqrt xml:id="_1">
+					<mn xml:id="2_1">2</mn>
+				</msqrt>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2543 1642, 2543 1642, 2548 1646, 2556 1651, 2563 1651, 2579 1645, 2600 1624, 2608 1615, 2618 1597, 2607 1637, 2594 1723, 2593 1723, 2592 1722
+</trace>
+<trace id="1">
+2688 1664, 2688 1664, 2677 1740, 2677 1750
+</trace>
+<trace id="2">
+2658 1687, 2658 1687, 2665 1692, 2675 1696, 2683 1697, 2705 1696, 2708 1696
+</trace>
+<trace id="3">
+2755 1607, 2755 1607, 2760 1603, 2767 1625, 2768 1636, 2778 1723, 2785 1747, 2826 1588, 2909 1581, 2932 1571, 2935 1609, 2934 1609, 2933 1606, 2932 1606
+</trace>
+<trace id="4">
+2843 1651, 2843 1651, 2848 1638, 2866 1619, 2876 1635, 2876 1655, 2871 1667, 2832 1722, 2832 1725, 2850 1728, 2857 1727, 2862 1726, 2864 1721
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

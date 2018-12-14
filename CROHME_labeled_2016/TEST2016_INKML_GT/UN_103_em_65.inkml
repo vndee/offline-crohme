@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_103</annotation>
+<annotation type="truth">$\sin^2 \sigma$</annotation>
+<annotation type="UI">CROHME_2016_em_65</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="sin_1">sin</mi>
+				<mn xml:id="2_1">2</mn>
+			</msup>
+			<mi xml:id="sigma_1">sigma</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+267 273, 281 273, 285 270, 288 267, 291 263, 294 258, 297 254, 299 250, 301 246, 302 242, 302 239, 301 236, 301 234, 301 232, 300 231, 301 231, 302 233, 304 235, 306 238, 308 241, 310 244, 312 247, 314 250, 315 253, 316 255, 316 258, 315 261, 315 263, 314 265, 313 266, 311 267, 309 268, 306 268, 305 268, 304 268, 303 268, 304 268, 305 268, 308 267, 310 266, 312 265, 315 264, 318 263, 321 261, 324 260, 326 259, 327 258, 328 257, 328 255, 329 253, 327 251, 327 250, 326 249, 326 248, 325 247, 325 248, 325 250, 325 252, 325 255, 325 256, 325 259, 326 262, 328 265, 330 267, 331 268, 333 269, 335 269, 337 269, 338 269, 340 268, 341 267, 342 264, 343 263, 344 261, 344 259, 345 258, 345 256, 345 255, 345 254, 345 253, 344 253, 345 254, 346 254, 347 256, 349 257, 350 258, 351 260, 352 261, 353 263, 354 265, 355 266, 355 267, 356 267, 357 266, 358 264, 360 261, 362 258, 364 256, 365 254, 367 253, 369 252, 370 253, 372 255, 373 257, 374 260, 375 262, 377 265, 378 267, 379 268, 380 269, 380 270
+</trace>
+<trace id="1">
+340 238
+</trace>
+<trace id="2">
+417 227, 412 214, 414 213, 415 212, 416 212, 417 213, 418 215, 419 216, 420 218, 420 221, 420 224, 420 227, 419 230, 418 233, 417 235, 416 237, 415 239, 415 240, 415 241, 415 242, 416 242, 417 241, 419 241, 421 241, 423 240, 425 240, 426 241, 427 241
+</trace>
+<trace id="3">
+521 240, 507 264, 506 269, 504 275, 504 279, 503 284, 503 287, 505 289, 507 289, 509 290, 513 289, 516 288, 519 285, 521 283, 523 279, 525 276, 527 272, 528 268, 528 264, 528 261, 527 259, 526 257, 525 256, 523 255, 522 255, 521 255, 520 255, 519 255, 520 255, 522 255, 524 255, 528 255, 533 254, 538 254, 544 253, 549 252, 551 252
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\sigma</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="sigma_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

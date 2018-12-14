@@ -1,0 +1,85 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{\pi-3}{\sqrt{2}}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F54_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL54</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mrow>
+				<mi xml:id="pi_1">\pi</mi>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="3_1">3</mn>
+				</mrow>
+			</mrow>
+			<msqrt xml:id="_2">
+				<mn xml:id="2_1">2</mn>
+			</msqrt>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+2259 1513, 2259 1513, 2258 1541, 2258 1552, 2257 1562, 2255 1573, 2254 1581, 2252 1588, 2253 1592
+</trace>
+<trace id="1">
+2288 1529, 2288 1529, 2289 1526, 2291 1526, 2291 1526, 2291 1527, 2291 1533, 2290 1544, 2290 1554, 2291 1569, 2290 1583, 2290 1592, 2290 1597, 2290 1597, 2290 1597
+</trace>
+<trace id="2">
+2200 1563, 2200 1563, 2199 1562, 2201 1562, 2219 1557, 2287 1537, 2338 1511, 2343 1509, 2341 1510, 2336 1515
+</trace>
+<trace id="3">
+2396 1573, 2396 1573, 2397 1573, 2429 1570, 2448 1567, 2460 1565
+</trace>
+<trace id="4">
+2509 1516, 2509 1516, 2552 1521, 2564 1519, 2567 1519, 2524 1558, 2527 1556, 2540 1556, 2556 1562, 2573 1577, 2573 1590, 2565 1596, 2534 1604, 2527 1605, 2522 1605
+</trace>
+<trace id="5">
+2198 1647, 2198 1647, 2195 1647, 2232 1651, 2380 1652, 2597 1644, 2597 1644, 2594 1646
+</trace>
+<trace id="6">
+2295 1772, 2295 1772, 2313 1820, 2316 1823, 2322 1828, 2328 1828, 2336 1817, 2338 1808, 2339 1764, 2337 1740, 2328 1704, 2404 1709, 2466 1702, 2493 1690, 2487 1726, 2487 1729, 2488 1731, 2490 1733
+</trace>
+<trace id="7">
+2383 1761, 2383 1761, 2381 1761, 2381 1760, 2382 1759, 2385 1757, 2389 1755, 2407 1749, 2414 1748, 2420 1748, 2428 1752, 2432 1757, 2432 1766, 2401 1799, 2400 1805, 2412 1814, 2454 1809
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="_2"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

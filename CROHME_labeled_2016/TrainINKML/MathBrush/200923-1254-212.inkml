@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-212.ink"</annotation>
+<annotation type="truth"> \sqrt { { o - \mbox { L } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt xml:id="3:">
+            <mrow>
+                <mi xml:id="0:">o</mi>
+                <mrow>
+                    <mo xml:id="1:">-</mo>
+                    <mi xml:id="2:">L</mi>
+                </mrow>
+            </mrow>
+        </msqrt>
+    </math>
+</annotationXML>
+
+<trace id="0">
+9565 5004, 9574 5013, 9565 5046, 9543 5100, 9509 5178, 9467 5276, 9417 5391, 9372 5514, 9330 5637, 9302 5760, 9294 5864, 9305 5945, 9341 5996, 9392 6018, 9462 6018, 9543 5996, 9630 5954, 9719 5895, 9803 5825, 9876 5738, 9938 5640, 9985 5539, 10010 5433, 10016 5326, 9996 5220, 9963 5125, 9907 5044, 9842 4982, 9770 4943, 9694 4926, 9624 4929, 9571 4948, 9534 4985, 9523 5044, 9532 5102
+</trace>
+
+<trace id="1">
+10540 5536, 10610 5517, 10680 5497, 10755 5480, 10828 5438, 10918 5433, 11010 5424, 11133 5430, 11248 5438, 11349 5436, 11469 5441
+</trace>
+
+<trace id="2">
+12404 4707, 12388 4741, 12388 4741, 12388 4741, 12360 4741, 12362 4861, 12320 4982, 12329 5125, 12318 5254, 12292 5394, 12259 5520, 12239 5646, 12236 5808, 12211 5847, 12239 5884, 12245 5912, 12284 5940, 12374 5962, 12491 5973, 12617 5982, 12757 5979, 12900 5982, 13037 5973, 13037 5973, 13161 5954, 13261 5931
+</trace>
+
+<trace id="3">
+7627 6110, 7555 6152, 7515 6208, 7504 6278, 7510 6360, 7538 6455, 7583 6556, 7644 6654, 7717 6735, 7801 6797, 7888 6839, 7980 6850, 8064 6830, 8146 6785, 8218 6713, 8280 6615, 8330 6491, 8367 6348, 8392 6186, 8406 6001, 8409 5808, 8409 5604, 8403 5394, 8400 5198, 8398 5013, 8406 4845, 8426 4696, 8468 4573, 8526 4464, 8608 4371, 8720 4290, 8862 4215, 9042 4145, 9254 4080, 9495 4024, 9772 3974, 10075 3932, 10411 3901, 10772 3879, 11144 3867, 11542 3859, 11948 3856, 12374 3851, 12802 3848, 13233 3848, 13665 3845, 14085 3848, 14482 3851, 14855 3862, 15202 3884, 15490 3909, 15737 3946
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">o</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">L</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

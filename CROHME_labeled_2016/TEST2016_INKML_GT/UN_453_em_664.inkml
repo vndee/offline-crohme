@@ -1,0 +1,78 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_453</annotation>
+<annotation type="truth">$\tan \theta \geq 0$</annotation>
+<annotation type="UI">CROHME_2016_em_664</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="tan_1">tan</mi>
+			<mrow>
+				<mi xml:id="theta_1">theta</mi>
+				<mrow>
+					<mo xml:id="ge_1">ge</mo>
+					<mn xml:id="0_1">0</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+371 204, 373 203, 375 201, 378 200, 380 197, 383 194, 385 191, 388 187, 389 183, 390 178, 392 174, 392 169, 393 164, 393 159, 394 154, 394 150, 394 146, 394 142, 394 139, 394 136, 394 135, 394 136, 392 143, 392 147, 392 151, 392 155, 392 159, 392 164, 392 168, 393 173, 393 178, 393 183, 393 188, 394 193, 394 197, 396 200, 397 203, 398 205, 400 206, 402 206, 404 205, 405 204
+</trace>
+<trace id="1">
+391 160, 391 161, 392 160, 396 158, 399 157, 402 157, 405 157, 409 157, 412 157, 413 157
+</trace>
+<trace id="2">
+422 196, 422 198, 422 199, 418 201, 416 201, 417 201, 416 201, 411 201, 409 200, 408 199, 407 198, 406 196, 406 195, 407 193, 408 191, 410 189, 412 188, 414 186, 416 185, 417 185, 418 185, 423 186, 425 187, 426 189, 426 190, 427 192, 427 194, 428 195, 429 198, 430 199, 432 200, 431 200, 432 200, 434 199, 434 200, 434 199, 435 196, 436 194, 437 193, 437 191, 438 189, 439 187, 442 185, 443 184, 446 185, 446 184, 448 191, 447 193, 447 197, 447 198, 446 200, 446 199, 446 200, 446 201, 446 200, 449 194, 450 192, 452 190, 453 189, 455 188, 456 187, 459 188, 461 190, 461 189, 461 190, 464 196, 464 198, 465 201, 465 203, 466 204, 466 206
+</trace>
+<trace id="3">
+514 146, 511 147, 510 148, 509 149, 507 151, 505 153, 503 156, 501 159, 498 162, 496 165, 494 169, 493 172, 492 176, 491 180, 490 185, 490 189, 490 193, 491 196, 492 200, 494 203, 495 206, 497 208, 499 210, 501 211, 500 211, 501 211, 508 212, 511 211, 514 210, 516 208, 518 205, 521 202, 523 199, 525 195, 526 191, 527 187, 528 182, 529 178, 529 174, 529 165, 528 161, 525 155, 523 152, 521 150, 519 148, 514 146, 512 146, 507 148
+</trace>
+<trace id="4">
+495 177, 499 177, 502 177, 505 176, 508 176, 511 176, 515 176, 519 176, 523 176, 526 176, 528 176
+</trace>
+<trace id="5">
+561 147, 567 149, 570 151, 573 152, 576 153, 580 154, 584 155, 588 156, 592 158, 597 159, 601 161, 604 163, 607 165, 610 167, 612 169, 613 171, 614 172, 614 174, 614 176, 612 180, 609 181, 606 183, 603 185, 598 186, 593 188, 589 191, 584 193, 580 195, 577 197, 574 198, 571 200, 569 201, 567 202, 565 203, 564 204, 563 205, 561 207, 562 206, 560 209
+</trace>
+<trace id="6">
+569 215, 570 215, 571 215, 579 214, 583 213, 587 212, 590 211, 594 211, 597 210, 601 209, 604 208, 605 208
+</trace>
+<trace id="7">
+672 196, 670 197, 664 196, 660 196, 656 195, 652 193, 649 191, 645 189, 643 186, 642 182, 641 179, 642 175, 644 172, 647 169, 650 167, 655 165, 659 164, 664 163, 668 164, 672 165, 676 167, 678 169, 681 171, 683 174, 684 177, 684 180, 683 183, 682 186, 680 188, 678 189, 675 191, 672 192, 669 194, 665 194, 662 195, 658 195, 655 194, 654 194
+</trace>
+<traceGroup xml:id="8">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\tan</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="tan_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="ge_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

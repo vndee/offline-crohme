@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_456</annotation>
+<annotation type="truth">$- 1 \div 3$</annotation>
+<annotation type="UI">CROHME_2016_em_733</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<mrow>
+				<mn xml:id="1_1">1</mn>
+				<mrow>
+					<mo xml:id="div_1">div</mo>
+					<mn xml:id="3_1">3</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+513 221, 514 221, 515 221, 525 222, 531 222, 537 223, 543 223, 550 224, 557 224, 564 226, 572 227, 579 228, 586 228, 592 229, 598 230, 600 230
+</trace>
+<trace id="1">
+634 167, 637 174, 639 179, 640 183, 641 189, 642 196, 644 204, 645 213, 646 223, 647 234, 648 245, 649 257, 651 268, 652 279, 653 288, 654 295, 655 300, 655 303, 656 305, 656 304
+</trace>
+<trace id="2">
+717 219, 717 218, 719 218, 730 217, 737 216, 745 215, 754 214, 764 213, 775 212, 785 212, 796 212, 806 212, 815 212, 824 211, 832 211, 838 210, 843 209, 846 207, 848 206
+</trace>
+<trace id="3">
+786 177, 786 178, 789 181, 791 183, 792 185, 793 187, 795 189, 795 190
+</trace>
+<trace id="4">
+795 236, 797 238, 798 240, 799 242, 800 245, 800 249, 801 252, 803 256, 805 258, 809 261
+</trace>
+<trace id="5">
+901 153, 901 154, 902 153, 908 154, 911 156, 913 157, 915 160, 917 163, 919 167, 920 171, 920 175, 919 180, 917 185, 913 191, 909 197, 905 202, 902 207, 899 211, 899 213, 901 214, 904 214, 909 213, 914 212, 922 212, 930 212, 938 213, 945 214, 951 217, 956 220, 959 224, 961 228, 960 233, 958 238, 954 243, 949 248, 942 254, 934 259, 919 270, 911 274, 904 278, 894 282
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\div</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="div_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">512</annotation>
+<annotation type="truth">$\frac{p}{t}$</annotation>
+<annotation type="UI">IVC_2014_F512_E281</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mi xml:id="p_1">p</mi>
+			<mi xml:id="t_1">t</mi>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+471 86, 473 109, 474 116, 475 124, 477 132, 478 140, 479 148, 479 156, 480 162, 480 168, 481 174, 481 178, 481 183, 480 184
+</trace>
+<trace id="1">
+471 99, 470 75, 474 72, 479 69, 485 67, 491 65, 496 64, 502 65, 506 65, 509 67, 512 69, 514 71, 515 74, 515 78, 514 81, 511 86, 508 91, 505 96, 499 102, 494 108, 488 114, 486 117
+</trace>
+<trace id="2">
+389 226, 393 223, 397 223, 403 223, 409 223, 417 223, 425 223, 436 223, 447 222, 459 222, 473 221, 487 220, 502 219, 516 218, 532 217, 546 216, 559 215, 571 215, 583 215, 591 215, 600 216, 607 216, 613 217, 614 217
+</trace>
+<trace id="3">
+500 254, 495 271, 495 276, 494 282, 493 290, 493 298, 492 306, 491 314, 491 323, 491 330, 492 338, 494 344, 497 350, 500 355, 505 358, 511 361, 517 363, 524 365, 530 365, 532 365
+</trace>
+<trace id="4">
+457 319, 492 318, 504 317, 508 316
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="p_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

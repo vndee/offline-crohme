@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">29</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">515</annotation>
+<annotation type="truth">$\mathrm{C}^{\alpha}$</annotation>
+<annotation type="UI">IVC_2014_F515_E360</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="C_1">C</mi>
+			<mi xml:id="alpha_1">alpha</mi>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+584 326, 588 316, 588 315, 586 314, 584 313, 581 313, 578 313, 575 313, 572 314, 569 315, 566 316, 562 318, 559 320, 555 323, 552 327, 549 330, 547 334, 545 338, 544 341, 544 344, 544 348, 545 351, 546 354, 549 357, 552 358, 556 360, 559 361, 563 362, 567 362, 570 362, 574 362, 577 362, 579 362, 581 362, 583 361, 584 360, 585 360, 585 359, 585 358
+</trace>
+<trace id="1">
+646 282, 641 288, 640 290, 638 292, 635 294, 633 296, 631 299, 629 301, 627 303, 624 305, 622 307, 620 308, 618 309, 616 310, 614 310, 612 310, 610 309, 609 309, 608 308, 607 306, 606 305, 606 303, 605 302, 605 301, 605 300, 604 299, 604 298, 605 297, 605 296, 606 296, 607 297, 609 297, 611 298, 613 299, 616 299, 619 300, 622 301, 625 301, 627 302, 629 303, 632 304, 634 304, 637 305, 639 305, 642 305, 644 305, 645 304, 646 304, 647 304, 648 304
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">C</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="C_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="alpha_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

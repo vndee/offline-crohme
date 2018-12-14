@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ | A | $</annotation>
+<annotation type="writer">annot_245</annotation>
+<annotation type="UI">2014_RIT_CROHME_45</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="46:">|</mo>
+            <mrow >
+                <mi  xml:id = "47:48:49:" >A</mi>
+                <mo  xml:id = "50:" >|</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+314 101, 312 103, 312 112, 312 123, 313 145, 314 175, 315 205, 315 235, 315 269, 316 306, 318 339, 321 368, 323 394, 324 415, 324 433, 325 443, 325 448, 327 451, 331 451
+</trace>
+
+<trace  id = "1" >
+502 126, 498 128, 491 135, 480 151, 469 175, 455 208, 441 244, 429 276, 418 302, 410 323, 406 337, 401 345, 400 348, 400 347
+</trace>
+
+<trace  id = "2" >
+503 144, 506 151, 508 161, 513 175, 518 200, 525 224, 532 247, 539 268, 545 287, 552 305, 558 320, 564 334, 570 341, 573 346, 575 349
+</trace>
+
+<trace  id = "3" >
+416 279, 420 276, 430 273, 445 268, 465 263, 487 259, 508 258, 523 257
+</trace>
+
+<trace  id = "4" >
+649 78, 644 83, 644 93, 644 107, 644 126, 644 153, 645 182, 646 205, 648 234, 650 259, 654 283, 655 309, 657 336, 659 362, 661 384, 663 405, 664 418, 666 432, 667 439, 668 443, 670 447, 673 447
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="46:">
+        <annotation type="truth">|</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="46:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="47:48:49:">
+        <annotation type="truth">A</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="47:48:49:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="50:">
+        <annotation type="truth">|</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="50:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

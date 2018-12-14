@@ -1,0 +1,62 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">24</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">501</annotation>
+<annotation type="truth">$y&lt;y\prime $</annotation>
+<annotation type="UI">IVC_2014_F501_E13</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="y_1">y</mi>
+			<mrow>
+				<mo xml:id="&lt;_1">&lt;</mo>
+				<mrow>
+					<mi xml:id="y_2">y</mi>
+					<mo xml:id="prime_1">prime</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+137 204, 138 207, 139 210, 140 214, 141 219, 142 222, 149 226, 152 224, 155 222, 158 219, 161 215, 163 211, 164 208, 165 207, 165 206, 165 207, 165 208, 166 211, 172 248, 173 256, 172 264, 168 278, 164 282, 160 286, 156 287, 153 286, 150 283, 148 278, 146 273, 146 266, 147 260, 150 253, 153 247, 160 239
+</trace>
+<trace id="1">
+255 202, 252 204, 249 205, 239 210, 232 213, 225 216, 219 219, 212 226, 210 229, 211 231, 214 234, 218 236, 224 239, 231 242, 238 246, 244 249, 250 253, 254 257, 257 260, 260 262, 261 262
+</trace>
+<trace id="2">
+287 205, 287 209, 288 213, 289 216, 290 217, 292 217, 295 216, 297 214, 303 208, 305 206, 307 204, 308 203, 308 204, 311 211, 312 217, 313 224, 314 233, 314 242, 314 250, 314 258, 312 265, 310 270, 307 275, 305 277, 302 277, 300 276, 298 273, 298 261, 299 254, 301 246, 303 234
+</trace>
+<trace id="3">
+323 178, 325 178, 325 180, 325 184, 325 189, 324 193
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="y_2"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="prime_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\lt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="&lt;_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

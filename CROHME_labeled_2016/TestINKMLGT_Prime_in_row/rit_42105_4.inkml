@@ -1,0 +1,125 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ x \times \frac {a} {6} + y $</annotation>
+<annotation type="writer">42105.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42105_4</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="32:33:">x</mi>
+            <mrow>
+                <mo xml:id="34:35:">\times</mo>
+                <mrow>
+                    <mfrac xml:id="46:">
+                        <mi xml:id="39:45:">a</mi>
+                        <mn xml:id="47:">6</mn>
+                    </mfrac>
+                    <mrow>
+                        <mo xml:id="48:49:">+</mo>
+                        <mi xml:id="50:51:">y</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+151 220, 153 220, 195 180, 196 180
+</trace>
+
+<trace id="1">
+168 171, 171 174, 190 206, 190 205
+</trace>
+
+<trace id="2">
+251 202, 253 203, 302 148, 302 147, 302 146
+</trace>
+
+<trace id="3">
+263 146, 262 147, 302 210
+</trace>
+
+<trace id="4">
+385 101, 377 106, 350 144, 351 148, 352 150, 354 153, 362 157, 365 158, 372 158, 387 154, 395 148, 399 146, 406 141, 408 139, 410 136, 410 135, 411 133, 411 130, 411 127, 411 125, 411 119, 411 116, 411 115, 411 113, 411 110, 411 108, 410 105, 409 104, 409 103, 408 102, 405 100, 404 100, 400 98, 399 98, 395 98, 394 97, 391 96, 390 96, 385 95, 382 95, 378 96, 376 97, 374 99, 372 100, 370 105, 369 108, 365 111, 364 112
+</trace>
+
+<trace id="5">
+409 129, 409 132, 416 153, 416 154, 417 154, 418 155, 419 155, 419 156, 420 156, 422 157, 423 157, 425 158, 426 158, 428 158, 431 159, 432 159, 433 159, 434 159
+</trace>
+
+<trace id="6">
+325 178, 327 180, 417 194, 419 194, 424 194, 426 195, 437 196, 438 197, 442 197, 443 197, 447 198, 448 198, 451 198, 453 198, 454 199, 455 199, 456 199
+</trace>
+
+<trace id="7">
+390 207, 386 210, 397 288, 399 289, 402 290, 407 290, 415 288, 416 286, 417 285, 419 281, 419 280, 419 278, 419 276, 419 274, 419 272, 419 269, 418 268, 416 265, 415 264, 414 262, 408 262, 406 262, 401 264, 400 265
+</trace>
+
+<trace id="8">
+507 157, 506 155, 511 210
+</trace>
+
+<trace id="9">
+497 173, 496 171, 538 178
+</trace>
+
+<trace id="10">
+560 115, 562 118, 594 162
+</trace>
+
+<trace id="11">
+616 115, 613 120, 567 216, 566 216, 566 217, 565 217
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="32:33:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="32:33:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="34:35:">
+        <annotation type="truth">\times</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="34:35:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="39:45:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="39:45:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="46:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="46:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="47:">
+        <annotation type="truth">6</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="47:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="48:49:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="8"/>
+        <traceView traceDataRef="9"/>
+        <annotationXML href="48:49:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="50:51:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="10"/>
+        <traceView traceDataRef="11"/>
+        <annotationXML href="50:51:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,92 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-276.ink"</annotation>
+<annotation type="truth"> \sqrt { { \cdots + u } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt xml:id="6:">
+            <mrow>
+                <mo xml:id="0:">.</mo>
+                <mrow>
+                    <mo xml:id="1:">.</mo>
+                    <mrow>
+                        <mo xml:id="2:">.</mo>
+                        <mrow>
+                            <mo xml:id="3:4:">+</mo>
+                            <mi xml:id="5:">u</mi>
+                        </mrow>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </msqrt>
+    </math>
+</annotationXML>
+
+<trace id="0">
+1252 10023, 1257 10023, 1263 10017, 1277 10014, 1291 10003, 1319 9997, 1358 9992, 1403 9981, 1464 9969
+</trace>
+
+<trace id="1">
+2453 9913, 2517 9925, 2570 9927, 2618 9930, 2671 9936, 2727 9936, 2797 9944
+</trace>
+
+<trace id="2">
+3329 10006, 3369 10017, 3408 10023, 3455 10042
+</trace>
+
+<trace id="3">
+4273 9969, 4301 9969, 4326 9961, 4363 9958, 4399 9964, 4444 9958, 4508 9955, 4589 9953, 4679 9950, 4788 9947, 4895 9939, 5007 9933, 5116 9925, 5214 9908, 5312 9897
+</trace>
+
+<trace id="4">
+5491 9493, 5463 9516, 5427 9549, 5382 9600, 5334 9667, 5275 9748, 5211 9843, 5141 9955, 5068 10076, 4998 10196, 4928 10311, 4872 10415, 4827 10510, 4794 10583, 4783 10644
+</trace>
+
+<trace id="5">
+5614 9997, 5693 9955, 5749 9919, 5799 9902, 5835 9899, 5858 9913, 5863 9944, 5858 9989, 5841 10042, 5821 10107, 5805 10174, 5791 10241, 5785 10300, 5793 10350, 5819 10381, 5858 10398, 5914 10395, 5978 10375, 6057 10345, 6143 10297, 6233 10244, 6323 10179, 6412 10115, 6491 10051, 6561 9995, 6619 9947, 6664 9911, 6692 9891, 6709 9891, 6709 9913, 6701 9964, 6681 10037, 6659 10132, 6636 10238, 6614 10356, 6591 10471, 6577 10583, 6572 10689, 6569 10779, 6569 10843, 6575 10894
+</trace>
+
+<trace id="6">
+714 10317, 714 10317, 714 10317, 666 10347, 666 10347, 680 10443, 692 10515, 703 10602, 711 10698, 728 10798, 745 10891, 762 10975, 767 11042, 773 11095, 773 11095, 773 11095, 773 11095, 773 11095, 792 11036, 781 10966, 778 10868, 776 10748, 773 10602, 764 10451, 762 10286, 767 10118, 787 9950, 818 9790, 857 9642, 910 9513, 980 9401, 1078 9300, 1196 9219, 1324 9146, 1495 9084, 1697 9028, 1935 8978, 2201 8936, 2500 8897, 2823 8866, 3178 8838, 3562 8816, 3954 8796, 4360 8782, 4774 8774, 5197 8774, 5617 8779, 6037 8793, 6446 8818, 6846 8846, 7224 8888, 7583 8936, 7905 8986, 8196 9045
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">.</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">.</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">.</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">u</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="6:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{\pi}{2}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F4_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL4</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mi xml:id="pi_1">\pi</mi>
+			<mn xml:id="2_1">2</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+2718 1591, 2718 1591, 2718 1590, 2721 1604, 2720 1645, 2721 1666, 2722 1677, 2723 1678, 2721 1666
+</trace>
+<trace id="1">
+2662 1573, 2662 1573, 2662 1562, 2665 1556, 2676 1548, 2699 1540, 2731 1534, 2764 1533, 2813 1543, 2825 1552, 2831 1566, 2832 1583, 2821 1655, 2823 1678
+</trace>
+<trace id="2">
+2596 1763, 2596 1763, 2591 1754, 2590 1749, 2608 1742, 2643 1737, 2797 1729, 2853 1722, 2975 1699
+</trace>
+<trace id="3">
+2766 1826, 2766 1826, 2762 1818, 2765 1801, 2776 1796, 2781 1798, 2784 1805, 2784 1823, 2775 1853, 2737 1909, 2731 1924, 2733 1930, 2761 1934, 2845 1923, 2884 1924, 2883 1921
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

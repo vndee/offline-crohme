@@ -1,0 +1,74 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ i ^ {\prime} \lt 0 $</annotation>
+<annotation type="writer">420.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_420_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <msup>
+                <mi xml:id="5:6:">i</mi>
+                <mo xml:id="7:">\prime</mo>
+            </msup>
+            <mrow>
+                <mo xml:id="8:9:">\lt</mo>
+                <mn xml:id="10:">0</mn>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+327 246, 327 251, 328 274, 328 279, 328 286, 328 292, 328 299, 328 303, 329 306, 329 309, 329 312, 329 313, 329 314, 329 315, 329 316, 329 317, 329 318, 329 319
+</trace>
+
+<trace id="1">
+328 184, 327 183, 327 184
+</trace>
+
+<trace id="2">
+365 197, 370 190, 380 178, 381 176, 382 174, 383 173, 384 173
+</trace>
+
+<trace id="3">
+414 244, 418 241, 431 231, 435 229, 438 227, 442 224, 445 222, 448 220, 451 218, 453 217, 457 216, 458 214, 460 214, 461 213, 461 212
+</trace>
+
+<trace id="4">
+417 241, 421 244, 438 260, 444 264, 446 265, 447 265, 448 266, 448 267, 449 267, 449 268, 450 268, 450 269
+</trace>
+
+<trace id="5">
+584 149, 580 148, 552 155, 546 158, 540 165, 535 171, 528 179, 522 188, 516 197, 513 204, 509 214, 507 222, 505 233, 504 241, 504 251, 504 261, 504 266, 504 275, 507 280, 511 285, 516 291, 521 296, 527 300, 532 303, 539 305, 547 307, 554 308, 563 308, 572 306, 579 304, 589 299, 597 295, 604 289, 612 282, 619 275, 625 267, 630 257, 633 250, 638 239, 639 231, 641 220, 641 211, 641 200, 641 191, 639 183, 636 176, 631 170, 626 165, 618 159, 612 156, 603 153, 596 151, 589 151, 580 151, 573 151
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:">
+        <annotation type="truth">0</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="10:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:6:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="5:6:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:">
+        <annotation type="truth">\prime</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="7:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:9:">
+        <annotation type="truth">\lt</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="8:9:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

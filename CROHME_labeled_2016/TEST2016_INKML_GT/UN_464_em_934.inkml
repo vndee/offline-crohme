@@ -1,0 +1,74 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_464</annotation>
+<annotation type="truth">$\sin(t)$</annotation>
+<annotation type="UI">CROHME_2016_em_934</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">sin</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="t_1">t</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+556 220, 551 221, 535 226, 528 230, 524 232, 522 235, 521 238, 526 244, 531 247, 537 250, 542 253, 551 262, 553 266, 553 270, 551 274, 548 278, 544 282, 539 286, 533 289, 527 291, 522 293, 516 293
+</trace>
+<trace id="1">
+570 252, 570 256, 570 258, 569 261, 568 265, 567 269, 566 273, 565 277, 565 281, 564 285, 564 288, 564 290, 564 291, 568 287, 570 284, 578 274, 581 271, 584 269, 587 267, 590 266, 593 267, 596 269, 598 271, 600 274, 601 278, 602 282, 602 286, 602 289, 603 291, 602 291, 609 287, 613 284, 622 279, 632 280, 634 283, 634 287, 635 298
+</trace>
+<trace id="2">
+570 238
+</trace>
+<trace id="3">
+675 225, 666 244, 662 252, 658 260, 655 269, 654 277, 655 285, 658 291, 661 295, 666 299, 668 300
+</trace>
+<trace id="4">
+726 242, 725 243, 723 244, 718 251, 716 254, 714 258, 712 262, 710 267, 708 273, 706 279, 705 285, 706 294, 708 298, 711 299, 715 300, 719 300, 722 299, 726 297, 727 296
+</trace>
+<trace id="5">
+705 260, 712 260, 715 261, 719 261, 729 261
+</trace>
+<trace id="6">
+747 237, 748 237, 748 238, 754 248, 757 254, 758 260, 759 267, 760 274, 758 282, 755 291, 751 300, 747 304
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-282.ink"</annotation>
+<annotation type="truth"> { \theta F } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">\theta</mi>
+            <mi xml:id="2:3:4:">F</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+2486 10479, 2503 10423, 2509 10378, 2495 10336, 2456 10311, 2414 10314, 2369 10339, 2313 10387, 2254 10457, 2195 10555, 2122 10681, 2058 10826, 2008 10989, 1966 11157, 1938 11322, 1929 11476, 1932 11610, 1954 11720, 2019 11787, 2097 11818, 2192 11809, 2296 11764, 2405 11689, 2517 11582, 2632 11451, 2733 11305, 2809 11146, 2865 10975, 2898 10796, 2909 10616, 2898 10451, 2876 10303, 2834 10179, 2778 10081, 2719 10017, 2652 9989, 2593 10000, 2531 10037, 2472 10098, 2425 10177, 2374 10258
+</trace>
+
+<trace id="1">
+1968 10924, 1938 10938, 1912 10947, 1890 10950, 1896 10952, 1921 10950, 1980 10944, 2061 10933, 2159 10910, 2279 10882, 2411 10840, 2570 10790, 2725 10734, 2865 10664
+</trace>
+
+<trace id="2">
+3601 9950, 3601 9922, 3590 9902, 3579 9891, 3573 9888, 3573 9888, 3590 9891, 3623 9891, 3679 9885, 3749 9869, 3839 9843, 3954 9804, 4080 9757, 4211 9701, 4335 9639, 4452 9577, 4561 9524, 4643 9471
+</trace>
+
+<trace id="3">
+3962 9880, 3892 9983, 3828 10107, 3766 10241, 3710 10387, 3657 10541, 3612 10700, 3573 10860, 3534 10997, 3517 11123
+</trace>
+
+<trace id="4">
+3425 10955, 3430 10891, 3436 10832, 3458 10773, 3503 10726, 3562 10675, 3640 10627, 3730 10571, 3839 10518, 3965 10465, 4102 10415, 4242 10373, 4377 10331, 4505 10300, 4637 10286, 4752 10280
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:4:">
+        <annotation type="truth">F</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="2:3:4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

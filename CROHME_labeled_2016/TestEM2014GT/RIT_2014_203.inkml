@@ -1,0 +1,106 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \frac {\pi r ^ {2}} {2 \pi} $</annotation>
+<annotation type="writer">annot_85</annotation>
+<annotation type="UI">2014_RIT_CROHME_203</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="67:">
+            <mrow>
+                <mi xml:id="63:64:">\pi</mi>
+                <msup >
+                    <mi  xml:id = "65:" >r</mi>
+                    <mn  xml:id = "66:" >2</mn>
+                </msup>
+            </mrow>
+            <mrow >
+                <mn  xml:id = "68:" >2</mn>
+                <mi  xml:id = "69:70:71:" >\pi</mi>
+            </mrow>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+325 91, 326 100, 326 110, 325 122, 319 139, 312 156, 306 172, 303 185, 301 194, 300 201, 300 205, 300 206, 304 205, 314 195, 325 183, 338 170, 352 155, 362 142, 373 127, 382 115, 388 105, 392 98, 394 94, 394 92, 394 94, 389 104, 381 117, 372 132, 366 147, 362 162, 361 174, 361 187, 367 196, 377 201, 386 203, 399 203, 410 200, 422 190, 430 181, 433 171
+</trace>
+
+<trace  id = "1" >
+297 100, 305 96, 320 93, 337 90, 359 87, 379 86, 393 84, 405 83, 413 83, 418 83, 420 83
+</trace>
+
+<trace  id = "2" >
+455 200, 458 196, 462 190, 467 183, 471 175, 473 168, 474 161, 474 156, 474 152, 473 150, 469 150, 466 150, 463 153, 463 158, 463 163, 470 167, 478 169, 487 169, 495 169, 500 169, 502 168, 503 167, 503 166, 500 167, 495 171, 493 176, 491 183, 491 189, 492 195, 498 198, 506 200, 517 200, 528 198, 537 191, 544 183
+</trace>
+
+<trace  id = "3" >
+534 108, 534 101, 534 99, 539 97, 546 97, 552 97, 557 99, 559 106, 559 114, 553 122, 548 128, 545 133, 543 136, 543 139, 546 141, 557 141, 571 141, 585 140, 598 139, 605 138, 611 138, 615 138, 618 138
+</trace>
+
+<trace  id = "4" >
+273 257, 285 255, 300 254, 320 251, 350 247, 382 242, 417 239, 453 235, 488 232, 520 229, 544 228, 562 227, 573 227, 580 226, 583 226, 579 227
+</trace>
+
+<trace  id = "5" >
+353 286, 355 280, 361 280, 370 280, 378 280, 386 281, 392 285, 397 291, 398 297, 398 306, 395 316, 386 326, 377 333, 369 339, 362 344, 358 348, 356 349, 356 350, 359 350, 372 348, 389 344, 405 341, 418 338, 427 337, 434 336, 438 336, 441 336
+</trace>
+
+<trace  id = "6" >
+464 257, 468 259, 471 266, 471 276, 471 292, 464 306, 459 321, 455 332, 453 343, 452 352, 452 357, 455 359, 463 359, 473 351, 481 337
+</trace>
+
+<trace  id = "7" >
+535 247, 531 251, 525 263, 519 276, 515 290, 513 302, 512 314, 512 323, 515 329, 522 332, 532 332, 542 330, 550 322, 554 313
+</trace>
+
+<trace  id = "8" >
+437 259, 451 258, 471 253, 500 247, 525 241, 544 236, 563 234, 575 232, 583 232, 587 232
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="63:64:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="63:64:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="65:">
+        <annotation type="truth">r</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="65:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="66:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="66:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="67:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="67:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="68:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="68:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="69:70:71:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <traceView traceDataRef="8"/>
+        <annotationXML href="69:70:71:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

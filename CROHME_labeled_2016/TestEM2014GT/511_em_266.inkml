@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">511</annotation>
+<annotation type="truth">$\mathrm{F^1_0}\!$</annotation>
+<annotation type="UI">IVC_2014_F511_E266</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msubsup>
+				<mi xml:id="F_1">F</mi>
+				<mn xml:id="0_1">0</mn>
+				<mn xml:id="1_1">1</mn>
+			</msubsup>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+528 208, 531 213, 530 216, 530 220, 530 225, 531 229, 531 234, 531 238, 531 242, 531 246, 531 249, 531 252, 530 255, 530 257, 530 258, 530 259, 529 259, 529 258
+</trace>
+<trace id="1">
+526 206, 534 202, 537 201, 540 201, 543 200, 546 199, 549 199, 553 199, 556 198, 559 198
+</trace>
+<trace id="2">
+521 225, 537 223, 541 222, 545 222, 548 221, 552 220, 555 219, 559 219
+</trace>
+<trace id="3">
+588 193, 589 177, 589 175, 589 174, 589 175, 589 176, 589 178, 589 181, 588 185, 587 188, 587 192, 586 195, 586 199, 586 203, 585 206, 585 210, 585 211
+</trace>
+<trace id="4">
+566 259, 563 275, 564 277, 565 278, 567 279, 569 279, 571 279, 574 278, 577 277, 579 275, 581 273, 583 271, 584 268, 584 266, 583 264, 582 262, 580 261, 577 260, 574 260, 571 260, 569 261, 567 262, 566 264, 565 265
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">F</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="F_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

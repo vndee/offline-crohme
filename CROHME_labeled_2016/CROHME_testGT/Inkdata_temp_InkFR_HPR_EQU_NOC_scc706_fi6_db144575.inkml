@@ -1,0 +1,101 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{4}{3}\pi a b^2$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F706_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL706</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mfrac xml:id="_1">
+				<mn xml:id="4_1">4</mn>
+				<mn xml:id="3_1">3</mn>
+			</mfrac>
+			<mrow>
+				<mi xml:id="pi_1">\pi</mi>
+				<mrow>
+					<mi xml:id="a_1">a</mi>
+					<msup>
+						<mi xml:id="b_1">b</mi>
+						<mn xml:id="2_1">2</mn>
+					</msup>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3691 2866, 3691 2866, 3691 2864, 3687 2874, 3677 2907, 3656 2951, 3674 2958, 3685 2959, 3696 2958, 3707 2957, 3713 2947
+</trace>
+<trace id="1">
+3725 2908, 3725 2908, 3727 2908, 3723 2918, 3706 2993, 3704 2996
+</trace>
+<trace id="2">
+3772 3018, 3772 3018, 3779 3018, 3786 3020, 3785 3020, 3683 3020, 3635 3014
+</trace>
+<trace id="3">
+3696 3086, 3696 3086, 3694 3085, 3693 3084, 3693 3081, 3694 3079, 3697 3076, 3702 3073, 3720 3072, 3729 3076, 3729 3088, 3720 3100, 3709 3107, 3701 3107, 3717 3108, 3735 3118, 3740 3131, 3738 3139, 3718 3157, 3704 3162, 3689 3164, 3678 3161, 3671 3153
+</trace>
+<trace id="4">
+3822 2978, 3822 2978, 3823 2978, 3822 3008, 3821 3018, 3820 3025, 3819 3027, 3820 3025
+</trace>
+<trace id="5">
+3854 2979, 3854 2979, 3856 2978, 3849 3004, 3849 3015, 3850 3023, 3849 3026, 3849 3027, 3849 3025
+</trace>
+<trace id="6">
+3790 2961, 3790 2961, 3789 2962, 3788 2962, 3786 2964, 3786 2964, 3790 2965, 3814 2967, 3872 2963
+</trace>
+<trace id="7">
+3954 2985, 3954 2985, 3956 2983, 3955 2981, 3952 2979, 3944 2977, 3920 2979, 3905 2996, 3898 3016, 3905 3032, 3914 3040, 3933 3042, 3948 3031, 3955 3013, 3956 2992, 3959 3021, 3967 3036, 3973 3039, 3987 3035, 3999 3023
+</trace>
+<trace id="8">
+4018 2904, 4018 2904, 4018 2902, 4016 2904, 4012 2927, 4009 3026, 4011 3005, 4024 2993, 4035 2992, 4051 2999, 4057 3006, 4058 3016, 4056 3025, 4048 3035, 4031 3044, 4025 3044, 4020 3035
+</trace>
+<trace id="9">
+4115 2911, 4115 2911, 4115 2912, 4114 2912, 4112 2907, 4112 2904, 4114 2900, 4125 2897, 4132 2901, 4134 2910, 4127 2923, 4113 2935, 4099 2934, 4113 2941, 4119 2947, 4156 2955, 4162 2951, 4161 2938
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">4</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="4_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

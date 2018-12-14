@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$r\sqrt 2$</annotation>
+<annotation type="UI">2011_IVC_depart_F012_E011</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart012</annotation>
+<annotation type="age">39</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="r_1">r</mi>
+			<msqrt xml:id="_1">
+				<mn xml:id="2_1">2</mn>
+			</msqrt>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.2952 15.8979, 11.3072 15.91, 11.3273 15.922, 11.3513 15.918, 11.3834 15.8979, 11.4035 15.8739, 11.3995 15.8498, 11.3794 15.8056, 11.3594 15.7655, 11.3233 15.7214, 11.3072 15.6893, 11.3112 15.6772, 11.3192 15.6652, 11.3594 15.6652, 11.3995 15.6732, 11.4356 15.6813, 11.4998 15.6652
+</trace>
+<trace id="1">
+11.7406 15.5529, 11.7446 15.5649, 11.7646 15.613, 11.7807 15.6772, 11.8048 15.7535, 11.8288 15.8257, 11.8409 15.8739, 11.8569 15.906, 11.8609 15.914, 11.8649 15.914, 11.8649 15.906, 11.8609 15.8578, 11.8569 15.7776, 11.8489 15.6732, 11.8489 15.5689, 11.8369 15.4766, 11.8248 15.4084, 11.8248 15.3603, 11.8409 15.3121, 11.8649 15.268, 11.9291 15.2198, 12.0495 15.1917, 12.1739 15.1757, 12.2903 15.1837, 12.3384 15.1998, 12.3545 15.2078, 12.3545 15.2118, 12.3545 15.2078, 12.3505 15.2078, 12.3464 15.2038
+</trace>
+<trace id="2">
+12.1779 15.5167, 12.1659 15.5087, 12.1699 15.5087, 12.1819 15.5087, 12.218 15.4846, 12.2903 15.4686, 12.3464 15.4646, 12.3745 15.4887, 12.3826 15.5288, 12.3545 15.593, 12.2582 15.6732, 12.1779 15.7575, 12.1418 15.7936, 12.1418 15.8097, 12.1739 15.8257, 12.2582 15.8418, 12.3505 15.8458, 12.3906 15.8458, 12.4026 15.8498, 12.3986 15.8498, 12.4026 15.8498, 12.4026 15.8377
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB1005</annotation>
+  <annotation type="truth">$x = 2$</annotation>
+  <annotation type="writer">User087</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mi xml:id="x_1">x</mi>
+      <mo xml:id="=_1">=</mo>
+      <mn xml:id="2_1">2</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">311 297 29565, 316 309 29583, 320 316 29596, 328 328 29609, 336 337 29622, 339 340 29636, 343 347 29649, 347 352 29662, 349 355 29674, 350 359 29688, 351 360 29700, 352 362 29713</trace>
+  <trace id="1">346 311 30093, 345 311 30140, 341 315 30151, 335 321 30162, 321 334 30174, 313 339 30184, 307 344 30195, 297 351 30207, 295 352 30218, 292 356 30229, 291 357 30245</trace>
+  <trace id="2">361 344 30765, 362 344 30837, 363 343 30849, 371 343 30862, 374 342 30875, 380 342 30888, 383 342 30901, 385 342 30914</trace>
+  <trace id="3">354 318 31301, 357 318 31332, 359 318 31345, 366 318 31358, 369 318 31371, 374 318 31384, 376 318 31397, 377 318 31410, 378 318 31428, 379 318 31445, 380 318 31461</trace>
+  <trace id="4">403 312 31773, 404 313 31916, 408 319 31929, 414 327 31942, 417 331 31955, 419 338 31968, 420 342 31980, 420 346 31993, 419 349 32006, 418 351 32019, 416 353 32033, 414 357 32045, 412 358 32058, 410 360 32071, 408 361 32084, 406 362 32095, 405 362 32105, 404 362 32116, 403 362 32148, 402 362 32160, 401 362 32170, 400 362 32181, 399 362 32192, 398 362 32204, 402 362 32348, 406 362 32360, 412 362 32371, 421 362 32382, 423 362 32393, 426 362 32404, 427 362 32415, 428 362 32426, 429 362 32437, 430 362 32448, 431 362 32459, 433 362 32470, 435 362 32481, 436 362 32492, 437 362 32503, 438 362 32514</trace>
+  <traceGroup xml:id="5">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="6">
+      <annotation type="truth">x</annotation>
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+      <annotationXML href="x_1" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">=</annotation>
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="3" />
+      <annotationXML href="=_1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="4" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">24</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">501</annotation>
+<annotation type="truth">$\phi &gt; 0$</annotation>
+<annotation type="UI">IVC_2014_F501_E23</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="phi_1">phi</mi>
+			<mrow>
+				<mo xml:id="\gt_1">\gt</mo>
+				<mn xml:id="0_1">0</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+164 215, 161 215, 158 216, 156 219, 152 222, 149 227, 145 233, 142 240, 140 248, 138 257, 139 267, 141 276, 144 284, 148 290, 152 295, 164 300, 170 299, 176 296, 182 292, 187 286, 191 278, 194 270, 196 261, 196 253, 195 245, 193 239, 189 236, 185 234, 178 234, 172 236, 166 239, 160 243, 159 245
+</trace>
+<trace id="1">
+198 191, 198 192, 195 199, 193 204, 191 209, 189 217, 185 225, 182 235, 177 247, 168 277, 164 294, 160 312
+</trace>
+<trace id="2">
+223 229, 223 232, 224 235, 227 237, 230 239, 235 242, 240 244, 246 246, 252 248, 257 251, 260 254, 261 258, 257 267, 253 273, 248 280, 241 287, 235 296, 229 304, 225 312, 219 322
+</trace>
+<trace id="3">
+297 238, 292 247, 288 253, 285 260, 283 268, 282 274, 282 279, 284 283, 287 286, 290 287, 294 285, 307 273, 311 265, 315 257, 318 249, 319 243, 318 239, 315 236, 310 235, 304 237, 299 238
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="phi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\gt</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="\gt_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

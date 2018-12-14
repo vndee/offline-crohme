@@ -1,0 +1,89 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$c_i \neq c_j$</annotation>
+<annotation type="UI">2011_IVC_depart_F026_E034</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart026</annotation>
+<annotation type="age">21</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="c_1">c</mi>
+				<mi xml:id="i_1">i</mi>
+			</msub>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<msub>
+					<mi xml:id="c_2">c</mi>
+					<mi xml:id="j_1">j</mi>
+				</msub>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+10.276 30.5275, 10.288 30.5114, 10.292 30.5034, 10.288 30.4954, 10.28 30.4914, 10.2599 30.4914, 10.2158 30.5034, 10.1476 30.5315, 10.0714 30.5877, 9.98309 30.6519, 9.93092 30.7361, 9.94697 30.8084, 9.97506 30.8565, 10.0112 30.8926, 10.0433 30.9047, 10.0633 30.9087, 10.0874 30.9047, 10.1115 30.9007, 10.1315 30.9007, 10.1275 30.8966, 10.1315 30.8966
+</trace>
+<trace id="1">
+10.284 30.8084, 10.284 30.8044, 10.292 30.8044, 10.292 30.8084, 10.2961 30.8124, 10.3001 30.8365, 10.2961 30.8726, 10.292 30.9207, 10.288 30.9528, 10.2961 30.9608, 10.2961 30.9568, 10.288 30.9528, 10.288 30.9448, 10.288 30.9247
+</trace>
+<trace id="2">
+10.288 30.7121, 10.284 30.7161, 10.288 30.7241, 10.3161 30.7442, 10.3442 30.7562, 10.3603 30.7442, 10.3843 30.7281, 10.3843 30.7121, 10.3723 30.696, 10.3482 30.68, 10.3121 30.684, 10.2559 30.7081
+</trace>
+<trace id="3">
+10.8578 30.8605, 10.8418 30.8605, 10.8458 30.8645, 10.8538 30.8645, 10.8698 30.8645, 10.91 30.8645, 10.9742 30.8605, 11.0665 30.8565, 11.1066 30.8485, 11.1387 30.8445, 11.1547 30.8405, 11.1507 30.8405, 11.1146 30.8445, 11.0665 30.8565
+</trace>
+<trace id="4">
+10.8658 30.7803, 10.8698 30.7763, 10.8739 30.7723, 10.8939 30.7682, 10.926 30.7642, 10.9782 30.7522, 11.0103 30.7522, 11.0584 30.7522, 11.1026 30.7522, 11.1427 30.7562, 11.1788 30.7642, 11.1908 30.7642
+</trace>
+<trace id="5">
+11.1587 30.5676, 11.1427 30.5636, 11.1427 30.5716, 11.1266 30.5997, 11.1026 30.6559, 11.0705 30.7522, 11.0263 30.8605, 10.9822 30.9328, 10.9581 30.9849, 10.9501 30.9929, 10.9501 30.9809, 10.9541 30.9368
+</trace>
+<trace id="6">
+12.0616 30.5114, 12.0575 30.5034, 12.0495 30.4994, 12.0295 30.4954, 11.9974 30.4954, 11.9532 30.5114, 11.889 30.5476, 11.8048 30.6118, 11.7606 30.684, 11.7486 30.7482, 11.7566 30.7923, 11.7727 30.8244, 11.8007 30.8525, 11.8248 30.8645, 11.8489 30.8686, 11.877 30.8645, 11.9051 30.8485, 11.9492 30.8284, 11.9893 30.8044
+</trace>
+<trace id="7">
+12.1498 30.7482, 12.1498 30.7562, 12.1458 30.7963, 12.1338 30.8645, 12.1258 30.9568, 12.0896 31.0291, 12.0896 31.0732, 12.0816 31.0812, 12.0696 31.0612, 12.0535 31.009
+</trace>
+<trace id="8">
+12.1659 30.5997, 12.1699 30.5917, 12.1779 30.5957, 12.1819 30.6037, 12.202 30.6238, 12.218 30.6318, 12.2221 30.6318, 12.2261 30.6278, 12.2221 30.6198, 12.198 30.5997
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="c_2"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">j</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="j_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

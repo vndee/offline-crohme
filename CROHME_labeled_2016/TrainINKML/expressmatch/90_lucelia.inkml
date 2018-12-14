@@ -1,0 +1,91 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Arithmetic</annotation>
+<annotation type="expression">90</annotation>
+ <annotation type="UI">90_lucelia</annotation>
+<annotation type="writer">lucelia</annotation>
+<annotation type="truth">$y = r \sin \theta$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="y_1">y</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="r_1">r</mi>
+					<mrow>
+						<mi xml:id="sin_1">sin</mi>
+						<mi xml:id="theta_1">\theta</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+421 84, 423 81, 429 80, 436 88, 437 90, 437 93, 438 95, 438 98, 439 101, 440 104, 441 106, 442 109, 443 110, 445 112, 446 113, 448 114, 450 114, 452 113, 454 113, 456 111, 458 110, 459 108, 461 106, 462 103, 462 101, 463 98, 463 96, 463 93, 462 91, 462 88, 462 86, 461 85, 461 83, 461 82, 461 83, 461 85, 461 87, 461 89, 461 93, 462 96, 462 100, 462 104, 462 109, 462 113, 462 118, 462 123, 462 128, 462 133, 462 138, 461 143, 461 148, 460 152, 459 156, 459 159, 458 161, 457 163, 456 163, 455 163, 454 161, 453 159, 452 156, 451 153, 451 150, 450 146, 450 143, 451 140, 451 137, 452 134, 452 132, 453 131, 453 129, 453 128
+</trace>
+<trace id="1">
+492 108, 491 108, 493 108, 494 107, 496 107, 519 108, 519 107
+</trace>
+<trace id="2">
+490 95, 488 95, 488 94, 489 94, 494 95, 501 96, 504 96, 508 96, 514 96, 515 97
+</trace>
+<trace id="3">
+550 91, 549 90, 549 89, 548 89, 549 89, 555 92, 557 95, 560 113, 560 114, 560 113, 561 112, 561 110, 562 108, 562 106, 563 104, 564 102, 565 99, 566 96, 567 93, 569 91, 570 89, 572 87, 573 85, 574 84, 575 83, 576 82, 577 82, 577 83, 577 84, 576 85, 576 86, 576 87
+</trace>
+<trace id="4">
+635 93, 636 91, 635 88, 634 88, 627 89, 625 90, 617 96, 617 97, 618 97, 619 98, 621 99, 623 100, 625 101, 627 102, 630 103, 632 105, 634 106, 636 107, 638 108, 639 110, 640 111, 641 112, 641 113, 641 114, 640 114, 639 115, 638 116, 636 116, 634 117, 632 117, 630 117, 627 117, 625 117, 624 116, 622 116, 621 115, 620 114, 620 113, 620 112, 620 111, 620 110
+</trace>
+<trace id="5">
+662 97, 659 101, 659 104, 658 106, 657 108, 657 111, 657 112, 658 114, 659 115, 660 116, 662 116, 664 116, 666 116, 668 116, 670 115, 672 114, 673 113, 674 112, 674 111
+</trace>
+<trace id="6">
+662 83, 663 83, 663 84
+</trace>
+<trace id="7">
+693 96, 690 97, 693 96, 695 96, 699 96, 703 110, 703 111, 703 112, 703 113, 703 112, 703 111, 703 110, 704 109, 705 107, 706 105, 707 103, 708 101, 710 99, 711 97, 713 96, 714 95, 715 94, 717 94, 718 94, 719 95, 719 96, 720 98, 720 100, 721 103, 722 105, 722 108, 723 110, 723 113, 724 114, 724 116, 725 117, 725 118, 726 119, 727 118
+</trace>
+<trace id="8">
+765 82, 761 83, 753 106, 754 109, 755 111, 757 113, 758 115, 760 116, 763 117, 765 118, 768 118, 771 118, 774 118, 777 117, 780 117, 783 115, 785 114, 788 112, 790 111, 791 109, 792 107, 793 104, 793 102, 793 99, 792 96, 791 94, 789 91, 788 89, 786 86, 783 84, 781 83, 779 82, 776 81, 773 81, 770 81, 767 81, 764 82, 762 84, 759 85, 757 87, 755 89, 754 91, 753 93, 753 96
+</trace>
+<trace id="9">
+759 101, 782 102, 792 101
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

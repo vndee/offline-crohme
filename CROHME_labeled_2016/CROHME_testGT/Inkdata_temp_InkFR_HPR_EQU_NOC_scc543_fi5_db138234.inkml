@@ -1,0 +1,78 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$3-n = 1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F543_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL543</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="3_1">3</mn>
+			<mrow>
+				<mo xml:id="-_1">-</mo>
+				<mrow>
+					<mi xml:id="n_1">n</mi>
+					<mrow>
+						<mo xml:id="=_1">=</mo>
+						<mn xml:id="1_1">1</mn>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1457 2982, 1457 2982, 1454 2976, 1455 2973, 1468 2966, 1476 2966, 1483 2971, 1490 2996, 1490 3008, 1485 3021, 1471 3034, 1453 3037, 1470 3041, 1481 3048, 1501 3068, 1503 3074, 1491 3083, 1478 3084, 1452 3082, 1442 3080, 1445 3079
+</trace>
+<trace id="1">
+1558 3053, 1558 3053, 1549 3047, 1550 3044, 1616 3039
+</trace>
+<trace id="2">
+1697 3071, 1697 3071, 1698 3071, 1703 3073, 1702 3073, 1691 3062, 1689 3045, 1693 3036, 1698 3030, 1712 3026, 1730 3035, 1737 3046, 1742 3066, 1740 3071, 1733 3072, 1729 3064, 1731 3054, 1746 3033, 1756 3030, 1775 3037, 1791 3075, 1795 3082, 1801 3086, 1812 3085
+</trace>
+<trace id="3">
+1882 3033, 1882 3033, 1894 3030, 1936 3033, 1943 3034
+</trace>
+<trace id="4">
+1886 3074, 1886 3074, 1908 3073, 1928 3074, 1946 3074
+</trace>
+<trace id="5">
+2030 3062, 2030 3062, 2063 3055, 2087 3041, 2104 3009, 2111 2985, 2115 2962, 2114 2950, 2109 2947, 2104 2952, 2102 2965, 2113 3066, 2113 3078, 2112 3084
+</trace>
+<trace id="6">
+2051 3101, 2051 3101, 2052 3098, 2057 3097, 2073 3096, 2116 3097, 2176 3087, 2176 3088, 2175 3087
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

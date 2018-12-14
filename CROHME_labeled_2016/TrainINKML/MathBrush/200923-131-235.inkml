@@ -1,0 +1,33 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-235.ink"</annotation>
+<annotation type="truth"> \pi </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:2:">\pi</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5518 4052, 5522 4046, 5520 4040, 5524 4042, 5526 4050, 5527 4065, 5529 4092, 5529 4124, 5529 4166, 5528 4211, 5528 4259, 5526 4308, 5526 4353, 5527 4392, 5530 4420, 5532 4434, 5545 4441, 5553 4432, 5569 4418
+</trace>
+
+<trace id="1">
+5816 3967, 5822 3987, 5823 4015, 5823 4052, 5824 4101, 5825 4152, 5827 4211, 5828 4268, 5830 4326, 5833 4378, 5838 4424, 5845 4461, 5850 4488, 5856 4504, 5864 4517, 5864 4519, 5865 4516
+</trace>
+
+<trace id="2">
+5345 4086, 5324 4076, 5319 4072, 5320 4061, 5334 4050, 5371 4039, 5419 4024, 5481 4012, 5552 3993, 5631 3978, 5713 3964, 5795 3952, 5872 3946, 5941 3945, 5996 3942, 6046 3945, 6077 3945
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:2:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="0:1:2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,96 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotation type="writer">UN_463</annotation>
+<annotation type="truth">$-b \leq x \leq b$</annotation>
+<annotation type="UI">CROHME_2016_em_909</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<mrow>
+				<mi xml:id="b_1">b</mi>
+				<mrow>
+					<mo xml:id="le_1">leq</mo>
+					<mrow>
+						<mi xml:id="x_1">x</mi>
+						<mrow>
+							<mo xml:id="le_2">leq</mo>
+							<mi xml:id="b_2">b</mi>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+390 182, 384 182, 379 182, 375 181, 370 181, 365 180, 360 180, 354 180, 349 180, 343 180, 337 180, 332 180, 327 180, 323 180, 319 180, 317 180, 316 180
+</trace>
+<trace id="1">
+420 143, 419 144, 415 151, 414 155, 413 158, 412 162, 411 166, 411 170, 411 174, 411 178, 411 182, 413 190, 414 193, 416 199, 418 201, 421 202, 430 202, 433 201, 435 200, 438 198, 439 195, 440 192, 440 189, 439 186, 438 183, 436 180, 430 176, 427 175, 424 175, 422 175, 419 176, 417 177, 409 181
+</trace>
+<trace id="2">
+521 139, 520 139, 517 141, 511 143, 507 145, 503 148, 499 150, 494 152, 490 155, 482 161, 479 164, 476 167, 473 169, 470 172, 468 174, 467 176, 467 177, 468 178, 470 179, 472 180, 475 181, 478 182, 482 183, 489 185, 493 187, 497 188, 501 190, 504 191, 507 192, 509 194, 512 195, 515 196, 517 197, 518 197
+</trace>
+<trace id="3">
+541 210, 539 210, 539 210, 532 208, 528 207, 518 206, 513 205, 509 204, 504 203, 499 202, 495 202, 491 201, 486 201, 483 200, 479 200, 475 200, 471 200, 468 200, 465 199, 463 199, 461 199
+</trace>
+<trace id="4">
+557 145, 558 145, 559 145, 566 146, 573 149, 577 151, 580 154, 583 157, 584 160, 585 164, 586 167, 585 169, 583 172, 581 174, 579 175, 576 176, 573 176, 571 177, 570 177, 568 176, 567 176, 568 176
+</trace>
+<trace id="5">
+602 152, 600 153, 595 156, 593 158, 590 160, 589 162, 588 165, 588 167, 589 169, 590 172, 592 174, 595 175, 608 180, 612 181, 615 182, 619 182, 621 182, 624 182, 626 181, 627 181
+</trace>
+<trace id="6">
+748 123, 746 124, 744 126, 741 128, 738 130, 733 132, 729 135, 724 138, 718 140, 713 143, 702 149, 697 153, 692 156, 683 162, 680 165, 677 167, 676 169, 675 170, 675 172, 674 171, 674 172, 678 174, 681 175, 683 175, 695 178, 700 180, 704 182, 709 184, 714 186, 719 188, 728 193, 733 195, 737 198, 744 201, 746 203, 747 204, 747 203
+</trace>
+<trace id="7">
+749 216, 739 211, 735 209, 730 208, 721 204, 716 203, 711 201, 706 199, 700 197, 695 195, 690 193, 686 191, 682 190, 678 188, 675 187, 673 187, 672 187, 671 187
+</trace>
+<trace id="8">
+778 123, 778 124, 778 126, 777 128, 777 141, 776 152, 775 157, 775 163, 774 168, 774 173, 774 178, 775 187, 776 191, 778 194, 779 197, 785 200, 788 201, 791 200, 793 199, 796 197, 798 195, 800 193, 801 190, 802 188, 802 185, 802 182, 801 180, 800 178, 793 173, 790 172, 787 171, 783 172, 780 172, 771 176
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="le_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\leq</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="le_2"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="b_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

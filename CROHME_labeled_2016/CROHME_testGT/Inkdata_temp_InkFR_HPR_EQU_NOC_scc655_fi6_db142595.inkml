@@ -1,0 +1,47 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$-\sqrt{y}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F655_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL655</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<msqrt xml:id="_1">
+				<mi xml:id="y_1">y</mi>
+			</msqrt>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3303 3019, 3303 3019, 3303 3017, 3351 3012, 3379 3008, 3418 3004
+</trace>
+<trace id="1">
+3504 3008, 3504 3008, 3504 3009, 3515 3038, 3535 3082, 3542 3088, 3547 3087, 3552 3083, 3563 3051, 3575 2938, 3603 2924, 3629 2918, 3690 2911, 3757 2904
+</trace>
+<trace id="2">
+3645 3012, 3645 3012, 3645 3014, 3658 3062, 3667 3071, 3677 3074, 3705 3061, 3716 3050, 3723 3028, 3695 3085, 3680 3107, 3663 3129, 3650 3145
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

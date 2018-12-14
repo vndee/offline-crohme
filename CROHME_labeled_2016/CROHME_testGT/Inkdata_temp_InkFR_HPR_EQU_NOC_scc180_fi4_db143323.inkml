@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$222_1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F180_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL180</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="2_1">2</mn>
+			<mrow>
+				<mn xml:id="2_2">2</mn>
+				<msub>
+					<mn xml:id="2_3">2</mn>
+					<mn xml:id="1_1">1</mn>
+				</msub>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2481 1662, 2481 1662, 2477 1656, 2478 1652, 2483 1646, 2520 1640, 2537 1643, 2545 1650, 2550 1664, 2533 1702, 2507 1728, 2505 1735, 2517 1736, 2542 1730, 2568 1720, 2589 1703
+</trace>
+<trace id="1">
+2587 1659, 2587 1659, 2586 1654, 2595 1653, 2629 1658, 2640 1665, 2643 1675, 2634 1699, 2602 1739, 2645 1736, 2689 1723
+</trace>
+<trace id="2">
+2700 1664, 2700 1664, 2700 1662, 2702 1658, 2708 1654, 2728 1654, 2739 1657, 2745 1670, 2746 1678, 2741 1690, 2709 1725, 2704 1732, 2705 1734, 2719 1736, 2736 1734, 2764 1730
+</trace>
+<trace id="3">
+2790 1723, 2790 1723, 2789 1722, 2810 1710, 2814 1695, 2803 1750, 2795 1760, 2775 1764, 2827 1761, 2828 1761
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="2_3"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

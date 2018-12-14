@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">508</annotation>
+<annotation type="truth">$9.8$</annotation>
+<annotation type="UI">IVC_2014_F508_E85</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="9_1">9</mn>
+			<mrow>
+				<mo xml:id="._1">.</mo>
+				<mn xml:id="8_1">8</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+398 79, 398 80, 398 79, 397 77, 396 77, 396 76, 395 77, 394 77, 387 84, 382 92, 381 95, 381 98, 382 101, 385 104, 388 105, 390 105, 393 104, 396 102, 399 100, 401 97, 403 93, 404 90, 405 87, 406 85, 407 80, 406 80, 407 80, 407 81, 407 82, 408 91, 408 95, 408 100, 408 105, 408 110, 407 116, 407 121, 406 128, 403 139, 401 145, 399 150, 396 154, 394 157, 391 159, 388 160, 386 161, 381 159, 379 158, 377 157, 376 156
+</trace>
+<trace id="1">
+433 157, 432 157
+</trace>
+<trace id="2">
+469 93, 469 92, 469 91, 474 87, 477 86, 479 85, 482 85, 487 90, 488 92, 488 95, 486 102, 484 107, 482 112, 480 117, 478 123, 476 129, 472 147, 473 151, 474 154, 481 155, 484 154, 486 151, 487 149, 488 147, 487 145, 486 143, 484 141, 482 139, 479 137, 474 133, 472 130, 470 128, 469 124, 468 121, 467 117, 467 114, 467 110, 468 103, 469 100, 471 97, 475 91
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">9</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="9_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">.</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="._1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">8</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="8_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

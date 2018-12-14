@@ -1,0 +1,85 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200926-1617-15.ink"</annotation>
+<annotation type="truth"> { { - p } = \sum { \mbox { Y } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">-</mo>
+            <mrow>
+                <mi xml:id="1:">p</mi>
+                <mrow>
+                    <mo xml:id="2:3:">=</mo>
+                    <mrow>
+                        <mo xml:id="4:">\sum</mo>
+                        <mi xml:id="5:6:">Y</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+6633 8446, 6625 8449, 6625 8452, 6628 8452, 6645 8454, 6670 8449, 6715 8443, 6768 8435, 6832 8426, 6908 8415, 6981 8407, 7053 8398, 7126 8398, 7188 8390
+</trace>
+
+<trace id="1">
+8028 8258, 8014 8306, 7997 8376, 7972 8466, 7941 8575, 7910 8704, 7868 8830, 7835 8953, 7798 9062, 7770 9160, 7742 9236, 7728 9292, 7714 9306, 7711 9292, 7711 9292, 7723 9210, 7739 9110, 7770 8984, 7809 8832, 7863 8676, 7924 8510, 8003 8359, 8081 8211, 8157 8116, 8230 8040, 8297 7995, 8356 7984, 8403 7990, 8434 8018, 8442 8060, 8442 8121, 8426 8194, 8392 8275, 8344 8351, 8283 8424, 8213 8491, 8140 8550, 8076 8592, 8014 8620, 7966 8634, 7944 8642, 7936 8636
+</trace>
+
+<trace id="2">
+8804 8597, 8854 8580, 8854 8580, 8932 8583, 9022 8558, 9114 8544
+</trace>
+
+<trace id="3">
+9036 8583, 8966 8592, 9008 8578, 9061 8564, 9131 8533
+</trace>
+
+<trace id="4">
+11702 7511, 11699 7502, 11679 7491, 11654 7491, 11615 7499, 11556 7511, 11489 7533, 11405 7561, 11304 7600, 11189 7645, 11063 7695, 10934 7746, 10817 7799, 10713 7850, 10626 7897, 10565 7936, 10531 7970, 10540 7995, 10587 8009, 10666 8020, 10769 8023, 10895 8020, 11038 8015, 11184 8004, 11324 7995, 11444 7990, 11545 7990, 11615 7992, 11657 8004, 11660 8026, 11623 8057, 11559 8102, 11469 8158, 11357 8225, 11231 8300, 11094 8373, 10965 8452, 10859 8527, 10786 8594, 10750 8648, 10750 8684, 10786 8709, 10864 8720, 10976 8720, 11111 8709, 11111 8709, 11111 8709, 11111 8709, 11195 8678, 11368 8642, 11536 8594
+</trace>
+
+<trace id="5">
+13133 7737, 13119 7749, 13090 7768, 13043 7793, 12998 7844, 12936 7900, 12875 7984, 12799 8076, 12726 8180, 12645 8286, 12567 8393, 12497 8491, 12435 8575, 12385 8648, 12340 8690, 12312 8715, 12298 8715, 12292 8692, 12295 8653
+</trace>
+
+<trace id="6">
+12304 7642, 12298 7656, 12301 7684, 12306 7721, 12315 7760, 12340 7816, 12357 7866, 12388 7925, 12413 7984, 12438 8037, 12460 8090, 12483 8144, 12494 8188
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">p</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">=</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:6:">
+        <annotation type="truth">Y</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="5:6:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

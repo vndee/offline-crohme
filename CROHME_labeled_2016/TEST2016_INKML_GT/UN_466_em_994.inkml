@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">23</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_466</annotation>
+<annotation type="truth">$x\rightarrow \infty$</annotation>
+<annotation type="UI">CROHME_2016_em_994</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="rarr_1">rarr</mo>
+				<mi xml:id="infin_1">infin</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+490 255, 491 254, 496 254, 498 254, 498 253, 498 254, 498 256, 497 257, 494 261, 492 263, 489 267, 486 270, 483 273, 481 276, 479 278, 477 280, 478 280, 478 281, 483 276, 486 273, 488 270, 491 267, 494 264, 500 258, 502 256, 504 254, 505 253, 505 251, 506 251, 505 251, 504 252, 500 257, 498 260, 496 263, 495 267, 494 270, 493 275, 494 280, 500 280, 502 279, 504 278, 505 278, 507 277, 506 277
+</trace>
+<trace id="1">
+529 266, 530 266, 534 267, 537 268, 539 268, 542 268, 555 266, 558 266, 562 265, 565 265, 568 265, 571 265, 576 265, 578 265, 580 265, 581 265, 581 266, 582 266
+</trace>
+<trace id="2">
+586 260, 588 260, 587 260, 588 260, 592 263, 595 266, 596 266, 595 267, 590 270, 587 271, 586 272, 584 273, 583 273
+</trace>
+<trace id="3">
+639 269, 640 269, 639 268, 637 265, 635 263, 634 262, 632 260, 630 259, 625 258, 623 258, 620 259, 618 261, 615 262, 613 264, 611 266, 609 268, 608 270, 608 271, 608 273, 610 276, 611 277, 617 278, 620 277, 625 275, 627 274, 630 272, 632 270, 635 268, 637 266, 639 264, 641 262, 643 261, 645 259, 648 259, 650 258, 652 258, 655 258, 658 258, 663 258, 666 258, 668 259, 670 260, 669 259, 670 260, 674 265, 674 267, 672 274, 671 276, 669 277, 668 279, 666 280, 664 281, 659 281, 657 281, 653 280, 650 279, 648 278, 646 277, 643 274, 641 273, 640 271, 639 270, 638 269, 635 268, 635 267
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\rightarrow</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="rarr_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="infin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

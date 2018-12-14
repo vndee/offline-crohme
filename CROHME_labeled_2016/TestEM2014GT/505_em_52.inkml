@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">20</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">505</annotation>
+<annotation type="truth">$or1$</annotation>
+<annotation type="UI">IVC_2014_F505_E52</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="o_1">o</mi>
+			<mrow>
+				<mi xml:id="r_1">r</mi>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+324 141, 322 141, 317 147, 316 152, 316 158, 318 164, 321 169, 324 172, 329 174, 335 173, 340 171, 348 162, 350 157, 351 151, 343 140, 338 140, 334 141, 330 144, 328 146
+</trace>
+<trace id="1">
+364 148, 364 149, 365 151, 367 163, 368 169, 368 173, 368 175, 368 174, 367 164, 368 159, 369 155, 372 151, 375 148, 378 147, 383 146, 400 145
+</trace>
+<trace id="2">
+413 159, 414 158, 417 156, 419 154, 423 150, 427 145, 431 140, 435 135, 437 129, 439 124, 441 120, 442 117, 442 116, 441 123, 440 129, 440 136, 440 144, 440 152, 439 160, 438 166, 436 172, 430 179, 427 180, 423 180, 419 180, 416 179, 415 178, 416 178, 417 178, 432 178, 448 179, 456 179, 464 180, 468 181
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">o</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="o_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

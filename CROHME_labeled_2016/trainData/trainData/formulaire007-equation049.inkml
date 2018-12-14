@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\exists x$</annotation>
+<annotation type="UI">2011_IVC_depart_F007_E049</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart007</annotation>
+<annotation type="age">25</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\exists_1">\exists</mo>
+			<mi xml:id="x_1">x</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.6964 30.4513, 11.6924 30.4392, 11.6884 30.4352, 11.6884 30.4312, 11.6964 30.4312, 11.7205 30.4272, 11.7646 30.4151, 11.8409 30.3951, 11.9131 30.379, 11.9733 30.3871, 11.9933 30.3871, 12.0014 30.3991, 12.0094 30.4352, 12.0054 30.5034, 12.0014 30.5957, 11.9974 30.6679, 12.0014 30.7442, 12.0054 30.8003, 12.0014 30.8324, 12.0014 30.8645, 11.9853 30.8846, 11.9733 30.9047, 11.9372 30.9167, 11.9091 30.9247, 11.869 30.9247, 11.8208 30.9247, 11.7767 30.9207, 11.7406 30.9127, 11.7044 30.9047, 11.6964 30.8926
+</trace>
+<trace id="1">
+11.7686 30.7562, 11.7486 30.7482, 11.7365 30.7402, 11.7365 30.7361, 11.7446 30.7402, 11.7646 30.7402, 11.8007 30.7402, 11.8449 30.7321, 11.9011 30.7241, 11.9532 30.704, 12.0094 30.704
+</trace>
+<trace id="2">
+12.2903 30.696, 12.2903 30.688, 12.2983 30.68, 12.3143 30.676, 12.3505 30.6639, 12.4066 30.6439, 12.4588 30.6398, 12.5029 30.6439, 12.519 30.6559, 12.523 30.676, 12.515 30.7081, 12.4949 30.7562, 12.4427 30.8284, 12.4026 30.8726, 12.3464 30.9007, 12.3063 30.9247, 12.2782 30.9247, 12.2782 30.9207, 12.3023 30.9127
+</trace>
+<trace id="3">
+12.6995 30.6719, 12.6995 30.6639, 12.6915 30.6559, 12.6755 30.6479, 12.6594 30.6519, 12.6273 30.6719, 12.5631 30.7161, 12.527 30.7723, 12.511 30.8164, 12.515 30.8565, 12.5431 30.9007, 12.5832 30.9328, 12.6233 30.9408, 12.6755 30.9368, 12.7357 30.8926, 12.7838 30.8124
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\exists</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\exists_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {3} {5} h $</annotation>
+<annotation type="writer">425.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_425_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mfrac xml:id="11:">
+                <mn xml:id="10:">3</mn>
+                <mn xml:id="12:">5</mn>
+            </mfrac>
+            <mi xml:id="13:">h</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+323 110, 329 107, 365 103, 369 107, 372 110, 375 115, 375 117, 376 120, 376 123, 375 125, 373 128, 370 129, 366 131, 361 134, 357 137, 354 138, 351 139, 347 140, 346 141, 344 142, 343 142, 345 142, 349 142, 352 142, 357 142, 361 142, 366 143, 372 145, 376 149, 381 152, 385 156, 386 159, 388 162, 388 165, 388 167, 388 169, 385 173, 379 175, 370 178, 362 179, 355 183, 348 183, 344 185, 339 186, 335 188, 331 188
+</trace>
+
+<trace id="1">
+310 202, 322 202, 367 203, 372 203, 377 204, 381 204, 385 204, 388 204, 390 204, 391 204, 392 204, 392 205
+</trace>
+
+<trace id="2">
+376 227, 374 227, 347 228, 344 228, 341 228, 340 228, 339 228, 338 229, 338 230, 338 231, 338 235, 338 240, 337 244, 336 248, 336 252, 336 256, 336 258, 335 259, 335 260, 336 260, 340 260, 345 260, 351 261, 359 265, 365 268, 370 270, 374 275, 376 277, 377 280, 377 281, 377 283, 372 286, 365 287, 360 288, 353 288, 348 289, 343 289, 339 289, 336 289, 335 289, 333 288
+</trace>
+
+<trace id="3">
+463 139, 461 145, 463 202, 463 209, 463 215, 463 221, 462 225, 461 229, 460 231, 460 234, 459 236, 459 237, 458 240, 458 241, 458 242, 458 243, 458 244, 458 242, 458 240, 458 238, 458 236, 458 233, 458 230, 459 227, 461 222, 463 217, 464 214, 467 211, 468 207, 472 205, 477 202, 481 201, 484 200, 489 199, 493 199, 499 199, 503 200, 507 203, 510 207, 513 212, 514 216, 515 222, 515 228, 515 232, 515 237, 515 241, 515 245, 515 247, 515 250, 515 252, 515 255, 515 256, 515 257
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:">
+        <annotation type="truth">3</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="10:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="11:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="11:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="12:">
+        <annotation type="truth">5</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="12:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="13:">
+        <annotation type="truth">h</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="13:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

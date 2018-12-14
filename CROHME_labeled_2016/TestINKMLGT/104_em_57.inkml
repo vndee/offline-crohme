@@ -1,0 +1,73 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">23</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">104</annotation>
+<annotation type="truth">$y^{\prime}(a)$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F104_E57</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="y_1">y</mi>
+				<mo xml:id="prime_1">\prime</mo>
+			</msup>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="a_1">a</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+313 194, 308 223, 307 230, 307 237, 306 244, 307 249, 308 254, 309 257, 310 260, 311 261, 312 261, 313 260, 314 258, 315 254, 317 249, 319 243, 321 235, 324 227, 326 220, 329 213, 331 207, 332 203, 333 199, 334 196, 334 193, 335 191, 335 190, 335 189, 335 188, 335 187, 335 188, 335 189, 335 191, 335 195, 334 200, 334 206, 334 214, 333 222, 333 230, 333 238, 333 246, 334 254, 334 262, 335 270, 336 277, 337 285, 337 292, 338 299, 339 306, 339 313, 339 318, 339 324, 338 328, 337 332, 335 334, 334 335, 331 335, 329 334, 326 333, 324 331, 321 328, 319 325, 317 321, 316 316, 315 311, 315 305, 315 298, 317 292, 321 286, 324 281, 328 276, 333 272, 337 268, 342 264, 344 263
+</trace>
+<trace id="1">
+385 136, 386 157, 386 162, 386 164
+</trace>
+<trace id="2">
+459 147, 445 163, 442 168, 440 174, 437 180, 434 186, 432 193, 431 200, 430 207, 429 214, 430 221, 431 227, 432 233, 434 238, 436 243, 438 247, 440 251, 441 252
+</trace>
+<trace id="3">
+495 201, 502 198, 502 196, 503 193, 503 191, 503 189, 502 187, 501 185, 499 184, 496 183, 493 182, 490 182, 487 183, 484 185, 480 187, 477 190, 473 194, 469 198, 467 203, 465 207, 464 211, 463 215, 464 218, 465 220, 467 222, 470 222, 473 222, 475 221, 478 220, 480 219, 483 216, 485 214, 488 211, 490 208, 492 205, 493 202, 495 200, 496 197, 496 195, 497 193, 497 191, 498 190, 498 189, 498 190, 498 192, 497 194, 497 197, 497 201, 497 205, 497 209, 497 214, 498 218, 499 221, 501 224, 503 227, 506 228, 507 228
+</trace>
+<trace id="4">
+539 140, 547 152, 549 155, 551 158, 553 163, 555 167, 556 173, 557 180, 558 186, 558 193, 557 200, 557 206, 555 212, 553 218, 551 224, 549 229, 547 233, 546 235
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="prime_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

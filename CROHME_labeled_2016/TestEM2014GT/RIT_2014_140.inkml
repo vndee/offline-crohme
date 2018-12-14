@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \sum a _ {n} $</annotation>
+<annotation type="writer">annot_65</annotation>
+<annotation type="UI">2014_RIT_CROHME_140</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="14:">\sum</mo>
+            <msub >
+                <mi  xml:id = "16:" >a</mi>
+                <mi  xml:id = "17:" >n</mi>
+            </msub>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+340 126, 339 126, 335 126, 329 127, 323 128, 314 130, 306 132, 298 134, 290 136, 283 139, 276 141, 271 143, 264 145, 257 148, 252 150, 248 151, 245 153, 243 153, 242 154, 242 155, 242 156, 246 157, 252 158, 261 160, 271 160, 281 161, 292 162, 302 162, 311 163, 319 164, 325 165, 329 166, 332 167, 334 169, 334 170, 334 171, 332 172, 327 174, 321 177, 314 181, 305 187, 296 192, 286 198, 276 204, 268 210, 262 214, 257 218, 253 220, 250 222, 248 224, 248 225, 250 225, 254 225, 261 225, 268 225, 276 225, 283 226, 290 226, 295 226, 301 226, 306 226, 310 226, 314 226, 317 226, 320 226, 322 226, 324 226, 325 226, 326 226, 327 226
+</trace>
+
+<trace  id = "1" >
+388 177, 389 165, 393 159, 401 153, 408 150, 414 148, 420 148, 426 148, 431 148, 434 154, 437 162, 438 170, 439 179, 439 186, 439 191, 439 196, 439 199, 438 199, 436 196, 432 192, 429 189, 425 187, 420 185, 414 185, 410 185, 405 189, 401 195, 398 202, 396 210, 395 216, 394 222, 394 227, 394 230, 395 233, 398 234, 402 234, 407 234, 412 233, 416 230, 421 227, 425 223, 429 219, 432 215, 434 212, 436 209, 438 206, 439 204, 440 201, 441 199, 442 197
+</trace>
+
+<trace  id = "2" >
+468 222, 467 225, 467 228, 467 234, 466 238, 466 242, 465 246, 464 248, 464 249, 463 249, 465 241, 470 232, 474 226, 477 223, 481 221, 484 219, 489 219, 492 220, 494 223, 496 226, 498 231, 499 235, 499 240, 500 245, 500 250, 500 255, 500 258, 500 261, 500 262
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="14:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="14:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="16:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="16:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="17:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="17:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

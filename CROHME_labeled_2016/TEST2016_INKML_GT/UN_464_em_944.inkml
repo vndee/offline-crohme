@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_464</annotation>
+<annotation type="truth">$-\sqrt{3}$</annotation>
+<annotation type="UI">CROHME_2016_em_944</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="-_1">-</mo>
+			<msqrt xml:id="_1">
+				<mn xml:id="3_1">3</mn>
+			</msqrt>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+563 205, 561 205, 560 205, 547 204, 540 203, 533 204, 527 204, 516 204
+</trace>
+<trace id="1">
+582 148, 584 151, 585 155, 586 160, 586 166, 586 172, 586 179, 586 187, 587 195, 588 203, 589 211, 591 225, 592 230, 593 232, 593 234, 594 233, 596 231, 598 228, 599 224, 601 218, 603 212, 605 205, 609 191, 618 166, 620 161, 622 156, 624 153, 627 150, 629 148, 632 147, 635 146, 639 145, 644 144, 651 143, 668 141, 678 139, 689 138, 700 136, 711 135, 722 134, 726 134
+</trace>
+<trace id="2">
+650 177, 648 176, 649 176, 650 175, 664 173, 670 173, 675 174, 684 177, 686 179, 687 181, 685 184, 682 187, 678 190, 673 192, 669 195, 666 197, 665 198, 664 198, 669 201, 672 202, 676 204, 679 206, 682 209, 683 212, 680 219, 676 223, 670 226, 664 230, 657 232, 651 234, 647 235, 644 235, 645 236
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

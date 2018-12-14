@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">504</annotation>
+<annotation type="truth">$e^{2x}$</annotation>
+<annotation type="UI">IVC_2014_F504_E46</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="e_1">e</mi>
+			<mrow>
+				<mn xml:id="2_1">2</mn>
+				<mi xml:id="x_1">x</mi>
+			</mrow>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+361 177, 362 176, 378 173, 381 171, 383 169, 385 167, 386 165, 386 163, 385 162, 383 161, 380 160, 377 161, 373 163, 370 166, 367 169, 364 174, 361 179, 360 188, 361 192, 364 196, 367 198, 372 199, 378 200, 383 200, 389 200, 393 199, 397 197, 399 197
+</trace>
+<trace id="1">
+401 129, 401 130, 402 129, 405 128, 408 128, 413 130, 414 131, 414 133, 409 142, 406 146, 404 149, 403 152, 403 154, 404 156, 407 158, 410 158, 415 159, 419 159, 424 159, 433 158
+</trace>
+<trace id="2">
+435 146, 437 146, 440 146, 442 147, 445 147, 448 149, 449 150, 450 152, 449 154, 448 156, 445 157, 442 159, 439 159, 437 159, 435 159, 435 160
+</trace>
+<trace id="3">
+461 151, 460 150, 459 150, 453 151, 451 152, 450 153, 450 155, 451 157, 453 158, 460 161, 470 165, 476 167, 478 168
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

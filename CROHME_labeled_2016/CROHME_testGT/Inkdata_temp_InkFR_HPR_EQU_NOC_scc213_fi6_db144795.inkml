@@ -1,0 +1,104 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{n(n+1)}{2}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F213_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL213</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mrow>
+				<mi xml:id="n_1">n</mi>
+				<mrow>
+					<mo xml:id="(_1">(</mo>
+					<mrow>
+						<mi xml:id="n_2">n</mi>
+						<mrow>
+							<mo xml:id="+_1">+</mo>
+							<mrow>
+								<mn xml:id="1_1">1</mn>
+								<mo xml:id=")_1">)</mo>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+			<mn xml:id="2_1">2</mn>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+3406 2949, 3406 2949, 3430 2909, 3443 2896, 3449 2899, 3445 2940, 3460 2902, 3470 2892, 3476 2901, 3470 2941
+</trace>
+<trace id="1">
+3558 2851, 3558 2851, 3550 2849, 3535 2863, 3518 2901, 3515 2962, 3523 2982
+</trace>
+<trace id="2">
+3544 2929, 3544 2929, 3554 2910, 3570 2899, 3574 2900, 3578 2909, 3577 2929, 3588 2909, 3601 2897, 3604 2904, 3600 2928
+</trace>
+<trace id="3">
+3656 2889, 3656 2889, 3658 2888, 3657 2894, 3655 2904, 3653 2917, 3653 2925, 3654 2933, 3654 2934, 3654 2933
+</trace>
+<trace id="4">
+3631 2907, 3631 2907, 3656 2911, 3675 2906, 3686 2904
+</trace>
+<trace id="5">
+3709 2920, 3709 2920, 3700 2927, 3708 2926, 3716 2921, 3730 2906, 3755 2871, 3764 2852, 3743 2898, 3737 2949, 3737 2949
+</trace>
+<trace id="6">
+3781 2816, 3781 2816, 3783 2814, 3791 2819, 3812 2845, 3819 2866, 3821 2894, 3815 2925, 3803 2954, 3789 2976
+</trace>
+<trace id="7">
+3401 3002, 3401 3002, 3395 3004, 3410 3008, 3458 3005, 3528 3007, 3591 2996, 3637 2999, 3733 2994, 3830 2986, 3857 2982, 3859 2980, 3856 2980
+</trace>
+<trace id="8">
+3580 3079, 3580 3079, 3598 3060, 3613 3055, 3625 3060, 3630 3071, 3630 3087, 3624 3107, 3604 3146, 3600 3157, 3612 3164, 3629 3165, 3650 3169, 3675 3171
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

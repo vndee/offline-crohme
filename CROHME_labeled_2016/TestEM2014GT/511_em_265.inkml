@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">511</annotation>
+<annotation type="truth">$b_\mathrm{R}$</annotation>
+<annotation type="UI">IVC_2014_F511_E265</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="b_1">b</mi>
+			<mi xml:id="R_1">R</mi>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+554 183, 555 187, 556 190, 556 194, 556 198, 557 202, 557 206, 557 210, 557 215, 557 220, 557 224, 557 228, 556 231, 556 234, 556 237, 555 240, 555 242, 555 244, 555 245, 555 246, 555 247, 555 246, 554 245, 554 244, 554 242, 554 241, 554 238, 555 236, 557 234, 559 232, 561 231, 563 229, 565 227, 567 226, 570 226, 573 226, 576 226, 579 227, 581 228, 583 230, 584 232, 585 234, 585 235, 585 237, 585 239, 584 241, 582 243, 579 245, 576 247, 573 248, 570 249, 568 250, 566 250, 564 251, 563 251, 562 250
+</trace>
+<trace id="1">
+600 241, 602 247, 602 249, 603 252, 603 254, 603 257, 603 259, 603 261, 603 263, 603 265, 603 266, 602 266, 601 265, 600 263, 599 261, 598 258, 598 255, 597 252, 598 249, 599 246, 600 243, 602 240, 604 238, 605 236, 607 234, 609 232, 611 231, 613 230, 614 230, 615 230, 617 230, 617 231, 618 232, 618 233, 618 235, 617 237, 615 239, 613 242, 611 244, 610 247, 608 249, 606 251, 605 252, 604 253, 603 254, 602 255, 602 256, 603 256, 604 257, 605 258, 607 258, 608 259, 611 259, 613 259, 616 260, 618 261, 620 261, 622 262, 624 263, 625 264, 625 265
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">R</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="R_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ a \neq b $</annotation>
+<annotation type="writer">annot_45</annotation>
+<annotation type="UI">2014_RIT_CROHME_118</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="20:">a</mi>
+            <mrow >
+                <mi  xml:id = "21:22:23:" >\neq</mi>
+                <mi  xml:id = "24:" >b</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+269 151, 264 146, 262 145, 260 144, 257 143, 254 142, 249 141, 244 141, 239 141, 234 144, 229 149, 226 154, 223 159, 221 165, 220 172, 219 181, 218 186, 218 193, 218 198, 218 204, 218 208, 218 212, 219 215, 220 217, 222 218, 225 218, 230 218, 236 217, 244 214, 250 209, 257 204, 262 199, 267 194, 271 188, 274 182, 277 175, 279 171, 280 166, 281 162, 282 159, 283 156, 283 155, 283 151, 282 151, 281 151, 281 152, 280 154, 279 156, 278 159, 277 162, 275 165, 275 169, 274 174, 273 179, 273 185, 273 189, 273 193, 273 197, 274 202, 275 205, 278 209, 281 211, 285 213, 291 214, 300 215, 308 215, 317 215, 329 215
+</trace>
+
+<trace  id = "1" >
+358 170, 362 168, 372 168, 383 168, 397 168, 411 168, 424 168, 437 168, 445 168, 450 168, 454 168, 456 168, 457 168
+</trace>
+
+<trace  id = "2" >
+376 202, 378 206, 383 206, 393 206, 404 206, 415 206, 427 206, 438 206, 446 205, 453 204, 458 203, 460 202, 461 201
+</trace>
+
+<trace  id = "3" >
+431 131, 426 134, 425 143, 420 155, 415 168, 408 185, 402 197, 395 211, 390 224, 385 234, 382 244, 380 251, 379 256, 378 259, 378 260, 378 261
+</trace>
+
+<trace  id = "4" >
+503 113, 500 116, 500 120, 500 125, 500 131, 500 140, 501 149, 501 158, 501 169, 501 181, 501 190, 501 198, 500 206, 500 212, 499 216, 499 219, 499 220, 499 221, 499 219, 499 217, 498 213, 498 209, 498 204, 498 200, 498 195, 499 191, 500 187, 501 183, 504 178, 507 174, 510 171, 514 168, 520 166, 526 165, 531 163, 536 162, 541 161, 545 161, 550 161, 555 161, 559 162, 563 164, 566 166, 569 169, 570 173, 572 177, 572 182, 572 187, 572 191, 568 195, 565 198, 562 202, 557 205, 552 208, 548 210, 543 212, 537 213, 531 214, 524 214, 519 214, 513 214, 508 214, 503 214, 499 214, 497 214, 496 214
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="20:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="20:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="21:22:23:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="21:22:23:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="24:">
+        <annotation type="truth">b</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="24:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

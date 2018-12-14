@@ -1,0 +1,40 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">517</annotation>
+<annotation type="truth">$\mathrm{Pa}$</annotation>
+<annotation type="UI">IVC_2014_F517_E404</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="P_1">P</mi>
+			<mi xml:id="a_1">a</mi>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+554 181, 555 188, 555 191, 555 195, 555 200, 555 205, 554 211, 554 217, 555 222, 555 227, 555 232, 556 236, 557 239, 557 242, 558 244, 558 245, 558 246, 558 247, 559 247, 558 247, 558 246, 558 243, 558 241, 557 238, 557 234, 556 229, 556 225, 555 220, 555 214, 555 209, 556 204, 556 198, 556 193, 557 188, 557 183, 558 179, 559 175, 561 171, 562 167, 564 164, 566 162, 569 160, 573 158, 577 158, 581 157, 585 158, 589 159, 592 161, 595 163, 597 166, 600 168, 601 171, 603 173, 604 175, 604 177, 604 179, 604 182, 603 184, 601 186, 598 188, 595 191, 591 193, 587 195, 583 196, 579 197, 575 198, 571 200
+</trace>
+<trace id="1">
+662 201, 653 197, 651 198, 649 198, 646 198, 643 200, 639 201, 635 203, 632 206, 629 208, 625 211, 622 214, 620 218, 618 222, 616 225, 616 229, 616 232, 616 234, 617 236, 619 237, 621 238, 623 239, 625 239, 628 239, 632 238, 635 237, 638 235, 642 233, 644 231, 646 228, 649 225, 651 222, 653 219, 654 216, 656 213, 657 211, 657 210, 658 209, 658 208, 658 207, 658 208, 657 209, 656 212, 655 214, 655 218, 654 222, 654 226, 655 230, 656 233, 657 235, 659 237, 662 239, 665 240, 668 241, 672 240, 676 240, 678 240
+</trace>
+<traceGroup xml:id="2">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="3">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="P_1"/>
+	</traceGroup>
+	<traceGroup xml:id="4">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

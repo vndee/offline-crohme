@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2366</annotation>
+  <annotation type="truth">$\frac{3}{\pi}$</annotation>
+  <annotation type="writer">User144</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mfrac xml:id="\frac_1">
+        <mrow>
+          <mn xml:id="3_1">3</mn>
+        </mrow>
+        <mrow>
+          <mi xml:id="\pi_1">pi</mi>
+        </mrow>
+      </mfrac>
+    </math>
+  </annotationXML>
+  <trace id="0">242 112 83601, 242 113 83603, 241 113 83635, 242 113 83829, 243 113 83838, 245 112 83846, 248 112 83864, 251 111 83873, 254 111 83882, 257 111 83891, 260 111 83900, 262 111 83908, 263 112 83917, 264 113 83926, 265 113 83943, 265 114 83952, 265 115 83961, 263 116 83970, 261 117 83979, 259 118 83988, 256 119 83997, 254 120 84005, 252 121 84023, 251 122 84032, 251 123 84049, 253 124 84058, 255 126 84067, 258 127 84076, 261 129 84084, 264 131 84102, 266 134 84111, 268 137 84120, 268 140 84129, 268 144 84138, 266 148 84146, 264 152 84155, 261 155 84164, 258 158 84181, 254 160 84190, 249 162 84199, 245 163 84208, 241 163 84217, 237 162 84226, 233 161 84235, 230 160 84243, 228 159 84261, 226 158 84270, 225 157 84279, 224 158 84287</trace>
+  <trace id="1">347 123 84624, 348 122 84625, 346 122 84640, 345 123 84657, 343 124 84666, 341 126 84675, 339 128 84684, 337 130 84693, 335 133 84702, 331 137 84711, 327 141 84719, 321 146 84737, 313 153 84746, 304 160 84754, 294 168 84763, 283 176 84772, 271 184 84781, 259 191 84790, 249 199 84798, 240 206 84816, 232 212 84825, 227 217 84834, 222 221 84843, 219 224 84852, 218 227 84861</trace>
+  <trace id="2">312 181 85232, 312 182 85233, 313 183 85239, 312 185 85248, 311 188 85257, 311 191 85266, 310 195 85275, 309 201 85292, 309 206 85301, 308 212 85310, 308 217 85319, 308 221 85328, 309 225 85337, 309 227 85346, 309 229 85354, 310 230 85372</trace>
+  <trace id="3">341 183 85743, 341 185 85744, 341 188 85751, 340 193 85768, 339 198 85777, 338 204 85786, 337 211 85795, 337 218 85804, 337 225 85813, 338 230 85822, 338 234 85830, 339 238 85848, 340 239 85857</trace>
+  <trace id="4">275 191 86210, 276 192 86218, 276 193 86227, 277 194 86253, 279 194 86262, 281 194 86271, 283 193 86280, 287 192 86289, 291 191 86298, 297 189 86306, 302 187 86324, 308 185 86333, 315 183 86342, 321 181 86350, 328 179 86359, 335 176 86368, 342 174 86377, 349 171 86385, 356 169 86403, 363 168 86412, 369 167 86421, 376 167 86430, 382 167 86438, 388 168 86447, 393 168 86456, 398 169 86465, 402 170 86482, 405 171 86491, 408 172 86500, 411 174 86509, 412 175 86518, 414 177 86527, 415 178 86536, 416 178 86544, 417 179 86562</trace>
+  <traceGroup xml:id="5">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="6">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="\frac_1" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">3</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="3_1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">\pi</annotation>
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="3" />
+      <traceView traceDataRef="4" />
+      <annotationXML href="\pi_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">115</annotation>
+<annotation type="truth">$\Delta H^0$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F115_E134</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="\Delta_1">\Delta</mi>
+			<msup>
+				<mi xml:id="H_1">H</mi>
+				<mn xml:id="0_1">0</mn>
+			</msup>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+437 279, 443 252, 446 245, 450 236, 454 228, 458 218, 461 210, 466 202, 470 194, 473 187, 476 181, 478 175, 480 170, 481 166, 483 163, 484 161, 485 158, 486 157, 487 156, 488 155, 488 154, 489 155, 490 155, 491 156, 491 157, 492 159, 494 161, 496 164, 498 168, 499 171, 502 176, 504 182, 507 187, 511 193, 515 198, 519 204, 524 209, 530 214, 535 220, 541 225, 546 230, 552 234, 557 238, 562 241, 567 245, 571 247, 575 250, 578 253, 580 255, 580 256, 580 258, 579 259, 577 260, 575 261, 571 262, 568 263, 563 263, 558 264, 553 265, 547 266, 539 267, 532 267, 524 268, 517 269, 508 270, 500 271, 492 272, 485 272, 478 273, 472 273, 466 274, 460 274, 454 274, 449 275, 445 276, 442 276, 439 276
+</trace>
+<trace id="1">
+618 173, 617 174, 617 179, 618 185, 618 190, 619 197, 619 204, 620 212, 621 219, 621 226, 622 233, 624 238, 625 244, 626 249, 627 252, 628 255, 628 258, 629 260
+</trace>
+<trace id="2">
+617 214, 640 217, 644 217, 649 217, 654 217, 659 217, 662 216, 664 216
+</trace>
+<trace id="3">
+669 166, 668 173, 668 179, 669 185, 669 192, 669 199, 670 206, 670 214, 671 222, 671 229, 672 235, 673 240, 674 245, 675 249, 676 253, 676 256, 677 258, 678 260
+</trace>
+<trace id="4">
+720 117, 715 125, 714 129, 714 134, 713 139, 712 145, 712 149, 712 153, 713 157, 713 161, 715 164, 716 166, 719 169, 720 170, 723 172, 725 172, 727 172, 729 172, 731 171, 733 169, 735 167, 738 164, 740 161, 742 157, 744 152, 746 147, 748 142, 749 137, 749 132, 748 128, 747 125, 745 122, 742 120, 740 118, 737 117, 734 117, 731 117, 728 116, 725 117, 722 119, 719 122, 718 123
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\Delta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\Delta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">H</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="H_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

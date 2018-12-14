@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_105</annotation>
+<annotation type="truth">$e_{+3}$</annotation>
+<annotation type="UI">CROHME_2016_em_121</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="e_1">e</mi>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mn xml:id="3_1">3</mn>
+			</mrow>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+361 198, 392 208, 400 207, 408 205, 417 203, 426 200, 434 196, 442 192, 449 187, 454 183, 458 178, 462 174, 464 169, 465 165, 465 161, 464 157, 463 153, 462 150, 459 148, 454 146, 449 146, 443 146, 435 148, 428 150, 420 154, 412 158, 405 163, 398 169, 392 176, 387 184, 384 191, 381 199, 379 206, 379 215, 379 223, 379 231, 382 239, 385 246, 388 253, 393 260, 399 265, 406 269, 413 273, 421 275, 429 277, 438 278, 446 278, 454 277, 461 275, 467 274, 472 273, 475 272, 478 271, 480 270, 482 269, 484 268
+</trace>
+<trace id="1">
+523 256, 520 267, 519 271, 519 275, 518 280, 518 284, 517 289, 517 293, 516 297, 516 301, 516 304, 516 307, 515 309
+</trace>
+<trace id="2">
+500 294, 514 290, 519 289, 525 288, 531 286, 533 286
+</trace>
+<trace id="3">
+563 262, 574 249, 578 249, 581 249, 585 249, 589 250, 592 251, 595 253, 597 255, 599 258, 599 261, 598 264, 597 268, 596 271, 593 274, 591 276, 589 278, 587 280, 585 282, 583 283, 582 284, 581 285, 581 286, 582 287, 583 288, 585 289, 587 290, 590 291, 594 292, 598 294, 601 296, 604 298, 606 300, 607 302, 608 305, 608 307, 608 309, 608 311, 607 313, 605 314, 602 315, 599 315, 595 316, 592 316, 587 315, 583 315, 577 314, 573 314, 570 313, 567 312, 564 311, 561 310, 559 308, 558 307, 557 306, 556 304, 556 303, 556 302, 557 302
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

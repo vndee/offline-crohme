@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-321.ink"</annotation>
+<annotation type="truth"> \left ( \sqrt { C } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">(</mo>
+            <mrow>
+                <msqrt xml:id="1:">
+                    <mi xml:id="2:">C</mi>
+                </msqrt>
+                <mo xml:id="3:">)</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+3561 5730, 3545 5730, 3532 5745, 3509 5759, 3483 5783, 3454 5818, 3421 5863, 3389 5922, 3353 5987, 3319 6069, 3282 6153, 3254 6244, 3227 6333, 3214 6421, 3208 6496, 3214 6561, 3230 6618, 3256 6661, 3290 6684, 3336 6701, 3381 6703
+</trace>
+
+<trace id="1">
+3767 6386, 3760 6402, 3761 6427, 3760 6458, 3760 6483, 3765 6511, 3770 6535, 3775 6557, 3782 6574, 3787 6587, 3794 6593, 3801 6592, 3807 6582, 3813 6567, 3816 6540, 3821 6507, 3826 6468, 3830 6421, 3835 6372, 3839 6316, 3843 6260, 3849 6201, 3855 6144, 3863 6090, 3876 6036, 3891 5989, 3912 5948, 3937 5911, 3968 5883, 4007 5862, 4054 5848, 4107 5838, 4167 5833, 4230 5830, 4293 5829, 4360 5830, 4422 5831, 4482 5832, 4532 5832, 4573 5833, 4607 5832, 4631 5832, 4649 5830, 4661 5830, 4668 5829, 4671 5830, 4671 5832, 4670 5838, 4665 5849, 4661 5865, 4655 5886, 4648 5911, 4641 5945, 4631 5984, 4621 6020, 4612 6061, 4600 6093
+</trace>
+
+<trace id="2">
+4412 6202, 4405 6194, 4388 6185, 4372 6187, 4344 6198, 4315 6210, 4285 6234, 4250 6263, 4217 6303, 4182 6342, 4154 6388, 4130 6432, 4118 6481, 4110 6525, 4117 6565, 4135 6597, 4166 6624, 4207 6642, 4256 6653, 4316 6658, 4374 6647, 4436 6633, 4500 6616, 4557 6593, 4607 6572
+</trace>
+
+<trace id="3">
+5051 5826, 5071 5843, 5092 5871, 5116 5909, 5140 5962, 5159 6017, 5181 6089, 5193 6162, 5201 6244, 5201 6324, 5195 6404, 5182 6482, 5166 6557, 5144 6624, 5116 6684, 5089 6744, 5059 6795, 5025 6839, 4992 6879, 4957 6912
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">C</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

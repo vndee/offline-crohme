@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ a \leq w $</annotation>
+<annotation type="writer">annot_105</annotation>
+<annotation type="UI">2014_RIT_CROHME_46</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="42:">a</mi>
+            <mrow >
+                <mi  xml:id = "43:44:" >\leq</mi>
+                <mi  xml:id = "45:" >w</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+311 246, 315 241, 317 234, 321 227, 325 217, 327 208, 327 198, 327 189, 322 182, 313 177, 306 174, 298 174, 289 174, 279 179, 271 188, 264 200, 259 213, 257 225, 257 237, 261 247, 267 252, 277 253, 289 253, 301 246, 310 236, 318 224, 324 214, 328 203, 331 195, 332 188, 333 184, 333 182, 333 185, 332 194, 329 207, 328 219, 328 232, 335 241, 345 246, 357 247, 370 247, 381 243, 391 236
+</trace>
+
+<trace  id = "1" >
+562 142, 558 144, 545 147, 528 153, 507 161, 488 169, 476 175, 469 178, 468 181, 468 183, 479 185, 496 188, 512 193, 528 197, 538 201, 548 206, 555 210, 558 212, 558 214
+</trace>
+
+<trace  id = "2" >
+472 235, 481 240, 496 245, 513 251, 530 257, 545 262, 555 267, 563 271, 568 272, 573 272, 576 270
+</trace>
+
+<trace  id = "3" >
+633 154, 632 160, 632 168, 632 178, 632 188, 632 197, 634 202, 636 207, 638 209, 641 209, 647 207, 653 200, 658 193, 664 185, 669 179, 673 176, 676 174, 682 174, 686 176, 690 182, 693 190, 697 198, 701 202, 703 204, 705 206, 709 205, 714 196, 718 181, 721 171, 722 159, 723 152, 723 147, 723 142, 723 139, 723 137, 724 137
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="42:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="42:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="43:44:">
+        <annotation type="truth">\leq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="43:44:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="45:">
+        <annotation type="truth">w</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="45:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">518</annotation>
+<annotation type="truth">$ r \! \times \! n $</annotation>
+<annotation type="UI">IVC_2014_F518_E418</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="r_1">r</mi>
+			<mrow>
+				<mrow>
+					<mo xml:id="times_1">times</mo>
+					<mrow>
+						<mi xml:id="n_1">n</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+394 176, 406 171, 407 173, 409 174, 410 177, 411 179, 412 182, 413 185, 414 188, 415 191, 415 193, 416 196, 416 198, 417 200, 417 202, 417 204, 417 206, 417 207, 417 206, 417 204, 416 202, 416 201, 416 198, 417 196, 417 193, 418 189, 419 185, 421 181, 424 178, 426 175, 429 172, 431 169, 434 167, 435 165, 436 164, 437 163, 438 163, 440 163, 441 163
+</trace>
+<trace id="1">
+480 170, 486 174, 489 177, 492 179, 495 182, 497 185, 500 188, 502 191, 505 193, 507 195, 509 198, 510 200, 512 201, 513 203, 514 203
+</trace>
+<trace id="2">
+515 166, 501 182, 498 186, 494 190, 490 192, 487 195, 484 198, 482 201, 479 203, 477 205, 475 207, 474 208, 472 210
+</trace>
+<trace id="3">
+547 175, 548 186, 548 189, 549 192, 549 194, 549 195, 550 196, 550 197, 550 198, 550 199, 550 198, 551 198, 551 196, 552 194, 553 192, 553 189, 554 186, 556 183, 558 181, 559 178, 561 175, 562 173, 564 171, 566 170, 568 168, 570 167, 573 167, 575 167, 577 167, 579 167, 581 169, 583 170, 584 173, 585 175, 585 178, 585 182, 585 185, 586 189, 586 192, 586 195, 586 197, 587 199, 587 201, 588 202, 588 203, 589 203, 590 202, 592 201, 594 200, 595 199, 596 199
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

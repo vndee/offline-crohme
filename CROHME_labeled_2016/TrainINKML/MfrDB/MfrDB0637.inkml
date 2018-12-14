@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB0637</annotation>
+  <annotation type="truth">${x^{2}}$</annotation>
+  <annotation type="writer">Unknown</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <msup>
+        <mrow>
+          <mi xml:id="x_1">x</mi>
+        </mrow>
+        <mrow>
+          <mn xml:id="2_1">2</mn>
+        </mrow>
+      </msup>
+    </math>
+  </annotationXML>
+  <trace id="0">443 232 38172, 444 233 38340, 444 234 38347, 445 236 38355, 446 237 38364, 448 239 38373, 449 241 38381, 452 244 38388, 453 246 38397, 455 247 38402, 457 249 38412, 458 250 38418, 463 254 38443, 464 255 38450, 464 256 38468, 465 256 38476, 467 256 38498, 467 258 38508</trace>
+  <trace id="1">468 231 39053, 466 231 39068, 465 232 39083, 463 232 39099, 462 234 39107, 461 235 39124, 460 236 39146, 459 237 39156, 458 238 39175, 457 239 39180, 456 240 39197, 456 241 39205, 454 242 39212, 454 243 39219, 453 244 39227, 452 245 39236, 451 246 39242, 450 247 39251, 449 248 39259, 448 250 39266, 447 251 39275, 447 252 39283, 445 253 39291, 445 254 39310, 444 255 39316, 443 256 39331, 442 257 39347, 441 258 39381</trace>
+  <trace id="2">487 214 40068, 488 214 40219, 489 214 40227, 490 214 40242, 491 214 40267, 492 214 40291, 493 214 40306, 494 216 40499, 493 218 40564, 492 220 40604, 491 221 40619, 491 222 40638, 491 223 40645, 489 223 40650, 489 224 40668, 489 225 40691, 487 225 40700, 488 226 40923, 489 226 40947, 490 226 40956, 492 226 40973, 494 227 41059</trace>
+  <traceGroup xml:id="3">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="4">
+      <annotation type="truth">x</annotation>
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+      <annotationXML href="x_1" />
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

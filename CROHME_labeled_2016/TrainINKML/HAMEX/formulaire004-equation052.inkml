@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$t \rightarrow \infty$</annotation>
+<annotation type="UI">2011_IVC_depart_F004_E052</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart004</annotation>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="t_1">t</mi>
+			<mrow>
+				<mo xml:id="\rightarrow_1">\rightarrow</mo>
+				<mi xml:id="\infty_1">\infty</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+10.0914 20.5284, 10.0834 20.5324, 10.0553 20.5845, 9.98309 20.6889, 9.91487 20.8373, 9.88277 20.9657, 9.89882 21.0219, 9.93494 21.05, 10.0152 21.062, 10.1396 21.054, 10.2559 21.0018
+</trace>
+<trace id="1">
+9.90685 20.8052, 9.9229 20.8012, 9.93895 20.8092, 9.955 20.8052, 10.0312 20.8213, 10.2118 20.8173
+</trace>
+<trace id="2">
+10.7816 20.8173, 10.8779 20.8293, 11.0504 20.8173, 11.239 20.8052, 11.3714 20.8052
+</trace>
+<trace id="3">
+11.243 20.6889, 11.2791 20.6768, 11.3233 20.6728, 11.4356 20.6808, 11.56 20.721, 11.6282 20.7611, 11.6322 20.7811, 11.5841 20.8173, 11.4838 20.8895, 11.3433 20.9416, 11.2671 20.9697
+</trace>
+<trace id="4">
+12.3665 20.6768, 12.2943 20.725, 12.1579 20.749, 12.0495 20.7531, 11.9893 20.741, 11.9572 20.6889, 11.9933 20.6247, 12.0535 20.5765, 12.1298 20.5605, 12.214 20.6126, 12.2782 20.7129, 12.2983 20.8173, 12.3103 20.9055, 12.3304 20.9657, 12.3424 20.9858, 12.3585 20.9778, 12.4267 20.9657, 12.519 20.9055, 12.5631 20.8213, 12.5752 20.729, 12.5431 20.6568, 12.4869 20.6247, 12.4387 20.6367, 12.3785 20.6648, 12.3304 20.7169, 12.3304 20.7571
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="\infty_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\rightarrow</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\rightarrow_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

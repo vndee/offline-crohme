@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200926-1617-82.ink"</annotation>
+<annotation type="truth"> { \lambda + 6 } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">\lambda</mi>
+            <mrow>
+                <mo xml:id="2:3:">+</mo>
+                <mn xml:id="4:">6</mn>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+8190 9684, 8193 9684, 8207 9692, 8238 9720, 8269 9751, 8314 9799, 8356 9846, 8409 9916, 8459 9989, 8510 10076, 8554 10163, 8596 10255, 8630 10342, 8655 10420, 8678 10493, 8694 10552, 8706 10599, 8711 10625, 8720 10644, 8722 10647, 8720 10630, 8720 10602, 8714 10560
+</trace>
+
+<trace id="1">
+8720 10020, 8717 10031, 8703 10051, 8678 10084, 8647 10135, 8596 10191, 8546 10263, 8487 10339, 8434 10417, 8378 10493, 8330 10563, 8297 10630, 8269 10684, 8255 10717, 8252 10740, 8258 10748
+</trace>
+
+<trace id="2">
+9350 10305, 9344 10303, 9350 10300, 9364 10305, 9378 10303, 9408 10314, 9439 10311, 9490 10319, 9537 10319, 9599 10322, 9658 10319, 9722 10317, 9781 10311, 9834 10303, 9884 10303, 9918 10291, 9940 10280, 9957 10272, 9954 10258
+</trace>
+
+<trace id="3">
+9747 10009, 9747 10028, 9742 10056, 9733 10093, 9730 10151, 9716 10213, 9705 10289, 9688 10367, 9677 10445, 9669 10518, 9663 10580, 9666 10627, 9680 10658, 9702 10664
+</trace>
+
+<trace id="4">
+10892 9835, 10901 9804, 10906 9782, 10906 9768, 10892 9757, 10878 9765, 10842 9782, 10806 9815, 10752 9860, 10696 9922, 10632 9997, 10568 10084, 10509 10177, 10456 10275, 10416 10367, 10394 10454, 10388 10529, 10402 10591, 10436 10636, 10492 10664, 10554 10669, 10621 10664, 10694 10644, 10755 10619, 10806 10583, 10842 10546, 10862 10510, 10856 10482, 10828 10462, 10783 10451, 10730 10451, 10671 10457, 10615 10479, 10559 10510, 10503 10541, 10461 10574, 10428 10608
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\lambda</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">6</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

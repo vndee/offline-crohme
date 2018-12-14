@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">517</annotation>
+<annotation type="truth">$\sum b_n$</annotation>
+<annotation type="UI">IVC_2014_F517_E406</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="sum_1">sum</mo>
+			<msub>
+				<mi xml:id="b_1">b</mi>
+				<mi xml:id="n_1">n</mi>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+643 119, 634 118, 631 119, 626 120, 621 122, 617 124, 613 125, 608 127, 604 129, 601 131, 597 133, 594 135, 592 137, 590 139, 589 141, 588 142, 587 144, 587 145, 587 147, 588 148, 590 150, 592 151, 595 152, 598 153, 600 154, 603 155, 605 156, 607 156, 608 156, 609 156, 610 156, 610 157, 609 157, 608 158, 607 159, 604 161, 600 162, 596 164, 593 166, 589 168, 585 171, 580 174, 576 176, 572 180, 569 183, 566 186, 563 189, 560 192, 558 196, 556 200, 555 203, 554 206, 554 210, 555 213, 556 216, 559 219, 561 222, 564 225, 568 227, 573 228, 578 229, 584 230, 590 231, 596 231, 604 231, 611 231, 618 230, 626 230, 633 229, 640 228, 647 227, 654 226, 659 226, 664 225, 669 224, 674 223, 675 223
+</trace>
+<trace id="1">
+695 147, 694 149, 694 154, 694 160, 693 166, 692 172, 692 178, 692 184, 691 189, 691 194, 691 199, 691 203, 691 206, 691 209, 691 211, 692 212, 692 213, 692 212, 694 210, 696 207, 698 204, 702 200, 705 197, 707 194, 710 192, 712 190, 715 189, 718 189, 720 189, 722 189, 724 190, 725 193, 726 195, 726 198, 726 201, 725 204, 724 207, 722 209, 719 212, 717 214, 713 216, 709 217, 705 219, 701 219, 698 220, 696 220, 694 220, 692 219, 691 219, 690 218
+</trace>
+<trace id="2">
+743 224, 744 233, 743 235, 743 237, 743 238, 743 239, 744 237, 744 234, 746 231, 747 228, 749 225, 751 223, 752 221, 753 220, 754 219, 755 219, 756 219, 757 219, 759 219, 760 221, 761 224, 762 226, 763 229, 763 232, 763 236, 764 239, 764 242, 764 244, 764 247, 764 249, 765 249
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

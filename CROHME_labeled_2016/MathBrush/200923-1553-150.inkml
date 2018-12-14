@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1553-150.ink"</annotation>
+<annotation type="truth"> \lambda </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:">\lambda</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+12927 10185, 12924 10187, 12925 10200, 12912 10209, 12896 10226, 12876 10253, 12849 10283, 12820 10321, 12785 10364, 12748 10412, 12706 10463, 12665 10516, 12623 10566, 12584 10612, 12550 10653, 12522 10686, 12502 10711, 12489 10726, 12484 10730, 12488 10730, 12494 10717
+</trace>
+
+<trace id="1">
+12617 9989, 12624 9966, 12621 9942, 12627 9932, 12631 9932, 12638 9942, 12652 9962, 12668 9989, 12693 10027, 12721 10068, 12757 10122, 12792 10178, 12833 10238, 12872 10298, 12914 10359, 12958 10417, 13000 10473, 13041 10529, 13079 10579, 13118 10630, 13155 10680, 13184 10728, 13213 10777, 13228 10820
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\lambda</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

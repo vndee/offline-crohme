@@ -1,0 +1,82 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">503</annotation>
+<annotation type="truth">$\sin \phi + c$</annotation>
+<annotation type="UI">IVC_2014_F503_E29</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">sin</mi>
+			<mrow>
+				<mi xml:id="phi_1">phi</mi>
+				<mrow>
+					<mo xml:id="+_1">+</mo>
+					<mi xml:id="c_1">c</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+200 154, 200 153, 198 151, 194 152, 192 154, 190 156, 189 160, 190 162, 192 165, 194 167, 196 170, 199 174, 201 177, 202 185, 202 189, 200 193, 198 197, 195 201, 192 204, 188 206, 185 208, 181 210, 178 211, 176 211, 175 211
+</trace>
+<trace id="1">
+222 163, 222 170, 222 175, 224 189, 224 192, 225 195, 225 197, 225 198
+</trace>
+<trace id="2">
+222 146
+</trace>
+<trace id="3">
+247 178, 247 179, 248 187, 248 190, 248 191, 248 190, 248 189, 248 188, 250 178, 251 175, 252 172, 254 170, 256 168, 258 167, 261 167, 263 167, 265 169, 266 171, 268 180, 267 184, 267 188, 266 193, 266 194, 267 193, 268 189, 268 188, 268 187
+</trace>
+<trace id="4">
+334 167, 335 165, 332 165, 329 166, 326 168, 323 170, 320 174, 318 178, 315 191, 316 195, 319 197, 322 199, 327 199, 331 198, 336 197, 341 194, 345 191, 348 187, 350 183, 350 177, 348 174, 346 172, 343 170, 338 168, 336 168, 334 168
+</trace>
+<trace id="5">
+341 138, 339 143, 335 163, 334 170, 333 178, 331 194, 330 202, 328 211, 327 219, 323 235, 322 242, 321 249, 320 255, 320 257
+</trace>
+<trace id="6">
+405 172, 405 171, 406 176, 405 179, 405 183, 405 187, 404 191, 404 194, 404 197, 404 199, 404 201, 404 200
+</trace>
+<trace id="7">
+391 181, 392 181, 401 182, 406 182, 411 182, 416 183, 420 183, 425 183, 429 183, 430 184
+</trace>
+<trace id="8">
+482 171, 479 170, 477 170, 475 170, 472 170, 469 171, 466 172, 463 174, 457 179, 456 182, 455 185, 459 192, 463 195, 468 197, 473 198, 478 199, 483 200, 488 201, 492 202, 494 202
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="phi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

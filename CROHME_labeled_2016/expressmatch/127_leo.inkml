@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_leo</annotation>
+<annotation type="writer">leo</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+214 81, 214 74, 216 72, 217 71, 229 114, 229 118, 228 123, 228 117, 230 95, 234 80, 238 76, 248 76, 249 78, 253 98, 253 106, 253 118, 253 120, 253 121, 253 119, 255 117
+</trace>
+<trace id="1">
+282 52, 283 51, 284 65, 284 92, 285 95, 285 94, 286 93, 287 93
+</trace>
+<trace id="2">
+282 125, 282 124, 283 123
+</trace>
+<trace id="3">
+316 93, 313 93, 317 95, 326 96, 359 94, 352 94
+</trace>
+<trace id="4">
+388 79, 402 71, 410 57, 411 53, 410 53, 410 57, 411 74, 412 90, 413 102, 415 107, 416 114, 415 114, 411 114, 409 114, 399 113, 395 113, 392 114, 394 114, 397 113, 409 111, 413 111, 426 110, 430 109, 435 109, 435 110, 434 110, 433 110
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

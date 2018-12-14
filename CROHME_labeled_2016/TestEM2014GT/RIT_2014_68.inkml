@@ -1,0 +1,114 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ e ^ {- t} \cos 2 ^ {t} $</annotation>
+<annotation type="writer">annot_270</annotation>
+<annotation type="UI">2014_RIT_CROHME_68</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <msup>
+                <mi xml:id="50:">e</mi>
+                <mrow >
+                    <mo  xml:id = "51:" >-</mo>
+                    <mi  xml:id = "52:53:" >t</mi>
+                </mrow>
+            </msup>
+            <mrow >
+                <mi  xml:id = "54:55:56:" >\cos</mi>
+                <msup >
+                    <mn  xml:id = "57:" >2</mn>
+                    <mi  xml:id = "58:59:" >t</mi>
+                </msup>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+196 218, 199 220, 205 223, 213 225, 222 226, 230 226, 237 225, 243 221, 247 213, 249 204, 249 196, 246 185, 239 178, 231 174, 218 173, 203 174, 186 184, 173 194, 163 208, 159 219, 159 233, 163 246, 173 258, 186 267, 198 272, 211 272, 225 272, 237 271, 251 264
+</trace>
+
+<trace  id = "1" >
+252 157, 256 157, 263 157, 270 157, 278 157, 286 157, 295 157
+</trace>
+
+<trace  id = "2" >
+309 136, 311 139, 317 139, 322 139, 327 139, 332 139, 336 139, 339 139, 340 139
+</trace>
+
+<trace  id = "3" >
+325 124, 325 126, 325 132, 322 140, 319 149, 316 158, 316 165, 316 172, 318 179, 325 184
+</trace>
+
+<trace  id = "4" >
+412 197, 409 191, 405 191, 398 191, 390 194, 382 201, 375 210, 368 218, 364 226, 362 234, 361 241, 361 247, 365 251, 370 253, 375 254, 382 254, 388 254, 394 254, 398 253, 400 253
+</trace>
+
+<trace  id = "5" >
+446 216, 436 219, 433 222, 430 227, 429 234, 429 240, 430 245, 435 248, 441 249, 449 249, 455 245, 459 238, 461 230, 461 223, 461 216, 459 211, 453 209, 445 209, 438 209, 433 214, 429 220, 428 225
+</trace>
+
+<trace  id = "6" >
+530 193, 524 194, 517 194, 510 195, 501 198, 493 201, 485 207, 480 212, 476 216, 476 219, 476 223, 481 225, 490 227, 500 228, 509 230, 515 234, 519 237, 519 241, 518 246, 507 252, 492 257, 480 259, 468 261, 459 261, 453 261, 451 261
+</trace>
+
+<trace  id = "7" >
+567 182, 571 178, 579 176, 589 175, 599 175, 608 175, 614 178, 618 184, 619 190, 619 198, 616 207, 609 215, 599 222, 589 228, 581 231, 575 233, 571 233, 568 233, 567 233, 567 230, 570 228, 579 227, 588 227, 600 228, 610 234, 619 240, 627 245, 635 247, 644 249
+</trace>
+
+<trace  id = "8" >
+636 176, 638 176, 645 177, 654 178, 665 179, 678 179, 688 179, 696 179, 702 179, 707 179, 710 179, 711 179
+</trace>
+
+<trace  id = "9" >
+670 160, 669 160, 669 166, 669 173, 670 184, 673 194, 674 204, 675 211, 676 218, 678 223, 683 226
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="50:">
+        <annotation type="truth">e</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="50:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="51:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="51:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="52:53:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="52:53:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="54:55:56:">
+        <annotation type="truth">\cos</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="54:55:56:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="57:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="57:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="58:59:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="8"/>
+        <traceView traceDataRef="9"/>
+        <annotationXML href="58:59:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

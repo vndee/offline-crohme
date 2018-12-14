@@ -1,0 +1,33 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"2009213-137-132.ink"</annotation>
+<annotation type="truth"> \mbox { H } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:2:">H</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+18156 3072, 18153 3089, 18153 3122, 18156 3173, 18164 3240, 18170 3318, 18178 3408, 18187 3506, 18195 3607, 18201 3705, 18206 3795, 18212 3867, 18215 3926, 18217 3974, 18220 4007, 18220 4019
+</trace>
+
+<trace id="1">
+18192 3590, 18201 3587, 18215 3582, 18240 3573, 18273 3565, 18315 3554, 18366 3545, 18416 3531, 18472 3523, 18526 3514, 18579 3509, 18626 3503, 18671 3500, 18705 3498, 18738 3498, 18761 3498, 18783 3500, 18803 3503, 18817 3506, 18831 3514, 18836 3517, 18842 3517, 18853 3520
+</trace>
+
+<trace id="2">
+18982 2750, 18974 2747, 18971 2764, 18968 2798, 18962 2848, 18962 2915, 18962 2999, 18965 3103, 18965 3212, 18971 3330, 18971 3447, 18974 3568, 18974 3680, 18974 3789, 18971 3884, 18968 3968, 18968 4038, 18965 4100, 18965 4147, 18965 4184, 18965 4209, 18968 4226, 18968 4237, 18968 4237, 18971 4240, 18971 4237, 18968 4229, 18971 4226, 18968 4220
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:2:">
+        <annotation type="truth">H</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="0:1:2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

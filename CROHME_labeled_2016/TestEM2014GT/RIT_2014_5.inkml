@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \frac {m} {m m} $</annotation>
+<annotation type="writer">annot_200</annotation>
+<annotation type="UI">2014_RIT_CROHME_5</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="1:">
+            <mi xml:id="0:">m</mi>
+            <mrow >
+                <mi  xml:id = "2:" >m</mi>
+                <mi  xml:id = "3:" >m</mi>
+            </mrow>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+435 161, 434 165, 434 171, 433 182, 433 191, 432 201, 431 206, 430 209, 430 211, 429 211, 428 211, 428 207, 428 197, 432 183, 437 175, 444 166, 450 162, 457 159, 464 158, 472 158, 479 161, 484 167, 487 178, 489 186, 491 193, 492 197, 493 200, 493 201, 493 198, 498 183, 504 169, 511 159, 518 151, 525 148, 532 146, 539 146, 547 151, 552 160, 554 170, 556 185, 557 200, 559 220
+</trace>
+
+<trace  id = "1" >
+385 253, 389 253, 396 253, 408 253, 427 253, 449 255, 473 256, 502 257, 524 257, 547 257, 567 257, 585 256, 596 255, 606 255, 612 255, 612 258
+</trace>
+
+<trace  id = "2" >
+395 295, 389 307, 389 313, 389 319, 389 324, 388 327, 388 329, 388 326, 389 319, 391 312, 394 308, 399 304, 403 301, 407 298, 412 297, 416 297, 420 297, 423 301, 425 306, 426 310, 427 313, 428 316, 429 316, 430 313, 432 309, 435 305, 440 302, 445 299, 450 297, 454 297, 458 297, 460 297, 463 302, 464 311, 465 319, 468 329, 470 341
+</trace>
+
+<trace  id = "3" >
+510 317, 510 322, 510 318, 510 313, 510 307, 512 302, 516 296, 519 292, 523 290, 526 288, 529 287, 532 287, 534 290, 536 293, 537 299, 537 305, 538 310, 538 314, 538 316, 538 317, 539 317, 540 316, 542 309, 548 301, 554 292, 560 287, 566 285, 571 283, 577 283, 582 287, 586 294, 587 302, 588 312, 589 322, 590 341
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

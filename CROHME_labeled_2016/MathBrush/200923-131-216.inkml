@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-216.ink"</annotation>
+<annotation type="truth"> { \mbox { a } + \pi } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:">a</mi>
+            <mrow>
+                <mo xml:id="1:2:">+</mo>
+                <mi xml:id="3:4:5:">\pi</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5703 4157, 5706 4150, 5701 4139, 5700 4126, 5693 4118, 5686 4113, 5674 4114, 5658 4120, 5636 4137, 5611 4160, 5581 4196, 5547 4237, 5517 4288, 5486 4339, 5464 4391, 5445 4438, 5438 4479, 5440 4510, 5457 4530, 5482 4535, 5512 4527, 5548 4509, 5586 4481, 5625 4444, 5659 4402, 5691 4359, 5716 4312, 5735 4270, 5747 4233, 5754 4201, 5756 4178, 5756 4161, 5754 4155, 5749 4159, 5747 4178, 5747 4203, 5750 4237, 5758 4278, 5768 4322, 5782 4366, 5801 4408, 5823 4445, 5849 4475, 5875 4490, 5908 4498, 5937 4490
+</trace>
+
+<trace id="1">
+6218 4074, 6225 4078, 6224 4087, 6228 4110, 6226 4143, 6227 4179, 6233 4224, 6239 4273, 6246 4320, 6255 4365, 6264 4409, 6268 4439, 6273 4464
+</trace>
+
+<trace id="2">
+6072 4268, 6083 4256, 6098 4248, 6120 4246, 6153 4244, 6190 4242, 6233 4242, 6280 4235, 6333 4233, 6384 4224
+</trace>
+
+<trace id="3">
+7011 4014, 6997 4024, 6989 4048, 6976 4076, 6974 4112, 6973 4157, 6970 4205, 6970 4258, 6972 4307, 6975 4352, 6980 4390, 6988 4420, 6990 4431, 7000 4434, 7004 4421
+</trace>
+
+<trace id="4">
+7147 4023, 7152 4032, 7148 4044, 7151 4063, 7153 4092, 7156 4124, 7163 4163, 7168 4205, 7175 4252, 7180 4298, 7185 4342, 7193 4382, 7196 4416, 7198 4445, 7201 4469, 7196 4479, 7197 4487, 7188 4479
+</trace>
+
+<trace id="5">
+6837 4024, 6832 4025, 6833 4021, 6849 4018, 6877 4013, 6917 4002, 6975 3996, 7037 3988, 7105 3982, 7175 3978, 7242 3980, 7293 3980, 7338 3986, 7363 3988
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:5:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="3:4:5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

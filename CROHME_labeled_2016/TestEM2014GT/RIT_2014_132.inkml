@@ -1,0 +1,52 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ 1 m $</annotation>
+<annotation type="writer">annot_115</annotation>
+<annotation type="UI">2014_RIT_CROHME_132</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="27:28:29:">1</mn>
+            <mi  xml:id = "30:" >m</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+422 151, 422 164, 422 174, 422 193, 423 212, 425 233, 425 252, 427 269, 427 280, 428 288, 429 295, 429 297, 429 298, 429 297
+</trace>
+
+<trace  id = "1" >
+424 160, 421 162, 415 166, 408 172, 402 179, 397 185, 393 190, 390 195, 389 198, 388 202
+</trace>
+
+<trace  id = "2" >
+390 294, 393 293, 402 291, 415 288, 429 285, 443 284, 451 284, 456 283, 459 283, 460 283
+</trace>
+
+<trace  id = "3" >
+482 226, 484 228, 484 234, 484 243, 484 253, 484 264, 484 270, 484 273, 484 276, 484 270, 485 259, 488 252, 493 241, 497 236, 499 232, 500 231, 505 231, 508 232, 511 238, 513 246, 514 253, 515 260, 515 265, 515 267, 515 268, 515 263, 517 255, 522 244, 528 235, 533 229, 537 225, 540 223, 546 223, 553 223, 558 228, 562 237, 563 246, 565 255, 566 265, 569 272, 574 274, 588 274, 601 268
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="27:28:29:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="27:28:29:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="30:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="30:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

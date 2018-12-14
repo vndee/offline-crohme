@@ -1,0 +1,130 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sin(x)=\sin(y)$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F478_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL478</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">\sin</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="x_1">x</mi>
+					<mrow>
+						<mo xml:id=")_1">)</mo>
+						<mrow>
+							<mo xml:id="=_1">=</mo>
+							<mrow>
+								<mi xml:id="sin_2">\sin</mi>
+								<mrow>
+									<mo xml:id="(_2">(</mo>
+									<mrow>
+										<mi xml:id="y_1">y</mi>
+										<mo xml:id=")_2">)</mo>
+									</mrow>
+								</mrow>
+							</mrow>
+						</mrow>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2027 1746, 2027 1746, 2038 1743, 2062 1728, 2095 1697, 2105 1683, 2108 1672, 2106 1660, 2105 1659, 2109 1688, 2131 1737, 2126 1741, 2114 1741, 2057 1731, 2099 1736, 2121 1733, 2133 1725, 2149 1706, 2149 1691, 2151 1733, 2158 1743, 2164 1744, 2182 1728, 2191 1712, 2205 1698, 2210 1707, 2211 1730, 2247 1700, 2251 1708, 2250 1732, 2258 1738, 2274 1740, 2288 1741, 2306 1735, 2331 1713
+</trace>
+<trace id="1">
+2166 1628, 2166 1628, 2168 1614, 2172 1594, 2177 1585
+</trace>
+<trace id="2">
+2441 1581, 2441 1581, 2432 1591, 2396 1657, 2382 1702, 2377 1743, 2382 1774, 2406 1810, 2416 1816, 2424 1814, 2430 1805
+</trace>
+<trace id="3">
+2440 1698, 2440 1698, 2445 1692, 2456 1686, 2479 1682, 2487 1688, 2491 1700, 2490 1716, 2464 1742, 2451 1748, 2444 1748, 2445 1741
+</trace>
+<trace id="4">
+2530 1689, 2530 1689, 2527 1689, 2522 1691, 2512 1699, 2505 1712, 2503 1725, 2509 1733, 2535 1740, 2549 1734, 2561 1725, 2568 1715
+</trace>
+<trace id="5">
+2577 1579, 2577 1579, 2577 1579, 2580 1583, 2587 1594, 2607 1642, 2617 1678, 2618 1717, 2607 1753, 2587 1787, 2564 1814, 2542 1832, 2533 1838, 2533 1835
+</trace>
+<trace id="6">
+2676 1710, 2676 1710, 2679 1708, 2737 1700, 2743 1698, 2748 1693
+</trace>
+<trace id="7">
+2661 1756, 2661 1756, 2664 1755, 2674 1753, 2736 1746
+</trace>
+<trace id="8">
+2798 1751, 2798 1751, 2805 1745, 2814 1737, 2836 1710, 2843 1698, 2846 1683, 2850 1708, 2866 1726, 2869 1732, 2867 1738, 2841 1750, 2809 1749, 2805 1747, 2854 1736, 2873 1725, 2888 1702, 2893 1726, 2905 1735, 2919 1732, 2951 1707, 2957 1714, 2959 1730, 2987 1703, 2992 1710, 2994 1730, 3006 1740, 3026 1740, 3041 1727
+</trace>
+<trace id="9">
+2892 1626, 2892 1626, 2891 1620, 2893 1615, 2898 1613
+</trace>
+<trace id="10">
+3097 1738, 3097 1738, 3100 1734, 3142 1692, 3154 1682, 3149 1719, 3156 1729, 3164 1731, 3176 1724, 3190 1709, 3198 1693, 3199 1680, 3196 1676, 3191 1691, 3192 1713, 3198 1733, 3222 1770, 3221 1785, 3208 1801, 3183 1812, 3154 1820, 3133 1820, 3125 1817, 3131 1810, 3205 1759, 3303 1700, 3326 1683, 3329 1676, 3321 1674
+</trace>
+<trace id="11">
+3100 1599, 3100 1599, 3087 1617, 3074 1651, 3064 1696, 3061 1746, 3069 1783, 3085 1807, 3101 1823, 3119 1829
+</trace>
+<trace id="12">
+3300 1590, 3300 1590, 3303 1591, 3307 1600, 3320 1653, 3319 1699, 3313 1748, 3279 1848
+</trace>
+<traceGroup xml:id="13">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="sin_2"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="21">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="11"/>
+		<annotationXML href="(_2"/>
+	</traceGroup>
+	<traceGroup xml:id="22">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="12"/>
+		<annotationXML href=")_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

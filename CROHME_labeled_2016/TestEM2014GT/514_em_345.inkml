@@ -1,0 +1,86 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">514</annotation>
+<annotation type="truth">$\frac{\pm \infty}{\pm \infty}$</annotation>
+<annotation type="UI">IVC_2014_F514_E345</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mrow>
+				<mo xml:id="pm_1">pm</mo>
+				<mi xml:id="\infty_1">\infty</mi>
+			</mrow>
+			<mrow>
+				<mo xml:id="pm_2">pm</mo>
+				<mi xml:id="\infty_2">\infty</mi>
+			</mrow>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+480 118, 479 127, 479 130, 479 132, 478 133, 478 135, 477 138, 477 139, 477 141, 477 142
+</trace>
+<trace id="1">
+464 131, 476 130, 478 131, 479 131, 481 132, 484 132
+</trace>
+<trace id="2">
+454 158, 476 156, 479 156, 482 156, 485 156, 488 156
+</trace>
+<trace id="3">
+560 131, 550 139, 548 141, 545 142, 541 144, 537 145, 534 145, 530 146, 527 146, 525 145, 523 144, 521 143, 519 142, 518 141, 517 139, 517 138, 518 137, 519 137, 520 136, 521 136, 523 136, 525 136, 528 136, 531 136, 534 137, 537 138, 540 140, 543 142, 546 144, 549 145, 552 147, 556 149, 559 150, 561 152, 564 153, 568 153, 571 153, 574 152, 577 151, 580 150, 582 148, 584 145, 585 142, 586 140, 586 138, 586 137, 586 135, 585 133, 583 132, 581 131, 577 131, 573 132, 569 133, 565 134, 560 134, 559 135
+</trace>
+<trace id="4">
+455 185, 476 182, 481 182, 487 182, 492 181, 498 181, 504 180, 511 179, 518 178, 526 178, 533 177, 541 176, 549 176, 556 176, 564 175, 572 175, 579 175, 586 175, 592 175, 598 175, 603 175, 608 175, 612 175, 615 176, 616 176
+</trace>
+<trace id="5">
+496 193, 494 201, 493 203, 493 206, 493 208, 492 210, 492 212, 492 214, 492 215, 492 216, 492 217
+</trace>
+<trace id="6">
+481 210, 507 207, 508 207
+</trace>
+<trace id="7">
+574 209, 557 222, 554 224, 550 225, 547 226, 544 227, 540 227, 537 227, 534 227, 531 226, 529 225, 528 223, 527 222, 527 220, 528 218, 530 216, 531 215, 533 213, 536 212, 539 212, 541 212, 544 212, 548 212, 551 213, 555 214, 558 215, 561 217, 564 219, 567 221, 569 223, 572 225, 574 226, 577 228, 579 229, 581 230, 583 231, 585 231, 586 231, 589 230, 592 229, 594 228, 596 226, 598 224, 600 222, 601 220, 602 218, 603 216, 603 214, 603 213, 603 211, 601 210, 600 208, 597 207, 594 207, 591 206, 588 206, 584 206, 580 207, 577 207, 576 208
+</trace>
+<trace id="8">
+475 240, 474 240, 474 239, 475 239, 476 239, 477 239, 478 239, 479 239, 480 239, 482 239, 483 239, 485 239, 486 239, 487 239, 489 239, 490 238, 491 238
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\infty_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="\infty_2"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\pm</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="pm_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\pm</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="pm_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

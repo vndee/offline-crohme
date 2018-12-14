@@ -1,0 +1,71 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ - \sin x $</annotation>
+<annotation type="writer">4235.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4235_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="3:">-</mo>
+            <mrow>
+                <mi xml:id="4:5:6:7:">\sin</mi>
+                <mi xml:id="8:9:">x</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+288 246, 291 246, 299 245, 302 245, 306 245, 309 245, 312 245, 315 244, 317 244, 321 243, 323 242, 325 242, 328 242, 330 242, 332 242, 333 242, 335 242, 336 242, 337 242, 338 242
+</trace>
+
+<trace id="1">
+413 226, 410 225, 403 226, 400 227, 398 229, 395 231, 393 234, 391 236, 390 238, 390 240, 390 241, 390 242, 390 243, 390 245, 391 246, 394 247, 396 249, 399 251, 402 254, 405 256, 408 258, 410 261, 412 262, 414 264, 415 265, 415 267, 416 269, 417 271, 417 273, 417 275, 417 276, 416 279, 414 280, 412 282, 409 283, 405 285, 401 286, 398 287, 394 288, 390 289, 385 290, 383 291, 381 292
+</trace>
+
+<trace id="2">
+453 224, 453 227, 453 239, 453 249, 453 254, 453 256, 453 261, 453 262, 453 265, 453 266, 453 268, 453 269, 453 270, 453 271, 453 272, 453 273, 452 273
+</trace>
+
+<trace id="3">
+450 168, 451 162, 451 161, 451 162, 451 163, 450 164, 449 164, 448 165, 447 165
+</trace>
+
+<trace id="4">
+485 284, 484 283, 485 261, 485 255, 486 251, 486 247, 487 244, 487 241, 488 236, 489 234, 490 231, 490 230, 490 229, 490 231, 490 234, 490 238, 489 241, 489 246, 488 251, 487 255, 487 257, 486 258, 485 259, 485 260, 484 260, 484 258, 486 254, 487 250, 490 243, 492 238, 495 234, 497 231, 501 227, 504 226, 506 224, 510 224, 513 224, 516 224, 519 227, 521 231, 523 236, 525 241, 526 245, 526 250, 526 256, 526 260, 526 264, 526 267, 526 269, 525 270, 525 271, 525 272, 524 273
+</trace>
+
+<trace id="5">
+579 264, 584 257, 609 219, 613 214, 616 211, 618 209, 619 207, 620 207
+</trace>
+
+<trace id="6">
+569 207, 574 208, 603 231, 607 235, 611 240, 615 243, 618 246, 619 248, 621 249, 622 251, 623 251, 623 253, 624 254, 624 255, 625 256
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:5:6:7:">
+        <annotation type="truth">\sin</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:5:6:7:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:9:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="8:9:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

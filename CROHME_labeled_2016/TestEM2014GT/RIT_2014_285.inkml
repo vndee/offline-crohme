@@ -1,0 +1,91 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ m i l l i $</annotation>
+<annotation type="writer">annot_170</annotation>
+<annotation type="UI">2014_RIT_CROHME_285</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:">m</mi>
+            <mrow >
+                <mi  xml:id = "1:3:" >i</mi>
+                <mrow >
+                    <mi  xml:id = "4:" >l</mi>
+                    <mrow >
+                        <mi  xml:id = "5:" >l</mi>
+                        <mi  xml:id = "6:7:" >i</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+208 226, 209 232, 209 240, 209 248, 209 257, 209 267, 209 274, 208 279, 206 282, 205 283, 204 283, 204 276, 204 265, 207 253, 211 242, 216 231, 221 224, 227 219, 233 217, 238 217, 242 218, 245 223, 246 231, 246 239, 245 247, 243 252, 242 255, 240 256, 240 254, 240 246, 243 235, 247 227, 252 221, 258 216, 263 213, 267 213, 272 213, 275 215, 277 220, 277 229, 277 238, 277 244, 277 252, 277 257, 277 262, 276 265, 276 266, 277 266, 281 260
+</trace>
+
+<trace  id = "1" >
+309 213, 309 218, 309 225, 308 238, 307 246, 305 255, 303 261, 302 266, 301 269, 300 269
+</trace>
+
+<trace  id = "2" >
+311 187, 313 186, 313 187, 310 189, 307 189, 305 189, 303 189
+</trace>
+
+<trace  id = "3" >
+347 165, 348 170, 348 178, 347 188, 345 199, 342 212, 339 225, 335 238, 332 249, 330 257, 330 262, 329 264
+</trace>
+
+<trace  id = "4" >
+373 163, 373 167, 373 174, 373 187, 371 199, 368 211, 365 223, 361 236, 359 245, 357 254, 357 260, 357 263
+</trace>
+
+<trace  id = "5" >
+410 207, 409 212, 409 218, 408 226, 405 237, 403 244, 400 250, 397 255, 394 256
+</trace>
+
+<trace  id = "6" >
+410 179, 405 180, 403 181, 402 182, 403 182, 407 180, 409 179, 410 178
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">m</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:3:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">l</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">l</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:7:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="6:7:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

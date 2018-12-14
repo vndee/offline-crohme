@@ -1,0 +1,91 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ 44 - \frac {4} {4} $</annotation>
+<annotation type="writer">annot_75</annotation>
+<annotation type="UI">2014_RIT_CROHME_152</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="41:">4</mn>
+            <mrow >
+                <mn  xml:id = "42:" >4</mn>
+                <mrow >
+                    <mo  xml:id = "43:" >-</mo>
+                    <mfrac  xml:id = "45:" >
+                        <mn  xml:id = "44:" >4</mn>
+                        <mn  xml:id = "46:" >4</mn>
+                    </mfrac>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+390 95, 387 106, 384 114, 378 127, 372 140, 366 155, 360 169, 356 181, 353 193, 353 202, 353 210, 361 216, 373 219, 391 219, 408 219, 425 215, 439 209, 447 205, 453 201, 457 197, 459 190, 461 185, 461 181, 461 176, 461 171, 461 167, 461 164, 461 163, 461 166, 461 175, 461 188, 460 202, 460 218, 460 236, 461 249, 463 264, 465 277, 467 286, 467 293, 468 296, 468 297, 471 295
+</trace>
+
+<trace  id = "1" >
+530 102, 528 109, 526 117, 521 128, 515 142, 510 152, 505 163, 501 173, 499 181, 498 187, 498 193, 499 199, 506 202, 518 205, 532 205, 551 205, 566 202, 578 199, 585 195, 592 190, 596 185, 599 181, 599 176, 599 170, 599 165, 597 160, 595 155, 594 152, 593 150, 592 150, 591 151, 591 157, 590 166, 589 180, 589 195, 588 211, 588 230, 588 244, 588 260, 589 271, 590 281, 590 288, 590 292, 591 293, 592 293, 600 284
+</trace>
+
+<trace  id = "2" >
+646 195, 646 199, 659 199, 672 199, 685 198, 695 197, 702 196, 707 195, 712 193, 717 192, 721 190, 723 187
+</trace>
+
+<trace  id = "3" >
+794 56, 793 60, 792 66, 788 71, 783 82, 777 92, 771 103, 766 114, 762 122, 760 131, 760 138, 760 143, 762 148, 771 151, 783 153, 792 153, 805 152, 816 149, 823 147, 829 142, 833 137, 835 132, 835 127, 835 121, 835 117, 833 112, 831 109, 830 108, 829 108, 828 108, 828 111, 828 119, 827 129, 827 142, 826 156, 826 167, 826 178, 826 188, 826 194, 826 198, 826 201, 826 202
+</trace>
+
+<trace  id = "4" >
+766 241, 768 240, 774 239, 784 237, 797 235, 814 232, 830 229, 846 227, 860 224, 872 223, 881 221, 886 220, 889 219, 890 218, 882 218
+</trace>
+
+<trace  id = "5" >
+808 240, 809 251, 809 259, 808 268, 805 280, 802 292, 798 303, 796 314, 795 322, 794 327, 794 329, 794 331, 799 331, 811 328, 823 323, 838 317, 848 312, 856 309, 860 307, 862 306, 864 305, 864 302, 864 298, 863 295, 862 291, 861 289, 861 287, 860 286, 859 289, 859 297, 857 309, 856 322, 855 335, 854 346, 854 356, 854 363, 854 370, 854 375, 856 378, 857 378
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="41:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="41:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="42:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="42:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="43:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="43:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="44:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="44:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="45:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="45:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="46:">
+        <annotation type="truth">4</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="46:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

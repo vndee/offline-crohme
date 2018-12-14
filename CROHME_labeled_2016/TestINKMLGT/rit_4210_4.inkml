@@ -1,0 +1,48 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {9} {7} $</annotation>
+<annotation type="writer">4210.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4210_4</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="33:">
+            <mn xml:id="32:">9</mn>
+            <mn xml:id="34:">7</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+472 121, 467 122, 439 156, 439 158, 440 160, 443 162, 445 163, 455 165, 458 165, 461 165, 463 165, 469 163, 471 162, 473 160, 477 155, 478 152, 481 145, 482 138, 483 132, 483 127, 483 125, 483 123, 483 121, 483 120, 482 120, 482 121, 482 123, 482 126, 482 129, 482 133, 482 143, 482 147, 482 156, 481 163, 481 171, 481 175, 481 178, 480 186, 480 188, 480 195, 480 201, 480 202, 480 205, 480 207, 480 210, 479 212, 479 213, 479 215, 478 216, 478 217
+</trace>
+
+<trace id="1">
+404 245, 406 244, 480 239, 487 238, 493 236, 500 236, 511 235, 521 234, 527 234, 532 234, 535 234, 537 234, 538 234
+</trace>
+
+<trace id="2">
+447 351, 448 348, 487 282, 487 281, 487 280, 486 280, 484 280, 482 278, 479 278, 477 277, 470 275, 464 274, 458 274, 454 274, 451 274, 448 274, 447 274, 445 274, 444 274, 443 274, 442 274, 442 275, 442 276, 442 279, 442 282, 442 284, 442 285, 442 286, 442 287
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="32:">
+        <annotation type="truth">9</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="32:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="33:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="33:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="34:">
+        <annotation type="truth">7</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="34:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

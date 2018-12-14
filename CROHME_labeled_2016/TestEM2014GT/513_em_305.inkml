@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">513</annotation>
+<annotation type="truth">$ \cos (\beta) $</annotation>
+<annotation type="UI">IVC_2014_F513_E305</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="cos_1">cos</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mi xml:id="beta_1">beta</mi>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+377 177, 378 174, 378 173, 379 171, 379 170, 379 169, 379 168, 379 167, 378 167, 377 166, 376 166, 375 166, 373 166, 370 166, 368 167, 364 168, 361 170, 357 172, 353 175, 349 178, 345 182, 342 187, 339 192, 336 197, 334 203, 332 208, 332 215, 332 221, 333 226, 335 230, 339 234, 344 236, 351 237, 358 238, 365 237, 374 235, 381 231, 389 227, 396 222, 402 217, 406 213, 410 208, 412 205, 413 202, 414 200, 415 198, 415 196, 416 195, 416 194, 416 195, 416 196, 416 197, 416 200, 416 203, 417 207, 418 211, 420 215, 423 219, 426 222, 429 225, 432 227, 435 229, 439 230, 442 230, 446 230, 450 229, 453 227, 456 224, 458 220, 459 216, 461 211, 461 207, 460 203, 459 199, 456 196, 451 193, 447 191, 441 189, 434 188, 428 188, 423 188, 417 189, 416 189
+</trace>
+<trace id="1">
+494 176, 467 186, 465 188, 464 190, 464 192, 465 194, 467 196, 470 198, 474 200, 478 202, 483 204, 488 206, 493 208, 497 211, 500 214, 502 216, 504 218, 505 220, 505 222, 505 224, 504 226, 502 227, 497 228, 492 229, 486 229, 479 229, 473 229, 468 228, 463 228, 460 226, 459 226
+</trace>
+<trace id="2">
+585 132, 576 140, 574 143, 571 148, 569 152, 566 158, 563 164, 560 172, 557 181, 554 190, 551 199, 549 210, 548 221, 547 232, 547 242, 547 252, 548 262, 551 271, 553 279, 556 286, 559 294, 563 300, 564 302
+</trace>
+<trace id="3">
+648 160, 646 184, 643 195, 641 206, 638 219, 635 232, 633 244, 632 256, 631 267, 630 276, 629 284, 628 290, 628 292
+</trace>
+<trace id="4">
+635 188, 629 162, 629 157, 629 152, 629 147, 631 141, 633 136, 635 131, 638 127, 641 124, 644 122, 649 120, 655 120, 661 121, 668 124, 674 127, 679 132, 682 137, 684 143, 685 149, 683 155, 680 161, 677 166, 673 170, 669 172, 666 174, 663 176, 660 176, 658 176, 656 176, 655 175, 655 174, 657 174, 660 174, 663 174, 667 175, 672 177, 677 180, 682 184, 687 189, 692 195, 696 202, 698 210, 699 217, 697 224, 694 229, 690 235, 684 240, 677 244, 670 246, 663 249, 657 250, 652 249, 650 249
+</trace>
+<trace id="5">
+735 114, 743 120, 745 125, 747 130, 749 137, 751 145, 752 155, 753 167, 753 179, 753 193, 752 208, 750 223, 746 238, 741 252, 737 265, 731 277, 725 288, 718 299, 710 308, 702 317, 693 325, 690 327
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

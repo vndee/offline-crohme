@@ -1,0 +1,115 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{\sqrt{3}}{2}+\frac{1}{2}i$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F352_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL352</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mfrac xml:id="_1">
+				<msqrt xml:id="_2">
+					<mn xml:id="3_1">3</mn>
+				</msqrt>
+				<mn xml:id="2_1">2</mn>
+			</mfrac>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mrow>
+					<mfrac xml:id="_3">
+						<mn xml:id="1_1">1</mn>
+						<mn xml:id="2_2">2</mn>
+					</mfrac>
+					<mi xml:id="i_1">i</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1833 1483, 1833 1483, 1832 1488, 1843 1538, 1850 1650, 1858 1669, 1868 1645, 1878 1605, 1885 1554, 1887 1432, 1914 1439, 2034 1444, 2098 1440, 2116 1437, 2123 1433, 2120 1430
+</trace>
+<trace id="1">
+1965 1538, 1965 1538, 1962 1537, 1964 1534, 1991 1519, 2003 1519, 2013 1526, 2017 1537, 2011 1551, 1994 1566, 1972 1578, 1986 1574, 2002 1576, 2018 1587, 2027 1599, 2025 1610, 2015 1618, 1976 1626, 1967 1623, 1968 1620
+</trace>
+<trace id="2">
+1825 1743, 1825 1743, 1823 1742, 1859 1741, 1984 1725, 2083 1723, 2109 1728, 2109 1729, 2095 1725
+</trace>
+<trace id="3">
+1908 1849, 1908 1849, 1895 1853, 1890 1850, 1894 1839, 1913 1821, 1934 1810, 1950 1812, 1957 1824, 1954 1845, 1941 1870, 1920 1892, 1901 1906, 1885 1912, 1870 1911, 1907 1925, 1935 1929, 1987 1928
+</trace>
+<trace id="4">
+2327 1667, 2327 1667, 2328 1666, 2328 1679, 2323 1726, 2323 1746, 2324 1761, 2324 1772, 2323 1775
+</trace>
+<trace id="5">
+2262 1731, 2262 1731, 2298 1717, 2330 1709, 2360 1700, 2384 1697
+</trace>
+<trace id="6">
+2616 1658, 2616 1658, 2618 1659, 2621 1659, 2633 1655, 2656 1643, 2687 1620, 2711 1598, 2733 1562, 2732 1564, 2719 1608, 2715 1667, 2712 1677
+</trace>
+<trace id="7">
+2617 1729, 2617 1729, 2623 1729, 2659 1729, 2717 1730, 2742 1729, 2778 1729
+</trace>
+<trace id="8">
+2653 1810, 2653 1810, 2637 1814, 2631 1816, 2635 1814, 2674 1805, 2684 1812, 2686 1826, 2676 1846, 2658 1865, 2643 1874, 2626 1875, 2624 1866, 2630 1875, 2657 1893, 2681 1898, 2706 1894, 2734 1884
+</trace>
+<trace id="9">
+2859 1680, 2859 1680, 2855 1679, 2855 1707, 2860 1728, 2871 1741, 2887 1745, 2908 1734
+</trace>
+<trace id="10">
+2915 1573, 2915 1573, 2916 1569, 2917 1567
+</trace>
+<traceGroup xml:id="11">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="_2"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+	<traceGroup xml:id="18">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="19">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="20">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="_3"/>
+	</traceGroup>
+</traceGroup>
+</ink>

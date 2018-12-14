@@ -1,0 +1,83 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sqrt{\sqrt{n^2}}+1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F159_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL159</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msqrt xml:id="_1">
+				<msqrt xml:id="_2">
+					<msup>
+						<mi xml:id="n_1">n</mi>
+						<mn xml:id="2_1">2</mn>
+					</msup>
+				</msqrt>
+			</msqrt>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1275 3108, 1275 3108, 1276 3107, 1286 3121, 1318 3177, 1329 3184, 1334 3153, 1332 3114, 1321 3040, 1312 2980, 1390 2993, 1591 2992, 1706 2986, 1737 2987, 1741 2986
+</trace>
+<trace id="1">
+1408 3132, 1408 3132, 1405 3131, 1405 3132, 1405 3136, 1412 3159, 1427 3179, 1438 3184, 1440 3181, 1443 3171, 1446 3103, 1442 3085, 1430 3047, 1433 3043, 1500 3038, 1583 3044, 1671 3034, 1728 3036, 1727 3035, 1726 3034
+</trace>
+<trace id="2">
+1521 3191, 1521 3191, 1519 3189, 1516 3185, 1516 3179, 1519 3171, 1531 3159, 1545 3154, 1552 3155, 1556 3163, 1559 3174, 1557 3189, 1560 3161, 1577 3149, 1589 3152, 1593 3157, 1593 3176, 1592 3179
+</trace>
+<trace id="3">
+1627 3103, 1627 3103, 1620 3097, 1622 3092, 1638 3092, 1644 3094, 1646 3099, 1643 3109, 1625 3132, 1621 3140, 1623 3143, 1642 3142, 1654 3137, 1667 3133
+</trace>
+<trace id="4">
+1718 3166, 1718 3166, 1721 3166, 1758 3159, 1779 3165, 1784 3167, 1786 3167
+</trace>
+<trace id="5">
+1754 3130, 1754 3130, 1754 3134, 1756 3169, 1757 3183, 1758 3188, 1758 3189, 1759 3188
+</trace>
+<trace id="6">
+1835 3129, 1835 3129, 1834 3136, 1842 3177, 1845 3195, 1845 3197
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_2"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

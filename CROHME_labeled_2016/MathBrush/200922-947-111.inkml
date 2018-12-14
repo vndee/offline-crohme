@@ -1,0 +1,95 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200922-947-111.ink"</annotation>
+<annotation type="truth">{b\neq{h-\mbox{i}}}</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">b</mi>
+            <mrow>
+                <mi xml:id="2:3:4:">\neq</mi>
+                <mrow>
+                    <mi xml:id="5:">h</mi>
+                    <mrow>
+                        <mo xml:id="6:">-</mo>
+                        <mi xml:id="7:8:">i</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+9557 5640, 9557 5651, 9557 5668, 9548 5690, 9546 5724, 9537 5769, 9532 5830, 9520 5900, 9520 5987, 9515 6071, 9515 6161, 9515 6242, 9520 6318, 9523 6379, 9529 6424, 9537 6455, 9543 6466, 9543 6461, 9543 6449, 9537 6424
+</trace>
+
+<trace id="1">
+9515 6192, 9520 6194, 9523 6192, 9526 6180, 9537 6178, 9546 6164, 9565 6152, 9585 6136, 9610 6116, 9644 6096, 9683 6077, 9733 6063, 9789 6054, 9851 6057, 9910 6077, 9968 6110, 10019 6155, 10055 6211, 10078 6273, 10072 6334, 10050 6399, 10002 6449, 9940 6494, 9870 6522, 9795 6547, 9714 6550, 9649 6550, 9593 6536
+</trace>
+
+<trace id="2">
+11256 6150, 11237 6158, 11200 6164, 11153 6169, 11094 6186, 11013 6192, 10926 6206, 10825 6211, 10730 6217, 10635 6222, 10548 6225, 10478 6234, 10422 6239, 10386 6242, 10372 6248
+</trace>
+
+<trace id="3">
+11147 6399, 11122 6402, 11080 6407, 11024 6413, 10957 6424, 10870 6430, 10775 6435, 10680 6435, 10584 6441, 10498 6444, 10430 6447
+</trace>
+
+<trace id="4">
+11066 5797, 11066 5808, 11055 5828, 11041 5861, 11018 5914, 10990 5982, 10960 6074, 10920 6175, 10878 6290, 10839 6413, 10794 6533, 10761 6645, 10738 6749, 10724 6827
+</trace>
+
+<trace id="5">
+11839 5732, 11839 5730, 11836 5732, 11830 5735, 11828 5752, 11822 5774, 11819 5814, 11808 5864, 11802 5937, 11797 6018, 11791 6113, 11788 6211, 11788 6312, 11788 6405, 11794 6489, 11800 6550, 11805 6595, 11808 6617, 11814 6620, 11814 6606, 11814 6578, 11816 6539, 11814 6494, 11819 6452, 11822 6405, 11836 6368, 11853 6334, 11884 6309, 11917 6292, 11962 6278, 12010 6273, 12060 6267, 12110 6264, 12158 6262, 12203 6262, 12242 6262, 12276 6264, 12304 6276, 12323 6295, 12340 6323, 12351 6362, 12360 6413, 12365 6469, 12368 6533, 12362 6589, 12357 6637, 12357 6682, 12357 6701
+</trace>
+
+<trace id="6">
+13326 6312, 13312 6315, 13281 6318, 13245 6318, 13203 6326, 13138 6326, 13076 6329, 13009 6334, 12942 6332, 12880 6329, 12836 6329, 12805 6326, 12796 6326
+</trace>
+
+<trace id="7">
+13639 6276, 13639 6315, 13645 6360, 13648 6410, 13648 6461, 13656 6514, 13665 6564, 13673 6606, 13679 6626, 13690 6637, 13695 6631
+</trace>
+
+<trace id="8">
+13567 5884, 13586 5878, 13603 5875, 13625 5875, 13639 5872, 13631 5870, 13631 5861, 13623 5847
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">b</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:4:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="2:3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">h</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="6:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:8:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="7"/>
+        <traceView traceDataRef="8"/>
+        <annotationXML href="7:8:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

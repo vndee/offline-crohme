@@ -1,0 +1,80 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-337.ink"</annotation>
+<annotation type="truth"> \left ( { L - \mbox { j } } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="5:">(</mo>
+            <mrow>
+                <mi xml:id="0:">L</mi>
+                <mrow>
+                    <mo xml:id="1:">-</mo>
+                    <mrow>
+                        <mi xml:id="2:3:">j</mi>
+                        <mo xml:id="4:">)</mo>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+2713 7539, 2657 7455, 2601 7357, 2559 7256, 2523 7158, 2500 7065, 2484 6987, 2475 6923, 2472 6869, 2475 6841, 2481 6839, 2484 6864, 2484 6920, 2472 7009, 2461 7138, 2442 7295, 2416 7485, 2386 7695, 2355 7917, 2321 8132, 2299 8342, 2290 8527, 2296 8684, 2318 8802, 2363 8891, 2428 8930, 2514 8942, 2627 8916, 2750 8860, 2887 8782, 3030 8676, 3175 8552, 3324 8429
+</trace>
+
+<trace id="1">
+3604 7880, 3623 7892, 3651 7906, 3682 7914, 3721 7922, 3766 7928, 3819 7931, 3889 7925, 3979 7920, 4083 7903, 4200 7886, 4312 7858, 4433 7824, 4559 7791, 4676 7754
+</trace>
+
+<trace id="2">
+5617 7502, 5648 7550, 5684 7617, 5712 7693, 5743 7782, 5777 7900, 5810 8032, 5849 8174, 5883 8328, 5908 8491, 5925 8656, 5922 8818, 5908 8970, 5875 9110, 5827 9233, 5765 9337, 5693 9415, 5614 9465, 5539 9491, 5469 9491, 5407 9457, 5365 9393, 5343 9292, 5340 9166, 5362 9012, 5404 8832, 5474 8639, 5553 8424, 5639 8194, 5737 7973, 5827 7751
+</trace>
+
+<trace id="3">
+5992 6595, 5973 6634, 5942 6668, 5917 6713, 5877 6735, 5835 6757, 5796 6774, 5760 6777
+</trace>
+
+<trace id="4">
+6463 6475, 6561 6564, 6647 6668, 6726 6797, 6790 6939, 6835 7105, 6869 7287, 6883 7485, 6883 7698, 6860 7917, 6818 8146, 6748 8384, 6659 8620, 6552 8844, 6429 9054, 6289 9247, 6129 9404, 5959 9516, 5779 9586, 5586 9603
+</trace>
+
+<trace id="5">
+3357 6122, 3271 6110, 3184 6119, 3083 6124, 2979 6141, 2873 6169, 2767 6211, 2657 6262, 2554 6334, 2453 6435, 2355 6561, 2254 6713, 2156 6892, 2066 7093, 1982 7317, 1915 7564, 1856 7827, 1817 8107, 1792 8396, 1792 8701, 1812 9009, 1845 9311, 1898 9605, 1966 9877, 2061 10118, 2164 10319, 2274 10473, 2397 10588
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">L</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">j</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

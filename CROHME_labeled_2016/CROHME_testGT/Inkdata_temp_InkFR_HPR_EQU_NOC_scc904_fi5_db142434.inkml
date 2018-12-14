@@ -1,0 +1,45 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\frac{n}{d}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F904_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL904</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mi xml:id="n_1">n</mi>
+			<mi xml:id="d_1">d</mi>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+1508 2952, 1508 2952, 1508 2949, 1510 2946, 1513 2959, 1516 2997, 1512 2946, 1527 2928, 1545 2925, 1553 2937, 1555 2950, 1555 2991, 1555 2991
+</trace>
+<trace id="1">
+1474 3062, 1474 3062, 1473 3063, 1597 3062
+</trace>
+<trace id="2">
+1522 3121, 1522 3121, 1524 3116, 1528 3109, 1526 3135, 1524 3156, 1523 3174, 1522 3187, 1521 3196, 1521 3200, 1522 3201, 1520 3173, 1505 3166, 1496 3169, 1485 3182, 1481 3202, 1489 3209, 1503 3214, 1518 3214, 1533 3211, 1546 3204, 1546 3203, 1546 3203, 1544 3202
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">d</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="d_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

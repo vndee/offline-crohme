@@ -1,0 +1,66 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">116</annotation>
+<annotation type="truth">$\Delta \theta = 0$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F116_E182</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="\Delta_1">\Delta</mi>
+			<mrow>
+				<mi xml:id="\theta_1">\theta</mi>
+				<mrow>
+					<mo xml:id="=_1">=</mo>
+					<mn xml:id="0_1">0</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+409 235, 421 209, 424 202, 427 196, 431 190, 433 185, 435 181, 437 177, 439 174, 440 171, 441 170, 441 169, 442 168, 443 169, 444 170, 444 172, 445 175, 446 179, 446 184, 447 189, 447 195, 448 202, 448 208, 449 215, 449 221, 450 226, 451 230, 451 233, 452 236, 452 238, 452 239, 452 240, 452 241, 453 242, 452 242, 451 242, 450 241, 448 240, 445 240, 443 239, 439 238, 435 238, 430 237, 426 237, 423 237, 420 237, 417 238, 414 238, 413 238, 411 239
+</trace>
+<trace id="1">
+482 194, 473 194, 470 196, 468 199, 466 202, 464 206, 463 210, 462 215, 461 220, 461 224, 461 228, 462 232, 463 234, 465 236, 466 237, 469 238, 472 238, 475 238, 477 236, 480 234, 483 230, 485 226, 488 221, 490 216, 491 211, 492 207, 492 203, 492 199, 490 196, 488 194, 485 192, 483 191, 481 191, 478 191, 476 192, 474 194, 472 195, 472 197, 471 198, 472 200, 473 202, 475 203, 477 205, 479 205, 483 206, 484 206
+</trace>
+<trace id="2">
+525 227, 542 226, 544 226, 547 226
+</trace>
+<trace id="3">
+525 241, 534 242, 538 241, 541 241, 545 240, 548 240, 550 240
+</trace>
+<trace id="4">
+597 200, 585 201, 582 203, 580 206, 578 209, 576 212, 574 217, 573 221, 573 225, 573 229, 574 232, 575 234, 577 236, 579 238, 582 238, 585 238, 588 238, 590 235, 594 233, 596 229, 599 225, 601 219, 601 214, 601 210, 600 206, 599 203, 596 201, 594 200, 591 199, 588 201, 585 204, 585 205
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\Delta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\Delta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\theta_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

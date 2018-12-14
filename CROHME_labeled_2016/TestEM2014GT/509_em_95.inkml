@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">509</annotation>
+<annotation type="truth">$e_{PVT}$</annotation>
+<annotation type="UI">IVC_2014_F509_E95</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="e_1">e</mi>
+			<mrow>
+				<mi xml:id="P_1">P</mi>
+				<mrow>
+					<mi xml:id="V_1">V</mi>
+					<mi xml:id="T_1">T</mi>
+				</mrow>
+			</mrow>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+263 127, 264 128, 265 128, 274 130, 280 131, 284 132, 299 131, 304 130, 309 128, 314 126, 319 124, 323 122, 325 119, 327 116, 329 113, 329 110, 329 108, 327 105, 325 103, 322 100, 319 99, 310 97, 304 97, 299 98, 287 102, 280 105, 275 108, 270 112, 265 117, 261 123, 257 129, 255 135, 253 141, 253 147, 253 152, 255 157, 258 162, 262 166, 267 169, 288 174, 297 174, 306 174, 324 173, 330 172, 335 172, 340 171
+</trace>
+<trace id="1">
+382 158, 382 159, 382 173, 382 178, 382 182, 382 187, 382 196, 382 199, 382 201, 382 202, 382 203
+</trace>
+<trace id="2">
+376 161, 377 161, 377 160, 381 154, 384 152, 395 150, 399 150, 402 151, 408 155, 411 158, 413 161, 414 164, 415 167, 416 169, 415 171, 414 173, 412 174, 409 175, 406 176, 399 178, 396 179, 394 180, 392 180, 390 181
+</trace>
+<trace id="3">
+423 157, 424 157, 426 163, 428 167, 429 171, 429 175, 430 179, 432 193, 433 197, 434 201, 435 204, 436 207, 438 208, 438 209, 439 209, 441 206, 444 198, 443 194, 443 190, 443 186, 443 182, 443 178, 443 174, 444 171, 444 167, 445 164, 446 161, 449 157
+</trace>
+<trace id="4">
+462 158, 463 157, 478 157, 482 157, 486 157, 490 157, 493 157, 496 157
+</trace>
+<trace id="5">
+480 160, 480 163, 479 166, 479 170, 479 174, 479 179, 479 184, 478 200
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">V</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="V_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">P</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="P_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">T</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="T_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

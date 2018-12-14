@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \lbrack e \rbrack $</annotation>
+<annotation type="writer">annot_220</annotation>
+<annotation type="UI">2014_RIT_CROHME_20</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="31:">[</mo>
+            <mrow >
+                <mi  xml:id = "32:" >e</mi>
+                <mo  xml:id = "33:" >]</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+441 175, 433 169, 424 169, 416 169, 407 170, 402 172, 399 175, 396 178, 395 185, 395 194, 394 209, 393 228, 391 248, 391 270, 389 291, 389 305, 388 316, 388 323, 388 327, 388 330, 389 331, 396 331, 407 331, 419 330, 427 329, 432 328
+</trace>
+
+<trace  id = "1" >
+453 276, 457 274, 463 273, 471 269, 478 262, 480 255, 481 250, 481 246, 474 245, 468 245, 460 252, 457 262, 455 269, 455 276, 455 285, 460 291, 470 293, 482 293, 493 291, 506 282
+</trace>
+
+<trace  id = "2" >
+503 173, 513 170, 522 170, 530 170, 537 170, 540 170, 542 170, 544 175, 545 185, 545 198, 544 216, 542 234, 542 248, 542 264, 542 276, 542 287, 542 297, 542 302, 539 308, 533 312, 527 315, 518 316, 513 316
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="31:">
+        <annotation type="truth">[</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="31:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="32:">
+        <annotation type="truth">e</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="32:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="33:">
+        <annotation type="truth">]</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="33:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

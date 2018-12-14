@@ -1,0 +1,35 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-251.ink"</annotation>
+<annotation type="truth"> \sqrt { 1 } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt xml:id="1:">
+            <mn xml:id="0:">1</mn>
+        </msqrt>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4825 8958, 4836 8967, 4847 8995, 4847 9031, 4841 9084, 4836 9160, 4819 9264, 4799 9387, 4774 9530, 4738 9681, 4701 9841, 4657 10003, 4617 10160, 4578 10305, 4550 10431, 4525 10532, 4503 10608, 4494 10667
+</trace>
+
+<trace id="1">
+3355 9843, 3321 9922, 3299 10025, 3279 10140, 3259 10269, 3248 10409, 3245 10552, 3248 10692, 3259 10818, 3276 10927, 3301 11006, 3332 11062, 3371 11090, 3413 11092, 3464 11062, 3514 11006, 3565 10913, 3618 10787, 3668 10625, 3713 10426, 3758 10202, 3797 9950, 3836 9687, 3870 9426, 3901 9177, 3926 8953, 3940 8746, 3954 8580, 3959 8440, 3965 8342, 3965 8264, 3968 8202, 3979 8152, 4007 8113, 4057 8082, 4136 8062, 4239 8043, 4374 8034, 4539 8029, 4729 8029, 4945 8034, 5180 8048, 5424 8065, 5676 8088, 5928 8118, 6171 8152, 6412 8200, 6642 8253, 6843 8312, 7028 8384
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

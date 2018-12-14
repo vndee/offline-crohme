@@ -1,0 +1,82 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-41.ink"</annotation>
+<annotation type="truth"> { \frac { B } { \mbox { S } } + \mbox { v } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mfrac xml:id="2:">
+                <mi xml:id="0:1:">B</mi>
+                <mi xml:id="3:">S</mi>
+            </mfrac>
+            <mrow>
+                <mo xml:id="4:5:">+</mo>
+                <mi xml:id="6:">v</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+6469 2769, 6458 2760, 6455 2763, 6449 2771, 6446 2786, 6450 2810, 6452 2842, 6458 2886, 6464 2931, 6471 2988, 6474 3046, 6478 3100, 6481 3155, 6483 3200, 6485 3238, 6492 3270, 6494 3287, 6500 3297
+</trace>
+
+<trace id="1">
+6458 2861, 6449 2819, 6450 2789, 6449 2758, 6455 2731, 6473 2711, 6498 2693, 6529 2685, 6562 2680, 6601 2688, 6636 2701, 6671 2719, 6697 2744, 6718 2773, 6729 2802, 6734 2832, 6728 2859, 6715 2884, 6697 2903, 6674 2918, 6650 2928, 6627 2935, 6607 2937, 6590 2939, 6580 2939, 6578 2939, 6584 2939, 6600 2941, 6623 2946, 6653 2954, 6686 2963, 6722 2976, 6756 2991, 6788 3010, 6814 3031, 6833 3056, 6841 3081, 6841 3107, 6830 3133, 6811 3155, 6785 3176, 6755 3194, 6725 3207, 6693 3211, 6665 3211, 6645 3211, 6628 3203, 6622 3197
+</trace>
+
+<trace id="2">
+6024 3509, 6002 3515, 6002 3521, 6021 3519, 6057 3512, 6120 3509, 6197 3501, 6293 3497, 6396 3489, 6510 3484, 6622 3480, 6727 3475, 6826 3475, 6910 3468, 6982 3463, 7041 3460, 7083 3453, 7112 3452
+</trace>
+
+<trace id="3">
+6816 3651, 6793 3651, 6772 3660, 6738 3668, 6704 3678, 6667 3698, 6627 3716, 6595 3739, 6563 3762, 6547 3789, 6532 3812, 6533 3838, 6547 3861, 6569 3884, 6601 3906, 6639 3929, 6677 3951, 6719 3973, 6756 3993, 6788 4014, 6816 4035, 6832 4054, 6837 4072, 6833 4091, 6817 4109, 6792 4124, 6756 4137, 6716 4148, 6670 4156, 6624 4161, 6580 4165, 6540 4159, 6505 4152, 6485 4143, 6476 4127, 6481 4109
+</trace>
+
+<trace id="4">
+7571 3371, 7571 3375, 7579 3392, 7582 3413, 7583 3443, 7588 3485, 7589 3530, 7593 3581, 7595 3634, 7595 3682, 7596 3725, 7602 3768, 7603 3799, 7610 3825
+</trace>
+
+<trace id="5">
+7456 3559, 7468 3554, 7484 3551, 7513 3553, 7544 3557, 7582 3557, 7627 3557, 7675 3554, 7729 3554, 7775 3549, 7821 3545
+</trace>
+
+<trace id="6">
+8082 3248, 8091 3268, 8103 3295, 8115 3326, 8131 3377, 8145 3429, 8166 3491, 8184 3550, 8205 3611, 8223 3663, 8242 3711, 8260 3750, 8278 3779, 8294 3799, 8311 3806, 8326 3804, 8343 3790, 8360 3764, 8379 3729, 8399 3683, 8416 3630, 8435 3571, 8449 3508, 8468 3454, 8484 3400, 8493 3355, 8502 3320, 8507 3294
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">B</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">S</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:5:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="4:5:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="6:">
+        <annotation type="truth">v</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="6:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

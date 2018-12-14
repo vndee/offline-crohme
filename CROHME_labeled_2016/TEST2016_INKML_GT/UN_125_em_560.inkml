@@ -1,0 +1,89 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_125</annotation>
+<annotation type="truth">$z=\cos{2x}$</annotation>
+<annotation type="UI">CROHME_2016_em_560</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="z_1">z</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="cos_1">cos</mi>
+					<mrow>
+						<mn xml:id="2_1">2</mn>
+						<mi xml:id="x_1">x</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+230 199, 250 214, 248 217, 245 221, 241 224, 237 228, 233 231, 228 234, 223 238, 219 241, 215 244, 212 247, 210 249, 208 251, 207 253, 207 254, 207 256, 207 257, 208 258, 209 259, 212 260, 215 260, 219 261, 223 261, 228 261, 233 260, 239 260, 243 260, 248 259, 252 259, 255 258, 257 258, 259 258
+</trace>
+<trace id="1">
+313 231, 320 232, 323 232, 326 232, 329 232, 331 231, 333 231, 335 231, 338 231, 340 231, 342 231, 343 231
+</trace>
+<trace id="2">
+314 258, 341 255, 345 255, 348 255, 349 255
+</trace>
+<trace id="3">
+446 201, 432 194, 429 196, 425 197, 421 200, 417 203, 413 206, 409 210, 406 215, 404 220, 403 225, 403 229, 403 234, 405 239, 407 243, 411 247, 414 251, 417 253, 421 255, 426 255, 429 254
+</trace>
+<trace id="4">
+479 221, 462 218, 461 220, 459 222, 458 225, 456 228, 455 231, 455 234, 456 238, 457 242, 459 246, 461 249, 464 252, 468 254, 472 256, 475 256, 479 255, 483 254, 486 252, 489 249, 491 245, 493 242, 494 238, 494 234, 493 230, 492 226, 490 223, 489 220, 487 218, 485 216, 483 215, 481 214, 478 214, 476 215, 473 216, 472 216
+</trace>
+<trace id="5">
+532 208, 513 209, 509 210, 506 212, 503 214, 501 215, 499 216, 498 218, 499 219, 499 221, 500 223, 502 225, 505 226, 508 228, 512 230, 515 232, 518 234, 520 236, 523 238, 525 241, 526 243, 528 245, 528 247, 527 250, 526 252, 525 254, 523 255, 520 257, 517 257, 513 258, 510 258, 507 257, 505 257, 504 256, 502 255, 501 254
+</trace>
+<trace id="6">
+583 191, 589 180, 593 180, 596 179, 600 180, 603 180, 605 182, 607 184, 609 186, 611 188, 612 192, 612 195, 611 199, 610 204, 609 208, 607 213, 604 218, 600 223, 597 228, 593 232, 591 237, 589 241, 587 244, 586 248, 586 251, 586 253, 587 255, 589 257, 591 258, 595 259, 599 259, 602 259, 607 259, 611 257, 616 256, 618 255
+</trace>
+<trace id="7">
+645 213, 657 208, 660 208, 664 209, 666 210, 669 211, 671 213, 674 215, 675 218, 676 221, 677 224, 677 226, 676 230, 674 233, 673 236, 672 239, 670 242, 667 244, 665 246, 662 247, 660 247, 658 247, 656 247, 654 247, 653 247
+</trace>
+<trace id="8">
+705 212, 687 215, 684 217, 681 220, 679 222, 676 225, 675 228, 674 231, 673 234, 673 237, 675 241, 677 244, 680 246, 684 249, 688 251, 693 252, 699 253, 701 253
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">z</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="z_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

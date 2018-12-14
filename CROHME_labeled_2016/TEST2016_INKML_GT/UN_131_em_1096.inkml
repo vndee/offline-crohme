@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">42</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_131</annotation>
+<annotation type="truth">$\infty + \infty$</annotation>
+<annotation type="UI">CROHME_2016_em_1096</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="infin_1">infin</mi>
+			<mrow>
+				<mo xml:id="+_1">+</mo>
+				<mi xml:id="infin_2">infin</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+284 193, 296 201, 301 204, 305 207, 309 210, 314 213, 319 217, 324 219, 328 221, 332 223, 336 224, 339 224, 343 223, 345 221, 348 218, 349 214, 350 211, 351 207, 350 204, 349 202, 347 201, 345 200, 341 201, 339 203, 335 207, 330 213, 325 220, 320 227, 314 234, 308 241, 303 247, 297 253, 290 258, 284 262, 278 264, 272 265, 266 264, 260 262, 255 259, 250 254, 247 249, 245 243, 244 237, 245 231, 247 225, 250 220, 254 215, 260 211, 267 208, 270 208
+</trace>
+<trace id="1">
+419 219, 449 215, 455 214, 462 213, 468 213, 473 213, 477 213, 480 212, 482 212, 483 212
+</trace>
+<trace id="2">
+458 194, 457 215, 456 221, 456 226, 455 231, 454 236, 453 240, 452 243, 452 244
+</trace>
+<trace id="3">
+566 205, 598 226, 604 229, 611 233, 618 235, 624 236, 630 237, 636 238, 641 238, 645 237, 648 235, 652 232, 654 229, 655 225, 655 221, 654 218, 653 215, 651 213, 647 211, 643 210, 638 211, 633 212, 626 214, 620 216, 612 220, 605 224, 598 227, 590 231, 583 234, 576 236, 571 238, 565 239, 560 240, 556 239, 552 239, 549 237, 547 235, 546 232, 546 228, 547 224, 549 220, 553 216, 558 213, 560 211
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="infin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="infin_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

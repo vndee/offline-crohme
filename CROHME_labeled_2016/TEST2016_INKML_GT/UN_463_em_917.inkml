@@ -1,0 +1,50 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotation type="writer">UN_463</annotation>
+<annotation type="truth">$\int \sqrt{V}$</annotation>
+<annotation type="UI">CROHME_2016_em_917</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="int_1">int</mo>
+			<msqrt xml:id="_1">
+				<mi xml:id="V_1">V</mi>
+			</msqrt>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+556 79, 557 78, 558 78, 559 78, 558 78, 555 80, 553 82, 552 83, 550 85, 548 88, 546 90, 545 93, 543 99, 542 102, 541 106, 541 109, 541 113, 541 117, 541 121, 541 130, 541 145, 541 151, 540 157, 540 163, 539 169, 539 175, 539 182, 538 201, 537 207, 537 214, 536 220, 535 226, 533 232, 531 238, 528 244, 526 249, 522 253, 519 258, 516 261, 513 263, 509 266
+</trace>
+<trace id="1">
+567 141, 568 145, 568 147, 568 151, 569 154, 569 159, 570 164, 571 169, 572 175, 574 180, 575 185, 577 189, 579 191, 580 193, 581 193, 582 193, 584 186, 585 181, 586 176, 586 171, 587 165, 588 160, 589 145, 589 141, 589 136, 589 133, 589 130, 589 127, 589 124, 591 124, 590 123, 591 123, 594 125, 597 126, 599 127, 610 129, 614 129, 618 130, 631 131, 635 132, 647 134, 652 136
+</trace>
+<trace id="2">
+612 142, 612 143, 613 144, 613 154, 613 158, 614 162, 615 167, 615 171, 616 176, 617 180, 618 183, 619 186, 621 187, 621 188, 621 187, 624 183, 625 180, 627 177, 629 173, 632 166, 634 162, 636 158, 638 154, 639 151, 640 148, 641 146, 642 144
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">\int</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="int_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">V</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="V_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

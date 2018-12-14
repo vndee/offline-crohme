@@ -1,0 +1,73 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \theta + e \alpha $</annotation>
+<annotation type="writer">annot_180</annotation>
+<annotation type="UI">2014_RIT_CROHME_296</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="82:">\theta</mi>
+            <mrow >
+                <mo  xml:id = "83:84:" >+</mo>
+                <mrow >
+                    <mi  xml:id = "85:" >e</mi>
+                    <mi  xml:id = "86:" >\alpha</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+211 218, 209 220, 208 229, 206 242, 203 259, 199 272, 196 286, 194 297, 194 307, 194 316, 196 322, 202 325, 210 327, 220 327, 229 322, 237 311, 244 301, 250 286, 254 270, 256 249, 256 228, 256 215, 252 204, 247 200, 239 200, 228 206, 216 218, 203 236, 195 247, 190 257, 188 262, 188 265, 188 267, 194 268, 205 268, 218 268, 234 268, 254 268
+</trace>
+
+<trace  id = "1" >
+330 269, 333 273, 340 273, 352 274, 362 274, 374 274, 384 275, 390 276, 393 277
+</trace>
+
+<trace  id = "2" >
+374 238, 371 245, 371 255, 368 269, 364 283, 362 295, 361 303
+</trace>
+
+<trace  id = "3" >
+454 267, 442 272, 442 275, 443 279, 449 284, 458 286, 467 287, 477 287, 487 285, 493 281, 497 278, 498 275, 498 272, 498 268, 493 266, 484 265, 473 265, 461 267, 452 271, 447 275, 444 280, 444 287, 446 294, 455 301, 466 306, 481 306, 500 303
+</trace>
+
+<trace  id = "4" >
+619 246, 614 253, 606 264, 595 277, 580 292, 566 301, 553 307, 542 309, 534 309, 529 308, 526 302, 526 288, 530 277, 538 269, 546 266, 558 266, 570 268, 583 276, 593 285, 604 294, 617 301, 629 306, 643 311, 656 312, 674 311
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="82:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="82:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="83:84:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="83:84:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="85:">
+        <annotation type="truth">e</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="85:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="86:">
+        <annotation type="truth">\alpha</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="86:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

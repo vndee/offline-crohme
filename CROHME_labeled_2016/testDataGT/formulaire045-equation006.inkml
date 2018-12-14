@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$n=3$</annotation>
+<annotation type="UI">2011_IVC_depart_F045_E006</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart045</annotation>
+<annotation type="age">21</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mn xml:id="3_1">3</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.77845 16.255, 9.79049 16.239, 9.7945 16.227, 9.79851 16.243, 9.81055 16.2831, 9.81456 16.3273, 9.82259 16.3995, 9.83462 16.4597, 9.84666 16.5359, 9.85067 16.576, 9.85067 16.5841, 9.85067 16.5881, 9.85067 16.576, 9.83864 16.5159, 9.83061 16.4396, 9.83061 16.3915, 9.84666 16.3313, 9.87475 16.2992, 9.91487 16.2711, 9.97506 16.2671, 10.0272 16.2871, 10.0673 16.3273, 10.0874 16.3955, 10.1035 16.4838, 10.1075 16.5199, 10.1035 16.5399, 10.1035 16.552, 10.1035 16.5439, 10.1035 16.5399
+</trace>
+<trace id="1">
+10.6692 16.2952, 10.6732 16.2992, 10.6853 16.3032, 10.7053 16.3112, 10.7535 16.3353, 10.8458 16.3313, 10.926 16.3353, 11.0023 16.3393, 11.0544 16.3473, 11.0865 16.3513
+</trace>
+<trace id="2">
+10.6893 16.5279, 10.6933 16.5359, 10.7053 16.5359, 10.7374 16.548, 10.7735 16.548, 10.8337 16.548, 10.9019 16.5279, 10.9862 16.5239, 11.0384 16.5159
+</trace>
+<trace id="3">
+11.4717 16.1507, 11.4637 16.1427, 11.4637 16.1266, 11.4637 16.1106, 11.4717 16.0945, 11.5078 16.0785, 11.552 16.0785, 11.6081 16.0624, 11.6563 16.0825, 11.6964 16.1146, 11.7125 16.1708, 11.6964 16.243, 11.6443 16.3072, 11.5801 16.3393, 11.5399 16.3513, 11.5319 16.3513, 11.5319 16.3433, 11.5439 16.3353, 11.572 16.3393, 11.6202 16.3393, 11.6924 16.3473, 11.7646 16.3834, 11.8288 16.4396, 11.8649 16.4918, 11.8529 16.56, 11.7967 16.6081, 11.7205 16.6483, 11.6483 16.6643, 11.5961 16.6603, 11.564 16.6643, 11.552 16.6483, 11.548 16.6443, 11.548 16.6362, 11.548 16.6443
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ a \leq b $</annotation>
+<annotation type="writer">4285.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4285_4</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="48:">a</mi>
+            <mrow>
+                <mi xml:id="52:53:">\leq</mi>
+                <mi xml:id="54:">b</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+229 128, 224 131, 209 190, 215 190, 220 188, 229 183, 245 173, 257 153, 257 149, 257 142, 256 139, 253 131, 252 129, 249 124, 247 123, 244 120, 243 119, 242 119, 241 119, 243 120, 244 122, 248 129, 251 134, 253 139, 255 144, 262 157, 267 163, 273 168, 278 169, 280 169, 281 169, 283 168, 286 168, 288 167, 289 166, 291 166, 292 166, 295 166, 296 165, 297 165
+</trace>
+
+<trace id="1">
+367 102, 366 103, 335 139, 341 139, 349 141, 356 143, 378 148, 379 148, 380 148
+</trace>
+
+<trace id="2">
+338 169, 336 167, 369 167, 368 167
+</trace>
+
+<trace id="3">
+446 84, 442 86, 448 163, 451 163, 455 163, 463 160, 468 154, 471 148, 471 144, 471 140, 470 139, 467 138, 462 138, 454 138, 447 138, 442 138, 436 140, 433 141, 431 144, 430 144, 430 145
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="48:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="48:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="52:53:">
+        <annotation type="truth">\leq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="52:53:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="54:">
+        <annotation type="truth">b</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="54:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

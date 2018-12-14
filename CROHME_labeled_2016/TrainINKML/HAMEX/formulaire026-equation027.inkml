@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2 \pi r h$</annotation>
+<annotation type="UI">2011_IVC_depart_F026_E027</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart026</annotation>
+<annotation type="age">21</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="2_1">2</mn>
+			<mrow>
+				<mi xml:id="\pi_1">\pi</mi>
+				<mrow>
+					<mi xml:id="r_1">r</mi>
+					<mi xml:id="h_1">h</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.1908 21.2305, 11.1949 21.2305, 11.1868 21.2346, 11.1748 21.2305, 11.1708 21.2305, 11.1467 21.2265, 11.1307 21.2145, 11.1186 21.1864, 11.1307 21.1503, 11.1507 21.1182, 11.1828 21.1062, 11.2189 21.1142, 11.239 21.1342, 11.251 21.1704, 11.227 21.2225, 11.1949 21.2907, 11.1387 21.3589, 11.0905 21.4151, 11.0745 21.4472, 11.0865 21.4593, 11.1146 21.4633, 11.1507 21.4633, 11.1908 21.4552, 11.231 21.4432, 11.2671 21.4272, 11.2912 21.4111, 11.3152 21.383
+</trace>
+<trace id="1">
+11.4155 21.2747, 11.4236 21.2667, 11.4196 21.2707, 11.4276 21.2867, 11.4316 21.3188, 11.4356 21.375, 11.4436 21.4312, 11.4476 21.4633, 11.4517 21.4673, 11.4517 21.4593
+</trace>
+<trace id="2">
+11.56 21.3349, 11.564 21.367, 11.56 21.4071, 11.56 21.4432, 11.5801 21.4673, 11.5921 21.4793, 11.5921 21.4713
+</trace>
+<trace id="3">
+11.3513 21.2586, 11.3393 21.2466, 11.3393 21.2426, 11.3393 21.2386, 11.3513 21.2346, 11.3794 21.2265, 11.4316 21.2145, 11.5078 21.1944, 11.576 21.1864, 11.6282 21.1824, 11.6683 21.1824, 11.7205 21.1704, 11.7486 21.1543, 11.7606 21.1383
+</trace>
+<trace id="4">
+11.9251 21.4593, 11.9091 21.4633, 11.9011 21.4633, 11.9011 21.4552, 11.9051 21.4352, 11.9251 21.4031, 11.9693 21.3549, 12.0094 21.3188, 12.0254 21.3068, 12.0295 21.3188, 12.0455 21.3429, 12.0696 21.379, 12.0937 21.4031, 12.1097 21.4272, 12.1338 21.4272, 12.1538 21.4231, 12.198 21.4071, 12.2341 21.387, 12.2702 21.3549
+</trace>
+<trace id="5">
+12.6073 20.9858, 12.5992 20.9577, 12.5912 20.9376, 12.5832 20.9296, 12.5792 20.9296, 12.5832 20.9376, 12.5832 20.9657, 12.5752 21.0339, 12.5591 21.1423, 12.5511 21.2506, 12.5511 21.3268, 12.5551 21.3549, 12.5551 21.3469, 12.5631 21.3268, 12.5832 21.2907, 12.5992 21.2546, 12.6353 21.2386, 12.6795 21.2546, 12.7116 21.2867, 12.7357 21.3188, 12.7477 21.3549, 12.7437 21.375, 12.7437 21.379, 12.7397 21.375
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">h</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="h_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="\pi_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

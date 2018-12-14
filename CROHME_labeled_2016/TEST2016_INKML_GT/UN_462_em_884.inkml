@@ -1,0 +1,77 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">46</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_462</annotation>
+<annotation type="truth">$\sum SS=S$</annotation>
+<annotation type="UI">CROHME_2016_em_884</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="sum_1">sum</mo>
+			<mrow>
+				<mi xml:id="S_1">S</mi>
+				<mrow>
+					<mi xml:id="S_2">S</mi>
+					<mrow>
+						<mo xml:id="=_1">=</mo>
+						<mi xml:id="S_3">S</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+708 222, 707 222, 697 222, 691 223, 673 227, 665 229, 659 232, 653 234, 648 236, 646 239, 644 241, 645 242, 647 243, 651 244, 657 245, 664 245, 671 245, 679 246, 687 247, 695 247, 700 248, 705 250, 706 249, 706 250, 699 252, 694 253, 688 253, 683 254, 677 255, 672 256, 666 258, 651 264, 647 266, 643 268, 640 271, 638 273, 636 276, 635 278, 636 281, 642 283, 646 284, 651 285, 657 285, 670 286, 678 286, 686 287, 692 287, 703 287, 707 288, 710 288, 712 288
+</trace>
+<trace id="1">
+758 251, 759 250, 759 249, 753 242, 739 243, 736 245, 735 246, 736 250, 738 251, 741 253, 745 255, 749 257, 752 259, 754 261, 755 263, 754 265, 752 266, 749 268, 745 269, 738 270, 736 270, 736 271, 736 270
+</trace>
+<trace id="2">
+789 247, 786 244, 783 243, 779 243, 775 244, 770 245, 767 247, 765 249, 764 251, 765 252, 767 254, 781 258, 786 260, 790 262, 793 264, 796 270, 795 271, 792 272, 789 273, 785 273, 775 274, 772 274, 770 273, 770 274, 770 273
+</trace>
+<trace id="3">
+827 263, 827 264, 828 264, 829 264, 839 264, 843 264, 848 264, 851 265, 854 265, 855 266, 856 265
+</trace>
+<trace id="4">
+823 277, 824 277, 826 277, 836 276, 849 276, 852 276, 854 277, 854 276, 854 277, 857 276
+</trace>
+<trace id="5">
+901 261, 903 259, 904 257, 904 255, 904 253, 897 248, 893 247, 888 247, 883 248, 879 250, 875 252, 874 254, 874 257, 875 259, 879 261, 883 264, 888 267, 893 271, 903 282, 903 285, 902 287, 895 289, 890 289, 884 288, 879 287, 876 285, 874 283, 874 280, 874 279, 877 277, 880 276, 887 276
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">S</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="S_3"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">S</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="S_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">S</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="S_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2566</annotation>
+  <annotation type="truth">$\frac{1}{x}$</annotation>
+  <annotation type="writer">Unknown</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mfrac xml:id="\frac_1">
+        <mrow>
+          <mn xml:id="1_1">1</mn>
+        </mrow>
+        <mrow>
+          <mi xml:id="x_1">x</mi>
+        </mrow>
+      </mfrac>
+    </math>
+  </annotationXML>
+  <trace id="0">71 65 5810, 71 66 5968, 71 78 5983, 70 89 5998, 70 99 6013, 69 108 6031, 69 119 6048, 69 124 6063, 68 126 6077, 68 127 6092</trace>
+  <trace id="1">42 135 6946, 43 135 6990, 47 135 7005, 55 135 7020, 63 136 7040, 76 139 7055, 89 141 7070, 102 143 7084, 108 145 7099, 110 145 7114, 111 145 7135</trace>
+  <trace id="2">45 141 11670, 47 144 11794, 53 147 11814, 64 155 11829, 72 161 11843, 81 168 11858, 93 179 11873, 111 192 11888, 131 209 11908, 142 219 11923, 148 224 11938, 153 229 11953, 154 231 11968, 156 233 11982</trace>
+  <trace id="3">138 164 12600, 136 164 12658, 132 169 12673, 113 183 12688, 96 194 12707, 85 201 12722, 76 209 12737, 71 214 12753, 67 216 12768, 65 218 12784, 64 218 12824, 64 219 12868, 62 221 12901</trace>
+  <traceGroup xml:id="4">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="5">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="\frac_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="1_1" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">x</annotation>
+      <traceView traceDataRef="2" />
+      <traceView traceDataRef="3" />
+      <annotationXML href="x_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

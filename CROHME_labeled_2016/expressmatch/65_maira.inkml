@@ -1,0 +1,95 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Arithmetic</annotation>
+<annotation type="expression">65</annotation>
+ <annotation type="UI">65_maira</annotation>
+<annotation type="writer">maira</annotation>
+<annotation type="truth">$x = r \cos \theta$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="x_1">x</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mi xml:id="r_1">r</mi>
+					<mrow>
+						<mi xml:id="cos_1">cos</mi>
+						<mi xml:id="theta_1">\theta</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+410 136, 410 135, 413 134, 416 133, 444 136, 445 138, 447 142, 447 145, 446 148, 445 150, 444 153, 442 156, 440 159, 437 161, 435 164, 433 165, 432 167, 430 168, 430 169, 430 168, 431 167, 433 165
+</trace>
+<trace id="1">
+453 148, 470 131, 475 124, 475 123, 474 122, 473 123, 472 124, 470 125, 468 127, 465 129, 462 132, 460 135, 457 138, 454 142, 452 146, 450 149, 449 153, 449 156, 449 159, 450 162, 452 164, 455 165, 458 165, 463 165, 468 164, 474 163, 479 161, 485 160, 491 158
+</trace>
+<trace id="2">
+548 156, 547 156, 551 157, 570 154, 572 154, 573 154, 574 154, 574 153
+</trace>
+<trace id="3">
+543 132, 541 131, 555 130, 560 130, 568 130, 570 131, 572 131, 573 131, 575 131, 577 131, 578 131, 579 131, 581 130
+</trace>
+<trace id="4">
+627 129, 629 134, 630 158, 630 162, 630 165, 631 169, 631 172, 631 174, 632 175, 632 176, 633 177, 634 177, 635 176
+</trace>
+<trace id="5">
+636 163, 635 160, 638 155, 640 151, 641 149, 643 146, 647 136, 648 134, 649 132, 650 131, 651 129, 652 128, 652 127, 653 127, 654 127, 655 127, 656 127, 656 128, 657 129, 658 130, 659 131, 660 132, 661 134, 661 135, 662 136, 663 137, 664 139, 665 140, 666 141, 667 142, 668 143, 669 143, 670 144
+</trace>
+<trace id="6">
+739 141, 740 139, 731 136, 727 137, 725 138, 724 140, 722 142, 720 144, 718 147, 716 150, 715 153, 713 156, 712 159, 712 163, 712 166, 712 168, 713 171, 714 173, 716 175, 718 176, 721 176, 724 176, 728 175, 731 174, 734 173
+</trace>
+<trace id="7">
+769 148, 768 150, 770 169, 771 170, 778 173, 780 172, 781 171, 783 170, 784 168, 785 166, 786 164, 788 162, 788 159, 789 156, 789 154, 789 151, 789 148, 789 145, 788 143, 787 141, 786 139, 785 138, 783 137, 782 136, 780 136, 779 136, 777 137, 776 139, 775 140, 774 142, 773 144, 773 146, 773 148, 774 149, 775 149, 777 149, 780 147, 784 145, 788 142, 792 139, 796 136, 799 134
+</trace>
+<trace id="8">
+844 133, 818 151, 818 152, 818 153, 819 153, 821 153, 823 154, 825 154, 827 154, 830 154, 833 154, 836 154, 838 154, 841 154, 843 154, 845 155, 847 155, 848 156, 849 158, 850 159, 850 160, 850 162, 849 164, 848 165, 846 167, 843 169, 840 171, 836 172, 833 174, 829 175, 826 175, 823 176
+</trace>
+<trace id="9">
+894 126, 893 125, 892 124, 891 124, 889 140, 889 143, 893 158, 894 161, 896 164, 899 168, 901 169, 904 171, 906 171, 908 172, 910 172, 912 171, 915 170, 917 169, 919 168, 921 166, 922 164, 923 161, 924 159, 925 156, 925 153, 924 150, 924 146, 923 143, 922 140, 920 137, 919 134, 917 131, 915 129, 914 127, 912 125, 910 123, 908 122, 906 121, 904 120, 902 120, 900 120, 898 120, 896 121, 894 123, 892 124, 891 126, 890 129, 889 132, 888 135, 887 138, 887 140
+</trace>
+<trace id="10">
+881 153, 881 152, 888 150, 890 150, 898 150, 915 150, 918 150, 922 150, 925 150, 928 151, 931 151, 934 151, 937 151, 939 151, 942 151, 943 152, 945 152, 946 152, 947 152
+</trace>
+<traceGroup xml:id="11">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="12">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">r</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="r_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="9"/>
+		<traceView traceDataRef="10"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">\cos</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="cos_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

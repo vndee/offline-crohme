@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2392</annotation>
+  <annotation type="truth">${x^{2}}$</annotation>
+  <annotation type="writer">User146</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <msup>
+        <mrow>
+          <mi xml:id="x_1">x</mi>
+        </mrow>
+        <mrow>
+          <mn xml:id="2_1">2</mn>
+        </mrow>
+      </msup>
+    </math>
+  </annotationXML>
+  <trace id="0">199 116 352273, 199 119 352319, 202 124 352335, 205 129 352351, 208 134 352368, 211 138 352385, 213 142 352401, 215 146 352419, 217 149 352435, 218 151 352451, 219 154 352468, 219 155 352485, 220 157 352519, 223 160 352551, 224 162 352568, 225 162 352584, 226 163 352635, 226 164 352752, 227 165 352768, 228 167 352785, 229 168 352801, 229 169 352818, 229 169 352851, 230 169 352868</trace>
+  <trace id="1">230 126 353540, 229 126 353652, 227 128 353667, 223 132 353684, 219 137 353701, 216 141 353718, 212 146 353734, 208 151 353752, 204 156 353767, 198 163 353784, 193 168 353801, 190 171 353818, 187 173 353835, 185 175 353852, 184 176 353868, 184 176 353901</trace>
+  <trace id="2">241 90 354929, 242 90 355051, 243 90 355068, 244 90 355084, 245 90 355100, 246 90 355134, 247 90 355184, 249 90 355201, 249 91 355218, 249 92 355234, 249 93 355251, 249 94 355285, 249 95 355301, 249 97 355318, 249 99 355334, 249 102 355351, 249 104 355368, 249 105 355385, 249 106 355400, 248 107 355417, 248 108 355434, 246 109 355450, 245 110 355467, 243 111 355484, 241 111 355501, 241 112 355534, 240 113 355584, 238 113 355600, 237 113 355617, 237 114 355634, 236 114 355651, 237 114 355834, 238 114 355851, 239 114 355868, 241 114 355884, 244 114 355901, 246 114 355918, 248 114 355934, 251 114 355951, 253 114 355968, 255 114 355984, 257 114 356001, 258 114 356017, 259 114 356051, 260 114 356084</trace>
+  <traceGroup xml:id="3">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="4">
+      <annotation type="truth">x</annotation>
+      <traceView traceDataRef="0" />
+      <traceView traceDataRef="1" />
+      <annotationXML href="x_1" />
+    </traceGroup>
+    <traceGroup xml:id="5">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

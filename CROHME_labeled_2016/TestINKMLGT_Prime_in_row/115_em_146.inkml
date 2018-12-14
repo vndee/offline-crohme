@@ -1,0 +1,63 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">115</annotation>
+<annotation type="truth">$p \neq q$</annotation>
+<annotation type="UI">2013_IVC_CROHME_F115_E146</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="p_1">p</mi>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<mi xml:id="q_1">q</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+499 208, 501 219, 502 225, 503 232, 504 241, 506 250, 508 260, 511 270, 513 279, 515 288, 517 297, 519 305, 521 312, 522 318, 523 323, 524 328, 525 332, 525 335, 525 336
+</trace>
+<trace id="1">
+454 228, 459 205, 465 202, 471 200, 479 197, 487 196, 496 195, 506 195, 515 196, 524 198, 532 201, 539 204, 544 208, 548 212, 551 217, 552 221, 551 225, 549 229, 546 232, 541 236, 535 239, 529 242, 521 245, 514 247, 506 249, 498 250, 491 251, 484 252, 479 253, 474 254, 471 255, 470 255
+</trace>
+<trace id="2">
+598 244, 617 240, 623 240, 630 239, 636 239, 643 239, 650 238, 656 238, 662 238, 668 238, 673 239, 678 239, 681 239, 685 239, 685 238
+</trace>
+<trace id="3">
+607 217, 636 214, 644 213, 652 213, 659 212, 667 212, 675 211, 681 211, 687 211, 693 210, 694 210
+</trace>
+<trace id="4">
+666 181, 658 207, 656 215, 654 222, 652 230, 650 237, 647 245, 644 252, 641 258, 638 263, 635 268, 633 272, 631 275, 631 278, 630 278
+</trace>
+<trace id="5">
+803 210, 789 193, 785 193, 781 193, 777 194, 771 195, 766 197, 762 198, 757 201, 754 203, 750 206, 748 209, 746 213, 746 217, 746 221, 747 224, 749 228, 751 231, 754 233, 758 235, 763 236, 767 237, 771 237, 776 236, 780 235, 785 233, 788 231, 791 229, 794 226, 796 222, 798 219, 799 215, 800 212, 801 210, 801 207, 800 206, 800 204, 800 203, 799 203, 798 203, 798 204, 797 206, 797 210, 796 214, 796 219, 796 225, 795 232, 795 239, 795 246, 795 253, 795 259, 795 266, 796 271, 796 277, 797 282, 798 287, 799 288
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="p_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">q</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="q_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

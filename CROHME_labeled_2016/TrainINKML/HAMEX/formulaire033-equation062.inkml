@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sum u_n$</annotation>
+<annotation type="UI">2011_IVC_depart_F033_E062</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart033</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="\sum_1">\sum</mo>
+			<msub>
+				<mi xml:id="u_1">u</mi>
+				<mi xml:id="n_1">n</mi>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.9871 20.9617, 10.0031 20.9537, 9.99111 20.9537, 9.91889 20.9577, 9.81055 20.9697, 9.68616 20.9858, 9.57782 20.9978, 9.51362 21.0018, 9.47751 20.9978, 9.48152 21.0018, 9.49356 21.0058, 9.52165 21.0058, 9.5698 21.0139, 9.62597 21.0219, 9.69017 21.042, 9.75839 21.062, 9.8266 21.0781, 9.88277 21.0861, 9.89481 21.0981, 9.89481 21.1021, 9.88277 21.1102, 9.8587 21.1142, 9.82259 21.1142, 9.74234 21.1423, 9.63801 21.1623, 9.56579 21.1944, 9.51362 21.2145, 9.45745 21.2386, 9.4093 21.2466, 9.3772 21.2747, 9.35312 21.2947, 9.36516 21.2988, 9.4093 21.3068, 9.48152 21.3349, 9.62999 21.371, 9.75036 21.4111, 9.81857 21.4392, 9.8587 21.4673, 9.87475 21.4793, 9.8908 21.4833, 9.94697 21.4312
+</trace>
+<trace id="1">
+10.2078 21.5315, 10.2158 21.5275, 10.2359 21.5074, 10.264 21.4673, 10.3121 21.4231, 10.3322 21.363, 10.3442 21.3309, 10.3442 21.3188, 10.3362 21.3188, 10.3322 21.3309, 10.3282 21.391, 10.3402 21.4512, 10.3603 21.4833, 10.3883 21.4873, 10.4204 21.4673, 10.4566 21.4272, 10.4846 21.387, 10.4887 21.363, 10.4846 21.3589, 10.4846 21.363, 10.4806 21.371, 10.4806 21.3991, 10.4887 21.4312, 10.5167 21.4552, 10.5569 21.4593
+</trace>
+<trace id="2">
+10.6853 21.5556, 10.7013 21.5355, 10.7053 21.5074, 10.7254 21.4873, 10.7455 21.4552, 10.7655 21.4352, 10.7776 21.4392, 10.7856 21.4512, 10.8016 21.4954, 10.7976 21.5435, 10.7856 21.5836, 10.7816 21.5957, 10.7856 21.5877, 10.7976 21.5716, 10.8137 21.5315, 10.8217 21.4873, 10.8337 21.4593, 10.8418 21.4512, 10.8498 21.4512, 10.8658 21.4633, 10.8819 21.4994, 10.9019 21.5475, 10.918 21.5877, 10.922 21.5957
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="\sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">u</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="u_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,94 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\sin(\frac{\pi}{3})$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F213_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL213</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="sin_1">\sin</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<mfrac xml:id="_1">
+						<mi xml:id="pi_1">\pi</mi>
+						<mn xml:id="3_1">3</mn>
+					</mfrac>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2539 1654, 2539 1654, 2503 1672, 2480 1698, 2478 1707, 2511 1720, 2521 1731, 2524 1741, 2520 1756, 2485 1768
+</trace>
+<trace id="1">
+2510 1757, 2510 1757, 2533 1753, 2542 1748, 2563 1724, 2576 1703, 2562 1742, 2566 1759, 2574 1760, 2580 1756, 2611 1723, 2616 1726, 2615 1732, 2603 1761, 2629 1727, 2635 1727, 2646 1748, 2655 1754
+</trace>
+<trace id="2">
+2613 1668, 2613 1668, 2603 1666
+</trace>
+<trace id="3">
+2765 1614, 2765 1614, 2755 1611, 2732 1634, 2718 1662, 2706 1700, 2703 1746, 2707 1791, 2715 1820
+</trace>
+<trace id="4">
+2795 1658, 2795 1658, 2795 1688, 2787 1731
+</trace>
+<trace id="5">
+2825 1650, 2825 1650, 2817 1715
+</trace>
+<trace id="6">
+2768 1664, 2768 1664, 2883 1634
+</trace>
+<trace id="7">
+2750 1782, 2750 1782, 2763 1783, 2842 1760, 2869 1758, 2871 1757
+</trace>
+<trace id="8">
+2795 1813, 2795 1813, 2817 1797, 2831 1801, 2833 1808, 2827 1826, 2810 1840, 2824 1832, 2839 1835, 2840 1842, 2811 1870
+</trace>
+<trace id="9">
+2905 1604, 2905 1604, 2913 1602, 2924 1608, 2935 1622, 2941 1646, 2940 1687, 2928 1739, 2892 1830
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

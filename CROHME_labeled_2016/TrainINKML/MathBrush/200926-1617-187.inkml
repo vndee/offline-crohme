@@ -1,0 +1,36 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200926-1617-187.ink"</annotation>
+<annotation type="truth"> { - v } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">-</mo>
+            <mi xml:id="1:">v</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+9842 10151, 9823 10146, 9814 10140, 9812 10140, 9826 10140, 9856 10137, 9904 10126, 9968 10118, 10041 10098, 10128 10081, 10220 10062, 10310 10039, 10402 10023, 10478 10009, 10531 9997, 10579 9995
+</trace>
+
+<trace id="1">
+11248 9636, 11256 9622, 11259 9608, 11262 9597, 11262 9600, 11259 9611, 11256 9647, 11245 9689, 11237 9751, 11223 9818, 11212 9899, 11198 9981, 11192 10062, 11189 10129, 11200 10188, 11217 10227, 11251 10247, 11298 10241, 11357 10219, 11424 10177, 11497 10121, 11567 10053, 11634 9975, 11693 9891, 11741 9813, 11774 9740, 11794 9678, 11802 9625, 11802 9580, 11802 9555, 11791 9533, 11783 9519, 11783 9516, 11780 9510
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">v</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

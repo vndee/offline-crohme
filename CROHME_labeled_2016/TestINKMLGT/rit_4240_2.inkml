@@ -1,0 +1,71 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \sin ^ {2} \theta $</annotation>
+<annotation type="writer">4240.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4240_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <msup>
+                <mi xml:id="31:32:33:34:">\sin</mi>
+                <mn xml:id="35:">2</mn>
+            </msup>
+            <mi xml:id="36:37:">\theta</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+170 171, 165 170, 113 221, 126 222, 139 225, 151 228, 162 232, 181 245, 187 251, 194 262, 195 266, 195 275, 189 285, 180 291, 172 295, 161 298, 138 305, 127 309, 110 312, 103 313, 98 313, 93 312, 90 308, 87 301, 86 299, 86 298
+</trace>
+
+<trace id="1">
+224 213, 226 216, 226 299, 226 301
+</trace>
+
+<trace id="2">
+218 184, 217 181, 224 175, 223 175, 222 175, 222 173, 229 170
+</trace>
+
+<trace id="3">
+276 213, 278 218, 279 309, 280 309, 281 309, 282 305, 282 296, 282 293, 282 285, 282 280, 282 272, 282 269, 283 261, 283 258, 284 251, 287 241, 291 232, 294 227, 297 223, 304 218, 314 212, 320 210, 330 209, 342 210, 346 212, 351 224, 352 241, 353 261, 353 267, 353 275, 353 286, 353 290, 353 299, 353 302, 353 300, 356 299
+</trace>
+
+<trace id="4">
+351 139, 363 131, 357 179, 351 185, 347 189, 344 193, 344 194, 351 194, 375 192, 394 192, 414 190, 423 190, 425 190, 428 190, 435 187
+</trace>
+
+<trace id="5">
+492 145, 489 146, 439 235, 438 243, 437 251, 436 265, 436 274, 438 285, 443 296, 451 305, 463 312, 470 314, 479 315, 489 315, 498 314, 504 309, 510 300, 514 295, 524 279, 531 265, 536 252, 538 241, 538 236, 539 226, 539 214, 537 205, 535 195, 532 186, 531 183, 527 177, 523 173, 518 168, 513 163, 511 162, 504 157, 502 155, 500 153, 497 151, 495 150, 492 149
+</trace>
+
+<trace id="6">
+434 247, 440 245, 523 249, 526 250, 528 250, 530 251, 531 251, 535 251
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="31:32:33:34:">
+        <annotation type="truth">\sin</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="31:32:33:34:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="35:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="35:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="36:37:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="36:37:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

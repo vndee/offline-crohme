@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_465</annotation>
+<annotation type="truth">$\sum 1=\infty$</annotation>
+<annotation type="UI">CROHME_2016_em_973</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="sum_1">sum</mo>
+			<mrow>
+				<mn xml:id="1_1">1</mn>
+				<mrow>
+					<mo xml:id="=_1">=</mo>
+					<mi xml:id="infin_1">infin</mi>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+426 107, 426 106, 427 106, 428 106, 439 106, 445 106, 451 105, 458 105, 464 105, 471 104, 478 104, 485 104, 491 103, 498 103, 504 103, 510 104, 514 104, 519 104, 522 104, 527 104
+</trace>
+<trace id="1">
+426 107, 428 108, 435 115, 438 118, 441 120, 445 122, 449 125, 454 128, 459 130, 464 133, 468 135, 473 138, 477 140, 481 142, 484 144, 485 145, 486 147, 487 148, 484 152, 479 156, 476 158, 472 161, 467 163, 463 166, 458 169, 444 180, 434 188, 421 200, 417 203, 415 206, 413 209, 412 211, 412 213, 413 214, 414 214, 416 215, 419 215, 431 215, 441 215, 447 216, 452 216, 458 216, 471 216, 484 216, 505 217, 509 217, 512 217, 514 217, 517 216, 518 216
+</trace>
+<trace id="2">
+561 159, 562 159, 563 159, 564 159, 571 154, 574 152, 576 149, 578 146, 582 138, 584 135, 586 132, 589 126, 590 124, 591 122, 592 121, 593 122, 593 123, 593 131, 594 144, 593 149, 593 154, 592 160, 592 165, 590 182, 590 188, 590 192, 590 206, 590 209, 590 212, 589 215, 588 218, 588 220, 588 222, 590 222
+</trace>
+<trace id="3">
+644 169, 645 169, 646 169, 654 168, 658 168, 662 168, 665 168, 669 168, 674 168, 678 168, 683 168, 685 168, 684 168
+</trace>
+<trace id="4">
+647 190, 648 190, 649 190, 661 190, 665 190, 669 190, 673 190, 676 189, 679 189, 685 189, 687 189, 689 189, 690 189
+</trace>
+<trace id="5">
+796 155, 795 157, 794 159, 788 166, 786 169, 784 172, 778 177, 775 180, 772 182, 768 184, 763 185, 758 186, 754 186, 745 184, 741 183, 738 180, 736 178, 735 175, 735 172, 737 167, 739 164, 742 163, 744 161, 747 161, 751 161, 754 161, 758 162, 761 164, 763 166, 766 169, 771 175, 773 178, 776 181, 779 184, 782 186, 786 188, 794 192, 798 193, 802 194, 806 195, 814 194, 824 191, 827 189, 829 186, 831 182, 831 174, 830 171, 828 169, 821 162, 818 161, 814 159, 806 158, 799 158, 795 159, 794 160
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="infin_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

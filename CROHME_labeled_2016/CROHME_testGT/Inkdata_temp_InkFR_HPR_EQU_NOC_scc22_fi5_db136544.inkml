@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$(a_{n})$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F22_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL22</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<msub>
+					<mi xml:id="a_1">a</mi>
+					<mi xml:id="n_1">n</mi>
+				</msub>
+				<mo xml:id=")_1">)</mo>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1427 2885, 1427 2885, 1422 2880, 1416 2879, 1408 2883, 1397 2896, 1368 2953, 1358 2987, 1357 3014, 1363 3033, 1373 3044, 1388 3050, 1403 3051
+</trace>
+<trace id="1">
+1478 2966, 1478 2966, 1473 2965, 1466 2966, 1459 2971, 1452 2982, 1444 3016, 1447 3029, 1457 3035, 1479 3035, 1498 3026, 1511 3013, 1515 3000, 1509 2986, 1499 2976, 1485 2973, 1516 3013, 1527 3029
+</trace>
+<trace id="2">
+1566 3014, 1566 3014, 1569 3026, 1576 3050, 1576 3062, 1574 3058, 1567 3037, 1569 3023, 1572 3015, 1579 3009, 1588 3008, 1602 3019, 1614 3042, 1618 3052, 1620 3057
+</trace>
+<trace id="3">
+1642 2882, 1642 2882, 1645 2884, 1652 2895, 1675 2949, 1695 3021, 1699 3065, 1699 3076, 1697 3082
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">516</annotation>
+<annotation type="truth">$n\neq 0$</annotation>
+<annotation type="UI">IVC_2014_F516_E395</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<mn xml:id="0_1">0</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+438 128, 436 152, 436 157, 435 161, 434 166, 434 169, 433 172, 432 175, 432 177, 431 179, 431 180, 431 181, 430 180, 430 178, 431 175, 432 172, 433 167, 435 162, 437 156, 441 149, 446 143, 450 136, 455 131, 460 126, 464 123, 469 121, 472 119, 476 118, 478 118, 481 117, 484 118, 487 120, 490 124, 492 128, 495 134, 496 142, 497 149, 497 156, 497 163, 497 171, 497 177, 497 182, 497 186, 497 190, 497 193, 497 195, 497 196
+</trace>
+<trace id="1">
+673 177, 653 176, 648 176, 641 176, 634 176, 625 175, 617 175, 608 174, 601 175, 592 175, 584 175, 577 175, 572 176, 567 176, 564 176
+</trace>
+<trace id="2">
+669 148, 642 147, 634 148, 626 149, 618 149, 609 150, 601 151, 594 151, 587 152, 581 152, 577 152, 576 152
+</trace>
+<trace id="3">
+609 116, 608 142, 607 150, 607 159, 606 166, 606 173, 605 178, 606 184, 606 188, 606 192, 607 195
+</trace>
+<trace id="4">
+745 130, 731 154, 729 159, 728 165, 727 170, 728 175, 729 180, 730 184, 732 188, 735 191, 738 193, 742 195, 747 196, 751 197, 756 197, 762 196, 767 193, 773 190, 778 185, 784 180, 788 174, 791 168, 794 161, 795 155, 796 149, 796 143, 795 138, 792 133, 788 128, 783 124, 777 122, 770 120, 763 119, 756 118, 748 119, 741 121, 735 124, 730 128, 728 130
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

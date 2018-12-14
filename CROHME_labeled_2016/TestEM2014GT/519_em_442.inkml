@@ -1,0 +1,74 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">27</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">519</annotation>
+<annotation type="truth">$t^{\prime}=t$</annotation>
+<annotation type="UI">IVC_2014_F519_E442</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="t_1">t</mi>
+				<mo xml:id="prime_1">prime</mo>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mi xml:id="t_2">t</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+414 271, 422 259, 425 254, 428 249, 432 243, 435 237, 439 230, 443 222, 447 215, 450 209, 454 203, 456 199, 457 196, 459 194, 459 193, 459 192, 459 193, 458 195, 457 199, 456 203, 454 209, 453 215, 451 222, 450 228, 448 235, 446 242, 444 249, 443 255, 442 260, 442 264, 441 267, 443 268, 445 269, 449 269, 453 266, 458 263, 464 259, 469 255, 471 254
+</trace>
+<trace id="1">
+442 223, 455 225, 459 226, 464 226, 466 225
+</trace>
+<trace id="2">
+500 172, 498 188
+</trace>
+<trace id="3">
+518 247, 532 246, 537 246, 542 246, 546 246, 551 246, 555 246, 556 246
+</trace>
+<trace id="4">
+524 233, 549 230, 555 230, 557 230
+</trace>
+<trace id="5">
+591 270, 601 257, 603 251, 607 246, 611 239, 615 232, 620 224, 624 216, 628 209, 631 203, 634 199, 635 195, 636 193, 637 191, 637 190, 636 190, 634 191, 633 194, 632 197, 630 202, 629 208, 627 215, 624 223, 622 230, 621 236, 620 241, 620 245, 621 249, 623 253, 625 255, 627 257, 629 258, 632 259, 635 259, 638 258, 639 257
+</trace>
+<trace id="6">
+609 229, 635 221, 645 220, 648 220
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="t_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">\prime</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="prime_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">t</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="t_2"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

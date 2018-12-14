@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ - \sqrt {y} $</annotation>
+<annotation type="writer">42110.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42110_0</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">-</mo>
+            <msqrt xml:id="1:">
+                <mi xml:id="4:5:">y</mi>
+            </msqrt>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+81 232, 84 232, 93 232, 96 232, 99 232, 102 232, 104 232, 106 232, 108 232, 109 232, 111 232, 113 232, 114 232, 117 232, 118 232, 119 232
+</trace>
+
+<trace id="1">
+142 227, 144 228, 145 234, 147 237, 150 241, 153 246, 156 251, 159 256, 161 258, 164 261, 166 261, 167 262, 167 261, 167 256, 167 251, 166 245, 166 238, 165 229, 164 217, 162 206, 161 199, 161 195, 161 192, 161 188, 161 186, 161 184, 163 184, 166 184, 171 184, 179 184, 184 184, 190 184, 195 184, 199 184, 201 184, 203 184, 205 184, 207 184, 208 184, 209 184, 210 184, 212 184, 213 185, 214 185, 215 185, 215 186
+</trace>
+
+<trace id="2">
+181 206, 181 208, 184 212, 185 214, 186 217, 188 218, 190 221, 190 222, 191 223, 192 224, 192 225, 193 225
+</trace>
+
+<trace id="3">
+202 197, 201 203, 199 217, 199 221, 198 225, 198 230, 197 233, 196 237, 196 239, 195 242, 195 245, 194 247, 194 248, 193 250, 193 251, 192 252, 192 254, 192 255, 192 256, 191 256
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:5:">
+        <annotation type="truth">y</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="4:5:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

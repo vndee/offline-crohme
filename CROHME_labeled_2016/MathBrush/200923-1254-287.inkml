@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-287.ink"</annotation>
+<annotation type="truth"> \left [ P \right ] </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="3:">[</mo>
+            <mrow>
+                <mi xml:id="0:1:">P</mi>
+                <mo xml:id="2:">]</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4206 9236, 4197 9233, 4183 9227, 4169 9233, 4161 9253, 4158 9295, 4158 9356, 4153 9449, 4147 9561, 4136 9695, 4119 9849, 4099 10020, 4077 10188, 4052 10350, 4021 10493, 3996 10613, 3971 10712, 3945 10782, 3931 10829, 3906 10835
+</trace>
+
+<trace id="1">
+4231 9224, 4295 9185, 4357 9160, 4424 9149, 4491 9146, 4559 9157, 4623 9177, 4676 9202, 4724 9238, 4755 9281, 4771 9331, 4771 9387, 4755 9449, 4721 9516, 4671 9586, 4606 9653, 4528 9717, 4447 9773, 4363 9821, 4279 9843, 4206 9860
+</trace>
+
+<trace id="2">
+5189 8690, 5200 8673, 5208 8667, 5214 8664, 5219 8664, 5225 8664, 5239 8664, 5256 8664, 5275 8664, 5303 8670, 5334 8673, 5368 8684, 5401 8698, 5438 8729, 5469 8776, 5494 8844, 5513 8930, 5525 9040, 5527 9180, 5519 9339, 5499 9519, 5466 9709, 5421 9905, 5365 10098, 5303 10286, 5233 10462, 5161 10616, 5088 10756, 5023 10882, 4965 10989, 4914 11073, 4875 11148, 4841 11207, 4822 11255, 4808 11286, 4797 11308, 4783 11311, 4771 11294, 4757 11255, 4735 11196, 4696 11106, 4659 11000
+</trace>
+
+<trace id="3">
+4085 8782, 4071 8768, 4052 8762, 4027 8771, 3987 8788, 3937 8813, 3867 8849, 3786 8894, 3696 8947, 3598 9009, 3497 9073, 3397 9140, 3304 9205, 3229 9261, 3167 9314, 3128 9359, 3100 9401, 3094 9440, 3103 9485, 3122 9541, 3150 9608, 3178 9692, 3212 9790, 3243 9913, 3271 10048, 3287 10191, 3299 10339, 3301 10485, 3301 10622, 3301 10756, 3296 10877, 3290 10978, 3285 11064, 3282 11134, 3285 11193, 3304 11235, 3329 11263, 3371 11274, 3436 11280, 3506 11274
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">P</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">]</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">[</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

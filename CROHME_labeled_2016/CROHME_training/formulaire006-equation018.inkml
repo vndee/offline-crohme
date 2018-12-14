@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">2011_IVC_DEPART_F006_E018</annotation>
+<annotation type="writer">depart006</annotation>
+<annotation type="truth">$(\gamma )$</annotation>
+<annotation type="age">25</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="(_1">(</mo>
+			<mrow>
+				<mi xml:id="gamma_1">\gamma</mi>
+				<mo xml:id=")_1">)</mo>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.7526 25.54, 11.7526 25.54, 11.7486 25.544, 11.7406 25.548, 11.7205 25.5721, 11.6964 25.6322, 11.6683 25.7245, 11.6523 25.8529, 11.6443 26.0174, 11.6603 26.1579, 11.6884 26.2502, 11.7205 26.3063, 11.7446 26.3425, 11.7646 26.3665, 11.7807 26.3705, 11.7967 26.3705, 11.8369 26.3465
+</trace>
+<trace id="1">
+12.0254 25.7767, 12.0254 25.7767, 12.0375 25.7887, 12.0535 25.8008, 12.1057 25.8289, 12.1819 25.869, 12.2662 25.9091, 12.3545 25.9613, 12.4106 26.0215, 12.4307 26.0696, 12.4267 26.1218, 12.4147 26.186, 12.3665 26.2181, 12.3143 26.2462, 12.2582 26.2421, 12.214 26.2341, 12.1819 26.198, 12.1739 26.1539, 12.194 26.0977, 12.2341 26.0215, 12.3063 25.9412, 12.3705 25.8569, 12.4147 25.7887, 12.4427 25.7366, 12.4508 25.7125, 12.4508 25.7165, 12.4468 25.7165, 12.4427 25.7245, 12.4347 25.7245
+</trace>
+<trace id="2">
+12.6273 25.4998, 12.6273 25.4998, 12.6273 25.4798, 12.6353 25.4838, 12.6474 25.4958, 12.6915 25.5359, 12.7437 25.6001, 12.7958 25.7085, 12.836 25.8289, 12.856 25.9573, 12.844 26.0857, 12.8119 26.19, 12.7758 26.2622, 12.7477 26.2943, 12.7316 26.3144, 12.7276 26.3144, 12.7236 26.3104, 12.7276 26.3104, 12.7236 26.3063, 12.7276 26.3023, 12.7236 26.2983, 12.7236 26.2783
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\gamma</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="gamma_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,94 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \theta + \frac {\pi} {2} $</annotation>
+<annotation type="writer">42150.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42150_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="27:28:">\theta</mi>
+            <mrow>
+                <mo xml:id="29:30:">+</mo>
+                <mfrac xml:id="34:">
+                    <mi xml:id="31:32:33:">\pi</mi>
+                    <mn xml:id="35:">2</mn>
+                </mfrac>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+187 157, 175 160, 170 166, 166 173, 161 183, 157 193, 154 205, 152 217, 151 232, 150 248, 149 264, 149 281, 151 297, 155 308, 161 321, 167 330, 175 337, 183 343, 190 345, 199 346, 207 345, 214 341, 219 333, 224 324, 228 315, 230 304, 231 290, 231 276, 231 261, 231 247, 231 234, 229 222, 224 207, 220 196, 215 185, 210 177, 204 169, 198 164, 191 161, 186 158, 181 158, 174 159, 170 163, 167 167
+</trace>
+
+<trace id="1">
+161 256, 169 252, 179 252, 195 250, 211 247, 223 246, 234 246, 246 246, 258 246
+</trace>
+
+<trace id="2">
+392 192, 385 212, 384 222, 383 233, 383 245, 383 256, 383 268, 383 278, 385 288, 386 296, 388 302
+</trace>
+
+<trace id="3">
+345 231, 350 231, 357 231, 367 231, 378 231, 390 232, 400 232, 414 232, 424 233, 434 233, 444 233
+</trace>
+
+<trace id="4">
+556 130, 560 139, 560 149, 560 159, 561 170, 561 182, 561 192, 561 202, 562 209, 563 217, 565 221
+</trace>
+
+<trace id="5">
+607 124, 610 124, 610 129, 611 139, 613 149, 618 174, 619 180, 621 186, 623 195, 625 197, 627 197
+</trace>
+
+<trace id="6">
+522 122, 528 120, 539 120, 551 120, 583 121, 599 122, 614 123, 650 127, 655 129, 657 129
+</trace>
+
+<trace id="7">
+521 244, 526 243, 534 243, 546 243, 560 243, 575 243, 625 243, 641 243, 654 243, 682 243, 688 243, 694 243, 698 245
+</trace>
+
+<trace id="8">
+602 290, 609 285, 613 285, 617 283, 620 282, 624 282, 637 285, 640 289, 642 294, 633 326, 628 330, 623 333, 608 338, 603 338, 600 338, 596 329, 596 326, 600 322, 604 319, 621 316, 628 317, 634 320, 652 334, 656 339, 676 350
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="27:28:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="27:28:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="29:30:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="29:30:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="31:32:33:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="31:32:33:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="34:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="34:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="35:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="8"/>
+        <annotationXML href="35:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_jorge</annotation>
+<annotation type="writer">jorge</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+357 97, 368 99, 374 101, 376 104, 381 112, 382 116, 385 123, 387 132, 388 137, 389 142, 389 147, 390 157, 391 162, 391 166, 391 171, 392 179, 392 185, 392 188, 392 190, 393 192, 393 193, 393 194, 393 192, 393 191, 392 189, 392 187, 392 185, 391 182, 391 180, 391 177, 391 170, 391 167, 391 164, 391 161, 391 157, 392 154, 392 151, 393 147, 396 140, 397 137, 399 134, 401 131, 404 129, 406 127, 408 125, 411 123, 414 122, 419 121, 421 121, 424 122, 427 123, 429 124, 432 126, 434 129, 437 131, 439 135, 441 138, 442 142, 444 146, 445 151, 446 155, 448 165, 449 169, 449 174, 450 178, 450 183, 450 187, 451 190, 451 194, 451 197, 451 199, 451 201, 451 203, 451 205, 451 206, 452 207, 452 208, 452 209, 453 209, 453 208
+</trace>
+<trace id="1">
+519 101, 527 99, 527 100, 527 105, 528 133, 528 143, 529 155, 530 165, 531 174, 531 178, 532 184, 533 186, 534 191, 534 193, 534 194
+</trace>
+<trace id="2">
+513 246
+</trace>
+<trace id="3">
+565 174, 567 175, 601 171, 604 171, 607 170, 609 171, 613 171, 614 171, 615 171
+</trace>
+<trace id="4">
+687 130, 691 117, 692 118, 692 120, 693 123, 694 135, 694 140, 694 146, 694 159, 694 165, 694 171, 694 178, 694 184, 694 195, 695 200, 696 204
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

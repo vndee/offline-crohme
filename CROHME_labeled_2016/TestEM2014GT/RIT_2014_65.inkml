@@ -1,0 +1,70 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ G \times H $</annotation>
+<annotation type="writer">annot_270</annotation>
+<annotation type="UI">2014_RIT_CROHME_65</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="8:">G</mi>
+            <mrow >
+                <mo  xml:id = "10:9:" >\times</mo>
+                <mi  xml:id = "11:12:13:" >H</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+340 145, 333 142, 328 142, 322 142, 314 141, 304 141, 292 141, 281 143, 271 148, 261 155, 253 163, 247 172, 242 184, 238 195, 236 208, 236 219, 236 234, 239 246, 246 259, 255 268, 267 275, 281 279, 294 281, 310 281, 328 281, 343 277, 357 272, 367 266, 375 259, 380 252, 382 246, 382 239, 381 232, 373 227, 362 223, 348 223, 333 223, 318 223, 303 223, 291 225, 284 226, 280 228, 280 231, 281 235
+</trace>
+
+<trace  id = "1" >
+458 168, 459 172, 459 177, 463 186, 467 196, 473 209, 479 218, 486 227, 495 238, 502 245, 508 252, 513 257, 517 263, 521 267, 525 270, 529 272, 533 273, 538 271
+</trace>
+
+<trace  id = "2" >
+553 170, 545 174, 534 184, 517 198, 499 212, 481 225, 466 238, 456 247, 448 255, 444 263, 442 268, 442 272, 445 272
+</trace>
+
+<trace  id = "3" >
+632 129, 624 131, 621 136, 619 144, 617 157, 616 170, 615 185, 615 200, 615 215, 615 231, 615 247, 613 262, 611 274, 609 283, 609 289, 609 292
+</trace>
+
+<trace  id = "4" >
+606 211, 612 213, 618 213, 626 212, 638 210, 651 208, 663 206, 673 204, 680 203, 688 202, 694 201, 700 199, 704 195
+</trace>
+
+<trace  id = "5" >
+708 111, 702 114, 700 121, 699 133, 698 153, 697 172, 697 191, 697 210, 699 228, 701 247, 702 267, 703 284, 703 298, 705 313, 706 323, 708 330
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:9:">
+        <annotation type="truth">\times</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="10:9:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="11:12:13:">
+        <annotation type="truth">H</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="11:12:13:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:">
+        <annotation type="truth">G</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="8:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

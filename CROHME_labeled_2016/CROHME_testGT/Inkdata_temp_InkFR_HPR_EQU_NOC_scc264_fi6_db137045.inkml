@@ -1,0 +1,104 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$c = \sqrt{a^2-b^2}$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F264_E6</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL264</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="c_1">c</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<msqrt xml:id="_1">
+					<msup>
+						<mi xml:id="a_1">a</mi>
+						<mn xml:id="2_1">2</mn>
+					</msup>
+					<mrow>
+						<mo xml:id="-_1">-</mo>
+						<msup>
+							<mi xml:id="b_1">b</mi>
+							<mn xml:id="2_2">2</mn>
+						</msup>
+					</mrow>
+				</msqrt>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+3478 3100, 3478 3100, 3479 3095, 3500 3066, 3494 3064, 3480 3069, 3462 3080, 3448 3093, 3444 3102, 3448 3111, 3457 3117, 3473 3119, 3491 3116, 3510 3112
+</trace>
+<trace id="1">
+3607 3119, 3607 3119, 3617 3116, 3651 3102, 3670 3096
+</trace>
+<trace id="2">
+3625 3088, 3625 3088, 3624 3084, 3641 3078, 3666 3074, 3695 3067
+</trace>
+<trace id="3">
+3765 3040, 3765 3040, 3760 3037, 3762 3040, 3795 3088, 3835 3130, 3831 3118, 3811 3062, 3801 2997, 3804 2984, 3809 2983, 3899 2977, 4214 2944, 4323 2940, 4353 2945, 4347 2965, 4348 2992, 4350 3002, 4355 3010, 4361 3014
+</trace>
+<trace id="4">
+3945 3086, 3945 3086, 3930 3075, 3906 3085, 3883 3112, 3877 3125, 3878 3132, 3881 3135, 3887 3133, 3900 3124, 3911 3113, 3918 3101, 3918 3095, 3913 3098, 3912 3108, 3918 3132, 3939 3141, 3951 3137
+</trace>
+<trace id="5">
+3965 3044, 3965 3044, 3969 3041, 3974 3043, 3980 3048, 3986 3055, 3968 3087, 3973 3094, 3987 3092, 4013 3080, 4026 3076
+</trace>
+<trace id="6">
+4074 3130, 4074 3130, 4074 3128, 4085 3126, 4094 3124, 4104 3121
+</trace>
+<trace id="7">
+4165 3030, 4165 3030, 4162 3027, 4170 3079, 4169 3099, 4168 3114, 4167 3121, 4167 3122, 4169 3115, 4175 3101, 4201 3081, 4210 3081, 4217 3094, 4197 3112, 4181 3119, 4157 3124, 4154 3121
+</trace>
+<trace id="8">
+4228 3018, 4228 3018, 4235 3011, 4246 3010, 4249 3014, 4247 3024, 4237 3039, 4225 3052, 4222 3060, 4224 3065, 4239 3068, 4252 3065, 4267 3060
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">c</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="c_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">b</annotation>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="b_1"/>
+	</traceGroup>
+	<traceGroup xml:id="17">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="2_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

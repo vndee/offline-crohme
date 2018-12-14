@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ 15 \pi $</annotation>
+<annotation type="writer">annot_75</annotation>
+<annotation type="UI">2014_RIT_CROHME_151</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="29:">1</mn>
+            <mrow >
+                <mn  xml:id = "30:" >5</mn>
+                <mi  xml:id = "31:38:40:" >\pi</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+447 96, 447 99, 447 105, 447 116, 448 129, 450 147, 452 165, 453 185, 453 204, 454 221, 456 234, 456 245, 457 253, 458 259, 459 263, 461 265, 463 265, 468 261
+</trace>
+
+<trace  id = "1" >
+637 93, 634 93, 626 93, 614 93, 599 93, 584 93, 569 93, 556 93, 546 94, 536 96, 529 98, 524 100, 520 104, 517 109, 516 114, 515 120, 514 127, 513 134, 513 139, 513 143, 513 147, 513 148, 513 149, 514 149, 518 149, 527 144, 537 139, 552 132, 562 130, 572 130, 584 130, 595 132, 604 137, 613 144, 619 153, 624 162, 625 171, 625 180, 621 189, 612 195, 600 200, 587 201, 573 201, 564 201, 556 201, 549 199, 544 198, 540 196, 538 195, 538 194, 538 193, 539 192
+</trace>
+
+<trace  id = "2" >
+661 76, 665 80, 669 86, 674 93, 679 104, 682 115, 683 130, 683 146, 682 165, 678 181, 672 195, 666 209, 663 219, 660 226, 659 230, 658 232, 663 229
+</trace>
+
+<trace  id = "3" >
+756 64, 754 71, 752 77, 748 88, 743 100, 736 115, 731 130, 728 146, 727 163, 727 181, 731 198, 736 213, 741 223, 747 234, 750 240, 753 244, 755 246, 757 246
+</trace>
+
+<trace  id = "4" >
+651 76, 664 72, 672 72, 681 72, 692 72, 705 71, 717 70, 730 69, 744 68, 757 67, 770 66, 782 65, 792 64, 799 63, 807 62, 811 62, 814 61, 815 61, 815 60
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="29:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="29:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="30:">
+        <annotation type="truth">5</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="30:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="31:38:40:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="31:38:40:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

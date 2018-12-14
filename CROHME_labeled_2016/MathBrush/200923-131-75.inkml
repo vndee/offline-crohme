@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-75.ink"</annotation>
+<annotation type="truth"> \mbox { cBt } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:">c</mi>
+            <mrow>
+                <mi xml:id="1:2:">B</mi>
+                <mi xml:id="3:4:">t</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5760 4038, 5762 4040, 5754 4034, 5753 4034, 5738 4036, 5722 4036, 5706 4044, 5684 4055, 5659 4076, 5627 4105, 5596 4143, 5562 4185, 5532 4234, 5507 4283, 5491 4333, 5484 4376, 5493 4414, 5513 4443, 5545 4460, 5589 4469, 5638 4464, 5692 4451, 5749 4431, 5801 4403, 5846 4372
+</trace>
+
+<trace id="1">
+5975 3929, 5981 3903, 5980 3879, 5988 3872, 5993 3875, 6000 3889, 6008 3919, 6013 3957, 6021 4010, 6023 4067, 6029 4132, 6032 4199, 6038 4265, 6041 4324, 6047 4374, 6055 4421, 6060 4452, 6067 4471, 6073 4485, 6075 4487
+</trace>
+
+<trace id="2">
+6031 3893, 6050 3844, 6069 3799, 6093 3761, 6125 3734, 6157 3711, 6196 3703, 6230 3699, 6264 3705, 6293 3718, 6319 3738, 6334 3764, 6342 3796, 6344 3831, 6339 3868, 6325 3904, 6304 3941, 6276 3974, 6247 4004, 6218 4030, 6192 4049, 6170 4065, 6153 4074, 6145 4083, 6147 4087, 6158 4090, 6180 4093, 6206 4099, 6241 4106, 6278 4118, 6314 4137, 6350 4160, 6381 4188, 6405 4220, 6422 4256, 6431 4290, 6430 4326, 6420 4360, 6403 4389, 6375 4414, 6344 4436, 6305 4451, 6263 4464, 6219 4473, 6179 4476, 6144 4477, 6111 4468, 6087 4456, 6079 4443, 6077 4429, 6089 4412
+</trace>
+
+<trace id="3">
+6674 3912, 6685 3916, 6685 3925, 6685 3945, 6683 3973, 6674 4001, 6670 4041, 6659 4084, 6656 4133, 6649 4180, 6651 4228, 6656 4275, 6666 4318, 6682 4358, 6701 4392, 6724 4418, 6750 4437, 6777 4452, 6800 4454, 6822 4452, 6842 4447, 6852 4435, 6858 4423
+</trace>
+
+<trace id="4">
+6577 4060, 6581 4054, 6599 4053, 6621 4051, 6645 4048, 6685 4048, 6728 4046, 6775 4046, 6821 4038, 6869 4032, 6910 4022
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">c</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:">
+        <annotation type="truth">B</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

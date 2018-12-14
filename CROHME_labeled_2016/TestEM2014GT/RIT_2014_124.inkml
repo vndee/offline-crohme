@@ -1,0 +1,82 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \pi e \sqrt {x} $</annotation>
+<annotation type="writer">annot_5</annotation>
+<annotation type="UI">2014_RIT_CROHME_124</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="17:18:19:">\pi</mi>
+            <mrow >
+                <mi  xml:id = "20:" >e</mi>
+                <msqrt  xml:id = "21:22:" >
+                    <mi  xml:id = "23:" >x</mi>
+                </msqrt>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+308 208, 308 211, 308 215, 308 220, 308 228, 308 238, 307 247, 306 258, 305 265, 304 269, 303 273
+</trace>
+
+<trace  id = "1" >
+336 209, 339 210, 339 214, 339 220, 339 226, 339 232, 339 240, 338 245, 336 250, 336 254, 335 257, 335 259
+</trace>
+
+<trace  id = "2" >
+288 211, 285 208, 292 208, 305 208, 319 208, 334 207, 346 204, 355 202, 360 202, 363 202, 364 202
+</trace>
+
+<trace  id = "3" >
+378 232, 382 227, 385 228, 391 228, 398 228, 404 228, 410 226, 415 223, 418 221, 421 218, 421 213, 421 210, 421 207, 419 205, 417 204, 413 203, 407 203, 401 203, 395 206, 389 211, 385 215, 382 220, 379 226, 378 233, 376 239, 376 243, 376 247, 376 250, 376 252, 380 255, 384 256, 389 257, 394 259, 399 259, 403 259, 408 259, 411 260, 413 261, 415 262
+</trace>
+
+<trace  id = "4" >
+463 199, 464 198, 470 198, 480 198, 494 198, 508 198, 524 197, 537 196, 547 195, 555 194, 561 194, 565 194, 567 194, 564 194
+</trace>
+
+<trace  id = "5" >
+459 204, 459 207, 459 211, 459 215, 459 222, 459 228, 459 235, 459 240, 459 245, 459 250, 459 255, 459 260, 459 264, 459 267, 459 270, 458 272, 458 274, 458 275, 457 276, 456 276, 455 275, 455 272, 454 268, 453 263, 451 258, 450 254, 448 250, 446 246, 443 243, 441 241, 439 240, 438 238, 436 237, 434 237, 432 237, 430 237, 429 237, 428 237, 426 237, 426 238, 425 239, 424 240, 424 241, 424 242, 423 242, 422 243, 422 244, 421 245, 421 246
+</trace>
+
+<trace  id = "6" >
+482 232, 487 227, 492 227, 497 227, 502 227, 507 227, 510 228, 513 230, 513 236, 513 241, 512 247, 509 252, 507 255, 506 257, 505 259, 504 259, 504 257, 505 252, 509 247, 514 242, 521 236, 528 230, 533 226, 538 222, 541 218, 543 216, 544 216, 545 215, 543 215, 541 217, 538 219, 535 221, 532 224, 530 228, 527 233, 526 237, 524 241, 524 245, 524 248, 524 251, 528 254, 533 256, 538 257, 543 257, 548 258, 551 258, 553 258
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="17:18:19:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="17:18:19:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="20:">
+        <annotation type="truth">e</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="20:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="21:22:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="21:22:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="23:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="23:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,28 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200922-949-210.ink"</annotation>
+<annotation type="truth"> \theta </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi xml:id="0:1:">\theta</mi>
+    </math>
+</annotationXML>
+
+<trace id="0">
+12793 3822, 12785 3811, 12779 3806, 12768 3797, 12753 3789, 12741 3788, 12722 3782, 12707 3787, 12685 3790, 12666 3803, 12641 3814, 12615 3836, 12589 3861, 12565 3891, 12540 3927, 12518 3965, 12499 4006, 12486 4051, 12476 4097, 12472 4141, 12475 4183, 12482 4221, 12496 4256, 12517 4286, 12547 4310, 12579 4326, 12618 4331, 12661 4332, 12706 4324, 12753 4309, 12796 4286, 12838 4257, 12877 4224, 12907 4186, 12932 4145, 12949 4101, 12959 4052, 12960 4005, 12957 3958, 12945 3915, 12929 3875, 12907 3839, 12882 3810, 12855 3786, 12828 3770, 12799 3757, 12777 3755, 12750 3748, 12732 3749, 12719 3755, 12708 3762, 12705 3774
+</trace>
+
+<trace id="1">
+12489 4049, 12482 4053, 12475 4052, 12476 4053, 12483 4055, 12494 4050, 12523 4050, 12553 4042, 12596 4038, 12643 4030, 12695 4023, 12748 4014, 12800 4007, 12848 4000, 12887 3994, 12923 3994, 12942 3993, 12957 3991, 12965 3993, 12965 3993
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\theta</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,60 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ r ^ {- k} $</annotation>
+<annotation type="writer">annot_95</annotation>
+<annotation type="UI">2014_RIT_CROHME_238</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+            <mi xml:id="71:">r</mi>
+            <mrow >
+                <mo  xml:id = "72:" >-</mo>
+                <mi  xml:id = "73:74:" >k</mi>
+            </mrow>
+        </msup>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+423 264, 426 264, 432 258, 444 251, 454 241, 463 232, 468 222, 473 212, 476 203, 476 195, 475 187, 468 181, 461 179, 456 178, 453 178, 452 179, 452 183, 462 186, 474 187, 487 187, 499 186, 510 183, 517 181, 519 180, 520 180, 517 188, 509 199, 500 212, 494 225, 493 237, 493 249, 501 258, 515 263, 528 264, 541 264, 551 260, 557 255, 561 250, 562 242
+</trace>
+
+<trace  id = "1" >
+534 126, 547 121, 559 120, 568 119, 573 119, 575 118, 577 118
+</trace>
+
+<trace  id = "2" >
+620 73, 619 76, 619 84, 618 92, 615 105, 613 117, 610 129, 609 139, 609 146, 609 153, 611 155, 617 155
+</trace>
+
+<trace  id = "3" >
+666 93, 665 96, 658 102, 648 109, 639 115, 629 120, 622 121, 618 122, 616 122, 615 122, 614 122, 620 124, 628 129, 638 136, 648 142, 657 148, 663 153, 670 157, 675 159, 680 159
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="71:">
+        <annotation type="truth">r</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="71:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="72:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="72:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="73:74:">
+        <annotation type="truth">k</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="73:74:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

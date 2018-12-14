@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-112.ink"</annotation>
+<annotation type="truth"> { \mbox { R } 1 } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">R</mi>
+            <mn xml:id="2:">1</mn>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+3623 1028, 3632 1039, 3637 1050, 3646 1078, 3660 1126, 3671 1187, 3682 1271, 3685 1383, 3682 1523, 3665 1683, 3643 1868, 3607 2067, 3559 2277, 3503 2487, 3450 2700, 3388 2898, 3332 3075, 3279 3229, 3234 3352, 3198 3447, 3164 3512, 3136 3542, 3119 3551, 3108 3514
+</trace>
+
+<trace id="1">
+3593 1302, 3570 1291, 3562 1285, 3556 1271, 3559 1260, 3576 1249, 3607 1241, 3649 1229, 3705 1224, 3772 1224, 3845 1224, 3926 1238, 4007 1255, 4088 1283, 4161 1313, 4223 1358, 4265 1406, 4290 1467, 4295 1537, 4279 1619, 4239 1708, 4186 1806, 4111 1901, 4021 1997, 3917 2083, 3814 2165, 3702 2232, 3601 2288, 3509 2333, 3425 2369, 3357 2400, 3313 2436, 3285 2478, 3279 2532, 3301 2593, 3338 2666, 3391 2747, 3458 2840, 3534 2940, 3618 3047, 3705 3153, 3783 3254, 3864 3352, 3934 3447, 4001 3540, 4055 3624, 4108 3691, 4164 3755
+</trace>
+
+<trace id="2">
+5628 1375, 5634 1347, 5637 1327, 5642 1313, 5648 1311, 5659 1325, 5670 1353, 5684 1406, 5695 1487, 5707 1602, 5707 1739, 5709 1907, 5695 2092, 5681 2285, 5656 2484, 5628 2680, 5597 2862, 5569 3027, 5544 3173, 5525 3296, 5508 3397, 5494 3481, 5488 3545, 5488 3599, 5488 3635
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">R</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

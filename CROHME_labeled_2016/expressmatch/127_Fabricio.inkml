@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_Fabricio</annotation>
+<annotation type="writer">Fabricio</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+511 165, 511 166, 511 167, 512 171, 513 182, 514 190, 515 200, 515 205, 515 207, 516 208, 516 209, 516 208, 515 207, 515 205, 515 203, 515 200, 516 196, 516 193, 517 189, 518 185, 519 182, 520 178, 521 176, 522 173, 524 171, 526 170, 527 170, 529 170, 531 170, 532 172, 534 174, 535 177, 536 180, 537 183, 538 187, 539 190, 540 193, 540 196, 541 199, 541 201, 542 202, 543 203, 543 204, 543 205, 544 205, 544 204, 544 203, 544 202
+</trace>
+<trace id="1">
+568 125, 568 128, 568 129, 569 132, 569 134, 569 138, 569 164, 568 167, 568 169, 568 170, 569 172, 569 173, 569 174, 568 173, 568 172, 568 171, 568 170
+</trace>
+<trace id="2">
+570 199, 570 199, 571 199
+</trace>
+<trace id="3">
+613 172, 620 175, 640 175, 641 175, 642 175, 641 176, 640 176
+</trace>
+<trace id="4">
+672 161, 672 162, 672 163, 678 155, 687 138, 687 137, 686 138, 686 140, 686 142, 686 145, 685 148, 685 152, 684 157, 683 162, 683 167, 682 172, 682 177, 681 182, 681 186, 680 190, 680 194, 680 197, 680 199, 680 202, 680 203, 680 204, 680 205, 680 206, 679 207, 678 207, 677 207, 676 206, 675 206, 674 206, 673 207, 671 207, 670 207, 669 207, 668 207, 667 208, 668 208, 670 208, 672 207, 675 207, 677 207, 680 207, 684 206, 687 206, 690 206, 692 206, 695 206, 697 206, 698 206, 699 206, 700 206, 701 206
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

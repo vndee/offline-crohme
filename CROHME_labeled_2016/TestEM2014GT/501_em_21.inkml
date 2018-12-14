@@ -1,0 +1,57 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">24</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">501</annotation>
+<annotation type="truth">$\theta \rightarrow 0 \!$</annotation>
+<annotation type="UI">IVC_2014_F501_E21</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="theta_1">theta</mi>
+			<mrow>
+				<mo xml:id="\rightarrow_1">\rightarrow</mo>
+				<mrow>
+					<mn xml:id="0_1">0</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+168 261, 166 260, 165 259, 164 258, 163 258, 159 254, 158 252, 158 250, 157 248, 157 247, 156 246, 154 247, 151 248, 148 251, 145 256, 139 281, 140 289, 141 295, 144 302, 146 303, 148 302, 151 300, 153 295, 156 290, 158 284, 159 276, 161 268, 162 260, 162 252, 161 247, 157 244, 153 245, 149 247, 145 252, 143 257, 143 261, 150 264, 156 263, 160 262
+</trace>
+<trace id="1">
+173 292, 179 293, 184 292, 191 291, 199 290, 208 289, 217 288, 227 287, 238 286, 249 286, 261 286, 279 286, 286 286, 291 287, 295 286, 297 286
+</trace>
+<trace id="2">
+282 274, 283 275, 292 278, 298 280, 303 282, 307 285, 310 287, 311 290, 310 293, 308 297, 304 301, 299 306, 295 310, 293 311
+</trace>
+<trace id="3">
+349 262, 348 263, 346 266, 344 271, 339 292, 340 296, 343 299, 350 301, 355 300, 360 297, 365 292, 369 286, 374 279, 376 271, 377 264, 375 259, 371 257, 366 256, 354 257
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">0</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="0_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\rightarrow</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="\rightarrow_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

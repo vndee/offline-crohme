@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_105</annotation>
+<annotation type="truth">$\mbox{T}^4$</annotation>
+<annotation type="UI">CROHME_2016_em_122</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="T_1">T</mi>
+			<mn xml:id="4_1">4</mn>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+545 173, 546 201, 546 208, 547 216, 547 224, 548 233, 548 242, 548 252, 548 261, 548 271, 548 279, 548 288, 547 296, 547 304, 547 310, 547 316, 547 321, 548 325, 548 328, 548 329
+</trace>
+<trace id="1">
+479 203, 502 189, 512 188, 522 186, 533 183, 544 181, 555 179, 565 178, 574 176, 583 175, 590 174, 596 173, 601 172, 605 172, 607 171
+</trace>
+<trace id="2">
+675 98, 668 117, 663 123, 658 131, 654 137, 649 143, 644 147, 639 151, 636 154, 633 156, 632 157, 631 158, 630 159, 629 159, 629 160, 630 160, 632 160, 635 160, 640 160, 644 161, 650 161, 657 161, 664 160, 671 160, 677 159, 683 159, 688 158, 693 156, 696 154, 700 152, 702 150, 704 147, 705 144, 705 141, 704 138, 704 135, 702 133, 700 131, 698 130, 696 129, 694 129, 693 130, 691 131, 689 133, 687 136, 686 140, 685 144, 684 148, 683 153, 683 158, 684 164, 684 170, 685 177, 687 183, 688 190, 689 196, 691 202, 692 204
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">4</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="4_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">T</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="T_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

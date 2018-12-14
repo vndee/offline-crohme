@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-128.ink"</annotation>
+<annotation type="truth"> \sum { \left [ \mbox { h } \right ] } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:1:">\sum</mo>
+            <mrow>
+                <mo xml:id="2:">[</mo>
+                <mrow>
+                    <mi xml:id="3:">h</mi>
+                    <mo xml:id="4:">]</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4967 3530, 4955 3522, 4956 3521, 4962 3513, 4979 3508, 5010 3506, 5046 3504, 5098 3504, 5153 3502, 5218 3501, 5287 3500, 5356 3498, 5422 3496, 5481 3494, 5533 3494, 5574 3493, 5604 3495, 5624 3501, 5625 3506, 5618 3515
+</trace>
+
+<trace id="1">
+5015 3536, 4997 3534, 4992 3537, 4984 3537, 4982 3537, 4990 3543, 5001 3547, 5024 3557, 5051 3565, 5087 3578, 5125 3592, 5168 3607, 5213 3624, 5256 3644, 5295 3668, 5327 3695, 5349 3724, 5361 3759, 5363 3795, 5355 3834, 5336 3874, 5306 3914, 5269 3949, 5228 3982, 5183 4010, 5139 4033, 5098 4050, 5061 4062, 5030 4071, 5009 4075, 4996 4077, 4993 4077, 5002 4075, 5021 4073, 5051 4071, 5090 4070, 5138 4069, 5195 4070, 5257 4072, 5322 4074, 5384 4078, 5446 4082, 5501 4089, 5549 4092, 5597 4097, 5635 4101, 5667 4101, 5700 4102
+</trace>
+
+<trace id="2">
+6155 3404, 6145 3401, 6138 3411, 6121 3421, 6105 3440, 6086 3473, 6063 3509, 6044 3559, 6025 3613, 6014 3676, 6003 3738, 6000 3803, 6001 3865, 6010 3923, 6026 3972, 6048 4014, 6071 4046, 6096 4067, 6126 4080, 6152 4084, 6177 4072, 6200 4056, 6215 4027
+</trace>
+
+<trace id="3">
+6349 3494, 6350 3519, 6353 3555, 6348 3597, 6341 3642, 6341 3696, 6335 3742, 6337 3790, 6335 3825, 6338 3856, 6339 3878, 6341 3892, 6346 3898, 6349 3896, 6357 3889, 6364 3877, 6373 3861, 6383 3842, 6394 3820, 6407 3798, 6420 3779, 6437 3761, 6456 3748, 6473 3740, 6492 3740, 6511 3746, 6527 3761, 6541 3780, 6554 3804, 6563 3830, 6570 3857, 6575 3882, 6579 3904, 6580 3923, 6583 3938, 6582 3949, 6579 3947, 6577 3944, 6572 3929
+</trace>
+
+<trace id="4">
+6767 3454, 6792 3467, 6811 3487, 6831 3516, 6851 3557, 6865 3602, 6883 3659, 6893 3719, 6901 3785, 6904 3853, 6901 3917, 6895 3979, 6881 4039, 6866 4097, 6844 4143, 6824 4184, 6801 4219, 6771 4249, 6744 4278
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">[</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">h</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">]</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

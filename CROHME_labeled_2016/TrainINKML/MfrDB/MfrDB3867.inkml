@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB3867</annotation>
+  <annotation type="truth">$v = a \cdot b \cdot c$</annotation>
+  <annotation type="writer">User162</annotation>
+  <annotation type="device">Stylus</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mi xml:id="v_1">v</mi>
+      <mo xml:id="=_1">=</mo>
+      <mi xml:id="a_1">a</mi>
+      <mo xml:id="\cdot_1">.</mo>
+      <mi xml:id="b_1">b</mi>
+      <mo xml:id="\cdot_2">.</mo>
+      <mi xml:id="c_1">c</mi>
+    </math>
+  </annotationXML>
+  <trace id="0">349 223 6853391, 349 222 6853425, 350 226 6853442, 353 242 6853460, 354 245 6853477, 354 247 6853497, 354 248 6853515, 355 247 6853533, 355 246 6853551, 356 243 6853568, 357 238 6853587, 357 235 6853605, 358 230 6853622, 359 227 6853640, 360 225 6853657, 360 223 6853675, 361 221 6853693, 361 222 6853726, 361 223 6853743, 361 224 6853760, 360 226 6853777, 360 227 6853798</trace>
+  <trace id="1">375 234 6854501, 378 233 6854530, 386 233 6854547, 389 233 6854567, 390 233 6854583, 391 233 6854614, 390 233 6854630, 389 234 6854649, 388 235 6854668</trace>
+  <trace id="2">375 239 6854927, 375 240 6854930, 377 240 6854959, 381 239 6854981, 390 238 6855001, 391 237 6855043</trace>
+  <trace id="3">414 236 6855472, 414 229 6855495, 403 234 6855512, 401 236 6855530, 401 237 6855548, 401 240 6855565, 403 241 6855583, 406 241 6855603, 408 241 6855619, 410 239 6855636, 413 237 6855655, 414 235 6855672, 414 233 6855690, 414 232 6855708, 413 233 6855737, 412 234 6855754, 412 235 6855772, 412 238 6855790, 413 240 6855808, 414 242 6855826, 415 243 6855843, 416 243 6855862, 417 243 6855880, 416 242 6855897, 417 241 6855915, 417 240 6855932</trace>
+  <trace id="4">424 239 6856213, 423 239 6856216, 425 238 6856244</trace>
+  <trace id="5">436 222 6856749, 435 231 6856784, 434 238 6856805, 435 237 6856824, 436 236 6856842, 438 235 6856859, 439 234 6856877, 442 233 6856895, 444 233 6856912, 446 234 6856931, 447 235 6856948, 448 236 6856966, 448 237 6856983, 448 239 6857001, 447 240 6857017, 446 241 6857035, 443 242 6857053, 441 243 6857070, 439 242 6857089, 438 242 6857108, 438 241 6857126, 439 241 6857143, 441 241 6857160, 442 240 6857179, 443 240 6857197</trace>
+  <trace id="6">460 235 6857642, 461 234 6857663</trace>
+  <trace id="7">482 233 6858005, 482 228 6858008, 478 229 6858034, 472 234 6858052, 471 237 6858069, 471 239 6858087, 473 240 6858104, 478 241 6858122, 484 242 6858142, 487 242 6858159, 488 242 6858177, 489 243 6858195, 490 243 6858213</trace>
+  <traceGroup xml:id="8">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="9">
+      <annotation type="truth">v</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="v_1" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">=</annotation>
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+      <annotationXML href="=_1" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">a</annotation>
+      <traceView traceDataRef="3" />
+      <annotationXML href="a_1" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">.</annotation>
+      <traceView traceDataRef="4" />
+      <annotationXML href="\cdot_1" />
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">b</annotation>
+      <traceView traceDataRef="5" />
+      <annotationXML href="b_1" />
+    </traceGroup>
+    <traceGroup xml:id="14">
+      <annotation type="truth">.</annotation>
+      <traceView traceDataRef="6" />
+      <annotationXML href="\cdot_2" />
+    </traceGroup>
+    <traceGroup xml:id="15">
+      <annotation type="truth">c</annotation>
+      <traceView traceDataRef="7" />
+      <annotationXML href="c_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

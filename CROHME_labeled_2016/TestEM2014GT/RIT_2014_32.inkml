@@ -1,0 +1,96 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \int \sin x d x $</annotation>
+<annotation type="writer">annot_235</annotation>
+<annotation type="UI">2014_RIT_CROHME_32</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="8:">\int</mo>
+            <mrow >
+                <mi  xml:id = "10:9:" >\sin</mi>
+                <mrow >
+                    <mi  xml:id = "11:12:" >x</mi>
+                    <mrow >
+                        <mi  xml:id = "13:" >d</mi>
+                        <mi  xml:id = "14:15:" >x</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+302 98, 298 93, 294 93, 291 93, 287 93, 281 97, 274 104, 266 113, 258 125, 251 136, 246 150, 243 165, 240 180, 239 199, 238 214, 238 230, 238 248, 239 263, 241 281, 241 298, 241 316, 240 334, 235 351, 229 366, 222 379, 213 390, 203 400, 194 406, 183 410, 173 413, 163 414, 155 415, 148 416, 143 416, 139 416, 137 416, 137 409
+</trace>
+
+<trace  id = "1" >
+369 214, 362 210, 357 209, 351 209, 343 209, 339 212, 334 218, 333 224, 332 233, 332 240, 333 248, 334 256, 336 262, 337 268, 338 273, 338 277, 337 281, 335 282, 333 282, 332 282, 332 276, 335 269, 341 263, 347 259, 352 258, 355 257, 358 257, 361 258, 362 263, 363 268, 364 272, 364 275, 364 277, 364 276, 367 268, 373 260, 378 256, 384 253, 389 251, 393 250, 396 250, 397 252, 398 258, 398 266, 396 273, 395 277, 392 280, 391 282, 390 282, 390 279, 391 272, 396 266, 403 261, 408 258, 412 257, 415 256, 416 256, 418 259, 420 265, 421 273, 425 279, 430 284, 437 286, 447 285, 459 281
+</trace>
+
+<trace  id = "2" >
+409 211, 411 213, 416 214, 422 215, 430 215
+</trace>
+
+<trace  id = "3" >
+479 212, 480 213, 484 216, 491 221, 500 225, 509 229, 520 233, 529 234, 537 236, 542 238, 544 239, 544 243, 538 249, 530 257, 521 263, 513 271, 508 274, 505 277, 503 278, 503 277
+</trace>
+
+<trace  id = "4" >
+527 213, 520 218, 513 225, 503 237, 497 244, 492 249, 489 253, 489 256, 489 258
+</trace>
+
+<trace  id = "5" >
+621 245, 619 240, 618 238, 616 234, 613 231, 610 229, 604 229, 597 229, 590 235, 583 243, 578 252, 576 259, 575 264, 575 269, 576 272, 581 272, 588 272, 595 266, 604 256, 611 244, 618 231, 624 221, 629 209, 632 201, 634 195, 634 189, 635 185, 635 182, 635 181, 634 183, 632 188, 631 195, 630 205, 630 215, 630 227, 630 237, 630 248, 630 254, 632 262, 637 267, 646 270
+</trace>
+
+<trace  id = "6" >
+679 205, 683 208, 689 212, 699 216, 707 219, 712 221, 718 224, 722 226, 724 229, 725 234, 725 240, 721 248, 714 255, 707 262, 702 266, 698 270, 695 272, 693 272
+</trace>
+
+<trace  id = "7" >
+723 193, 719 196, 712 204, 701 216, 693 227, 686 235, 679 242, 675 248, 672 252, 670 253, 670 255
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="10:9:">
+        <annotation type="truth">\sin</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="10:9:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="11:12:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="11:12:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="13:">
+        <annotation type="truth">d</annotation>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="13:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="14:15:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="14:15:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:">
+        <annotation type="truth">\int</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="8:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

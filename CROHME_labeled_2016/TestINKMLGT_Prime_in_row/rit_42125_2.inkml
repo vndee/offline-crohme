@@ -1,0 +1,79 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ z \rightarrow z ^ {n} $</annotation>
+<annotation type="writer">42125.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42125_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="31:32:">z</mi>
+            <mrow>
+                <mo xml:id="33:34:">\rightarrow</mo>
+                <msup>
+                    <mi xml:id="35:36:">z</mi>
+                    <mi xml:id="37:">n</mi>
+                </msup>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+189 187, 200 187, 210 187, 221 187, 236 188, 250 189, 267 192, 283 196, 300 197, 317 199, 331 200, 344 201, 354 201, 362 201, 368 201, 373 201, 375 201, 376 201, 376 202, 375 202, 374 203, 370 206, 366 212, 360 216, 354 222, 347 228, 340 235, 331 242, 322 251, 311 261, 300 270, 290 280, 281 290, 273 298, 265 306, 256 315, 246 324, 239 329, 234 333, 230 338, 227 341, 223 345, 217 351, 210 357, 204 363, 199 367, 194 372, 188 377, 183 381, 180 385, 177 387, 176 388, 175 389, 174 390, 174 391, 174 392, 176 392, 180 392, 185 390, 190 389, 198 387, 207 387, 215 385, 224 383, 235 382, 245 381, 255 381, 265 381, 273 380, 278 380, 286 379, 292 377, 297 376, 299 374
+</trace>
+
+<trace id="1">
+288 278, 280 274, 276 274, 269 274, 263 274, 258 274, 252 274, 244 274, 236 274, 226 274, 214 274, 205 274, 197 274, 193 274, 190 273, 187 271
+</trace>
+
+<trace id="2">
+412 282, 418 285, 425 285, 435 285, 446 285, 456 285, 466 285, 477 285, 487 285, 497 285, 506 286, 513 288, 522 289, 530 290, 536 290, 543 291, 550 292, 554 292, 558 292, 561 292, 563 292, 565 292
+</trace>
+
+<trace id="3">
+531 259, 541 262, 557 265, 565 270, 573 274, 578 276, 584 280, 587 281, 590 283, 592 285, 594 285, 594 286, 594 287, 594 288, 593 289, 590 290, 587 294, 582 298, 577 302, 567 310, 563 315, 559 319, 556 324, 553 329, 551 331, 549 333, 548 336, 547 338, 546 338, 546 339
+</trace>
+
+<trace id="4">
+647 230, 651 229, 656 229, 667 229, 680 229, 692 229, 706 229, 716 229, 725 229, 733 229, 739 230, 744 231, 746 232, 748 234, 748 236, 748 239, 747 242, 744 246, 740 250, 735 255, 729 261, 721 268, 706 285, 698 293, 688 304, 680 311, 672 319, 665 327, 659 333, 652 338, 647 343, 642 349, 638 353, 633 359, 631 361, 629 362, 628 363, 628 364, 630 364, 635 364, 641 364, 649 363, 658 361, 669 359, 681 358, 691 357, 701 356, 707 355, 713 355, 717 355, 720 355, 722 355, 724 353, 726 351
+</trace>
+
+<trace id="5">
+665 279, 670 280, 676 280, 681 280, 687 280, 693 280, 698 280, 702 280, 706 280, 709 280
+</trace>
+
+<trace id="6">
+772 191, 773 194, 773 200, 772 207, 771 213, 769 221, 766 228, 765 229, 764 230, 766 216, 767 211, 768 206, 774 194, 776 192, 779 191, 793 190, 798 191, 801 193, 809 210, 811 215, 811 219, 812 227, 812 229, 812 230, 813 231
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="31:32:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="31:32:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="33:34:">
+        <annotation type="truth">\rightarrow</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="33:34:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="35:36:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <annotationXML href="35:36:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="37:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="37:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

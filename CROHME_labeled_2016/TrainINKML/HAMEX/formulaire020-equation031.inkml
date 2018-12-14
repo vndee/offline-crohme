@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\beta = \pi$</annotation>
+<annotation type="UI">2011_IVC_depart_F020_E031</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart020</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="beta_1">\beta</mi>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mi xml:id="pi_1">\pi</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.94697 16.0464, 9.94296 16.0504, 9.94296 16.0665, 9.93895 16.1106, 9.94697 16.2029, 9.94697 16.3072, 9.955 16.3875, 9.95901 16.4677, 9.96302 16.5199, 9.96704 16.576, 9.96302 16.6001, 9.96704 16.5961, 9.96704 16.5881, 9.96704 16.5399
+</trace>
+<trace id="1">
+9.91889 16.0584, 9.91086 16.0303, 9.91086 16.0183, 9.90685 16.0023, 9.91086 15.9942, 9.9229 15.9742, 9.94697 15.9661, 9.98309 15.9702, 10.0272 15.9661, 10.0673 15.9661, 10.0954 15.9902, 10.1075 16.0143, 10.1075 16.0544, 10.0834 16.0945, 10.0633 16.1307, 10.0352 16.1708, 10.0072 16.2069, 9.97506 16.2189, 9.96704 16.2189, 9.97105 16.2189, 9.99512 16.227, 10.0473 16.227, 10.1115 16.243, 10.1556 16.2711, 10.1677 16.3032, 10.1436 16.3554, 10.0994 16.3955, 10.0232 16.4316, 9.94697 16.4517
+</trace>
+<trace id="2">
+10.7093 16.2831, 10.7134 16.2952, 10.7214 16.3032, 10.7455 16.3032, 10.7896 16.2952, 10.8618 16.2952, 10.8979 16.2871, 10.918 16.2952
+</trace>
+<trace id="3">
+10.7053 16.4155, 10.7093 16.4196, 10.7214 16.4276, 10.7495 16.4396, 10.7776 16.4396, 10.8177 16.4356, 10.8498 16.4196, 10.8779 16.4115
+</trace>
+<trace id="4">
+11.4757 16.2671, 11.4838 16.2671, 11.4838 16.2711, 11.4838 16.2831, 11.4838 16.3112, 11.4838 16.3473, 11.4878 16.3875, 11.4797 16.4196, 11.4757 16.4476, 11.4757 16.4717, 11.4717 16.4838, 11.4637 16.5078, 11.4476 16.5239, 11.4316 16.5359, 11.4196 16.5399, 11.4035 16.5439, 11.3714 16.5359
+</trace>
+<trace id="5">
+11.6402 16.3112, 11.6362 16.3233, 11.6322 16.3393, 11.6322 16.3714, 11.6402 16.4155, 11.6483 16.4677, 11.6523 16.5118, 11.6563 16.5399, 11.6603 16.556, 11.6563 16.548
+</trace>
+<trace id="6">
+11.3353 16.247, 11.3433 16.251, 11.3634 16.2711, 11.3955 16.3072, 11.4316 16.3233, 11.4998 16.3513, 11.556 16.3594, 11.6282 16.3353, 11.7165 16.3192, 11.7686 16.2992, 11.7847 16.3032, 11.7767 16.3112, 11.7566 16.3233, 11.7406 16.3313
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

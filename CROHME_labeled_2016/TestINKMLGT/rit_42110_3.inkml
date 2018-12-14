@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \sum z ^ {n} $</annotation>
+<annotation type="writer">42110.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42110_3</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="30:">\sum</mo>
+            <msup>
+                <mi xml:id="31:32:">z</mi>
+                <mi xml:id="33:">n</mi>
+            </msup>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+263 109, 258 110, 190 125, 187 127, 185 128, 185 129, 184 129, 184 132, 184 134, 185 135, 193 140, 195 143, 200 145, 205 148, 210 150, 218 154, 223 157, 231 159, 235 161, 239 162, 241 163, 243 163, 245 165, 246 166, 246 167, 246 168, 245 168, 244 168, 243 169, 239 170, 237 171, 227 175, 221 179, 207 187, 201 190, 190 197, 184 200, 176 205, 172 208, 171 209, 171 211, 173 212, 176 212, 185 213, 190 214, 210 217, 218 217, 224 218, 229 218, 238 218, 240 218, 242 218, 244 218, 245 218, 247 218, 248 218, 249 218, 249 217, 249 216
+</trace>
+
+<trace id="1">
+303 144, 306 142, 345 142, 345 143, 344 144, 342 145, 341 147, 338 150, 334 154, 331 156, 326 161, 324 163, 320 166, 317 168, 310 173, 304 178, 302 181, 299 183, 298 186, 299 186, 302 186, 312 186, 317 186, 326 187, 331 188, 338 188, 343 188, 346 188, 348 188, 348 187, 348 181
+</trace>
+
+<trace id="2">
+309 167, 305 162, 343 165, 344 165, 346 165, 347 165, 348 165
+</trace>
+
+<trace id="3">
+379 118, 375 116, 399 90, 401 90, 403 90, 405 90, 409 94, 412 99, 413 101, 414 103, 414 109, 414 111, 414 116, 414 120, 414 121, 414 123, 414 124
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="30:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="30:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="31:32:">
+        <annotation type="truth">z</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="31:32:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="33:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="33:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

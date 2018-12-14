@@ -1,0 +1,63 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"2009213-139-187.ink"</annotation>
+<annotation type="truth"> \frac { o } { \sqrt { \mbox { c } } } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="1:">
+            <mi xml:id="0:">o</mi>
+            <msqrt xml:id="2:3:">
+                <mi xml:id="4:">c</mi>
+            </msqrt>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+3934 10768, 3920 10754, 3903 10745, 3887 10751, 3867 10768, 3845 10796, 3819 10835, 3800 10891, 3775 10950, 3758 11011, 3744 11073, 3735 11129, 3738 11176, 3752 11213, 3775 11235, 3803 11241, 3842 11235, 3881 11216, 3923 11188, 3962 11151, 3999 11109, 4024 11062, 4038 11014, 4043 10966, 4038 10927, 4021 10894, 3996 10868, 3959 10852, 3917 10840, 3870 10843, 3822 10854, 3772 10874, 3724 10905
+</trace>
+
+<trace id="1">
+2551 11795, 2629 11792, 2730 11795, 2845 11795, 2974 11792, 3119 11787, 3276 11778, 3441 11767, 3607 11753, 3772 11742, 3929 11728, 4083 11717, 4223 11706, 4346 11700, 4452 11697, 4539 11694, 4612 11697, 4673 11708, 4707 11714
+</trace>
+
+<trace id="2">
+3374 12235, 3425 12224, 3486 12213, 3570 12201, 3660 12190, 3752 12176, 3853 12162, 3954 12148, 4049 12134, 4136 12120, 4209 12109, 4270 12095, 4315 12084, 4346 12078, 4365 12078
+</trace>
+
+<trace id="3">
+3453 12305, 3450 12316, 3450 12336, 3461 12369, 3472 12420, 3492 12481, 3509 12551, 3531 12633, 3551 12717, 3567 12801, 3581 12873, 3590 12938, 3595 12988, 3595 13025, 3593 13053, 3584 13064, 3570 13069, 3545 13064, 3517 13053, 3481 13033, 3444 13013, 3405 12994, 3369 12974, 3335 12960, 3304 12952, 3285 12952, 3268 12955, 3259 12969, 3259 12985, 3259 12997
+</trace>
+
+<trace id="4">
+4074 12736, 4071 12711, 4071 12680, 4063 12658, 4052 12633, 4043 12613, 4029 12596, 4013 12585, 3996 12582, 3973 12591, 3954 12607, 3931 12638, 3906 12675, 3887 12717, 3867 12764, 3853 12812, 3845 12857, 3845 12899, 3853 12935, 3870 12963, 3895 12983, 3929 12994, 3971 13002, 4021 13008, 4071 12999, 4136 12994
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">o</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">c</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

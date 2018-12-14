@@ -1,0 +1,89 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">516</annotation>
+<annotation type="truth">$5j + 3j$</annotation>
+<annotation type="UI">IVC_2014_F516_E378</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="5_1">5</mn>
+			<mrow>
+				<mi xml:id="j_1">j</mi>
+				<mrow>
+					<mo xml:id="+_1">+</mo>
+					<mrow>
+						<mn xml:id="3_1">3</mn>
+						<mi xml:id="j_2">j</mi>
+					</mrow>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+324 136, 321 157, 320 161, 318 166, 317 169, 316 172, 315 175, 315 177, 314 179, 314 180, 314 181, 314 180, 316 179, 319 177, 324 175, 328 173, 332 171, 337 170, 343 169, 347 170, 352 170, 357 171, 362 173, 366 176, 369 180, 372 183, 374 187, 376 191, 377 194, 378 198, 378 201, 377 205, 376 208, 372 211, 368 213, 363 216, 357 217, 350 218, 348 219
+</trace>
+<trace id="1">
+337 136, 346 128, 350 127, 355 126, 361 125, 366 124, 373 123, 375 123
+</trace>
+<trace id="2">
+447 170, 454 196, 455 202, 457 207, 458 213, 459 219, 459 224, 460 229, 460 234, 460 238, 460 242, 459 246, 458 250, 456 253, 454 255, 451 257, 447 258, 444 259, 442 258, 439 257, 436 254, 434 251, 432 246, 431 241, 431 235, 432 229, 434 223, 436 218, 439 213, 443 209, 448 205, 453 202, 455 202
+</trace>
+<trace id="3">
+424 177, 444 168, 449 168, 453 167, 458 166, 464 166, 465 166
+</trace>
+<trace id="4">
+566 166, 565 191, 565 196, 565 201, 565 206, 566 210, 566 213, 566 217, 566 220, 566 223, 566 225, 566 228, 566 230, 565 231, 564 232
+</trace>
+<trace id="5">
+507 213, 513 210, 517 209, 521 208, 527 208, 533 207, 539 206, 545 206, 551 205, 557 205, 563 204, 568 204, 574 204, 579 204, 583 203, 588 203, 592 203, 595 202, 599 202
+</trace>
+<trace id="6">
+647 160, 656 149, 660 148, 663 147, 666 147, 668 146, 671 146, 675 146, 677 146, 680 147, 682 148, 684 149, 685 151, 686 153, 687 156, 687 158, 686 162, 684 165, 683 168, 680 171, 678 174, 675 176, 673 178, 671 180, 670 182, 668 183, 667 184, 666 184, 665 184, 666 184, 667 184, 669 184, 670 184, 673 185, 675 186, 679 188, 682 190, 685 192, 687 195, 689 198, 690 201, 691 204, 692 207, 692 211, 692 213, 692 216, 691 218, 688 221, 685 223, 681 224, 677 226, 673 227, 669 227, 665 226, 661 225, 658 222, 656 219, 656 218
+</trace>
+<trace id="7">
+765 171, 762 195, 761 201, 760 206, 760 212, 759 217, 759 222, 759 227, 759 231, 758 235, 757 239, 756 243, 755 247, 753 250, 750 253, 747 255, 743 257, 739 258, 736 259, 733 259, 730 257, 727 255, 726 252, 725 247, 726 242, 727 237, 729 231, 731 225, 735 220, 739 216, 744 212, 748 209, 753 207, 758 206, 763 205, 765 205
+</trace>
+<trace id="8">
+732 173, 746 169, 752 168, 758 169, 764 169, 771 170, 779 170, 786 171, 789 171
+</trace>
+<traceGroup xml:id="9">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="10">
+		<annotation type="truth">+</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="+_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">3</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="3_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">j</annotation>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="j_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">j</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="j_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

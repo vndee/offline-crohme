@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$q \neq 1$</annotation>
+<annotation type="UI">2011_IVC_depart_F033_E057</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart033</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="q_1">q</mi>
+			<mrow>
+				<mo xml:id="\neq_1">\neq</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+9.16052 21.2506, 9.17657 21.2225, 9.15651 21.2105, 9.10836 21.2145, 9.04015 21.2265, 8.97194 21.2546, 8.9278 21.3028, 8.92379 21.387, 8.9599 21.4472, 9.02811 21.4432, 9.10034 21.391, 9.15651 21.3148, 9.20065 21.2626, 9.2167 21.2025, 9.22472 21.1623, 9.22874 21.1583, 9.2167 21.1704, 9.20065 21.2065, 9.17657 21.2626, 9.12842 21.3549, 9.09632 21.5275, 9.05219 21.7401, 9.02009 21.9488, 9.03212 22.1013, 9.06021 22.1374
+</trace>
+<trace id="1">
+9.89882 21.3349, 9.93092 21.3429, 9.9871 21.3429, 10.0714 21.3188, 10.1917 21.2988, 10.292 21.2947, 10.3201 21.3148, 10.3121 21.3268
+</trace>
+<trace id="2">
+9.84666 21.5034, 9.86672 21.5315, 9.89882 21.5395, 9.94296 21.5355, 10.0152 21.5114, 10.1155 21.4873, 10.2078 21.4833, 10.2559 21.4873
+</trace>
+<trace id="3">
+10.2238 21.1222, 10.1877 21.2145, 10.1315 21.371, 10.0553 21.5275, 10.0192 21.704, 9.99914 21.7762
+</trace>
+<trace id="4">
+10.922 21.4392, 10.9541 21.4512, 11.0023 21.4432, 11.0785 21.3991, 11.1708 21.3389, 11.2591 21.2546, 11.3192 21.1663, 11.3433 21.1102, 11.3393 21.0941, 11.3233 21.1222, 11.2831 21.2105, 11.243 21.3389, 11.251 21.4512, 11.2871 21.4833
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">q</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="q_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\neq</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="\neq_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

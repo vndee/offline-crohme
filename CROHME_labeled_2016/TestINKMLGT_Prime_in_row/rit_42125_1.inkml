@@ -1,0 +1,102 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ 1 + \tan ^ {2} x $</annotation>
+<annotation type="writer">42125.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42125_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="20:">1</mn>
+            <mrow>
+                <mo xml:id="21:22:">+</mo>
+                <mrow>
+                    <msup>
+                        <mi xml:id="23:24:25:26:">\tan</mi>
+                        <mn xml:id="28:">2</mn>
+                    </msup>
+                    <mi xml:id="29:30:">x</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+252 193, 253 209, 253 219, 253 231, 254 242, 254 256, 255 270, 256 287, 258 301, 258 317, 260 329, 261 341, 263 353, 263 363, 264 377, 265 387, 266 397, 266 402, 267 407, 268 410
+</trace>
+
+<trace id="1">
+409 202, 408 213, 408 225, 408 238, 408 251, 408 265, 408 280, 409 295, 412 311, 414 325, 415 339, 417 353, 419 362, 420 369, 421 377, 422 380
+</trace>
+
+<trace id="2">
+351 281, 360 280, 378 279, 390 279, 403 278, 415 278, 428 277, 438 277, 446 277, 453 277, 458 277, 462 277, 464 277
+</trace>
+
+<trace id="3">
+564 191, 567 199, 567 208, 567 221, 567 231, 567 244, 567 258, 567 271, 567 285, 567 299, 567 313, 567 322, 568 331, 569 339, 573 346, 578 352, 584 356, 592 359, 599 360, 605 360, 611 360, 616 358, 619 353, 622 347, 622 341
+</trace>
+
+<trace id="4">
+523 249, 534 248, 544 248, 558 248, 569 248, 580 247, 589 247, 596 247, 603 247, 607 247
+</trace>
+
+<trace id="5">
+665 246, 640 251, 634 258, 628 267, 623 276, 621 285, 618 295, 618 306, 618 315, 618 323, 623 330, 629 335, 642 338, 650 338, 656 336, 662 329, 667 320, 670 309, 672 299, 676 287, 678 278, 681 258, 681 251, 681 241, 681 238, 681 237, 681 241, 681 246, 681 254, 681 263, 681 272, 681 281, 681 290, 682 299, 682 308, 683 314, 684 320, 685 326, 686 330, 687 333, 689 335, 690 337, 691 338, 693 338
+</trace>
+
+<trace id="6">
+729 253, 730 270, 730 278, 730 289, 730 299, 730 309, 729 318, 729 324, 729 327, 729 330, 728 330, 728 327, 726 309, 725 300, 725 293, 724 275, 724 266, 726 251, 728 246, 730 240, 739 234, 744 232, 758 232, 764 232, 768 235, 775 248, 779 256, 780 265, 783 279, 784 285, 785 293, 785 306, 785 310, 785 315, 784 319, 784 322, 784 324, 784 328, 786 329
+</trace>
+
+<trace id="7">
+783 175, 782 168, 782 165, 784 163, 787 163, 791 162, 798 162, 801 163, 804 169, 805 181, 805 188, 805 193, 799 204, 796 207, 793 210, 783 213, 781 213, 780 212, 779 210, 779 208, 779 207, 781 204, 783 203, 784 203, 790 203, 795 204, 799 207, 805 209, 809 212, 813 214, 816 217, 820 220, 822 222, 826 222
+</trace>
+
+<trace id="8">
+905 234, 899 241, 894 246, 889 253, 883 261, 865 285, 858 292, 853 300, 845 319, 842 324, 842 327, 841 330, 840 333, 840 329
+</trace>
+
+<trace id="9">
+835 252, 845 262, 850 268, 855 273, 860 279, 866 286, 871 293, 889 314, 894 320, 898 326, 910 338
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="20:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="20:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="21:22:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="21:22:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="23:24:25:26:">
+        <annotation type="truth">\tan</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="23:24:25:26:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="28:">
+        <annotation type="truth">2</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="28:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="29:30:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="8"/>
+        <traceView traceDataRef="9"/>
+        <annotationXML href="29:30:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

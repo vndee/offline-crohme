@@ -1,0 +1,55 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\alpha\times\beta$</annotation>
+<annotation type="UI">2011_IVC_DEPART_F012_E073</annotation>
+<annotation type="writer">depart012</annotation>
+<annotation type="age">39</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="alpha_1">\alpha</mi>
+			<mrow>
+				<mo xml:id="times_1">\times</mo>
+				<mi xml:id="beta_1">\beta</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+10.9982 25.5761, 10.9982 25.5761, 11.0023 25.5721, 11.0023 25.5881, 10.9782 25.6403, 10.918 25.7326, 10.8177 25.8128, 10.7254 25.9011, 10.6411 25.9292, 10.5729 25.9131, 10.5288 25.877, 10.5087 25.8248, 10.5248 25.8128, 10.5649 25.8248, 10.6411 25.881, 10.7134 25.9011, 10.7735 25.9252, 10.8418 25.9372, 10.9902 25.9292
+</trace>
+<trace id="1">
+11.56 25.6844, 11.56 25.6844, 11.564 25.6884, 11.5881 25.7285, 11.6122 25.7887, 11.6402 25.8489, 11.6683 25.9131, 11.6844 25.9532, 11.6964 25.9853, 11.7085 26.0014
+</trace>
+<trace id="2">
+11.8088 25.7085, 11.8088 25.7085, 11.7727 25.7165, 11.7044 25.7968, 11.6202 25.869, 11.5239 25.9452, 11.4476 26.0215, 11.4316 26.0576
+</trace>
+<trace id="3">
+12.2341 25.5279, 12.2341 25.5279, 12.2341 25.5119, 12.2341 25.5159, 12.2301 25.548, 12.214 25.6162, 12.206 25.7326, 12.1739 25.881, 12.1097 26.0054, 12.0616 26.1057, 12.0495 26.1458, 12.0656 26.1258, 12.1258 26.0174, 12.206 25.8529, 12.2742 25.6643, 12.3745 25.5319, 12.4588 25.4597, 12.527 25.4637, 12.5471 25.5119, 12.527 25.5881, 12.4748 25.6924, 12.4548 25.7125, 12.4789 25.7245, 12.5511 25.7366, 12.6313 25.7606, 12.6554 25.8088, 12.6073 25.869, 12.4909 25.9332, 12.3785 25.9653, 12.2903 25.9894, 12.2702 25.9653, 12.2662 25.9532
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\alpha</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="alpha_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\times</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="times_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

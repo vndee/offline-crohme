@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">L</annotation>
+<annotation type="writer">502</annotation>
+<annotation type="truth">$\frac{-\infty}{\infty}$</annotation>
+<annotation type="UI">IVC_2014_F502_E4</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mrow>
+				<mo xml:id="-_1">-</mo>
+				<mi xml:id="\infty_1">\infty</mi>
+			</mrow>
+			<mi xml:id="\infty_2">\infty</mi>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+444 130, 445 129, 444 129, 440 129, 438 129, 435 129, 432 129, 429 129, 426 129, 423 129, 421 129, 418 129, 417 129
+</trace>
+<trace id="1">
+539 119, 538 120, 536 123, 535 125, 534 127, 533 128, 532 130, 531 131, 529 132, 527 133, 522 133, 519 133, 517 132, 514 131, 512 130, 510 129, 509 128, 509 126, 509 125, 510 124, 511 123, 514 122, 516 122, 519 122, 521 123, 524 124, 526 125, 529 127, 535 130, 538 131, 541 132, 551 133, 554 133, 557 132, 559 131, 561 130, 563 128, 564 127, 565 125, 565 123, 565 121, 564 120, 558 116, 556 116, 554 115, 548 116, 546 117, 544 118, 543 120, 541 122, 539 123, 535 127
+</trace>
+<trace id="2">
+592 158, 591 158, 588 158, 584 159, 581 159, 578 160, 565 161, 560 161, 553 162, 547 162, 540 162, 533 162, 525 162, 517 162, 509 162, 501 162, 492 162, 483 162, 475 162, 466 162, 457 161, 449 161, 441 160, 435 160, 429 159, 421 159, 418 159, 415 159, 414 159
+</trace>
+<trace id="3">
+501 204, 501 205, 498 210, 497 213, 496 214, 495 216, 493 217, 490 217, 488 217, 486 217, 483 216, 481 214, 479 211, 478 209, 479 207, 480 205, 481 203, 483 202, 485 202, 488 202, 490 202, 492 203, 494 204, 496 206, 498 208, 500 209, 502 211, 504 213, 511 215, 513 215, 516 215, 518 214, 520 213, 522 212, 524 210, 525 209, 525 207, 525 205, 522 201, 521 200, 518 199, 513 199, 511 199, 508 200, 506 201, 502 205, 500 207, 497 211
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="\infty_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\infty</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="\infty_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

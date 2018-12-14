@@ -1,0 +1,41 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"2009210-947-123.ink"</annotation>
+<annotation type="truth"> \mbox { tS } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">t</mi>
+            <mi xml:id="2:">S</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11595 5111, 11590 5116, 11590 5133, 11590 5167, 11592 5220, 11595 5298, 11601 5394, 11606 5520, 11623 5674, 11640 5844, 11662 6038, 11688 6242, 11718 6449, 11749 6657, 11786 6861, 11814 7057, 11842 7236, 11864 7399, 11881 7544, 11898 7667, 11909 7771, 11920 7855, 11923 7917, 11926 7959, 11934 7984, 11931 7990
+</trace>
+
+<trace id="1">
+11352 7261, 11346 7267, 11343 7264, 11363 7267, 11394 7270, 11438 7267, 11497 7267, 11564 7264, 11648 7259, 11732 7253, 11825 7245, 11923 7236, 12021 7228, 12116 7208, 12217 7197, 12309 7172
+</trace>
+
+<trace id="2">
+14530 5063, 14513 5013, 14502 4973, 14479 4929, 14451 4889, 14423 4847, 14387 4811, 14348 4777, 14297 4747, 14244 4724, 14180 4705, 14115 4699, 14037 4699, 13956 4719, 13866 4749, 13774 4794, 13676 4850, 13583 4923, 13497 5004, 13421 5102, 13359 5206, 13320 5321, 13309 5433, 13329 5553, 13376 5676, 13446 5808, 13536 5937, 13642 6066, 13763 6192, 13891 6320, 14026 6449, 14152 6578, 14269 6707, 14379 6827, 14479 6942, 14566 7057, 14636 7169, 14687 7281, 14715 7387, 14726 7491, 14715 7595, 14684 7693, 14628 7791, 14544 7883, 14443 7973, 14317 8040, 14188 8102, 14045 8160, 13897 8208, 13757 8250
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">S</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

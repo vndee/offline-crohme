@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">509</annotation>
+<annotation type="truth">$\mu &lt; 6$</annotation>
+<annotation type="UI">IVC_2014_F509_E91</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="mu_1">mu</mi>
+			<mrow>
+				<mo xml:id="&lt;_1">&lt;</mo>
+				<mn xml:id="6_1">6</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+358 123, 358 124, 357 131, 357 135, 356 139, 355 145, 353 150, 349 162, 347 169, 345 176, 344 183, 342 189, 340 195, 339 200, 338 204, 337 206, 336 208
+</trace>
+<trace id="1">
+356 124, 356 126, 356 127, 356 136, 356 141, 357 145, 358 148, 359 151, 363 156, 365 157, 368 158, 371 157, 374 156, 378 155, 381 152, 386 145, 388 141, 389 138, 390 134, 392 129, 393 127, 393 126, 393 127, 393 128, 391 138, 390 143, 389 152, 389 156, 389 160, 389 163, 388 165
+</trace>
+<trace id="2">
+430 149, 430 150, 433 152, 436 154, 439 156, 443 158, 448 160, 453 162, 458 165, 464 167, 470 170, 476 173, 493 182, 498 184, 502 186, 505 188, 506 188, 507 189
+</trace>
+<trace id="3">
+428 148, 428 149, 429 148, 429 147, 431 146, 442 139, 449 135, 455 131, 462 126, 469 122, 477 118, 491 110, 497 107, 501 105, 503 104, 504 103
+</trace>
+<trace id="4">
+584 111, 576 116, 573 119, 569 123, 566 128, 558 140, 555 147, 552 154, 551 162, 550 169, 551 175, 561 187, 566 189, 571 190, 577 190, 582 189, 587 188, 591 185, 593 182, 595 179, 595 176, 595 172, 587 163, 583 161, 578 160, 572 159, 567 159, 561 159, 555 159, 551 160, 547 161, 546 161
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\mu</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="mu_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\lt</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="&lt;_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

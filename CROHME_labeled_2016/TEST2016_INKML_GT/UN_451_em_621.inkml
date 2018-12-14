@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">28</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_451</annotation>
+<annotation type="truth">$\mbox{V}_{p}$</annotation>
+<annotation type="UI">CROHME_2016_em_621</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mi xml:id="V_1">V</mi>
+			<mi xml:id="p_1">p</mi>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+553 233, 553 238, 555 243, 556 249, 557 256, 559 264, 560 273, 562 282, 563 292, 565 301, 566 310, 567 318, 569 324, 570 329, 571 331, 572 331, 572 333, 572 332, 575 322, 577 315, 579 307, 581 298, 583 289, 586 280, 588 272, 590 263, 592 256, 594 248, 596 241, 598 235, 600 230, 602 226, 603 224, 603 222
+</trace>
+<trace id="1">
+618 314, 618 315, 618 326, 619 332, 619 339, 619 345, 619 352, 619 359, 619 365, 619 371, 619 375, 619 378, 620 379, 620 380, 620 379, 620 378
+</trace>
+<trace id="2">
+618 318, 618 314, 618 312, 619 310, 620 308, 622 307, 624 307, 626 308, 628 309, 629 311, 631 313, 632 316, 631 319, 631 321, 629 324, 627 326, 625 328, 623 330, 621 331, 620 332, 618 332, 619 333, 618 331
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">V</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="V_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">p</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="p_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

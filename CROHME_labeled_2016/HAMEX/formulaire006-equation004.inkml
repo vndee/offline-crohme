@@ -1,0 +1,77 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2 x_{max}$</annotation>
+<annotation type="UI">2011_IVC_depart_F006_E004</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart006</annotation>
+<annotation type="age">25</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mn xml:id="2_1">2</mn>
+			<msub>
+				<mi xml:id="x_1">x</mi>
+				<mrow>
+					<mi xml:id="m_1">m</mi>
+					<mrow>
+						<mi xml:id="a_1">a</mi>
+						<mi xml:id="x_2">x</mi>
+					</mrow>
+				</mrow>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.235 30.4553, 11.239 30.4352, 11.2591 30.4151, 11.2871 30.3951, 11.3273 30.375, 11.3754 30.371, 11.4316 30.383, 11.4838 30.4192, 11.5078 30.4392, 11.5239 30.4874, 11.5239 30.5395, 11.4958 30.5756, 11.4637 30.6278, 11.4115 30.6719, 11.3473 30.7241, 11.3152 30.7562, 11.3072 30.7843, 11.3152 30.8003, 11.3393 30.8204, 11.3754 30.8324, 11.4236 30.8365, 11.4958 30.8204, 11.5801 30.7763
+</trace>
+<trace id="1">
+11.7566 30.7281, 11.7646 30.7161, 11.7927 30.7081, 11.8248 30.704, 11.8609 30.7121, 11.9091 30.7281, 11.9452 30.7562, 11.9612 30.7843, 11.9612 30.8124, 11.9532 30.8405, 11.9332 30.8645, 11.893 30.8766, 11.8328 30.9007, 11.7767 30.9087, 11.7566 30.9007, 11.7566 30.8926
+</trace>
+<trace id="2">
+12.0254 30.7241, 12.0094 30.704, 11.9974 30.704, 11.9813 30.7201, 11.9612 30.7442, 11.9492 30.7883, 11.9532 30.8204, 11.9653 30.8485, 12.0014 30.8886, 12.0696 30.9328, 12.1538 30.9368
+</trace>
+<trace id="3">
+12.3384 31.0612, 12.3304 31.0571, 12.3224 31.0531, 12.3103 31.0371, 12.2943 31.009, 12.2903 30.9769, 12.2863 30.9448, 12.2943 30.9087, 12.3063 30.8766, 12.3344 30.8605, 12.3585 30.8485, 12.4026 30.8485, 12.4267 30.8485, 12.4548 30.8726, 12.4869 30.9127, 12.5069 30.9568, 12.511 30.9929, 12.511 31.021, 12.5069 31.025, 12.5029 31.025, 12.4989 31.013, 12.4869 30.997, 12.4909 30.9649, 12.4909 30.9247, 12.4989 30.8926, 12.527 30.8645, 12.5511 30.8405, 12.5792 30.8445, 12.5992 30.8605, 12.6153 30.8886, 12.6273 30.9287, 12.6434 30.9689, 12.6594 30.997, 12.6715 31.005, 12.6875 31.017, 12.7276 31.017
+</trace>
+<trace id="4">
+12.9082 30.8645, 12.9002 30.8405, 12.8921 30.8324, 12.8721 30.8284, 12.844 30.8244, 12.8119 30.8324, 12.7678 30.8525, 12.7316 30.8726, 12.7156 30.9087, 12.7196 30.9528, 12.7357 30.9929, 12.7557 31.009, 12.7878 31.017, 12.8199 31.013, 12.852 30.9929, 12.8841 30.9689, 12.9042 30.9488, 12.9242 30.9207, 12.9283 30.8926, 12.9242 30.8686, 12.9162 30.8565, 12.9042 30.8565, 12.9002 30.8645, 12.8962 30.8926, 12.8962 30.9368, 12.9002 30.9769, 12.9162 31.005, 12.9483 31.017, 13.0005 31.0331, 13.0567 31.025, 13.1289 31.009, 13.177 30.9809, 13.2131 30.9368, 13.2372 30.8686, 13.2613 30.8084, 13.2773 30.7723, 13.2733 30.7522
+</trace>
+<trace id="5">
+13.0486 30.8324, 13.0647 30.8565, 13.1048 30.9007, 13.1449 30.9368, 13.2011 30.9769, 13.2252 30.9849, 13.2653 30.9849
+</trace>
+<traceGroup xml:id="6">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="7">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">m</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="m_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">a</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="a_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="x_2"/>
+	</traceGroup>
+</traceGroup>
+</ink>

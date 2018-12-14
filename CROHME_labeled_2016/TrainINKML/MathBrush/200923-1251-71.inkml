@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1251-71.ink"</annotation>
+<annotation type="truth"> { - H } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="0:">-</mo>
+            <mi xml:id="1:2:3:">H</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+11072 5741, 11072 5741, 11072 5741, 11089 5741, 11108 5743, 11139 5746, 11182 5750, 11237 5755, 11305 5756, 11384 5756, 11466 5748, 11558 5743, 11653 5733, 11739 5718, 11824 5706
+</trace>
+
+<trace id="1">
+12305 5044, 12315 5035, 12317 5050, 12313 5076, 12298 5116, 12297 5175, 12298 5248, 12302 5338, 12312 5436, 12326 5543, 12340 5649, 12356 5751, 12371 5848, 12387 5934, 12401 6010, 12413 6070, 12422 6120, 12424 6149, 12434 6171, 12434 6171, 12446 6161, 12457 6138, 12463 6094
+</trace>
+
+<trace id="2">
+12390 5653, 12390 5653, 12379 5638, 12379 5638, 12403 5633, 12424 5629, 12463 5629, 12506 5625, 12568 5619, 12635 5608, 12712 5592, 12799 5574, 12883 5546, 12969 5519, 13049 5490, 13115 5454, 13169 5420
+</trace>
+
+<trace id="3">
+13152 5113, 13126 5077, 13115 5056, 13099 5041, 13099 5041, 13095 5054, 13092 5081, 13102 5133, 13108 5195, 13123 5282, 13133 5379, 13152 5496, 13166 5615, 13184 5740, 13202 5858, 13226 5971, 13248 6070, 13268 6154, 13285 6221, 13303 6270, 13318 6305, 13324 6318, 13324 6318, 13333 6306, 13327 6274, 13322 6236, 13306 6186
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:2:3:">
+        <annotation type="truth">H</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="1:2:3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

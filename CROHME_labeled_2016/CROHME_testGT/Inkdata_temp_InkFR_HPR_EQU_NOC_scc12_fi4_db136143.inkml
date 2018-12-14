@@ -1,0 +1,97 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$e^{i\pi}= -1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F12_E4</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL12</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mi xml:id="e_1">e</mi>
+				<mrow>
+					<mi xml:id="i_1">i</mi>
+					<mi xml:id="pi_1">\pi</mi>
+				</mrow>
+			</msup>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+2391 1800, 2391 1800, 2387 1803, 2393 1807, 2403 1807, 2433 1800, 2444 1794, 2450 1787, 2449 1779, 2436 1763, 2418 1759, 2408 1764, 2396 1776, 2383 1810, 2391 1836, 2403 1843, 2416 1842, 2433 1836, 2450 1829
+</trace>
+<trace id="1">
+2458 1713, 2458 1713, 2458 1713, 2466 1713, 2480 1702, 2486 1687, 2484 1678, 2487 1699, 2496 1709
+</trace>
+<trace id="2">
+2473 1646, 2473 1646, 2473 1642, 2473 1640, 2473 1640, 2474 1641
+</trace>
+<trace id="3">
+2522 1680, 2522 1680, 2524 1682, 2527 1702, 2527 1708, 2527 1712, 2527 1712, 2528 1707
+</trace>
+<trace id="4">
+2550 1675, 2550 1675, 2551 1675, 2552 1678, 2553 1684, 2552 1693, 2551 1702, 2553 1709, 2553 1712, 2554 1711
+</trace>
+<trace id="5">
+2509 1678, 2509 1678, 2517 1678, 2556 1674, 2563 1674, 2567 1673
+</trace>
+<trace id="6">
+2602 1802, 2602 1802, 2600 1804, 2601 1805, 2606 1805, 2634 1800, 2639 1800
+</trace>
+<trace id="7">
+2608 1827, 2608 1827, 2609 1825, 2622 1823, 2634 1824, 2638 1825, 2641 1825
+</trace>
+<trace id="8">
+2710 1815, 2710 1815, 2709 1816, 2713 1818, 2719 1818, 2736 1815, 2743 1813
+</trace>
+<trace id="9">
+2795 1806, 2795 1806, 2796 1807, 2798 1808, 2813 1809, 2841 1787, 2852 1770, 2865 1734, 2867 1842
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">i</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="i_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="7"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="8"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="16">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

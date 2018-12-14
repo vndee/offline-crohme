@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">20</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">506</annotation>
+<annotation type="truth">$y \in B$</annotation>
+<annotation type="UI">IVC_2014_F506_E59</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="y_1">y</mi>
+			<mrow>
+				<mo xml:id="in_1">in</mo>
+				<mi xml:id="B_1">B</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+330 102, 331 102, 331 103, 331 104, 332 111, 335 121, 336 124, 337 127, 340 131, 343 132, 345 132, 347 131, 349 129, 351 126, 354 123, 356 119, 357 115, 359 111, 360 107, 360 103, 361 100, 361 97, 362 95, 362 94, 361 96, 361 105, 361 110, 362 114, 362 119, 362 125, 362 131, 362 137, 361 143, 361 149, 360 155, 357 166, 356 170, 354 174, 351 176, 349 178, 347 178, 345 178, 344 177, 342 174, 340 168, 339 163, 340 159, 340 155, 342 151, 344 147, 356 137, 361 135, 366 134, 374 131, 378 131, 379 131
+</trace>
+<trace id="1">
+437 87, 436 86, 434 86, 431 86, 428 87, 425 89, 420 92, 416 96, 411 101, 407 106, 404 112, 402 118, 403 130, 405 134, 409 138, 414 140, 419 141, 426 140, 433 139, 440 138, 446 136, 451 134, 456 132, 457 131
+</trace>
+<trace id="2">
+409 114, 412 114, 416 113, 422 112, 428 112, 435 111, 438 111
+</trace>
+<trace id="3">
+497 55, 497 56, 497 61, 498 65, 498 69, 498 74, 498 80, 498 87, 496 109, 495 116, 495 122, 495 127, 495 131, 495 133
+</trace>
+<trace id="4">
+495 59, 498 56, 500 54, 502 52, 514 51, 518 51, 522 53, 530 57, 533 61, 535 65, 537 69, 537 73, 535 77, 523 89, 518 91, 513 93, 509 95, 508 95, 507 95, 514 94, 519 94, 525 95, 531 96, 537 98, 542 101, 547 105, 550 109, 552 113, 552 118, 551 122, 539 133, 532 135, 524 136, 517 136, 509 136, 503 134, 499 132, 496 130, 494 128
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">B</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="B_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">\in</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="in_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

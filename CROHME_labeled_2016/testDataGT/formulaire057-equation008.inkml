@@ -1,0 +1,86 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$\phi_k = \pi$</annotation>
+<annotation type="UI">2011_IVC_depart_F057_E008</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart057</annotation>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msub>
+				<mi xml:id="phi_1">\phi</mi>
+				<mi xml:id="k_1">k</mi>
+			</msub>
+			<mrow>
+				<mo xml:id="=_1">=</mo>
+				<mi xml:id="pi_1">\pi</mi>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+10.0433 25.5119, 10.0352 25.5038, 10.0232 25.4998, 9.99914 25.4878, 9.97506 25.4918, 9.95099 25.5119, 9.91086 25.544, 9.88679 25.5961, 9.89882 25.6764, 9.93092 25.7486, 9.95099 25.7927, 10.0112 25.8128, 10.0593 25.7968, 10.1235 25.7486, 10.1596 25.6924, 10.1677 25.6202, 10.1556 25.568, 10.1195 25.5279, 10.0433 25.5199, 9.99512 25.54, 9.95099 25.5721, 9.94296 25.6042, 9.96302 25.6242
+</trace>
+<trace id="1">
+10.1877 25.3754, 10.1717 25.3955, 10.1396 25.4477, 10.0914 25.54, 10.0473 25.6483, 10.0112 25.7526, 9.98309 25.8289, 9.955 25.877, 9.96704 25.8971, 9.96302 25.8971, 9.96704 25.8971, 9.96302 25.889, 9.96302 25.885
+</trace>
+<trace id="2">
+10.3402 25.7647, 10.3322 25.7727, 10.3282 25.8048, 10.3161 25.861, 10.3001 25.9332, 10.288 26.0054, 10.28 26.0495, 10.268 26.0776, 10.264 26.0937, 10.264 26.0977, 10.264 26.0937, 10.264 26.0897, 10.272 26.0776, 10.28 26.0616, 10.288 26.0415, 10.2961 26.0134
+</trace>
+<trace id="3">
+10.28 25.9171, 10.284 25.9131, 10.3001 25.9091, 10.3322 25.9051, 10.3683 25.9051, 10.4084 25.8931, 10.4365 25.877, 10.4927 25.865, 10.5368 25.8569, 10.5569 25.8569, 10.5529 25.8569, 10.5368 25.8569
+</trace>
+<trace id="4">
+10.3603 25.9131, 10.3562 25.9211, 10.3643 25.9492, 10.3843 25.9894, 10.3964 26.0375, 10.4164 26.0736, 10.4285 26.0937, 10.4445 26.1017, 10.4485 26.1017, 10.4445 26.0977, 10.4445 26.0897, 10.4525 26.0736
+</trace>
+<trace id="5">
+11.3192 25.7245, 11.3192 25.7205, 11.3313 25.7245, 11.3554 25.7285, 11.4035 25.7406, 11.4396 25.7446, 11.4958 25.7446, 11.548 25.7486, 11.576 25.7486, 11.5801 25.7526
+</trace>
+<trace id="6">
+11.3233 25.8569, 11.3393 25.861, 11.3594 25.869, 11.3955 25.881, 11.4517 25.889, 11.5279 25.881
+</trace>
+<trace id="7">
+12.0937 25.6162, 12.0816 25.6363, 12.0896 25.6804, 12.1057 25.7326, 12.0977 25.7927, 12.0856 25.8489, 12.0856 25.889, 12.0816 25.9091, 12.0816 25.9051, 12.0896 25.8971, 12.1017 25.861, 12.1217 25.7887
+</trace>
+<trace id="8">
+12.218 25.6042, 12.206 25.6403, 12.202 25.6924, 12.198 25.7647, 12.1859 25.8289, 12.198 25.877, 12.202 25.9011, 12.202 25.9051, 12.202 25.8931
+</trace>
+<trace id="9">
+11.9693 25.6202, 11.9653 25.6122, 11.9693 25.6162, 11.9933 25.6202, 12.0535 25.6242, 12.1378 25.6162, 12.2341 25.6042, 12.3505 25.6042, 12.4468 25.6001, 12.515 25.6042, 12.527 25.6082, 12.519 25.6082, 12.511 25.6042, 12.4949 25.5921, 12.4869 25.5761
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">k</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="k_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">=</annotation>
+		<traceView traceDataRef="6"/>
+		<traceView traceDataRef="5"/>
+		<annotationXML href="=_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\pi</annotation>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="pi_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\phi</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="phi_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

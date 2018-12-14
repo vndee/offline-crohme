@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2477</annotation>
+  <annotation type="truth">$1 + 2$</annotation>
+  <annotation type="writer">User154</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mn xml:id="1_1">1</mn>
+      <mo xml:id="+_1">+</mo>
+      <mn xml:id="2_1">2</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">340 186 2740, 340 185 2787, 340 186 2828, 340 192 2845, 341 200 2863, 342 207 2881, 342 209 2883, 342 214 2891, 342 217 2900, 342 219 2907, 341 223 2915, 343 243 3014</trace>
+  <trace id="1">406 195 3812, 406 196 3883, 407 199 3891, 407 200 3899, 407 203 3910, 408 204 3915, 408 207 3923, 408 209 3931, 409 210 3939, 409 213 3947, 409 214 3955, 409 216 3963, 409 217 3971, 409 219 3979, 409 220 3987, 409 222 3995, 409 223 4003, 409 224 4011, 410 225 4019, 410 226 4027, 410 228 4035, 410 229 4059</trace>
+  <trace id="2">396 215 4574, 397 215 4619, 399 215 4627, 402 215 4635, 404 215 4643, 405 215 4651, 409 215 4659, 411 215 4667, 414 215 4675, 416 214 4683, 418 214 4691, 419 214 4699, 420 214 4711, 421 214 4755, 423 214 4763, 424 214 4771</trace>
+  <trace id="3">470 179 5348, 472 178 5483, 474 177 5491, 476 177 5499, 477 176 5507, 480 176 5515, 482 176 5524, 486 175 5531, 489 175 5539, 491 175 5547, 495 175 5555, 497 175 5563, 499 175 5571, 500 177 5614, 501 179 5619, 503 182 5627, 504 183 5635, 507 187 5643, 509 188 5651, 510 189 5659, 511 191 5667, 511 192 5675, 511 193 5691, 511 194 5707, 511 195 5715, 484 236 5921, 483 237 5923, 482 237 5939, 483 237 6155, 486 238 6163, 489 239 6171, 491 239 6179, 493 239 6187, 495 239 6195, 496 239 6203, 498 238 6211, 499 237 6227, 501 236 6235, 505 236 6243, 507 235 6251, 509 235 6259, 514 235 6267, 516 235 6275, 519 235 6283, 521 235 6294, 522 235 6302</trace>
+  <traceGroup xml:id="4">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="5">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="1_1" />
+    </traceGroup>
+    <traceGroup xml:id="6">
+      <annotation type="truth">+</annotation>
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+      <annotationXML href="+_1" />
+    </traceGroup>
+    <traceGroup xml:id="7">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="3" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

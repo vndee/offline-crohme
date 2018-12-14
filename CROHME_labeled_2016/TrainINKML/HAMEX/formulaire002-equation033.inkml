@@ -1,0 +1,81 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$f(x_\theta)$</annotation>
+<annotation type="UI">2011_IVC_depart_F002_E033</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">depart002</annotation>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">L</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="f_1">f</mi>
+			<mrow>
+				<mo xml:id="(_1">(</mo>
+				<mrow>
+					<msub>
+						<mi xml:id="x_1">x</mi>
+						<mi xml:id="\theta_1">\theta</mi>
+					</msub>
+					<mo xml:id=")_1">)</mo>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+11.4316 26.1699, 11.4356 26.182, 11.4356 26.19, 11.4356 26.194, 11.4356 26.198, 11.4356 26.194, 11.4396 26.19, 11.4436 26.1739, 11.4476 26.1338, 11.4436 26.0576, 11.4396 25.9532, 11.4557 25.8529, 11.4637 25.7767, 11.4757 25.7125, 11.4918 25.6643, 11.5078 25.6322, 11.5199 25.6122, 11.548 25.5881, 11.568 25.568, 11.5961 25.556, 11.6242 25.552, 11.6563 25.556, 11.6844 25.5761
+</trace>
+<trace id="1">
+11.5921 25.885, 11.5921 25.881, 11.576 25.881, 11.564 25.881, 11.5399 25.889, 11.4998 25.9011, 11.4597 25.9211, 11.4276 25.9412
+</trace>
+<trace id="2">
+11.9211 25.6001, 11.9291 25.5961, 11.9332 25.5961, 11.9291 25.6001, 11.9211 25.6082, 11.9011 25.6282, 11.873 25.6764, 11.8489 25.7366, 11.8248 25.8008, 11.8248 25.8931, 11.8128 25.9934, 11.8048 26.0977, 11.8288 26.198, 11.8569 26.2622, 11.877 26.2943, 11.897 26.3104, 11.9051 26.3144, 11.9131 26.3184
+</trace>
+<trace id="3">
+12.0094 25.9773, 12.0214 25.9693, 12.0335 25.9613, 12.0616 25.9532, 12.0937 25.9452, 12.1298 25.9452, 12.1538 25.9573, 12.1659 25.9773, 12.1619 26.0014, 12.1458 26.0375, 12.1097 26.0816, 12.0856 26.1057, 12.0575 26.1258, 12.0415 26.1298, 12.0455 26.1258, 12.0616 26.1178, 12.0856 26.0937, 12.1298 26.0616, 12.1739 26.0335, 12.214 26.0094, 12.2542 25.9894, 12.2742 25.9733, 12.2782 25.9653, 12.2742 25.9653, 12.2662 25.9693, 12.2461 25.9733, 12.218 25.9934, 12.1779 26.0255, 12.1579 26.0536, 12.1579 26.0816, 12.1659 26.1057, 12.19 26.1258, 12.2421 26.1458, 12.2903 26.1539, 12.3384 26.1579
+</trace>
+<trace id="4">
+12.539 26.0816, 12.535 26.0816, 12.527 26.0776, 12.515 26.0816, 12.4949 26.0897, 12.4628 26.1097, 12.4387 26.1338, 12.4187 26.1699, 12.4147 26.2141, 12.4227 26.2462, 12.4347 26.2622, 12.4668 26.2662, 12.523 26.2542, 12.5591 26.21, 12.5912 26.1619, 12.6032 26.1298, 12.6032 26.1057, 12.5912 26.0776, 12.5671 26.0656, 12.539 26.0616, 12.4989 26.0736, 12.4628 26.0977, 12.4468 26.1338
+</trace>
+<trace id="5">
+12.5631 26.186, 12.5792 26.1779, 12.5792 26.1699, 12.5711 26.1699, 12.5471 26.1619, 12.519 26.1539, 12.4708 26.1458, 12.4347 26.1458, 12.4066 26.1539, 12.3826 26.1699
+</trace>
+<trace id="6">
+12.832 25.6282, 12.844 25.6282, 12.852 25.6363, 12.86 25.6603, 12.8721 25.7005, 12.8801 25.7606, 12.856 25.877, 12.84 26.0174, 12.7557 26.3304, 12.7036 26.4147, 12.6795 26.4428, 12.6674 26.4468, 12.6715 26.4428, 12.6835 26.4388
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="f_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">(</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="(_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">x</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="x_1"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="\theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">)</annotation>
+		<traceView traceDataRef="6"/>
+		<annotationXML href=")_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

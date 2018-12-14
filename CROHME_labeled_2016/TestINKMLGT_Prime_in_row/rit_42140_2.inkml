@@ -1,0 +1,97 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ a \neq b \neq c $</annotation>
+<annotation type="writer">42140.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42140_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="16:">a</mi>
+            <mrow>
+                <mi xml:id="17:18:19:">\neq</mi>
+                <mrow>
+                    <mi xml:id="20:">b</mi>
+                    <mrow>
+                        <mi xml:id="21:22:23:">\neq</mi>
+                        <mi xml:id="24:">c</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+235 163, 228 159, 223 158, 217 158, 209 157, 200 157, 192 156, 181 156, 170 158, 160 163, 151 169, 144 177, 140 187, 138 196, 137 207, 137 220, 137 229, 142 239, 148 246, 156 251, 165 253, 175 254, 186 253, 195 248, 202 241, 210 234, 216 226, 222 215, 226 204, 229 196, 229 188, 230 182, 230 176, 230 172, 230 168, 230 165, 230 163, 231 163, 232 163, 234 167, 235 173, 238 183, 239 192, 240 202, 241 215, 242 224, 244 233, 245 243, 247 250, 249 256, 252 260, 255 262
+</trace>
+
+<trace id="1">
+305 178, 312 180, 318 180, 328 181, 339 182, 352 183, 366 183, 381 184, 397 185, 411 186, 424 187, 433 188, 439 188, 444 189, 448 190
+</trace>
+
+<trace id="2">
+319 238, 327 236, 335 236, 345 236, 358 236, 370 236, 384 236, 397 236, 412 236, 426 237, 437 238, 447 239, 454 240, 462 241
+</trace>
+
+<trace id="3">
+395 128, 388 150, 388 165, 389 179, 390 193, 390 209, 391 224, 392 241, 393 256, 393 271, 393 285, 393 297, 393 307, 393 315, 393 320
+</trace>
+
+<trace id="4">
+555 115, 553 124, 553 137, 553 149, 553 163, 553 177, 553 189, 552 199, 552 207, 552 215, 552 219, 552 222, 554 223, 555 224, 555 222, 556 217, 556 210, 557 202, 559 196, 560 188, 561 180, 564 173, 568 168, 572 162, 579 158, 587 157, 594 156, 602 156, 609 157, 615 161, 622 168, 627 177, 630 187, 631 194, 631 202, 630 211, 625 218, 618 224, 607 229, 596 231, 587 232, 577 233, 568 233, 560 233, 554 231, 550 230, 548 227
+</trace>
+
+<trace id="5">
+691 178, 694 176, 701 176, 710 176, 724 176, 734 176, 745 176, 757 176, 768 176, 778 176, 784 176, 793 176, 794 176
+</trace>
+
+<trace id="6">
+678 231, 687 228, 704 227, 717 226, 730 225, 766 223, 777 223, 786 222, 799 222, 803 222, 807 221
+</trace>
+
+<trace id="7">
+766 126, 763 132, 762 141, 759 154, 750 184, 747 198, 743 210, 730 254, 725 267, 722 279, 714 306, 712 312
+</trace>
+
+<trace id="8">
+890 186, 883 178, 878 178, 872 178, 863 178, 841 196, 835 203, 831 211, 825 245, 830 251, 837 256, 862 256, 869 253, 873 249, 881 238, 882 236
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="16:">
+        <annotation type="truth">a</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="16:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="17:18:19:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="17:18:19:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="20:">
+        <annotation type="truth">b</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="20:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="21:22:23:">
+        <annotation type="truth">\neq</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="21:22:23:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="24:">
+        <annotation type="truth">c</annotation>
+        <traceView traceDataRef="8"/>
+        <annotationXML href="24:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

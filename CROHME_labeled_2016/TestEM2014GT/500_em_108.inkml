@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">19</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">500</annotation>
+<annotation type="truth">$s\geq 1$</annotation>
+<annotation type="UI">IVC_2014_F500_E108</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="s_1">s</mi>
+			<mrow>
+				<mo xml:id="ge_1">ge</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+391 163, 391 162, 391 161, 388 161, 385 163, 384 164, 384 163, 384 164, 385 167, 386 168, 389 170, 391 171, 391 170, 391 171, 393 172, 393 174, 392 176, 393 176, 390 177, 390 178, 388 178, 387 179, 385 179, 384 180
+</trace>
+<trace id="1">
+408 153, 409 156, 410 157, 415 162, 417 163, 419 165, 421 166, 423 168, 425 170, 428 172, 429 174, 429 173, 430 174, 430 177, 430 178, 429 179, 428 181, 427 182, 426 183, 424 184, 423 185, 418 188, 416 189, 414 190, 410 193, 408 194, 407 195, 406 196, 404 197, 403 197, 403 198
+</trace>
+<trace id="2">
+438 186, 437 186, 437 187, 435 190, 434 191, 433 192, 431 194, 430 195, 429 196, 427 197, 424 199, 423 200, 421 201, 420 202, 419 203, 417 205, 417 206, 416 207
+</trace>
+<trace id="3">
+449 159, 456 157, 459 156, 462 155, 464 154, 466 153, 468 152, 471 151, 473 149, 474 148, 476 148, 477 147, 478 146, 478 147, 478 146, 480 147, 481 150, 481 153, 481 155, 480 157, 480 160, 479 163, 477 169, 476 173, 475 176, 474 182, 473 185, 472 188, 472 190, 472 192, 471 194, 471 196, 471 197, 472 197, 471 198
+</trace>
+<trace id="4">
+453 201, 454 201, 459 200, 461 200, 463 200, 465 199, 467 199, 469 199, 472 199, 476 199, 478 200, 481 200, 483 200, 486 200, 488 201, 490 201, 492 201, 494 201, 496 202, 498 202, 500 203
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">s</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="s_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">\geq</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="ge_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

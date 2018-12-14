@@ -1,0 +1,61 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-306.ink"</annotation>
+<annotation type="truth"> \left ( \sqrt { l } \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="2:">(</mo>
+            <mrow>
+                <msqrt xml:id="0:">
+                    <mi xml:id="1:">l</mi>
+                </msqrt>
+                <mo xml:id="3:">)</mo>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+4603 9687, 4598 9670, 4598 9659, 4603 9664, 4612 9684, 4620 9717, 4629 9762, 4631 9824, 4634 9899, 4634 9992, 4629 10095, 4617 10205, 4603 10314, 4587 10417, 4567 10513, 4550 10594, 4536 10661, 4525 10706, 4517 10731, 4514 10731, 4519 10709, 4525 10658, 4539 10580, 4553 10476, 4573 10356, 4592 10216, 4623 10067, 4654 9922, 4693 9787, 4729 9667, 4774 9569, 4819 9485, 4872 9418, 4928 9365, 4984 9325, 5046 9289, 5110 9253, 5186 9216, 5267 9180, 5359 9140, 5463 9101, 5575 9062, 5693 9023, 5816 8989, 5942 8956, 6068 8933, 6188 8911, 6292 8897, 6384 8897, 6457 8900
+</trace>
+
+<trace id="1">
+5189 10566, 5189 10546, 5200 10515, 5225 10471, 5253 10415, 5292 10350, 5337 10272, 5390 10188, 5446 10095, 5502 10000, 5555 9902, 5609 9810, 5659 9723, 5701 9645, 5735 9575, 5763 9519, 5779 9474, 5791 9449, 5793 9435, 5785 9435, 5763 9446, 5737 9471, 5704 9510, 5665 9561, 5623 9625, 5581 9698, 5541 9782, 5508 9871, 5483 9967, 5469 10067, 5463 10163, 5469 10255, 5483 10342, 5508 10417, 5544 10485, 5586 10535, 5642 10574, 5695 10594, 5751 10597, 5813 10591, 5858 10560
+</trace>
+
+<trace id="2">
+4794 8891, 4755 8894, 4715 8911, 4665 8939, 4609 8981, 4547 9040, 4483 9118, 4421 9224, 4357 9356, 4304 9513, 4251 9698, 4214 9902, 4189 10115, 4178 10328, 4186 10535, 4211 10720, 4253 10877, 4312 11011, 4382 11095
+</trace>
+
+<trace id="3">
+6309 8648, 6345 8642, 6376 8648, 6423 8676, 6493 8720, 6541 8790, 6597 8880, 6656 8998, 6712 9138, 6762 9300, 6801 9477, 6827 9664, 6838 9860, 6832 10048, 6810 10227, 6773 10392, 6723 10532, 6664 10653, 6594 10754, 6519 10824, 6446 10885
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">\sqrt</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">l</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,65 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ t \rightarrow \infty $</annotation>
+<annotation type="writer">annot_280</annotation>
+<annotation type="UI">2014_RIT_CROHME_76</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="75:76:">t</mi>
+            <mrow >
+                <mo  xml:id = "77:78:" >\rightarrow</mo>
+                <mi  xml:id = "79:" >\infty</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+317 218, 315 217, 313 227, 308 243, 303 263, 297 289, 294 313, 293 332, 294 349, 300 358, 312 367, 325 375, 342 379, 360 379, 385 375, 405 362
+</trace>
+
+<trace  id = "1" >
+306 335, 315 333, 326 332, 343 328, 362 321
+</trace>
+
+<trace  id = "2" >
+409 295, 415 292, 427 292, 445 291, 468 289, 492 287, 515 285, 535 284, 552 284, 563 286, 572 290, 576 294
+</trace>
+
+<trace  id = "3" >
+523 219, 528 224, 536 234, 548 244, 564 258, 580 270, 592 279, 605 288, 613 295, 617 301, 619 306, 619 314, 607 323, 589 336, 574 346, 566 351, 560 355, 557 356, 556 359, 556 360
+</trace>
+
+<trace  id = "4" >
+749 229, 748 234, 746 243, 741 258, 733 273, 722 288, 710 302, 697 311, 685 316, 673 319, 667 319, 661 317, 658 310, 658 296, 660 277, 664 263, 669 251, 673 243, 676 237, 678 234, 682 234, 685 234, 691 238, 699 244, 710 252, 720 262, 730 271, 740 282, 750 292, 759 299, 768 307, 774 310, 779 311, 782 311, 785 311, 786 310, 788 302, 790 290, 791 277, 791 264, 790 252, 786 243, 781 234, 777 229, 774 226, 771 225, 767 225, 764 227, 761 234, 756 248
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="75:76:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="75:76:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="77:78:">
+        <annotation type="truth">\rightarrow</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="77:78:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="79:">
+        <annotation type="truth">\infty</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="79:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

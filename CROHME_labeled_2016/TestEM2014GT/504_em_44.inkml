@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">18</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">504</annotation>
+<annotation type="truth">$8_{16}$</annotation>
+<annotation type="UI">IVC_2014_F504_E44</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msub>
+			<mn xml:id="8_1">8</mn>
+			<mrow>
+				<mn xml:id="1_1">1</mn>
+				<mn xml:id="6_1">6</mn>
+			</mrow>
+		</msub>
+	</math>
+</annotationXML>
+<trace id="0">
+403 128, 402 128, 396 130, 394 131, 391 139, 391 142, 393 146, 397 153, 400 156, 403 160, 406 164, 408 168, 409 171, 409 174, 408 176, 403 178, 400 178, 397 177, 394 176, 392 174, 390 171, 389 168, 389 165, 390 162, 391 159, 394 156, 400 150, 403 147, 406 145, 409 142, 411 139, 412 136, 412 134, 411 132, 410 130, 409 130, 407 130, 405 130, 405 131
+</trace>
+<trace id="1">
+409 186, 410 186, 417 184, 422 182, 425 181, 428 179, 431 177, 434 175, 436 173, 437 172, 438 172, 439 173, 437 179, 436 182, 435 189, 435 191, 436 193, 436 195
+</trace>
+<trace id="2">
+461 172, 460 173, 455 175, 452 178, 449 180, 447 183, 445 186, 443 189, 443 192, 444 195, 450 199, 453 199, 457 199, 462 196, 463 195, 463 193, 462 192, 459 191, 457 190, 453 189, 450 189, 447 190, 445 190, 444 191
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">8</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="8_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">6</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="6_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

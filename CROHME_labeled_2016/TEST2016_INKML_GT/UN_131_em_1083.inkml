@@ -1,0 +1,51 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">42</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_131</annotation>
+<annotation type="truth">$[e]$</annotation>
+<annotation type="UI">CROHME_2016_em_1083</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="[_1">[</mo>
+			<mrow>
+				<mi xml:id="e_1">e</mi>
+				<mo xml:id="]_1">]</mo>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+487 95, 474 87, 470 87, 465 87, 459 87, 453 87, 448 87, 443 87, 438 88, 433 88, 429 89, 426 89, 424 90, 422 90, 421 91, 420 93, 419 95, 419 98, 419 102, 419 107, 419 114, 418 121, 418 130, 417 139, 416 149, 415 161, 413 172, 411 184, 410 195, 409 207, 408 217, 407 228, 407 237, 407 245, 408 253, 409 260, 411 266, 413 271, 415 274, 418 277, 421 279, 425 281, 429 282, 433 282, 437 282, 441 281, 447 281, 451 281, 455 280, 458 280, 461 280, 463 280, 465 280, 467 280, 468 280
+</trace>
+<trace id="1">
+488 192, 503 192, 506 191, 509 190, 512 189, 514 187, 515 185, 516 183, 517 181, 516 179, 515 177, 515 175, 513 174, 511 173, 509 173, 507 173, 505 174, 503 175, 500 177, 498 180, 496 183, 495 186, 494 189, 493 193, 493 197, 494 200, 495 204, 496 208, 498 212, 500 215, 502 218, 505 221, 509 223, 513 224, 517 225, 518 224
+</trace>
+<trace id="2">
+543 133, 573 114, 578 112, 584 111, 589 111, 594 111, 598 112, 602 114, 606 118, 610 122, 614 128, 617 134, 620 142, 623 150, 624 158, 625 167, 626 176, 627 185, 627 194, 626 203, 624 211, 622 220, 619 227, 615 234, 612 239, 608 244, 604 248, 598 251, 593 254, 587 255, 581 256, 575 257, 570 258, 565 258, 560 258, 557 258, 554 258, 552 257, 551 257
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">[</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="[_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">]</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="]_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

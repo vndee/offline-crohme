@@ -1,0 +1,76 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \frac {5 \pi} {7} $</annotation>
+<annotation type="writer">42130.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_42130_2</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac xml:id="21:">
+            <mrow>
+                <mn xml:id="17:">5</mn>
+                <mi xml:id="18:19:20:">\pi</mi>
+            </mrow>
+            <mn xml:id="22:23:">7</mn>
+        </mfrac>
+    </math>
+</annotationXML>
+
+<trace id="0">
+467 120, 472 120, 477 120, 484 120, 494 119, 501 119, 509 119, 516 118, 522 118, 527 117, 531 117, 533 117, 534 117, 533 117, 531 117, 528 117, 524 117, 520 117, 515 116, 508 116, 501 116, 495 116, 490 116, 483 116, 479 116, 476 116, 472 116, 470 117, 469 119, 468 120, 467 123, 467 125, 467 129, 467 135, 467 142, 467 149, 467 157, 467 163, 467 168, 467 173, 467 177, 467 179, 467 182, 467 183, 470 183, 472 181, 477 178, 484 176, 491 175, 498 174, 506 174, 513 175, 519 178, 523 184, 526 192, 528 199, 528 207, 528 215, 525 221, 521 224, 515 227, 506 229, 498 230, 488 231, 480 231, 473 231, 467 229, 464 227, 461 224, 460 222, 459 218, 460 215
+</trace>
+
+<trace id="1">
+582 156, 583 159, 583 164, 583 172, 583 181, 583 188, 583 196, 583 206, 583 212, 583 218, 583 225, 583 229, 584 232, 584 233, 587 233
+</trace>
+
+<trace id="2">
+630 157, 630 164, 630 170, 630 177, 630 185, 630 192, 630 199, 630 205, 631 219, 631 220, 631 221
+</trace>
+
+<trace id="3">
+569 141, 570 142, 579 142, 628 144, 638 145, 645 145, 652 146, 657 146, 660 147, 662 148, 663 148, 664 148, 665 148, 666 148
+</trace>
+
+<trace id="4">
+419 286, 428 285, 437 285, 450 283, 467 280, 485 279, 502 278, 517 278, 534 278, 555 278, 574 278, 592 278, 610 277, 625 277, 641 276, 652 276, 662 276, 671 275, 678 275, 684 275, 689 275, 694 275, 699 275, 704 275, 711 275, 713 275
+</trace>
+
+<trace id="5">
+536 319, 565 319, 575 319, 582 319, 586 319, 590 319, 591 321, 591 324, 591 328, 590 333, 589 339, 587 353, 585 359, 584 367, 584 373, 583 380, 582 387, 580 399, 579 404, 579 408, 578 411, 576 419, 575 421, 575 422, 575 424, 575 425, 574 426, 574 425, 574 423, 574 421, 574 420
+</trace>
+
+<trace id="6">
+574 367, 565 363, 561 363, 557 363, 552 363, 547 363, 538 363, 535 363
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="17:">
+        <annotation type="truth">5</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="17:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="18:19:20:">
+        <annotation type="truth">\pi</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="18:19:20:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="21:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="21:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="22:23:">
+        <annotation type="truth">7</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="22:23:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

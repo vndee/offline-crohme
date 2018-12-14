@@ -1,0 +1,90 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">26</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">UN_453</annotation>
+<annotation type="truth">$\frac{f}{2\sin\theta}$</annotation>
+<annotation type="UI">CROHME_2016_em_661</annotation>
+<annotation type="copyright">IVC/UNIV-NANTES</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mfrac xml:id="_1">
+			<mi xml:id="f_1">f</mi>
+			<mrow>
+				<mn xml:id="2_1">2</mn>
+				<mrow>
+					<mi xml:id="sin_1">sin</mi>
+					<mi xml:id="theta_1">theta</mi>
+				</mrow>
+			</mrow>
+		</mfrac>
+	</math>
+</annotationXML>
+<trace id="0">
+553 65, 552 66, 548 69, 547 70, 546 71, 545 73, 545 72, 544 73, 544 76, 545 80, 546 81, 546 83, 547 84, 548 85, 547 85, 548 85, 549 89, 550 91, 551 95, 551 97, 550 98, 550 100, 550 101, 549 101, 548 106, 547 108, 546 109, 545 111, 545 110, 545 111, 542 115, 538 118, 535 119, 535 119
+</trace>
+<trace id="1">
+546 89, 547 89, 551 89, 553 89, 554 89, 556 89
+</trace>
+<trace id="2">
+514 129, 514 130, 513 131, 520 131, 524 130, 528 130, 534 129, 539 129, 546 128, 552 127, 560 127, 567 127, 575 127, 582 127, 590 127, 597 128, 605 128, 612 128, 620 128, 627 129, 630 128
+</trace>
+<trace id="3">
+529 146, 530 146, 534 146, 536 146, 540 149, 541 148, 541 149, 538 154, 536 157, 534 160, 531 162, 529 165, 527 168, 525 170, 525 172, 525 174, 526 175, 528 175, 531 175, 534 175, 537 174, 540 174, 543 173, 544 173
+</trace>
+<trace id="4">
+553 169, 554 168, 557 165, 558 164, 559 162, 558 163, 559 162, 561 158, 562 157, 562 156, 563 156, 563 155, 564 155, 569 156, 572 157, 574 159, 576 160, 577 162, 578 164, 578 166, 577 167, 577 169, 576 170, 576 169, 576 170, 571 171, 568 171, 565 170
+</trace>
+<trace id="5">
+573 167, 576 166, 577 167, 577 166, 579 164, 581 162, 581 161, 582 159, 583 158, 583 156, 583 155, 583 154, 584 154, 583 154, 583 155, 583 161, 584 163, 584 165, 585 167, 588 168, 590 168, 591 168
+</trace>
+<trace id="6">
+586 145, 585 144, 585 143, 585 142
+</trace>
+<trace id="7">
+591 165, 591 164, 592 160, 592 159, 593 157, 594 156, 595 154, 595 155, 595 154, 599 153, 600 153, 600 152, 601 153, 603 157, 603 159, 604 161, 604 163, 604 164, 604 166, 604 165, 605 159, 606 157, 607 155, 609 154, 608 154, 609 154, 612 156, 613 157, 614 159, 615 161, 615 163, 616 165, 616 166, 617 167, 618 168, 617 168, 618 168
+</trace>
+<trace id="8">
+644 142, 645 141, 645 142, 644 142, 639 145, 637 147, 635 149, 634 151, 633 153, 632 155, 631 158, 630 161, 630 164, 630 166, 630 169, 630 171, 631 174, 632 176, 634 177, 636 179, 638 179, 640 180, 639 180, 640 180, 646 178, 649 177, 651 176, 653 174, 655 172, 656 169, 657 167, 658 164, 658 162, 658 159, 658 157, 658 154, 657 152, 656 149, 655 147, 654 146, 653 144, 652 145, 652 144, 649 142, 647 141, 646 141, 644 141, 643 141, 642 141, 639 142, 638 142
+</trace>
+<trace id="9">
+632 155, 637 155, 640 155, 643 155, 645 155, 648 156, 650 156, 652 156, 657 155, 658 156
+</trace>
+<traceGroup xml:id="10">
+	<annotation type="truth">Closest Strk</annotation>
+	<traceGroup xml:id="11">
+		<annotation type="truth">f</annotation>
+		<traceView traceDataRef="0"/>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="f_1"/>
+	</traceGroup>
+	<traceGroup xml:id="12">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="13">
+		<annotation type="truth">\sin</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="7"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="sin_1"/>
+	</traceGroup>
+	<traceGroup xml:id="14">
+		<annotation type="truth">\theta</annotation>
+		<traceView traceDataRef="8"/>
+		<traceView traceDataRef="9"/>
+		<annotationXML href="theta_1"/>
+	</traceGroup>
+	<traceGroup xml:id="15">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

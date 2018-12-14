@@ -1,0 +1,46 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-131-150.ink"</annotation>
+<annotation type="truth"> \mbox { tN } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">t</mi>
+            <mi xml:id="2:3:">N</mi>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+5540 3943, 5533 3969, 5517 3995, 5505 4033, 5492 4074, 5479 4115, 5472 4160, 5467 4203, 5468 4248, 5470 4287, 5479 4325, 5489 4356, 5501 4383, 5516 4406, 5530 4421, 5546 4434, 5559 4439, 5566 4437, 5576 4433, 5577 4418
+</trace>
+
+<trace id="1">
+5350 4203, 5336 4201, 5321 4194, 5321 4199, 5323 4203, 5337 4205, 5361 4207, 5393 4207, 5433 4203, 5475 4196, 5521 4188, 5563 4167, 5611 4153, 5647 4126
+</trace>
+
+<trace id="2">
+5883 3817, 5889 3826, 5887 3837, 5891 3859, 5892 3893, 5890 3934, 5891 3991, 5885 4052, 5883 4122, 5876 4193, 5869 4265, 5861 4327, 5852 4379, 5849 4424, 5843 4452, 5843 4470, 5846 4474, 5846 4459, 5850 4439, 5850 4405
+</trace>
+
+<trace id="3">
+5845 3917, 5855 3912, 5862 3913, 5876 3927, 5892 3954, 5912 3981, 5939 4025, 5966 4070, 6005 4127, 6041 4181, 6081 4238, 6120 4292, 6159 4342, 6194 4383, 6230 4416, 6259 4441, 6284 4456, 6305 4464, 6325 4458, 6340 4443, 6353 4415, 6364 4378, 6373 4330, 6381 4269, 6386 4198, 6389 4120, 6389 4043, 6389 3965, 6389 3891, 6388 3827, 6386 3770, 6389 3725, 6389 3684, 6390 3654, 6396 3635, 6403 3617, 6412 3607
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">t</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">N</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

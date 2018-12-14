@@ -1,0 +1,67 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200926-1617-253.ink"</annotation>
+<annotation type="truth"> p \left ( j \right ) </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:">p</mi>
+            <mrow>
+                <mo xml:id="1:">(</mo>
+                <mrow>
+                    <mi xml:id="2:3:">j</mi>
+                    <mo xml:id="4:">)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+10545 8564, 10559 8533, 10573 8502, 10590 8474, 10604 8452, 10612 8426, 10624 8410, 10626 8398, 10635 8401, 10632 8412, 10626 8446, 10612 8491, 10596 8555, 10573 8636, 10554 8734, 10523 8844, 10495 8958, 10470 9068, 10444 9177, 10419 9272, 10400 9356, 10383 9415, 10369 9463, 10355 9488, 10346 9502, 10338 9493, 10332 9471, 10332 9426, 10344 9356, 10360 9264, 10388 9152, 10428 9026, 10484 8891, 10548 8754, 10618 8622, 10694 8505, 10766 8407, 10834 8331, 10895 8284, 10943 8250, 10982 8239, 11010 8247, 11027 8272, 11030 8312, 11018 8362, 10990 8415, 10948 8480, 10890 8550, 10822 8620, 10755 8690, 10685 8746, 10629 8799, 10576 8835, 10542 8860, 10537 8869, 10548 8860
+</trace>
+
+<trace id="1">
+11833 7897, 11839 7892, 11830 7894, 11814 7917, 11791 7962, 11749 8023, 11707 8110, 11646 8211, 11587 8326, 11522 8449, 11466 8578, 11419 8701, 11385 8816, 11368 8911, 11371 8989, 11394 9056, 11427 9096, 11475 9118, 11534 9124, 11595 9104
+</trace>
+
+<trace id="2">
+12189 8415, 12206 8401, 12211 8393, 12208 8398, 12214 8426, 12208 8463, 12211 8522, 12200 8586, 12194 8670, 12178 8757, 12161 8852, 12138 8942, 12113 9028, 12085 9107, 12054 9177, 12021 9236, 11984 9283, 11945 9311, 11906 9325, 11870 9331, 11828 9317, 11797 9289, 11772 9247, 11755 9185
+</trace>
+
+<trace id="3">
+12144 8253, 12141 8242, 12130 8228, 12119 8222, 12119 8211, 12108 8197, 12102 8183, 12099 8166, 12110 8155, 12119 8138
+</trace>
+
+<trace id="4">
+12606 7894, 12606 7894, 12600 7892, 12595 7897, 12600 7917, 12606 7939, 12623 7981, 12634 8034, 12654 8110, 12668 8197, 12682 8298, 12684 8404, 12684 8524, 12665 8648, 12634 8771, 12589 8888, 12533 8995, 12469 9104, 12390 9196, 12301 9278, 12211 9342, 12113 9384
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">p</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">(</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">j</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">)</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

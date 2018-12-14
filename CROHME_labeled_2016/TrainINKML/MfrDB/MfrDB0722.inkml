@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB0722</annotation>
+  <annotation type="truth">${e^{i \pi}}$</annotation>
+  <annotation type="writer">User068</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <msup>
+        <mrow>
+          <mi xml:id="e_1">e</mi>
+        </mrow>
+        <mrow>
+          <mi xml:id="i_1">i</mi>
+          <mi xml:id="\pi_1">pi</mi>
+        </mrow>
+      </msup>
+    </math>
+  </annotationXML>
+  <trace id="0">287 137 7401, 288 137 7456, 289 137 7476, 290 137 7488, 291 137 7500, 292 137 7514, 293 137 7540, 294 137 7550, 295 137 7558, 296 137 7566, 297 137 7574, 298 137 7580, 299 137 7586, 301 137 7596, 302 137 7602, 304 137 7614, 304 136 7616, 305 136 7622, 306 135 7628, 308 135 7638, 308 134 7643, 310 134 7649, 311 132 7658, 312 131 7666, 313 130 7678, 314 129 7694, 314 128 7770, 313 127 7784, 312 127 7790, 312 126 7795, 311 126 7800, 310 126 7805, 309 125 7811, 308 125 7816, 306 124 7824, 305 124 7829, 304 124 7834, 303 124 7842, 302 123 7848, 301 123 7854, 300 123 7866, 299 123 7890, 298 123 7982, 297 123 7994, 296 124 8002, 295 124 8010, 295 125 8015, 294 125 8020, 294 126 8028, 293 126 8030, 293 127 8042, 292 127 8048, 292 128 8114, 291 128 8120, 291 129 8140, 290 129 8152, 290 130 8160, 289 131 8166, 288 131 8176, 288 132 8182, 288 133 8186, 287 133 8194, 287 134 8199, 287 135 8214, 287 136 8256, 287 137 8286, 287 138 8314, 287 139 8348, 287 140 8416, 287 141 8438, 287 142 8458, 288 143 8494, 288 144 8546, 289 144 8574, 289 145 8584, 290 145 8616, 290 146 8638, 291 146 8704, 291 147 8736, 292 147 8760, 293 147 8848, 293 148 8862, 294 148 8878, 294 149 8896, 295 149 8946, 296 149 8980, 296 150 9006, 297 150 9020, 308 151 9422, 313 149 9565</trace>
+  <trace id="1">321 107 11210, 321 108 11368, 321 109 11400, 321 110 11420, 321 111 11454, 321 112 11492, 321 113 11520, 321 114 11548, 321 115 11600, 321 116 11636, 321 117 11658, 320 117 11702, 320 118 11764, 321 118 11820, 322 118 11854, 323 118 11890, 324 118 11934, 325 118 12046, 326 118 12194, 327 118 12242</trace>
+  <trace id="2">320 98 12861</trace>
+  <trace id="3">333 107 14189, 333 108 14294, 333 109 14302, 333 110 14314, 333 111 14326, 333 112 14342, 333 113 14362, 333 114 14394, 333 115 14418, 333 116 14443</trace>
+  <trace id="4">339 108 15497, 339 109 15638, 339 110 15644, 339 111 15656, 339 112 15674, 339 113 15714, 339 114 15740, 339 115 15770, 339 116 15856, 339 117 15884</trace>
+  <trace id="5">329 110 16447, 330 110 16554, 331 109 16562, 331 108 16568, 332 108 16573, 333 107 16584, 334 107 16590, 334 106 16604, 335 106 16610, 336 106 16788, 337 106 17108, 338 106 17182, 338 107 17550, 339 107 17558, 339 108 17690, 340 108 17896, 341 108 17924, 342 108 17966, 343 108 17986, 344 108 18000</trace>
+  <traceGroup xml:id="6">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="7">
+      <annotation type="truth">e</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="e_1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">i</annotation>
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+      <annotationXML href="i_1" />
+    </traceGroup>
+    <traceGroup xml:id="9">
+      <annotation type="truth">\pi</annotation>
+      <traceView traceDataRef="3" />
+      <traceView traceDataRef="4" />
+      <traceView traceDataRef="5" />
+      <annotationXML href="\pi_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

@@ -1,0 +1,49 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"200923-1254-376.ink"</annotation>
+<annotation type="truth"> 6.7 </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mn xml:id="0:">6</mn>
+            <mrow>
+                <mo xml:id="1:">.</mo>
+                <mn xml:id="2:">7</mn>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+3388 9070, 3388 9045, 3388 9040, 3369 9045, 3341 9073, 3301 9124, 3259 9213, 3215 9331, 3167 9479, 3122 9647, 3083 9827, 3047 10003, 3027 10177, 3016 10328, 3027 10454, 3047 10543, 3083 10611, 3131 10644, 3187 10644, 3251 10625, 3313 10580, 3377 10524, 3430 10448, 3472 10370, 3500 10280, 3514 10191, 3511 10101, 3492 10020, 3461 9950, 3422 9894, 3380 9855, 3332 9827, 3293 9818, 3259 9824, 3234 9841, 3234 9871, 3243 9908
+</trace>
+
+<trace id="1">
+4181 10599, 4197 10647, 4203 10681, 4200 10709, 4186 10723, 4178 10737, 4169 10748, 4172 10740, 4189 10720
+</trace>
+
+<trace id="2">
+4651 9513, 4654 9479, 4654 9446, 4671 9412, 4699 9404, 4752 9367, 4830 9331, 4939 9292, 5065 9253, 5214 9219, 5373 9185, 5539 9166, 5695 9149, 5835 9152, 5953 9166, 6048 9196, 6118 9247, 6157 9320, 6171 9418, 6163 9533, 6129 9664, 6079 9818, 6001 9986, 5908 10160, 5813 10342, 5707 10513
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:">
+        <annotation type="truth">6</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="0:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="1:">
+        <annotation type="truth">.</annotation>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">7</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

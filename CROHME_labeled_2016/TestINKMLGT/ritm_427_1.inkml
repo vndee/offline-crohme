@@ -1,0 +1,56 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \sum x _ n $</annotation>
+<annotation type="writer">427.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_ritm_427_1</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mo xml:id="33:">\sum</mo>
+            <msub>
+                <mi xml:id="34:35:">x</mi>
+                <mi xml:id="36:">n</mi>
+            </msub>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+458 158, 451 157, 255 241, 265 243, 280 244, 300 245, 359 246, 373 246, 389 246, 391 247, 392 247, 392 248, 386 251, 360 265, 342 273, 322 281, 282 299, 262 309, 231 326, 219 333, 210 343, 209 348, 217 348, 247 349, 286 349, 304 349, 337 349, 368 349, 391 349, 405 349, 414 350, 418 351, 424 351
+</trace>
+
+<trace id="1">
+498 227, 497 227, 568 306, 569 307, 569 309, 570 311
+</trace>
+
+<trace id="2">
+603 228, 598 227, 487 308, 486 310, 485 311, 485 314
+</trace>
+
+<trace id="3">
+605 290, 604 295, 601 348, 601 349, 601 350, 601 351, 601 353, 601 354, 601 355, 601 353, 601 352, 601 349, 602 346, 603 339, 604 335, 606 332, 610 327, 615 324, 618 323, 624 322, 631 323, 633 324, 637 331, 639 340, 641 344, 642 352, 642 358, 643 363
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="33:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <annotationXML href="33:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="34:35:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="34:35:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="36:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="36:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

@@ -1,0 +1,54 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="UI">"2009213-139-10.ink"</annotation>
+<annotation type="truth"> { i - R } </annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:">i</mi>
+            <mrow>
+                <mo xml:id="2:">-</mo>
+                <mi xml:id="3:">R</mi>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+7023 1571, 7017 1571, 7017 1579, 7014 1599, 7009 1638, 7003 1689, 6992 1764, 6983 1845, 6972 1938, 6967 2033, 6958 2120, 6958 2207, 6961 2277, 6969 2330, 6986 2355, 7011 2364, 7048 2355, 7087 2330, 7132 2296, 7174 2249, 7213 2182, 7252 2111
+</trace>
+
+<trace id="1">
+7023 1134, 7014 1126, 7011 1126, 7014 1137, 7023 1145, 7039 1162, 7056 1182, 7079 1201, 7115 1238
+</trace>
+
+<trace id="2">
+7751 2025, 7767 2016, 7807 1999, 7857 1991, 7916 1980, 7986 1971, 8062 1963, 8143 1955, 8230 1949, 8322 1949, 8406 1943
+</trace>
+
+<trace id="3">
+9173 1367, 9176 1395, 9179 1442, 9179 1504, 9182 1582, 9182 1680, 9182 1789, 9176 1904, 9173 2013, 9165 2114, 9162 2207, 9156 2282, 9154 2344, 9151 2380, 9148 2400, 9148 2397, 9148 2375, 9145 2330, 9145 2260, 9145 2168, 9148 2061, 9154 1946, 9165 1826, 9179 1711, 9198 1605, 9226 1512, 9266 1442, 9308 1395, 9361 1367, 9417 1353, 9478 1350, 9540 1361, 9604 1381, 9660 1406, 9714 1437, 9756 1470, 9792 1512, 9809 1557, 9814 1607, 9803 1663, 9775 1725, 9736 1789, 9680 1854, 9613 1913, 9537 1963, 9462 2002, 9392 2027, 9330 2039, 9280 2041, 9243 2027, 9232 2013, 9240 1997, 9271 1985, 9316 1983, 9372 1988, 9436 1999, 9506 2019, 9576 2044, 9646 2078, 9716 2109, 9784 2137, 9854 2168, 9918 2190, 9980 2210, 10044 2232, 10097 2246
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">i</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:">
+        <annotation type="truth">-</annotation>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:">
+        <annotation type="truth">R</annotation>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="3:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

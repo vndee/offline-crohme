@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB2217</annotation>
+  <annotation type="truth">$E = m {c^{2}}$</annotation>
+  <annotation type="writer">User008</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <mi xml:id="E_1">E</mi>
+      <mo xml:id="=_1">=</mo>
+      <mi xml:id="m_1">m</mi>
+      <msup>
+        <mrow>
+          <mi xml:id="c_1">c</mi>
+        </mrow>
+        <mrow>
+          <mn xml:id="2_1">2</mn>
+        </mrow>
+      </msup>
+    </math>
+  </annotationXML>
+  <trace id="0">342 151 31174, 342 152 31221, 341 152 31255, 323 151 31289, 297 151 31322, 277 152 31358, 267 158 31391, 264 166 31425, 264 170 31457, 266 174 31492, 280 180 31526, 323 184 31559, 381 185 31592, 405 185 31626, 403 185 31680, 397 185 31712, 361 189 31748, 333 197 31780, 305 206 31813, 265 220 31846, 250 226 31880, 246 233 31914, 245 238 31946, 255 245 31981, 275 252 32015, 332 260 32049, 385 261 32083, 422 261 32116</trace>
+  <trace id="1">486 234 32646, 488 234 32704, 512 234 32737, 546 233 32769, 585 233 32804, 583 232 32884</trace>
+  <trace id="2">488 219 33344, 497 219 33387, 519 219 33421, 583 219 33453, 622 219 33487, 625 219 33521</trace>
+  <trace id="3">653 216 33974, 655 216 34018, 683 207 34050, 707 197 34085, 731 191 34118, 735 193 34151, 739 207 34183, 739 231 34221, 737 244 34254, 733 247 34288, 731 248 34321, 731 247 34368, 738 238 34402, 745 228 34435, 756 210 34467, 760 205 34501, 761 205 34536, 765 207 34568, 767 209 34603, 767 212 34636, 767 221 34669, 764 232 34703, 764 234 34737, 764 233 34806, 768 227 34839, 780 208 34872, 789 196 34906, 793 194 34939, 797 195 34972, 806 200 35009, 815 204 35043, 816 206 35079, 816 214 35112, 813 220 35146, 808 226 35180, 807 230 35212, 806 232 35246, 806 236 35280, 806 239 35313, 807 245 35347, 810 249 35382, 814 251 35415, 819 252 35448, 820 252 35481, 821 252 35514</trace>
+  <trace id="4">945 204 36156, 943 203 36202, 942 201 36235, 932 200 36268, 906 200 36301, 879 204 36336, 874 208 36369, 871 215 36404, 871 221 36436, 871 227 36470, 870 233 36502, 870 236 36537, 876 242 36571, 892 249 36604, 909 253 36638, 934 255 36671, 942 255 36706</trace>
+  <trace id="5">986 133 38160, 988 133 38262, 1008 133 38294, 1032 133 38331, 1040 134 38366, 1050 140 38401, 1057 149 38438, 1058 156 38472, 1053 160 38506, 1045 164 38539, 1012 174 38579, 1005 179 38614, 997 186 38649, 987 194 38687, 978 200 38720, 967 208 38754, 963 211 38788, 964 211 38936, 1004 212 38970, 1059 213 39005, 1112 215 39042</trace>
+  <traceGroup xml:id="6">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="7">
+      <annotation type="truth">E</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="E_1" />
+    </traceGroup>
+    <traceGroup xml:id="8">
+      <annotation type="truth">=</annotation>
+      <traceView traceDataRef="1" />
+      <traceView traceDataRef="2" />
+      <annotationXML href="=_1" />
+    </traceGroup>
+    <traceGroup xml:id="9">
+      <annotation type="truth">m</annotation>
+      <traceView traceDataRef="3" />
+      <annotationXML href="m_1" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">c</annotation>
+      <traceView traceDataRef="4" />
+      <annotationXML href="c_1" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">2</annotation>
+      <traceView traceDataRef="5" />
+      <annotationXML href="2_1" />
+    </traceGroup>
+  </traceGroup>
+</ink>

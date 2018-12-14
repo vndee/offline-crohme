@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$2^e-1$</annotation>
+<annotation type="UI">2011_IVC_CIEL_F230_E5</annotation>
+<annotation type="copyright">LUNAM/IRCCyN</annotation>
+<annotation type="writer">CIEL230</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<msup>
+				<mn xml:id="2_1">2</mn>
+				<mi xml:id="e_1">e</mi>
+			</msup>
+			<mrow>
+				<mo xml:id="-_1">-</mo>
+				<mn xml:id="1_1">1</mn>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+1140 2989, 1140 2989, 1143 2967, 1156 2943, 1178 2925, 1213 2913, 1253 2910, 1289 2924, 1314 2950, 1325 2989, 1315 3044, 1284 3114, 1221 3211, 1219 3221, 1225 3226, 1242 3230, 1277 3229, 1319 3223, 1373 3206, 1430 3174
+</trace>
+<trace id="1">
+1445 2917, 1445 2917, 1467 2924, 1493 2927, 1530 2921, 1566 2908, 1591 2895, 1594 2888, 1592 2880, 1582 2871, 1561 2874, 1512 2932, 1522 2953, 1544 2973, 1576 2989, 1614 3000
+</trace>
+<trace id="2">
+1692 3062, 1692 3062, 1727 3057, 1759 3049, 1794 3036
+</trace>
+<trace id="3">
+1959 3003, 1959 3003, 1996 2983, 2036 2955, 2070 2928, 2113 2892, 2118 2892, 2116 2904, 2089 2978, 2081 3020, 2081 3061, 2088 3092
+</trace>
+<traceGroup xml:id="4">
+	<annotation type="truth">Segmentation</annotation>
+	<traceGroup xml:id="5">
+		<annotation type="truth">2</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="2_1"/>
+	</traceGroup>
+	<traceGroup xml:id="6">
+		<annotation type="truth">e</annotation>
+		<traceView traceDataRef="1"/>
+		<annotationXML href="e_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

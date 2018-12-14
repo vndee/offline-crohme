@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ink xmlns="http://www.w3.org/2003/InkML">
+  <traceFormat>
+    <channel name="X" type="integer" units="pt" />
+    <channel name="Y" type="integer" units="pt" />
+    <channel name="T" type="integer" units="ms" />
+  </traceFormat>
+  <annotation type="UI">MfrDB1445</annotation>
+  <annotation type="truth">${( a )^{- 1}} - 1$</annotation>
+  <annotation type="writer">User120</annotation>
+  <annotation type="device">Unknown</annotation>
+  <annotation type="copyright">MfrDB</annotation>
+  <annotationXML type="truth" encoding="Presentation-MathML">
+    <math>
+      <msup>
+        <mrow>
+          <mrow>
+            <mo xml:id="(_1">(</mo>
+            <mrow>
+              <mi xml:id="a_1">a</mi>
+            </mrow>
+            <mo xml:id=")_1">)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mo xml:id="-_1">-</mo>
+          <mn xml:id="1_1">1</mn>
+        </mrow>
+      </msup>
+      <mo xml:id="-_2">-</mo>
+      <mn xml:id="1_2">1</mn>
+    </math>
+  </annotationXML>
+  <trace id="0">422 272 145041, 422 272 145047, 422 273 145054, 421 274 145063, 421 274 145072, 421 275 145079, 421 276 145087, 421 276 145101, 421 276 145102, 421 276 145111, 422 276 145119, 422 275 145127, 423 274 145135, 424 273 145151, 426 267 145168, 426 262 145184, 425 257 145201, 422 253 145216, 418 250 145234, 413 249 145249, 404 252 145267, 397 257 145283, 393 264 145299, 390 271 145318, 389 278 145334, 392 283 145350, 397 286 145367, 399 287 145383, 406 285 145400, 412 281 145416, 417 277 145433, 420 271 145448, 422 268 145466, 423 265 145485, 424 266 145500, 424 268 145516, 424 272 145533, 426 284 145549, 429 288 145566, 431 290 145583, 436 291 145598, 440 290 145617</trace>
+  <trace id="1">384 225 146067, 384 225 146073, 384 225 146081, 383 226 146089, 382 227 146097, 381 228 146108, 379 229 146114, 377 231 146130, 375 234 146147, 370 240 146164, 364 249 146180, 361 259 146197, 361 272 146212, 368 282 146230, 371 284 146249</trace>
+  <trace id="2">453 221 146553, 452 220 146559, 452 220 146566, 451 220 146573, 451 220 146581, 450 220 146589, 449 220 146597, 449 220 146612, 449 220 146613, 449 220 146621, 450 220 146629, 451 221 146637, 453 222 146645, 459 226 146662, 465 232 146678, 471 240 146695, 476 249 146711, 478 260 146727, 478 270 146745, 477 275 146761, 472 284 146778, 468 291 146795, 463 297 146809, 461 299 146828</trace>
+  <trace id="3">473 206 147093, 473 206 147099, 472 206 147106, 472 206 147115, 472 206 147121, 472 206 147129, 473 207 147137, 474 207 147145, 475 207 147153, 477 207 147162, 479 208 147177, 482 208 147193, 488 207 147210, 493 207 147226, 498 207 147242</trace>
+  <trace id="4">512 204 147445, 512 204 147452, 512 204 147459, 512 204 147467, 512 204 147475, 513 203 147481, 513 203 147489, 515 202 147497, 517 201 147505, 519 199 147513, 521 198 147524, 523 195 147541, 525 193 147558, 529 189 147577, 530 188 147592, 530 190 147608, 526 202 147626, 523 210 147642, 522 217 147658, 521 223 147675, 520 227 147692</trace>
+  <trace id="5">554 274 148483, 554 273 148490, 553 273 148497, 553 273 148505, 552 273 148517, 552 273 148521, 552 273 148529, 551 273 148535, 551 273 148543, 552 273 148551, 553 273 148559, 554 273 148572, 556 272 148588, 558 272 148604, 564 272 148621, 576 271 148638, 584 271 148654, 589 271 148671</trace>
+  <trace id="6">614 273 148859, 614 273 148865, 614 273 148872, 614 273 148880, 614 273 148888, 615 272 148895, 617 271 148903, 618 269 148910, 621 267 148920, 623 265 148937, 626 261 148953, 633 254 148970, 639 247 148986, 643 241 149002, 646 238 149019, 645 239 149036, 642 244 149053, 638 252 149070, 633 263 149086, 630 273 149103, 628 281 149119, 628 286 149135</trace>
+  <traceGroup xml:id="7">
+    <annotation type="truth">Segmentation</annotation>
+    <traceGroup xml:id="8">
+      <annotation type="truth">a</annotation>
+      <traceView traceDataRef="0" />
+      <annotationXML href="a_1" />
+    </traceGroup>
+    <traceGroup xml:id="9">
+      <annotation type="truth">(</annotation>
+      <traceView traceDataRef="1" />
+      <annotationXML href="(_1" />
+    </traceGroup>
+    <traceGroup xml:id="10">
+      <annotation type="truth">)</annotation>
+      <traceView traceDataRef="2" />
+      <annotationXML href=")_1" />
+    </traceGroup>
+    <traceGroup xml:id="11">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="3" />
+      <annotationXML href="-_1" />
+    </traceGroup>
+    <traceGroup xml:id="12">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="4" />
+      <annotationXML href="1_1" />
+    </traceGroup>
+    <traceGroup xml:id="13">
+      <annotation type="truth">-</annotation>
+      <traceView traceDataRef="5" />
+      <annotationXML href="-_2" />
+    </traceGroup>
+    <traceGroup xml:id="14">
+      <annotation type="truth">1</annotation>
+      <traceView traceDataRef="6" />
+      <annotationXML href="1_2" />
+    </traceGroup>
+  </traceGroup>
+</ink>

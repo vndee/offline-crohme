@@ -1,0 +1,64 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="category">Algebra</annotation>
+<annotation type="expression">127</annotation>
+ <annotation type="UI">127_rosario</annotation>
+<annotation type="writer">rosario</annotation>
+<annotation type="truth">$n! -1$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mi xml:id="n_1">n</mi>
+			<mrow>
+				<mo xml:id="!_1">!</mo>
+				<mrow>
+					<mo xml:id="-_1">-</mo>
+					<mn xml:id="1_1">1</mn>
+				</mrow>
+			</mrow>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+624 131, 626 122, 628 121, 629 120, 630 120, 631 120, 632 120, 633 120, 634 121, 635 121, 636 122, 637 123, 637 124, 638 125, 638 127, 639 129, 639 131, 639 133, 639 135, 639 138, 639 140, 639 143, 639 145, 639 147, 639 149, 638 151, 638 153, 638 154, 638 156, 638 157, 638 158, 639 158, 640 157, 640 156, 641 155, 641 153, 642 151, 643 149, 644 147, 645 144, 646 141, 647 138, 648 136, 648 133, 649 130, 650 127, 651 125, 652 122, 653 120, 654 118, 656 116, 657 115, 658 114, 660 113, 661 112, 662 112, 664 112, 665 112, 666 113, 667 113, 668 114, 669 116, 670 117, 670 119, 670 120, 670 122, 670 124, 670 127, 670 129, 670 132, 669 135, 669 138, 669 140, 668 143, 668 146, 668 149, 667 152, 667 154, 667 157, 668 159, 668 160, 669 162, 669 163, 670 163, 671 164, 672 163, 674 162, 675 161, 676 160, 678 159, 679 157
+</trace>
+<trace id="1">
+707 89, 706 83, 705 80, 705 84, 705 86, 704 88, 704 91, 704 94, 704 98, 703 101, 703 105, 702 108, 702 112, 701 116, 701 120, 701 124, 700 128, 700 132, 699 136, 699 140, 698 144, 698 147, 698 150, 697 153, 697 155, 697 158, 696 160, 696 161, 696 162, 696 164, 695 164, 695 165, 695 166
+</trace>
+<trace id="2">
+695 199, 695 198
+</trace>
+<trace id="3">
+742 129, 741 129, 739 129, 738 130, 747 130, 750 130, 752 130, 754 130, 756 130, 758 130, 759 131, 761 131, 762 131, 763 131, 764 131, 764 132, 763 132, 762 132, 761 132
+</trace>
+<trace id="4">
+801 125, 801 126, 802 126, 802 124, 807 105, 807 104, 807 103, 808 102, 807 103, 807 104, 807 105, 807 106, 807 108, 807 110, 807 112, 806 115, 806 117, 806 119, 806 122, 806 124, 806 127, 806 130, 805 132, 805 134, 805 137, 805 139, 805 141, 805 143, 806 145, 806 147, 805 148, 805 150, 805 151, 805 152, 805 153, 804 154, 804 155, 803 156, 802 157, 801 157, 800 158, 799 158, 798 158, 797 158, 796 158, 795 158, 794 158, 793 158, 792 158, 791 158, 790 158, 789 157, 790 157, 791 157, 792 157, 793 157, 795 157, 797 157, 799 157, 801 157, 803 157, 805 157, 807 157, 809 157, 810 157, 812 157, 813 158, 814 158, 815 158, 816 158, 817 158, 818 158
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">From ITF</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">n</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="n_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">!</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="!_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">-</annotation>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="-_1"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">1</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="1_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

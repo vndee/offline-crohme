@@ -1,0 +1,120 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+    <channel name="X" type="decimal"/>
+    <channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="truth">$ \sum \limits ^ {n} _ {r = 1} r ^ {3} $</annotation>
+<annotation type="writer">annot_305</annotation>
+<annotation type="UI">2014_RIT_CROHME_91</annotation>
+<annotation type="copyright">RIT_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <munderover>
+                <mo xml:id="0:1:">\sum</mo>
+                <mrow >
+                    <mi  xml:id = "4:" >r</mi>
+                    <mrow >
+                        <mo  xml:id = "5:6:" >=</mo>
+                        <mn  xml:id = "7:" >1</mn>
+                    </mrow>
+                </mrow>
+                <mi  xml:id = "2:3:" >n</mi>
+            </munderover>
+            <msup >
+                <mi  xml:id = "8:" >r</mi>
+                <mn  xml:id = "9:" >3</mn>
+            </msup>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace  id = "0" >
+256 210, 260 208, 264 208, 268 208, 273 210, 279 211, 286 212, 293 213, 299 213, 304 213, 310 213, 314 213, 318 213, 323 213, 326 213, 330 213, 331 213
+</trace>
+
+<trace  id = "1" >
+254 213, 258 217, 262 218, 264 219, 268 221, 271 224, 274 227, 277 230, 280 233, 282 235, 285 238, 287 239, 289 240, 291 241, 292 242, 292 243, 292 244, 292 245, 291 245, 288 246, 285 248, 281 250, 277 252, 271 254, 267 257, 262 259, 257 262, 253 265, 249 268, 245 270, 241 272, 238 273, 237 274, 235 275, 235 276, 238 276, 242 277, 246 277, 251 278, 258 278, 265 279, 271 279, 278 279, 285 279, 291 279, 296 279, 301 279, 304 279, 307 280, 310 280, 311 281, 313 281, 315 281, 318 281, 320 281, 322 281, 324 281, 326 281, 327 281, 328 281, 328 282
+</trace>
+
+<trace  id = "2" >
+279 176, 281 177, 282 175, 284 172, 285 170, 286 168, 288 167, 290 166, 291 166, 293 166, 295 166, 297 167, 298 168, 300 171, 301 174, 303 177, 304 180, 306 183, 306 185, 307 187, 308 189, 308 191
+</trace>
+
+<trace  id = "3" >
+284 162, 284 165, 284 169, 284 174, 284 179, 284 184, 284 187, 284 190, 284 192
+</trace>
+
+<trace  id = "4" >
+248 327, 249 328, 249 334, 249 340, 249 347, 249 351, 248 355, 247 357, 247 358, 246 358, 246 352, 246 343, 249 333, 252 326, 256 318, 259 313, 262 309, 265 306, 268 306, 271 306, 273 306, 275 307, 276 309, 278 311, 279 313
+</trace>
+
+<trace  id = "5" >
+284 326, 287 327, 291 327, 295 328, 300 328, 306 330, 310 332, 313 333
+</trace>
+
+<trace  id = "6" >
+283 347, 287 346, 291 346, 296 346, 301 346, 306 346, 311 346, 316 346, 319 346
+</trace>
+
+<trace  id = "7" >
+342 308, 340 313, 340 322, 340 335, 340 345, 340 355, 340 361, 340 365, 340 369
+</trace>
+
+<trace  id = "8" >
+402 219, 402 224, 402 233, 402 243, 402 254, 401 261, 400 268, 398 271, 398 274, 397 274, 396 274, 396 270, 396 262, 398 250, 401 238, 405 226, 408 218, 412 211, 416 208, 420 206, 424 205, 428 205, 431 205, 434 208, 436 213, 437 216, 439 220, 440 223, 442 224
+</trace>
+
+<trace  id = "9" >
+446 173, 454 174, 458 175, 462 177, 465 179, 467 181, 469 183, 470 185, 470 187, 470 188, 468 190, 466 191, 463 193, 462 194, 461 195, 461 196, 463 198, 466 199, 469 201, 471 202, 471 204, 471 207, 468 211, 463 216, 460 219, 457 221, 450 221
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:">
+        <annotation type="truth">\sum</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <annotationXML href="0:1:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="2:3:">
+        <annotation type="truth">n</annotation>
+        <traceView traceDataRef="2"/>
+        <traceView traceDataRef="3"/>
+        <annotationXML href="2:3:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="4:">
+        <annotation type="truth">r</annotation>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:6:">
+        <annotation type="truth">=</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="5:6:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="7:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="8:">
+        <annotation type="truth">r</annotation>
+        <traceView traceDataRef="8"/>
+        <annotationXML href="8:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="9:">
+        <annotation type="truth">3</annotation>
+        <traceView traceDataRef="9"/>
+        <annotationXML href="9:"/>
+    </traceGroup>
+</traceGroup>
+</ink>

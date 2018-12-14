@@ -1,0 +1,59 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">30</annotation>
+<annotation type="gender">F</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">518</annotation>
+<annotation type="truth">$\sum F_y$</annotation>
+<annotation type="UI">IVC_2014_F518_E421</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mrow>
+			<mo xml:id="sum_1">sum</mo>
+			<msub>
+				<mi xml:id="F_1">F</mi>
+				<mi xml:id="y_1">y</mi>
+			</msub>
+		</mrow>
+	</math>
+</annotationXML>
+<trace id="0">
+531 104, 523 105, 519 106, 515 106, 511 107, 507 107, 502 108, 496 108, 491 109, 486 110, 481 110, 475 111, 471 112, 466 112, 462 113, 458 114, 454 114, 450 115, 448 115, 446 115, 445 115, 444 116, 443 116, 443 117, 443 118, 444 118, 446 119, 448 121, 450 122, 453 123, 456 124, 459 125, 463 127, 467 128, 472 129, 475 130, 479 131, 483 132, 487 133, 490 134, 493 135, 495 135, 497 136, 499 136, 500 137, 500 138, 501 138, 501 139, 502 139, 502 140, 502 141, 501 142, 500 143, 499 144, 497 146, 495 147, 492 149, 489 152, 487 154, 485 156, 482 158, 480 161, 478 163, 476 166, 474 168, 471 171, 469 173, 467 176, 465 178, 464 180, 463 182, 462 184, 462 185, 461 186, 461 187, 461 188, 462 188, 463 188, 466 188, 468 188, 471 188, 475 189, 478 189, 482 189, 486 189, 490 189, 494 189, 497 190, 499 190, 503 190, 506 190, 509 190, 512 191, 515 191, 517 192, 519 192, 520 192, 521 193, 522 193
+</trace>
+<trace id="1">
+579 125, 578 129, 578 132, 578 135, 578 139, 578 143, 578 147, 578 150, 579 154, 579 158, 580 162, 580 165, 581 168, 581 171, 581 174, 582 176, 582 179, 583 181, 583 182, 583 184
+</trace>
+<trace id="2">
+576 130, 583 128, 585 128, 589 127, 592 127, 597 127, 601 127, 605 127, 609 127, 612 127, 616 127, 619 127, 621 127, 623 127, 625 127, 626 128, 627 128, 628 128, 629 128
+</trace>
+<trace id="3">
+578 158, 595 157, 597 157, 599 157, 601 157, 602 157, 604 157, 605 157, 606 157, 607 157, 608 157
+</trace>
+<trace id="4">
+632 177, 644 174, 645 176, 646 178, 646 180, 647 182, 647 185, 647 187, 647 189, 648 191, 648 193, 649 194, 650 195, 651 195, 654 195, 656 194, 659 193, 661 192, 664 190, 666 189, 667 187, 669 185, 669 184, 670 182, 670 181, 671 179, 671 178, 671 177, 671 176, 671 175, 671 174, 671 175, 671 177, 671 180, 671 183, 671 186, 670 190, 670 194, 670 198, 670 202, 669 206, 669 210, 668 214, 667 217, 666 220, 664 223, 663 225, 660 227, 657 228, 654 229, 651 229, 647 229, 643 229, 639 228, 635 228, 632 227, 631 227
+</trace>
+<traceGroup xml:id="5">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="6">
+		<annotation type="truth">\sum</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="sum_1"/>
+	</traceGroup>
+	<traceGroup xml:id="7">
+		<annotation type="truth">F</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="F_1"/>
+	</traceGroup>
+	<traceGroup xml:id="8">
+		<annotation type="truth">y</annotation>
+		<traceView traceDataRef="4"/>
+		<annotationXML href="y_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

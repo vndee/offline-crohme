@@ -1,0 +1,44 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="age">41</annotation>
+<annotation type="gender">M</annotation>
+<annotation type="hand">R</annotation>
+<annotation type="writer">517</annotation>
+<annotation type="truth">$\mathrm{C}^{\beta}$</annotation>
+<annotation type="UI">IVC_2014_F517_E410</annotation>
+<annotation type="copyright">IVC_2014</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<msup>
+			<mi xml:id="C_1">C</mi>
+			<mi xml:id="beta_1">beta</mi>
+		</msup>
+	</math>
+</annotationXML>
+<trace id="0">
+522 154, 523 146, 523 144, 523 143, 523 141, 522 139, 522 138, 522 137, 521 136, 520 135, 519 134, 518 134, 516 134, 514 134, 512 134, 510 135, 508 135, 507 137, 505 139, 503 142, 501 144, 499 148, 497 151, 495 156, 493 160, 491 165, 489 171, 487 176, 486 182, 485 188, 485 195, 485 200, 485 206, 487 210, 488 214, 491 218, 494 221, 497 223, 500 224, 504 225, 509 224, 513 222, 517 220, 521 217, 526 213, 528 211
+</trace>
+<trace id="1">
+548 98, 548 104, 548 108, 549 113, 549 117, 550 122, 550 127, 550 132, 550 136, 549 140, 549 144, 548 147, 547 150, 547 152, 546 154, 545 156, 544 157
+</trace>
+<trace id="2">
+546 109, 552 104, 553 104, 554 104, 554 105, 555 105, 556 106, 556 107, 557 108, 557 110, 556 112, 556 113, 555 115, 555 116, 554 118, 554 119, 553 120, 552 121, 551 122, 551 121, 553 121, 554 120, 555 119, 556 118, 558 117, 559 117, 560 117, 561 117, 562 117, 563 118, 563 119, 564 120, 564 121, 564 123, 564 125, 564 126, 563 128, 562 130, 560 131, 559 133, 557 134, 555 135, 553 135, 551 136, 550 136
+</trace>
+<traceGroup xml:id="3">
+	<annotation type="truth">Connected Strk</annotation>
+	<traceGroup xml:id="4">
+		<annotation type="truth">C</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="C_1"/>
+	</traceGroup>
+	<traceGroup xml:id="5">
+		<annotation type="truth">\beta</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="beta_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

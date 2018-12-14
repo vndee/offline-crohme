@@ -1,0 +1,69 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<traceFormat>
+<channel name="X" type="decimal"/>
+<channel name="Y" type="decimal"/>
+</traceFormat>
+<annotation type="UI">MfrDB1436</annotation>
+<annotation type="copyright">MfrDB</annotation>
+<annotation type="device">Unknown</annotation>
+<annotation type="writer">User120</annotation>
+<annotation type="truth">$\sqrt[5]{55}$</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+	<math xmlns='http://www.w3.org/1998/Math/MathML'>
+		<mroot xml:id="_1">
+			<mrow>
+				<mn xml:id="5_1">5</mn>
+				<mn xml:id="5_2">5</mn>
+			</mrow>
+			<mn xml:id="5_3">5</mn>
+		</mroot>
+	</math>
+</annotationXML>
+<trace id="0">
+299 257, 299 257, 300 257, 300 256, 302 256, 304 255, 306 255, 309 254, 312 253, 323 252, 327 252, 329 255, 329 259, 329 262, 328 269, 327 276, 326 282, 327 286, 329 288, 330 287, 332 283, 333 276, 333 262, 333 252, 333 241, 332 230, 331 220, 330 212, 329 207, 329 203, 329 202, 331 202, 334 203, 343 204, 351 205, 362 205, 374 204, 387 202, 399 199, 410 196, 419 193, 426 191, 432 190, 432 192, 431 193, 429 195, 426 202, 425 205, 425 208, 425 209
+</trace>
+<trace id="1">
+296 213, 296 213, 296 213, 296 212, 296 212, 296 212, 296 211, 296 211, 296 211, 296 211, 296 212, 296 213, 296 214, 296 216, 296 218, 296 221, 297 228, 299 229, 301 230, 304 230, 306 230, 308 233, 308 236, 308 239, 306 242, 304 245, 301 246, 299 246, 297 245
+</trace>
+<trace id="2">
+296 213, 296 213, 296 212, 295 212, 295 211, 295 211, 294 210, 295 209, 297 208, 300 207, 304 207, 308 206, 311 206, 312 206, 314 206, 314 206
+</trace>
+<trace id="3">
+358 230, 358 230, 358 230, 357 230, 357 230, 357 230, 356 231, 356 232, 355 233, 355 235, 354 237, 354 239, 354 243, 356 246, 358 248, 362 248, 365 248, 369 250, 369 252, 369 254, 366 259, 365 260, 360 265, 358 265, 357 264
+</trace>
+<trace id="4">
+350 236, 350 236, 349 236, 349 235, 349 235, 349 235, 349 235, 349 234, 349 234, 350 234, 350 233, 352 233, 354 232, 356 232, 361 231, 367 231, 371 231
+</trace>
+<trace id="5">
+385 225, 385 225, 385 224, 385 224, 385 224, 385 224, 385 225, 384 225, 384 227, 384 228, 384 230, 384 232, 384 237, 387 241, 388 242, 392 243, 397 242, 401 242, 404 242, 406 244, 405 249, 403 252, 402 253, 399 255, 396 257, 391 257, 389 257, 388 256
+</trace>
+<trace id="6">
+385 223, 385 223, 385 223, 385 223, 385 223, 385 223, 385 222, 385 222, 386 222, 386 222, 388 221, 390 221, 393 221, 396 220, 399 220, 405 220, 410 220, 414 220, 416 220
+</trace>
+<traceGroup xml:id="7">
+	<annotation type="truth">by hand</annotation>
+	<traceGroup xml:id="8">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="1"/>
+		<traceView traceDataRef="2"/>
+		<annotationXML href="5_3"/>
+	</traceGroup>
+	<traceGroup xml:id="9">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="4"/>
+		<traceView traceDataRef="3"/>
+		<annotationXML href="5_1"/>
+	</traceGroup>
+	<traceGroup xml:id="10">
+		<annotation type="truth">5</annotation>
+		<traceView traceDataRef="5"/>
+		<traceView traceDataRef="6"/>
+		<annotationXML href="5_2"/>
+	</traceGroup>
+	<traceGroup xml:id="11">
+		<annotation type="truth">\sqrt</annotation>
+		<traceView traceDataRef="0"/>
+		<annotationXML href="_1"/>
+	</traceGroup>
+</traceGroup>
+</ink>

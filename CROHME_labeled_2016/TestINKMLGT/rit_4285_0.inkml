@@ -1,0 +1,84 @@
+<ink xmlns="http://www.w3.org/2003/InkML">
+<annotation type="truth">$ \cos x + 1 $</annotation>
+<annotation type="writer">4285.json</annotation>
+<annotation type="UI">2013_RIT_CROHME_rit_4285_0</annotation>
+<annotation type="copyright">RIT</annotation>
+<annotationXML type="truth" encoding="Content-MathML">
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi xml:id="0:1:2:">\cos</mi>
+            <mrow>
+                <mi xml:id="3:4:">x</mi>
+                <mrow>
+                    <mo xml:id="5:6:">+</mo>
+                    <mn xml:id="7:">1</mn>
+                </mrow>
+            </mrow>
+        </mrow>
+    </math>
+</annotationXML>
+
+<trace id="0">
+244 178, 238 179, 215 189, 209 192, 205 196, 200 200, 199 203, 197 207, 196 210, 196 212, 196 215, 197 217, 200 218, 202 220, 205 222, 209 223, 213 224, 217 225, 221 226, 224 226, 226 226, 229 226, 230 226, 231 226, 233 226, 234 226, 234 225, 235 225, 236 225, 236 224, 237 224
+</trace>
+
+<trace id="1">
+288 173, 283 175, 280 179, 278 183, 277 186, 275 188, 274 192, 273 196, 273 199, 273 202, 273 205, 274 207, 277 208, 279 210, 282 211, 285 211, 289 211, 292 211, 297 210, 301 207, 303 204, 307 201, 308 198, 311 192, 311 191, 311 188, 311 185, 311 182, 311 178, 310 177, 309 174, 308 173, 307 171, 306 170, 304 169, 302 168, 300 168, 297 168, 295 168, 293 168, 291 168, 290 167, 288 167, 287 167
+</trace>
+
+<trace id="2">
+372 147, 370 147, 361 150, 357 154, 352 158, 347 163, 345 164, 343 168, 342 170, 341 173, 341 174, 343 177, 345 178, 347 181, 349 183, 350 187, 350 191, 350 194, 350 198, 348 202, 345 205, 341 207, 337 208, 333 209, 331 210, 330 210, 329 210
+</trace>
+
+<trace id="3">
+376 207, 379 207, 395 188, 404 177, 414 167, 422 160, 428 154, 433 150, 438 146, 440 144, 442 143, 442 142, 443 138
+</trace>
+
+<trace id="4">
+385 155, 385 158, 394 170, 400 178, 404 183, 408 188, 411 192, 414 197, 416 201, 418 204, 419 207, 419 208, 419 209, 419 210, 420 210, 420 211, 420 212
+</trace>
+
+<trace id="5">
+492 151, 493 153, 494 170, 496 175, 497 180, 497 186, 498 190, 499 195, 500 199, 501 202, 501 204, 501 208
+</trace>
+
+<trace id="6">
+463 179, 467 180, 497 180, 504 180, 509 180, 514 180, 516 180, 520 180, 521 180, 523 180, 525 180, 526 180, 527 180, 528 180, 528 179
+</trace>
+
+<trace id="7">
+584 132, 586 135, 589 175, 589 182, 590 188, 591 193, 591 197, 591 201, 591 202, 591 204, 591 205, 591 206
+</trace>
+
+<traceGroup xml:id="-- Segmentation Data --">
+    <annotation type="truth">Segmentation</annotation>
+
+    <traceGroup xml:id="0:1:2:">
+        <annotation type="truth">\cos</annotation>
+        <traceView traceDataRef="0"/>
+        <traceView traceDataRef="1"/>
+        <traceView traceDataRef="2"/>
+        <annotationXML href="0:1:2:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="3:4:">
+        <annotation type="truth">x</annotation>
+        <traceView traceDataRef="3"/>
+        <traceView traceDataRef="4"/>
+        <annotationXML href="3:4:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="5:6:">
+        <annotation type="truth">+</annotation>
+        <traceView traceDataRef="5"/>
+        <traceView traceDataRef="6"/>
+        <annotationXML href="5:6:"/>
+    </traceGroup>
+
+    <traceGroup xml:id="7:">
+        <annotation type="truth">1</annotation>
+        <traceView traceDataRef="7"/>
+        <annotationXML href="7:"/>
+    </traceGroup>
+</traceGroup>
+</ink>
