@@ -6,6 +6,6 @@ The dataset provides more than 12 000 expressions handwritten by hundreds of wri
 
 ## How to use?
 ```bash
-	python extract.py
+python extract.py
 ```
 Output data must be stored in CROHME_processed folder. Each INKML file will be extracted to a image file and groud-truth latex string in a text file.
